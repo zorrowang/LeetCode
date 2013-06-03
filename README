@@ -12,6 +12,7 @@ Linked List
 
 String
 	Letter Combination of a Phone Number
+	Add Binary
 
 Stack
 	Valid Parentheses
@@ -24,3 +25,5 @@ Number(Integer)
 	
 Dynamic Programming
 	Min Path Sum
+	Unique Paths
+	Unique Paths II
