@@ -4,6 +4,7 @@ Array:
 	3Sum Closest
 	4Sum
 	Longest Common Prefix
+	Plus One
 	
 Linked List
 	Add Two Numbers
@@ -16,6 +17,7 @@ String
 
 Stack
 	Valid Parentheses
+	Simplify Path
 
 Recursion
 	Generate Paretheses
@@ -27,3 +29,4 @@ Dynamic Programming
 	Min Path Sum
 	Unique Paths
 	Unique Paths II
+	Climbing Stairs (Fabinocci Number)
