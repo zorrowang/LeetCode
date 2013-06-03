@@ -8,6 +8,7 @@ Array:
 Linked List
 	Add Two Numbers
 	Remove Nth Node from End of List
+	Merge Two Sorted Linked List
 
 String
 	Letter Combination of a Phone Number
@@ -20,3 +21,6 @@ Recursion
 
 Number(Integer)
 	Reverse Integer
+	
+Dynamic Programming
+	Min Path Sum
