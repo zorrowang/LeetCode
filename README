@@ -52,3 +52,6 @@ Binary Tree
 	Binary Tree Level Order Traversal II
 	Binary Tree Zigzag Level Order Traversal
 	Validate Binary Search Tree
+	Construct Binary Tree from Preorder and Inorder Traversal
+	Construct Binary Tree from Inorder and Postorder Traversal
+	Convert Sorted Array To BST
