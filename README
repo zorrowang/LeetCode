@@ -54,4 +54,5 @@ Binary Tree
 	Validate Binary Search Tree
 	Construct Binary Tree from Preorder and Inorder Traversal
 	Construct Binary Tree from Inorder and Postorder Traversal
-	Convert Sorted Array To BST
+	Convert Sorted Array To Balanced BST
+	Convert Sorted Linked List To Balanced BST
