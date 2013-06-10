@@ -1,0 +1,93 @@
+public class Solution {
+    public int maxProfit(int[] prices) {
+        // Start typing your Java solution below
+        // DO NOT write main() function
+        int ret = 0;
+        if (prices==null || prices.length==0)   return ret;
+        
+        int max = 0;
+        int[] maxEndingHere = new int[prices.length];
+        int[] maxStartingHere = new int[prices.length];
+        
+        int minEndingHere = prices[0];
+        for (int i=1; i<prices.length; i++){
+            if (minEndingHere > prices[i]){
+                minEndingHere = prices[i]; 
+            }
+            else{
+                maxEndingHere[i] = prices[i]-minEndingHere;
+                max = Math.max(max, maxEndingHere[i]);
+            }
+        }
+        
+        int maxSofar = prices[prices.length-1];
+        for (int i=prices.length-2; i>=0; i--){
+            if (maxSofar < prices[i])
+                maxSofar = prices[i];
+            else
+                maxStartingHere[i] = maxSofar-prices[i];
+        }
+        
+        int doubleMax = 0;
+        for (int i=0; i<prices.length-2; i++){
+            int temp = maxEndingHere[i];
+            int tempMax = maxStartingHere[i+1];
+            for (int j=i+2; j<prices.length-1; j++){
+                if (tempMax < maxStartingHere[j])
+                    tempMax = maxStartingHere[j];
+            }
+            temp += tempMax;
+            doubleMax = Math.max(doubleMax, temp);
+        }
+        
+        return Math.max(max, doubleMax);
+    }
+}
+
+// Improving the solution from O(n^2) to O(n)
+public class Solution {
+    public int maxProfit(int[] prices) {
+        // Start typing your Java solution below
+        // DO NOT write main() function
+        int ret = 0;
+        if (prices==null || prices.length==0)   return ret;
+        
+        int max = 0;
+        int[] maxEndingHere = new int[prices.length];
+        int[] maxStartingHere = new int[prices.length];
+        
+        int minEndingHere = prices[0];
+        for (int i=1; i<prices.length; i++){
+            if (minEndingHere > prices[i]){
+                minEndingHere = prices[i]; 
+                maxEndingHere[i] = max;
+            }
+            else{
+                maxEndingHere[i] = Math.max(max, prices[i]-minEndingHere);
+                max = Math.max(max, maxEndingHere[i]);
+            }
+        }
+        
+        max = 0;
+        int maxSofar = prices[prices.length-1];
+        for (int i=prices.length-2; i>=0; i--){
+            if (maxSofar < prices[i]){
+                maxSofar = prices[i];
+                maxStartingHere[i] = max;
+            }
+            else{
+                maxStartingHere[i] = Math.max(max, maxSofar-prices[i]);
+                max = Math.max(max, maxStartingHere[i]);
+            }
+        }
+        
+        int doubleMax = 0;
+        for (int i=0; i<prices.length-2; i++){
+            int temp1 = maxEndingHere[i];
+            int temp2 = maxStartingHere[i+1];
+            doubleMax = Math.max(doubleMax, temp1+temp2);
+        }
+        
+        return Math.max(max, doubleMax);
+    }
+}
