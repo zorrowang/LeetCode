@@ -1,4 +1,4 @@
-Array:
+Array
 	Two Sum
 	3Sum
 	3Sum Closest
@@ -10,7 +10,7 @@ Array:
 	Pascal's Triangle
 	Pascal's Triangle II
 
-Matrix:
+Matrix
 	Set Matrix Zeors
 	Search 2D Matrix
 	
