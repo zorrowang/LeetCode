@@ -91,3 +91,45 @@ public class Solution {
         return Math.max(max, doubleMax);
     }
 }
+
+// Slightly improving the performance and make the code more precise
+public class Solution {
+    public int maxProfit(int[] prices) {
+        // Start typing your Java solution below
+        // DO NOT write main() function
+        int ret = 0;
+        if (prices==null || prices.length==0)   return ret;
+        
+        int[] maxEndingHere = new int[prices.length];
+        int[] maxStartingHere = new int[prices.length];
+        
+        int minEndingHere = prices[0];
+        int maxSofar = prices[prices.length-1];
+        for (int i=1; i<prices.length; i++){
+            if (minEndingHere > prices[i]){
+                minEndingHere = prices[i]; 
+                maxEndingHere[i] = maxEndingHere[i-1];
+            }
+            else{
+                maxEndingHere[i] = Math.max(maxEndingHere[i-1], prices[i]-minEndingHere);
+            }
+            
+            int j=prices.length-i-1;
+            if (maxSofar < prices[j]){
+                maxSofar = prices[j];
+                maxStartingHere[j] = maxStartingHere[j+1];
+            }
+            else{
+                maxStartingHere[j] = Math.max(maxStartingHere[j+1], maxSofar-prices[j]);
+            }
+        }
+                       
+        for (int i=0; i<prices.length; i++){
+            int temp1 = maxEndingHere[i];
+            int temp2 = maxStartingHere[i];
+            ret = Math.max(ret, temp1+temp2);
+        }
+        
+        return ret;
+    }
+}
