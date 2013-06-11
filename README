@@ -29,6 +29,7 @@ String
 	Add Binary
 	Valide Palindrome (Two Pointers)
 	Length of Last Word
+	Implement strStr()
 
 Stack
 	Valid Parentheses
@@ -39,6 +40,7 @@ Recursion
 
 Number(Integer)
 	Reverse Integer
+	Palindrome Number
 	
 Dynamic Programming
 	Min Path Sum
