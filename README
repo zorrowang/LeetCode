@@ -12,6 +12,7 @@ Array
 	Best Time to Buy and Sell Stock
 	Best Time to Buy and Sell Stock II
 	Remove Element
+	Merge Sorted Array
 
 Matrix
 	Set Matrix Zeors
@@ -65,3 +66,5 @@ Binary Tree
 	Construct Binary Tree from Inorder and Postorder Traversal
 	Convert Sorted Array To Balanced BST
 	Convert Sorted Linked List To Balanced BST
+	Binary Tree Maximum Path Sum
+	Flatten Binary Tree to Linked List
