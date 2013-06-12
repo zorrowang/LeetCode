@@ -14,6 +14,7 @@ Array
 	Remove Element
 	Merge Sorted Array
 	Remove Duplicates from Sorted Array
+	Remove Duplicates from Sorted Array II
 
 Matrix
 	Set Matrix Zeors
@@ -24,6 +25,9 @@ Linked List
 	Remove Nth Node from End of List
 	Merge Two Sorted Linked List
 	Rotate List
+	Remove Duplicates from Sorted List
+	Remove Duplicates from Sorted List II
+	Partition List
 
 String
 	Letter Combination of a Phone Number
