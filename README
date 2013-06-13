@@ -15,6 +15,7 @@ Array
 	Merge Sorted Array
 	Remove Duplicates from Sorted Array
 	Remove Duplicates from Sorted Array II
+	Maximum Subarray
 
 Matrix
 	Set Matrix Zeors
@@ -36,6 +37,7 @@ String
 	Valide Palindrome (Two Pointers)
 	Length of Last Word
 	Implement strStr()
+	Word Ladder (BFS)
 
 Stack
 	Valid Parentheses
