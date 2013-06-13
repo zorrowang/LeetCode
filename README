@@ -16,6 +16,7 @@ Array
 	Remove Duplicates from Sorted Array
 	Remove Duplicates from Sorted Array II
 	Maximum Subarray
+	Jump Game (Greedy/Scan)
 
 Matrix
 	Set Matrix Zeors
@@ -37,7 +38,7 @@ String
 	Add Binary
 	Valide Palindrome (Two Pointers)
 	Length of Last Word
-	Implement strStr()
+	Implement strStr
 	Word Ladder (BFS)
 
 Stack
