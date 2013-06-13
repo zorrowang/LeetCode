@@ -30,6 +30,7 @@ Linked List
 	Remove Duplicates from Sorted List II
 	Partition List
 	Reverse Linked List II
+	Merge k Sorted Lists (Priority Queue)
 
 String
 	Letter Combination of a Phone Number
@@ -78,3 +79,4 @@ Binary Tree
 	Convert Sorted Linked List To Balanced BST
 	Binary Tree Maximum Path Sum
 	Flatten Binary Tree to Linked List
+	Recover Binary Search Tree
