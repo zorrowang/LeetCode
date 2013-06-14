@@ -22,6 +22,7 @@ Array
 Matrix
 	Set Matrix Zeors
 	Search 2D Matrix
+	Surrounded Regions (BFS and DFS)
 	
 Linked List
 	Add Two Numbers
@@ -82,3 +83,6 @@ Binary Tree
 	Binary Tree Maximum Path Sum
 	Flatten Binary Tree to Linked List
 	Recover Binary Search Tree
+	
+Backtracking
+	Wildcard Matching
