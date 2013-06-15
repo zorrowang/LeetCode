@@ -1,4 +1,4 @@
-// This solution written by Java can't pass the large test set
+// This backtracking solution written by Java can't pass the large test set
 // I think it's because of the instinct JVM slowness, but the algorith is correct
 public class Solution {
     public boolean isMatch(String s, String p) {

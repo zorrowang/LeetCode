@@ -42,6 +42,7 @@ String
 	Length of Last Word
 	Implement strStr
 	Word Ladder (BFS)
+	Restore IP Addresses
 
 Stack
 	Valid Parentheses
@@ -60,6 +61,7 @@ Dynamic Programming
 	Unique Paths II
 	Climbing Stairs (Fabinocci Number)
 	Best Time to Buy and Sell Stock III
+	Interleaving String (backtracking)
 	
 Binary Tree
 	Path Sum
