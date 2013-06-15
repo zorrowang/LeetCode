@@ -19,11 +19,13 @@ Array
 	Jump Game
 	First Missing Positive
 	Search for a Range (Binary Search)
+	Longest Consecutive Sequence
 
 Matrix
 	Set Matrix Zeors
 	Search 2D Matrix
 	Surrounded Regions (BFS and DFS)
+	Word Search (DFS)
 	
 Linked List
 	Add Two Numbers
@@ -44,6 +46,7 @@ String
 	Implement strStr
 	Word Ladder (BFS)
 	Restore IP Addresses
+	Text Justifcation
 
 Stack
 	Valid Parentheses
