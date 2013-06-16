@@ -3,7 +3,6 @@ Array
 	3Sum
 	3Sum Closest
 	4Sum
-	Longest Common Prefix
 	Plus One
 	Sort Colors
 	Triangle (memorization)
@@ -22,6 +21,7 @@ Array
 	Longest Consecutive Sequence
 	Search Insert Position (Binary Search)
 	Insert Interval
+	Merge Intervals
 
 Matrix
 	Set Matrix Zeors
@@ -44,6 +44,7 @@ Linked List
 
 String
 	Letter Combination of a Phone Number
+	Longest Common Prefix
 	Add Binary
 	Valide Palindrome (Two Pointers)
 	Length of Last Word
