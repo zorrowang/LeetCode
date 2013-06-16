@@ -20,6 +20,7 @@ Array
 	First Missing Positive
 	Search for a Range (Binary Search)
 	Longest Consecutive Sequence
+	Search Insert Position (Binary Search)
 
 Matrix
 	Set Matrix Zeors
@@ -37,6 +38,8 @@ Linked List
 	Partition List
 	Reverse Linked List II
 	Merge k Sorted Lists (Priority Queue)
+	Swap Nodes in Pairs
+	Reverse Nodes in KGroup
 
 String
 	Letter Combination of a Phone Number
