@@ -68,9 +68,10 @@ Recursion
 	Combinations
 	Permutations
 
-Number(Integer)
+Number
 	Reverse Integer
 	Palindrome Number
+	Pow
 	
 Dynamic Programming
 	Min Path Sum
