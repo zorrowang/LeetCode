@@ -1,4 +1,4 @@
-// This solution does not pass the large test set
+// This DFS solution does not pass the large test set
 // Recursion is so costly in Java
 public class Solution {
     public void solve(char[][] board) {
