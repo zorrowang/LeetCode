@@ -25,6 +25,8 @@ Array
 	Merge Intervals
 	Subsets
 	Subsets II
+	Trapping Rain Water (Greedy algorithm. Only ONE pass!)
+	Container With Most Water
 
 Matrix
 	Set Matrix Zeors
