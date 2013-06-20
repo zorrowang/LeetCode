@@ -59,6 +59,7 @@ String
 	Text Justifcation
 	Anagrams (String Signature)
 	Multiply Strings (Big Number Multiplication)
+	Palindrome Partitioning
 
 Stack
 	Valid Parentheses
@@ -109,3 +110,6 @@ Binary Tree
 	
 Backtracking
 	Wildcard Matching
+	
+Other
+	Gray Code

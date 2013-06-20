@@ -1,3 +1,4 @@
+// Can improve the space complexity from n(O) to n(1)
 public class Solution {
     public int numDecodings(String s) {
         // Start typing your Java solution below
