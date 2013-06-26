@@ -69,6 +69,7 @@ String
 Stack
 	Valid Parentheses
 	Simplify Path
+	Longest Valid Paretheses
 
 Recursion
 	Generate Paretheses
