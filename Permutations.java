@@ -1,3 +1,4 @@
+// Recursive solution
 public class Solution {
     public ArrayList<ArrayList<Integer>> permute(int[] num) {
         // Start typing your Java solution below
@@ -35,3 +36,27 @@ public class Solution {
     }
 }
 
+//Iterative solution
+public class Solution {
+    public ArrayList<ArrayList<Integer>> permute(int[] num) {
+        // Start typing your Java solution below
+        // DO NOT write main() function
+        if (num == null)   return null;
+        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
+        ret.add(new ArrayList<Integer>());
+        
+        for (int i=0; i<num.length; i++){
+            ArrayList<ArrayList<Integer>> temp = new ArrayList<ArrayList<Integer>>();
+            for (ArrayList<Integer> list : ret){
+                for (int j=0; j<=list.size(); j++){
+                    ArrayList<Integer> l = (ArrayList<Integer>)list.clone();
+                    l.add(j, num[i]);
+                    temp.add(l);
+                }
+            }
+            ret = temp;
+        }
+        
+        return ret;
+    }
+}

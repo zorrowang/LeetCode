@@ -69,12 +69,13 @@ String
 Stack
 	Valid Parentheses
 	Simplify Path
-	Longest Valid Paretheses
+	Longest Valid Parentheses
 
 Recursion
 	Generate Paretheses
 	Combinations
 	Permutations
+	Permutations II
 	Unique Binary Search Tree II
 	Combination Sum
 	Combination Sum II
