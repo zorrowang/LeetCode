@@ -3,24 +3,23 @@ public class Solution {
         // Start typing your Java solution below
         // DO NOT write main() function
         ArrayList<String> ret = new ArrayList<String>();
-        if(n <= 0)  return ret;
+        if(n<=0)    return ret;
+        generateParenthesisHelper(n*2, 0, 0, "", ret);
+        return ret;
+    }
+    
+    public void generateParenthesisHelper(int n, int left, int right, 
+        String str, ArrayList<String> ret){
+            
+        if(left<right || left+right>n)  return;
         
-        ArrayList<String> list = generateParenthesis(n-1);
-        if(list.isEmpty())  ret.add("()");
-        else {
-            for (String str : list){
-                ret.add("("+str+")");
-                String str1 = "()"+str;
-                String str2 = str+"()";
-                if (str1.equals(str2))  ret.add(str1);
-                else{
-                    ret.add(str1);
-                    ret.add(str2);
-                }
-            }
+        if(left==right && left+right==n){
+            ret.add(str);
+            return;
         }
         
-        return ret;
+        generateParenthesisHelper(n, left+1, right, str+'(', ret);
+        generateParenthesisHelper(n, left, right+1, str+')', ret);
     }
 }
 
