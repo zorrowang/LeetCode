@@ -87,6 +87,7 @@ Number
 	Pow
 	Divide Two Integer
 	Integer to Roman
+	Roman to Integer
 	
 Dynamic Programming
 	Min Path Sum
