@@ -41,6 +41,7 @@ Matrix
 	Valid Sudoku
 	Rotate Image
 	Spiral Matrix
+	Spiral Matrix II
 	
 Linked List
 	Add Two Numbers
@@ -93,6 +94,7 @@ Number
 	Divide Two Integer
 	Integer to Roman
 	Roman to Integer
+	Sqrt
 	
 Dynamic Programming
 	Min Path Sum
