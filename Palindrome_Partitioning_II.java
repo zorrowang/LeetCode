@@ -1,3 +1,4 @@
+//Reference: http://fisherlei.blogspot.com/2013/03/leetcode-palindrome-partitioning-ii.html
 public class Solution {
     public int minCut(String s) {
         // Start typing your Java solution below
