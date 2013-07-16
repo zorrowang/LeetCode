@@ -98,6 +98,7 @@ Number
 	Integer to Roman
 	Roman to Integer
 	Sqrt
+	Permutation Sequence
 	
 Dynamic Programming
 	Min Path Sum
