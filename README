@@ -76,6 +76,7 @@ String
 	String to Integer
 	ZigZag Conversion
 	Word Ladder II
+	Scramble String
 
 Stack
 	Valid Parentheses
