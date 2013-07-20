@@ -20,3 +20,48 @@ public class Solution {
             return false;
     }
 }
+
+// Iterative solution
+// The time complexity is O(m*n)
+public class Solution {
+    public boolean isMatch(String s, String p) {
+        // Start typing your Java solution below
+        // DO NOT write main() function
+        int i=0, startI=-1;
+        int j=0, startJ=-1;
+        
+        while(i<s.length()){
+            if (j<p.length()){
+                if (s.charAt(i)==p.charAt(j)||p.charAt(j)=='?'){
+                    i++;
+                    j++;
+                }
+                else if (p.charAt(j)=='*'){
+                    startI = i;
+                    startJ = j;
+                    j++;
+                }
+                else if (startI!=-1 && startJ!=-1){
+                    i = ++startI;
+                    j = startJ+1;
+                }
+                else 
+                    return false;
+            }
+            else{
+                if (startI!=-1 && startJ!=-1){
+                    i = ++startI;
+                    j = startJ+1;
+                }
+                else
+                    return false;
+            }
+            
+        }
+        
+        while (j<p.length() && p.charAt(j)=='*')
+            j++;
+        return j==p.length();
+    }
+}
+
