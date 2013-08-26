@@ -50,7 +50,7 @@ public class Solution {
                 if (preHead.right != null) {
                     preHead.right.next = getNext(preHead.next);
                     if (curHead==null)
-                        curHead = preHead.left;
+                        curHead = preHead.right;
                 }
                 
                 preHead = preHead.next;
