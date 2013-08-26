@@ -27,3 +27,41 @@ public class Solution {
         }
     }
 }
+
+// Non-BFS solution
+public class Solution {
+    public void connect(TreeLinkNode root) {
+        // Start typing your Java solution below
+        // DO NOT write main() function
+        TreeLinkNode preHead = root;
+        
+        while (preHead != null){
+            TreeLinkNode curHead = null;
+            while (preHead != null){
+                if (preHead.left != null){
+                    if (preHead.right != null)  
+                        preHead.left.next = preHead.right;
+                    else
+                        preHead.left.next = getNext(preHead.next);
+                    if (curHead==null)
+                        curHead = preHead.left;
+                }
+                
+                if (preHead.right != null) {
+                    preHead.right.next = getNext(preHead.next);
+                    if (curHead==null)
+                        curHead = preHead.left;
+                }
+                
+                preHead = preHead.next;
+            }
+            preHead = curHead;
+        }
+    }
+    
+    public TreeLinkNode getNext(TreeLinkNode node) {
+        while (node!=null && node.left==null && node.right==null)
+            node = node.next;
+        return node!=null?(node.left!=null?node.left:node.right):null;
+    }
+}
