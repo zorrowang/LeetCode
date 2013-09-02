@@ -27,3 +27,40 @@ public class Solution {
         }        
     }
 }
+
+
+// Recursive solution
+public class Solution {
+    public void flatten(TreeNode root) {
+        // Start typing your Java solution below
+        // DO NOT write main() function
+        flattenHelper(root);
+    }
+    
+    public TreeNode[] flattenHelper(TreeNode root){
+        TreeNode[] ret = new TreeNode[2];
+        if (root==null)
+            return null;
+        if (root.left==null && root.right==null){
+            ret[0] = root;
+            ret[1] = root;
+            return ret;
+        }
+        
+        TreeNode[] left = flattenHelper(root.left);
+        TreeNode[] right = flattenHelper(root.right);
+        
+        ret[0] = root;
+        root.left = null;
+        if(left!=null){
+            root.right = left[0];
+            root = left[1];
+        }
+        if(right!=null){
+            root.right = right[0];
+            root = right[1];
+        }
+        ret[1] = root;
+        return ret;
+    }
+}
