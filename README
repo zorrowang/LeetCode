@@ -38,7 +38,6 @@ Array
 	Search in Rotated Sorted Array
 	Search in Rotated Sorted Array II
 	Candy (greedy)
-	Single Number
 
 Matrix
 	Set Matrix Zeors
@@ -111,6 +110,8 @@ Number
 	Sqrt
 	Permutation Sequence
 	Valid Number
+	Single Number
+	Single Number II
 	
 Dynamic Programming
 	Min Path Sum
