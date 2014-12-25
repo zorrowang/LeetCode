@@ -40,6 +40,7 @@ Array
 	Candy (greedy)
 	Single Number
 	Majority Element
+	Gas Station
 
 Matrix
 	Set Matrix Zeors
@@ -65,6 +66,8 @@ Linked List
 	Swap Nodes in Pairs
 	Reverse Nodes in KGroup
 	Copy List with Random Pointer
+	Linked List Cycle
+	Linked List Cycle II
 
 String
 	Letter Combination of a Phone Number
@@ -113,6 +116,8 @@ Number
 	Sqrt
 	Permutation Sequence
 	Valid Number
+	Single Number
+	Single Number II
 	
 Dynamic Programming
 	Min Path Sum
