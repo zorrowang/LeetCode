@@ -121,7 +121,6 @@ Number
 	Valid Number
 	Single Number
 	Single Number II
-	Fraction to Recurring Decimal
 	
 Dynamic Programming
 	Min Path Sum
@@ -136,6 +135,7 @@ Dynamic Programming
 	Distinct Subsequences
 	Edit Distance
 	Palidrome Partitioning II
+	Word Break
 	
 Binary Tree
 	Path Sum
