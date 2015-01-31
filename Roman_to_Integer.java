@@ -45,3 +45,33 @@ public class Solution {
     }
 }
 
+//More concise
+public class Solution {
+    public int romanToInt(String s) {
+        if (s==null)
+            return 0;
+        int[] number = new int[256];
+        number['I'-'A'] = 1;
+        number['V'-'A'] = 5;
+        number['X'-'A'] = 10;
+        number['L'-'A'] = 50;
+        number['C'-'A'] = 100;
+        number['D'-'A'] = 500;
+        number['M'-'A'] = 1000;
+        
+        int ret = 0;
+        int i = 0;
+        while(i < s.length()){
+            int val = number[s.charAt(i)-'A'];
+            if (i+1 < s.length() && (val*5 == number[s.charAt(i+1)-'A'] || val*10 == number[s.charAt(i+1)-'A'])){
+                ret += number[s.charAt(i+1)-'A']-val;
+                i = i+2;
+            }
+            else{
+                ret += val;
+                i++;
+            }
+        }
+        return ret;
+    }
+}
