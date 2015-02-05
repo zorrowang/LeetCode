@@ -14,7 +14,7 @@ public class Solution {
             }
             else if (heightStack.peek()>height[i]){
                 int in = 0;
-                while(!heightStack.isEmpty()){
+                while(!heightStack.isEmpty() && heightStack.peek()>height[i]){
                     in = indexStack.pop();
                     int temp = heightStack.pop()*(i-in);
                     ret = Math.max(ret, temp);
