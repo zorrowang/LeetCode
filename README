@@ -44,6 +44,9 @@ Array
 	Max Points on a Line
 	Largest Number
 
+Greedy Aglorithm
+    Non overlapping intervals
+
 Matrix
 	Set Matrix Zeors
 	Search 2D Matrix
@@ -70,6 +73,7 @@ Linked List
 	Copy List with Random Pointer
 	Linked List Cycle
 	Linked List Cycle II
+    All O`one data structure
 
 String
 	Letter Combination of a Phone Number
@@ -159,6 +163,9 @@ Binary Tree
 	Binary Tree Maximum Path Sum
 	Flatten Binary Tree to Linked List
 	Recover Binary Search Tree
+
+Binary Search
+    Split Array (Only recursive sulotion added)
 	
 Backtracking
 	Wildcard Matching
