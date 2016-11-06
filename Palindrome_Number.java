@@ -4,16 +4,16 @@ public class Solution {
         // DO NOT write main() function
         if(x<0) return false;
         
-        int length=1;
-        while(x/length >= 10)
-            length *= 10;
+        int div=1;
+        while(x/div >= 10)
+            div *= 10;
             
-        while(x>=10){
+        while(x!=0){
             int last = x%10;
-            int first = x/length;
+            int first = x/div;
             if (last != first)  return false;
-            x = (x%length)/10;
-            length /= 100;
+            x = (x%div)/10;
+            div /= 100;
         }
         return true;
     }
