@@ -1,14 +1,26 @@
 LeetCode
 ========
 
- Author: zorrowanghw@gmail.com
+Author: zorrowanghw@gmail.com
 
-| # | Name | Solution | Difficulty |
-|---| ---- | -------- | ---------- |
-|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [code](./src/DailyTemperatures.java)|medium|
+# Hard Questions
+
+| # | Name | Solution |
+|---| ---- | -------- |
+
+# Medium Questions
+
+| # | Name | Solution |
+|---| ---- | -------- |
+|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [code](./src/DailyTemperatures.java)|
 
 
-# Old summary (added in 2014) : deprecated
+# Easy Questions
+
+| # | Name | Solution |
+|---| ---- | -------- |
+
+## Old summary (added in 2014) : deprecated
 
 All the solutions (135 / 169) provided for LeetCode questions have been tested and passed both small and large test cases of leetcode online judge.
 
