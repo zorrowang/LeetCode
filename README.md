@@ -20,6 +20,8 @@ Author: zorrowanghw@gmail.com
 | # | Name | Solution |
 |:-:|:----:|:--------:|
 
+========
+
 ### Old summary (added in 2014) : deprecated
 
 All the solutions (135 / 169) provided for LeetCode questions have been tested and passed both small and large test cases of leetcode online judge.
