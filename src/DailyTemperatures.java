@@ -1,3 +1,8 @@
+package src;
+
+import java.util.ArrayList;
+import java.util.PriorityQueue;
+
 class Item {
   int temp;
   int pos;
@@ -8,7 +13,7 @@ class Item {
   }
 }
 
-public class Solution {
+public class DailyTemperatures {
   /**
    * @param temperatures: a list of daily temperatures
    * @return: a list of how many days you would have to wait until a warmer temperature
