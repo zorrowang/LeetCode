@@ -6,9 +6,9 @@ Coding interview on whiteboard is tough, and does not always find good candidate
 
 - [Mindset](##Mindset)
 - [Question definition and clarification](#question-definition-and-clarification)
-  - [What the API does](##what-the-api-does)
-  - [What the API takes](##what-the-api-takes)
-  - [What the API returns](##what-the-api-returns)
+  - [What the API does](#what-the-api-does)
+  - [What the API takes](#what-the-api-takes)
+  - [What the API returns](#what-the-api-returns)
 - [Solution optimization](#solution-optimization)
 - [Coding & Testing](#coding-&-testing)
 - [Follow-up](#follow-up)
