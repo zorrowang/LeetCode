@@ -1,13 +1,14 @@
+package src;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
 /**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
+ * Definition for a binary tree node. public class TreeNode { int val; TreeNode
+ * left; TreeNode right; TreeNode(int x) { val = x; } }
  */
-class Solution {
+class DeleteNodesAndReturnForest {
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
         HashSet<Integer> nums = new HashSet<>();
         for (int i=0; i<to_delete.length; i++)
