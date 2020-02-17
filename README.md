@@ -22,6 +22,7 @@ Author: zorrowanghw@gmail.com
 | # | Name | Solution | Algorithm |
 |:-:|:----:|:--------:|:---------:|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/DailyTemperatures.java)| Heap/MaxQueue |
+|1302|[DDeepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | [Java](./src/DeepestLeavesSum.java)| Tree/Recursion/DFS |
 
 ## Easy Questions
 
