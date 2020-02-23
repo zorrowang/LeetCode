@@ -1,13 +1,10 @@
+package src.medium;
+
 /**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
+ * Definition for a binary tree node. public class TreeNode { int val; TreeNode
+ * left; TreeNode right; TreeNode(int x) { val = x; } }
  */
-class Solution {
+class MaximumProductSplittedBinaryTree {
   // Time Limit Exceeded
   public int maxProduct(TreeNode root) {
     return (int)(helper(root, 0) % (1e9+7));
@@ -50,7 +47,7 @@ class Solution {
  * }
  */
 
-public class TreeNode {
+class TreeNode {
   int val;
   TreeNode left;
   TreeNode right;
@@ -59,7 +56,7 @@ public class TreeNode {
 
 
 
-class Solution {
+class MaximumProductSplittedBinaryTree2 {
   // Passed: time & space O(n)
   // Build tree with sum value
   public int maxProduct(TreeNode root) {
