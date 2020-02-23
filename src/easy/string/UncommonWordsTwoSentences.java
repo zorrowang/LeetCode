@@ -35,17 +35,17 @@ class UncommonWordsTwoSentences {
 
   // Coding optimization
   public String[] uncommonFromSentencesUpdated(String A, String B) {
-    Map<String, Integer> map = new HashMap<>();
-    for (String s : A.split(" "))
-        map.put(s, map.getOrDefault(s, 0)+1);
-    for (String s : B.split(" "))
-        map.put(s, map.getOrDefault(s, 0)+1);
+      Map<String, Integer> map = new HashMap<>();
+      for (String s : A.split(" "))
+          map.put(s, map.getOrDefault(s, 0)+1);
+      for (String s : B.split(" "))
+          map.put(s, map.getOrDefault(s, 0)+1);
     
-    List<String> ret = new ArrayList();
-    for (Map.Entry<String, Integer> entry : map.entrySet())
-        if (entry.getValue() == 1)
-            ret.add(entry.getKey());
+      List<String> ret = new ArrayList<>();
+      for (Map.Entry<String, Integer> entry : map.entrySet())
+          if (entry.getValue() == 1)
+              ret.add(entry.getKey());
 
-    return ret.toArray(new String[ret.size()]);
-}
+      return ret.toArray(new String[ret.size()]);
+  }
 }

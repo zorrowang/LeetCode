@@ -1,4 +1,8 @@
-public class Solution {
+package src;
+
+import java.util.Arrays;
+
+class Solution {
     public int threeSumClosest(int[] num, int target) {
         // Start typing your Java solution below
         // DO NOT write main() function
