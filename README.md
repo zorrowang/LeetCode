@@ -17,6 +17,8 @@ Author: zorrowanghw@gmail.com
 * Linked List
 * Heap
 * Queue
+* Stack
+* Bit Manipulation
 
 ## Hard Questions
 
