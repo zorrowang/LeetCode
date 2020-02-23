@@ -1,4 +1,8 @@
-public class Solution {
+package src.hard.stack;
+
+import java.util.LinkedList;
+
+class LargestRectangleHistogram {
     public int largestRectangleArea(int[] height) {
         // Start typing your Java solution below
         // DO NOT write main() function
