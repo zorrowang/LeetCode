@@ -6,7 +6,7 @@ Author: zorrowanghw@gmail.com
 
 [Self Introduction](./docs/SelfIntroduction.md)
 
-[Whiteboard Coding](./docs/WhiteboardCoding.md)
+[Whiteboard Coding Workflow and Best Practice](./docs/WhiteboardCoding.md)
 
 ## Algorithms
 
