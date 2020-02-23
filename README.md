@@ -12,7 +12,7 @@ Author: zorrowanghw@gmail.com
 
 (Still working on the list)
 
-* Array
+* [Array](./docs/algorithm-and-dat-structure/Array.md)
 * String
 * Linked List
 * Heap
