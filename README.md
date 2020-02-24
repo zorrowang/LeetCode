@@ -4,17 +4,27 @@ Author: zorrowanghw@gmail.com
 
 The repo is the summary for technical interview based on my experience and knowledge.
 
+<!-- MarkdownTOC -->
+
+- [Interview Preparation](#interview-preparation)
+- [Algorithm and Data Structure](#algorithm-and-data-structure)
+- [Languages](#languages)
+- [System Design](#system-design)
+- [Leetcode Preparation](#leetcode-preparation)
+  - [Hard Questions](#hard-questions)
+  - [Medium Questions](#medium-questions)
+  - [Easy Questions](#easy-questions)
+
+<!-- /MarkdownTOC -->
+
 ## Interview Preparation
 
 The hiring flow is, resume screening -> recruiter call -> technical phone screening -> onsite -> hiring committee debrief -> decision call. In general, the more we prepare, the better offer we could get.
 
-[Mindset](./docs/tech-interview/Mindset.md)
-
-[Self Introduction](./docs/tech-interview/SelfIntroduction.md)
-
-[Phone Screen](./docs/tech-interview/PhoneScreen.md)
-
-[Whiteboard Coding Workflow and Best Practice](./docs/tech-interview/WhiteboardCoding.md)
+* [Mindset](./docs/tech-interview/Mindset.md)
+* [Self Introduction](./docs/tech-interview/SelfIntroduction.md)
+* [Phone Screen](./docs/tech-interview/PhoneScreen.md)
+* [Whiteboard Coding Workflow and Best Practice](./docs/tech-interview/WhiteboardCoding.md)
 
 ## Algorithm and Data Structure
 
@@ -42,7 +52,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 * [System Design Workflow](./docs/system-design/SystemDesignWorkflow.md)
 * System Design Patterns
 
-## Leetcode Prep
+## Leetcode Preparation
 
 ### Hard Questions
 
