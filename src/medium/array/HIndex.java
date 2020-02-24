@@ -25,31 +25,19 @@ class HIndex2 {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i=0; i<citations.length; i++) {
             int c = citations[i];
-            if (c >= citations.length) {
-                if (map.containsKey(citations.length)) {
-                    map.put(citations.length, map.get(citations.length)+1);
-                } else {
-                    map.put(citations.length, 1);
-                }
-            } else if (c == 0) {
-                continue;
-            } else {
-                if (map.containsKey(c)) {
-                    map.put(c, map.get(c)+1);
-                } else {
-                    map.put(c, 1);
-                }
-            }
+            if (c >= citations.length)
+                map.put(citations.length, map.getOrDefault(citations.length, 0)+1);
+            else if (c > 0)
+                map.put(c, map.getOrDefault(c, 0)+1);
         }
         int count = 0;
         for (int i=citations.length; i>0; i--) {
             if (map.containsKey(i)) {
                 count += map.get(i);
-                if (count >= i) {
+                if (count >= i)
                     ret = Math.max(ret, i);
-                } else {
+                else
                     ret = Math.max(ret, count);
-                }
             }
         }
         return ret;
