@@ -1,5 +1,10 @@
+package src.medium.array;
+
+import java.util.Arrays;
+import java.util.HashMap;
+
 //Solution 1: sort
-public class Solution {
+class HIndex {
     public int hIndex(int[] citations) {
         Arrays.sort(citations);
         int ret = 0;
@@ -14,7 +19,7 @@ public class Solution {
 }
 
 //Solution 2: map
-public class Solution {
+class HIndex2 {
     public int hIndex(int[] citations) {
         int ret = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
