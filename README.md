@@ -20,7 +20,7 @@ The hiring flow is, resume screening -> recruiter call -> technical phone screen
 
 This section covers the algorithm and data structure in tech interviews. Given the restriction of whiteboard coding, most of questions can be solved in ~50 lines of code. So I'd like to summarize most of the patterns in the tech interview.
 
-[Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) from MIT and and their [class](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) are helpful and comprehensive if you want to learn it.
+This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition), and their class, [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb), are very helpful and comprehensive if you want to learn algorithm and data structure.
 
 (Still working on the list)
 
