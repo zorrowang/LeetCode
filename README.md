@@ -2,23 +2,36 @@
 
 Author: zorrowanghw@gmail.com
 
+The repo is the summary for technical interview based on my experience and knowledge.
+
+For an IC role, the preparation time is usually 70% on coding, 20% on system design, 10% on behavior questions and resume polishing.
+
 ## Interview Prep
 
-[Self Introduction](./docs/SelfIntroduction.md)
+[Mindset](./docs/tech-interview/Mindset.md)
 
-[Whiteboard Coding Workflow and Best Practice](./docs/WhiteboardCoding.md)
+[Self Introduction](./docs/tech-interview/SelfIntroduction.md)
 
-## Algorithms
+[Phone Screen](./docs/tech-interview/PhoneScreen.md)
+
+[Whiteboard Coding Workflow and Best Practice](./docs/tech-interview/WhiteboardCoding.md)
+
+## Algorithm and Data Structure
 
 (Still working on the list)
 
-* [Array](./docs/algorithm-and-dat-structure/Array.md)
+* [Array](./docs/algorithm-and-data-structure/Array.md)
 * String
 * Linked List
 * Heap
 * Queue
 * Stack
 * Bit Manipulation
+* DP
+
+## Languages
+
+* [Java](./docs/Languages/Java.md)
 
 ## Hard Questions
 

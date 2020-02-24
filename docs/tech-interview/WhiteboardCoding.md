@@ -15,19 +15,7 @@ Coding interview on whiteboard is tough, and does not always find good candidate
 
 <!-- /MarkdownTOC -->
 
-## Mindset
 
-A coding interview is normally 45 ~ 60 mins. It is impossible to cover everything in this short period. So interviewer would usually focus on the things they mostly care. From my experience as an interviewer, there are three main parts
-
-- How to tackle a complex technical question
-
-- How to communicate
-
-- Coding & testing
-
-In general, interviewers want candidates to be solution-driven, easy to communicate and good at coding & testing. And they are willing to provide the support. So we should treat them as our colleagues and resources to help us solve the problem, instead of enemies or opponents.
-
-Some interviewers may intentionally create a stressful environment, we should always keep calm in this scenario.
 
 ## Question definition and clarification
 
