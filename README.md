@@ -7,7 +7,9 @@ The repo is the summary for technical interview based on my experience and knowl
 <!-- MarkdownTOC -->
 
 - [Interview Preparation](#interview-preparation)
-- [Algorithm and Data Structure](#algorithm-and-data-structure)
+- [Data Structure and Algorithm](#algorithm-and-data-structure)
+  - [Data Structures](#data-structures)
+  - [Algorithms](#algorithms)
 - [Languages](#languages)
 - [System Design](#system-design)
 - [Leetcode Preparation](#leetcode-preparation)
@@ -26,7 +28,7 @@ The hiring flow is, resume screening -> recruiter call -> technical phone screen
 * [Phone Screen](./docs/tech-interview/PhoneScreen.md)
 * [Whiteboard Coding Workflow and Best Practice](./docs/tech-interview/WhiteboardCoding.md)
 
-## Algorithm and Data Structure
+## Data Structure and Algorithm
 
 This section covers the algorithm and data structure in tech interviews. Given the restriction of whiteboard coding, most of questions can be solved in ~50 lines of code. So I'd like to summarize most of the patterns in the tech interview.
 
@@ -34,14 +36,28 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 
 (Still working on the list)
 
+### Data Structures
+
 * [Array](./docs/algorithm-and-data-structure/Array.md)
 * String
-* Linked List
+* List
 * Heap
 * Queue
 * Stack
+* Map
+* Tree
+* Graph
+* Trie
+
+### Algorithms
+
 * Bit Manipulation
-* DP
+* Sort
+* Search
+* Recursion
+* Memorization
+* Dynamic Programming
+* Greedy
 
 ## Languages
 
