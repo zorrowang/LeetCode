@@ -23,10 +23,10 @@ The repo is the summary for technical interview based on my experience and knowl
 
 The hiring flow is, resume screening -> recruiter call -> technical phone screening -> onsite -> hiring committee debrief -> decision call. In general, the more we prepare, the better offer we could get.
 
-* [Mindset](./docs/tech-interview/Mindset.md)
-* [Self Introduction](./docs/tech-interview/SelfIntroduction.md)
-* [Phone Screen](./docs/tech-interview/PhoneScreen.md)
-* [Whiteboard Coding Workflow and Best Practice](./docs/tech-interview/WhiteboardCoding.md)
+- [Mindset](./docs/tech-interview/Mindset.md)
+- [Self Introduction](./docs/tech-interview/SelfIntroduction.md)
+- [Phone Screen](./docs/tech-interview/PhoneScreen.md)
+- [Whiteboard Coding Workflow and Best Practice](./docs/tech-interview/WhiteboardCoding.md)
 
 ## Data Structure and Algorithm
 
@@ -38,35 +38,35 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 
 ### Data Structures
 
-* [Array](./docs/algorithm-and-data-structure/Array.md)
-* String
-* List
-* Heap
-* Queue
-* Stack
-* Map
-* Tree
-* Graph
-* Trie
+- [Array](./docs/algorithm-and-data-structure/Array.md)
+- String
+- List
+- Heap
+- Queue
+- Stack
+- Map
+- Tree
+- Graph
+- Trie
 
 ### Algorithms
 
-* Bit Manipulation
-* Sort
-* Search
-* Recursion
-* Memorization
-* Dynamic Programming
-* Greedy
+- Bit Manipulation
+- Sort
+- Search
+- Recursion
+- Memorization
+- Dynamic Programming
+- Greedy
 
 ## Languages
 
-* [Java](./docs/Languages/Java.md)
+- [Java](./docs/Languages/Java.md)
 
 ## System Design
 
-* [System Design Workflow](./docs/system-design/SystemDesignWorkflow.md)
-* System Design Patterns
+- [System Design Workflow](./docs/system-design/SystemDesignWorkflow.md)
+- System Design Patterns
 
 ## Leetcode Preparation
 
@@ -97,9 +97,11 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Java](./src/easy/array/BinarySearch.java)| BinarySearch |
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java](./src/easy/string/ToLowerCase.java)| String |
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](./src/easy/string/LongestWordDictionary.java)| Memorization/Trie |
+|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Java](./src/easy/number/SelfDividingNumbers.java)| BruteForce |
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](./src/easy/string/ShortestCompletingWord.java)| String |
 |766|[Toeplitz Matrix](https://leetcode.com/problems/matrix-block-sum/)|[Java](./src/easy/matrix/ToeplitzMatrix.java)| Matrix |
-|788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[Java](./src/easy/dp/RotatedDigits.java)| Array/DP | There is O(lgn) [solution](https://leetcode.com/problems/rotated-digits/discuss/264282/Java-O(logN)-0ms-100), but I don't understand |
+|788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[Java](./src/easy/dp/RotatedDigits.java)| Array/DP | There is O(lgn) [solution](https://leetcode.com/problems/rotated-digits/discuss/264282/Java-O(logN)-0ms-100), but very tricky! |
+|821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](./src/easy/array/ShortestDistanceCharacter.java)| MinArray |
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](./src/PeakIndexInMountainArray.java)| Array/BinarySearch |
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Java](./src/easy/string/BackspaceStringCompare.java)| Stack | Two pointers starting from the end is better in term of space performance |
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Java](./src/easy/dp/MaximizeDistanceClosestPerson.java)| DP |
@@ -110,5 +112,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](./src/easy/linked-list/MiddleLinkedList.java)| LinkedList |
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Java](./src/string/UncommonWordsTwoSentences.java)| String |
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](./src/easy/array/SortArrayByParity.java)| Array |
+|908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[Java](./src/easy/math/SmallestRangeI.java)| Math |
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Java](./src/easy/matrix/PeakIndexInMountainArray.java)| BFS |
+|1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Java](./src/easy/tree/SumRootLeafBinaryNumbers.java)| DFS |
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Java](./src/easy/matrix/KWeakestRowsInMatrix.java)| MaxQueue |
