@@ -1,3 +1,3 @@
-# Algorithm - Array
+# Data Structure - Array
 
 TODO
