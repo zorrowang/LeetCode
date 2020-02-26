@@ -1,4 +1,6 @@
-public class Solution {
+package src.easy.array;
+
+class MergeSortedArray {
     public void merge(int A[], int m, int B[], int n) {
         // Start typing your Java solution below
         // DO NOT write main() function
