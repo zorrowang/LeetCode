@@ -98,6 +98,8 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./src/easy/linkedlist/RemoveDuplicatesSortedList.java)| TwoPointer |
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./src/easy/array/MergeSortedArray.java)| TwoPointer |
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./src/easy/tree/ConvertSortedArrayBST.java)| Recursion |
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./src/easy/math/PascalTriangle.java)| BruteForce |
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./src/easy/math/PascalTriangleII.java)| 1D DP |
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/easy/string/ReverseStringII.java)| BruteForce |
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](./src/easy/array/StudentAttendanceRecord.java)| Array |
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./src/easy/string/ReverseWordInStringIII.java)| BruteForce |
