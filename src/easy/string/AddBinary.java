@@ -1,4 +1,6 @@
-public class Solution {
+package src.easy.string;
+
+class AddBinary {
     public String addBinary(String a, String b) {
         // Start typing your Java solution below
         // DO NOT write main() function
@@ -63,7 +65,7 @@ public class Solution {
     }
 	
 	// More precise version
-	public String addBinary(String a, String b) {
+	public String addBinaryUpdated(String a, String b) {
         // Start typing your Java solution below
         // DO NOT write main() function
         String ret = "";
