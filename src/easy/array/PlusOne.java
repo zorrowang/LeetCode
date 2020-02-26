@@ -1,7 +1,7 @@
-public class Solution {
+package src.easy.array;
+
+class PlusOne {
     public int[] plusOne(int[] digits) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (digits==null || digits.length==0)   return digits;
         int carry = 1;
         int i = digits.length-1;
