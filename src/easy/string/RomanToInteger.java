@@ -1,4 +1,6 @@
-public class Solution {
+package src.easy.string;
+
+class RomanToInteger {
     public int romanToInt(String s) {
         // Start typing your Java solution below
         // DO NOT write main() function
@@ -43,13 +45,10 @@ public class Solution {
         }
         return ret;
     }
-}
 
-//More concise
-public class Solution {
-    public int romanToInt(String s) {
-        if (s==null)
-            return 0;
+    //More concise
+    public int romanToInt2(String s) {
+        if (s==null)    return 0;
         int[] number = new int[256];
         number['I'-'A'] = 1;
         number['V'-'A'] = 5;
