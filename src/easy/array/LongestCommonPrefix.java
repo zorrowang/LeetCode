@@ -1,4 +1,6 @@
-public class Solution {
+package src.easy.array;
+
+class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         // Start typing your Java solution below
         // DO NOT write main() function
@@ -21,12 +23,8 @@ public class Solution {
         else
             return strs[0].substring(0, i);
     }
-}
 
-
-//Revised solution to be more precise
-public class Solution {
-    public String longestCommonPrefix(String[] strs) {
+    public String longestCommonPrefixRevised(String[] strs) {
         if (strs==null || strs.length==0)
             return "";
         int i=0;
