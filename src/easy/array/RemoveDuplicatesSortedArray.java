@@ -1,4 +1,6 @@
-public class Solution {
+package src.easy.array;
+
+class RemoveDuplicatesSortedArray {
     public int removeDuplicates(int[] A) {
         // Start typing your Java solution below
         // DO NOT write main() function
