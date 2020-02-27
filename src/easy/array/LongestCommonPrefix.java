@@ -25,15 +25,12 @@ class LongestCommonPrefix {
     }
 
     public String longestCommonPrefixRevised(String[] strs) {
-        if (strs==null || strs.length==0)
-            return "";
+        if (strs==null || strs.length==0)   return "";
         int i=0;
         while(true){
-            for (int j=0; j<strs.length; j++){
-                if (i >= strs[j].length() || strs[0].charAt(i) != strs[j].charAt(i)){
+            for (int j=0; j<strs.length; j++)
+                if (i >= strs[j].length() || strs[0].charAt(i) != strs[j].charAt(i))
                     return strs[0].substring(0, i);
-                }
-            }
             i++;
         }
     }
