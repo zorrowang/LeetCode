@@ -1,8 +1,12 @@
-public class Solution {
+package src.easy.string;
+
+import java.util.LinkedList;
+
+class ValidParentheses {
     public boolean isValid(String s) {
         // Start typing your Java solution below
         // DO NOT write main() function
-        LinkedList<Character> stack = new LinkedList<Character>();
+        LinkedList<Character> stack = new LinkedList<>();
         for(int i=0; i<s.length(); i++){
             char ch = s.charAt(i);
             if(isLeftParenthese(ch))    stack.push(ch);
