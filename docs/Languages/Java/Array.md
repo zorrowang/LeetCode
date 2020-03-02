@@ -60,8 +60,8 @@ System.out.println(Arrays.toString(new int[]{1, 2}));  // Array literal, introdu
 
 The elements in the array allocated by new will automatically be initialized as
 * boolean : `false`
-* int : 0
-* double : 0.0
+* int : `0`
+* double : `0.0`
 * String : `null`
 * User Defined Type : `null`
 
@@ -203,6 +203,8 @@ boolean isSum(int[] nums, int target) {
 
 This technique shows how a nested for loop in few problems can be converted to single for loop and hence reducing the time complexity.
 
+
+
 ### Prefix/Suffix Sum
 
 For questions where summation or multiplication of a sub-array is involved, pre-computation using hashing or a prefix/suffix sum/product might be useful.
@@ -216,7 +218,7 @@ for (int i=1; i<nums.length; i++) {
 
 ### Dynamic Programming
 
-DP is [here](../algorithms/DynamicProgramming.md).
+DP is introduced in its own [doc](../algorithms/DynamicProgramming.md).
 
 ## References
 
