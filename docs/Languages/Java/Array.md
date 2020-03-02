@@ -199,7 +199,7 @@ boolean isSum(int[] nums, int target) {
 
 ```
 
-### Sliding Window
+### Sliding Window Technique
 
 This technique shows how a nested for loop in few problems can be converted to single for loop and hence reducing the time complexity.
 
