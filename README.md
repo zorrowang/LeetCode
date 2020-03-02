@@ -28,17 +28,16 @@ The hiring flow is, resume screening -> recruiter call -> technical phone screen
 - [Phone Screen](./docs/tech-interview/PhoneScreen.md)
 - [Whiteboard Coding Workflow and Best Practice](./docs/tech-interview/WhiteboardCoding.md)
 
-## Data Structure and Algorithm
+## Languages and Data Structures
 
-This section covers the algorithm and data structure in tech interviews. Given the restriction of whiteboard coding, most of questions can be solved in ~50 lines of code. So I'd like to summarize most of the patterns in the tech interview.
+### Java 
 
-This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition), and their class, [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb), are very helpful and comprehensive if you want to learn algorithm and data structure.
+- [Java Introduction](./docs/Languages/Java/Java.md)
+- Garbage Collection
 
-(Still working on the list)
+#### Data Structures in Java
 
-### Data Structures
-
-- [Array](./docs/algorithm-and-data-structure/Array.md)
+- [Array](./docs/Languages/Java//Array.md)
 - String
 - List
 - Heap
@@ -49,7 +48,13 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 - Graph
 - Trie
 
-### Algorithms
+## Algorithms
+
+This section covers the algorithms in tech interviews. Given the restriction of whiteboard coding, most of questions can be solved in ~50 lines of code. So I'd like to summarize most of the patterns in the tech interview.
+
+This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition), and their class, [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb), are very helpful and comprehensive if you want to learn algorithm and data structure.
+
+(Still working on the list)
 
 - Bit Manipulation
 - Sort
@@ -59,32 +64,12 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 - Dynamic Programming
 - Greedy
 
-## Languages
-
-- [Java](./docs/Languages/Java.md)
-
 ## System Design
 
 - [System Design Workflow](./docs/system-design/SystemDesignWorkflow.md)
 - System Design Patterns
 
-## Leetcode Preparation
-
-### Hard Questions
-
-| # | Name | Solution | Algorithm | Note |
-|:-:|:----:|:--------:|:---------:|:----:|
-|84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/hard/stack/LargestRectangleHistogram.java)| Stack |
-
-### Medium Questions
-
-| # | Name | Solution | Algorithm | Note |
-|:-:|:----:|:--------:|:---------:|:----:|
-|274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/medium/array/HIndex.java)| Array/Sort/Map |
-|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/DailyTemperatures.java)| Heap/MaxQueue |
-|1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/DeleteNodesAndReturnForest.java)| Tree/Recursion/DFS |
-|1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | [Java](./src/DeepestLeavesSum.java)| Tree/Recursion/DFS |
-|1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | [Java](./src/medium/tree/MaximumProductSplittedBinaryTree.java)| Tree/Recursion |
+## LeetCode
 
 ### Easy Questions
 
@@ -116,7 +101,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Java](./src/easy/array/BinarySearch.java)| BinarySearch |
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java](./src/easy/string/ToLowerCase.java)| String |
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](./src/easy/string/LongestWordDictionary.java)| Memorization/Trie |
-|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./src/easy/array/FindPivotIndex.java)| Memorization |
+|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./src/easy/array/FindPivotIndex.java)| Prefix/Suffix Sum |
 |728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Java](./src/easy/number/SelfDividingNumbers.java)| BruteForce |
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Java](./src/easy/matrix/FloodFill.java)| DFS |
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](./src/easy/string/ShortestCompletingWord.java)| String |
@@ -144,3 +129,19 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Java](./src/easy/string/RemoveAllAdjacentDuplicatesString.java)| Stack |
 |1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Java](./src/easy/number/SubtractProductSumDigitsInteger.java)| Number |
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Java](./src/easy/matrix/KWeakestRowsInMatrix.java)| MaxQueue |
+
+### Medium Questions
+
+| # | Name | Solution | Algorithm | Note |
+|:-:|:----:|:--------:|:---------:|:----:|
+|274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/medium/array/HIndex.java)| Array/Sort/Map |
+|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/DailyTemperatures.java)| Heap/MaxQueue |
+|1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/DeleteNodesAndReturnForest.java)| Tree/Recursion/DFS |
+|1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | [Java](./src/DeepestLeavesSum.java)| Tree/Recursion/DFS |
+|1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | [Java](./src/medium/tree/MaximumProductSplittedBinaryTree.java)| Tree/Recursion |
+
+### Hard Questions
+
+| # | Name | Solution | Algorithm | Note |
+|:-:|:----:|:--------:|:---------:|:----:|
+|84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/hard/stack/LargestRectangleHistogram.java)| Stack |

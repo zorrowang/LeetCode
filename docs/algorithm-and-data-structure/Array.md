@@ -1,3 +1,0 @@
-# Data Structure - Array
-
-TODO
