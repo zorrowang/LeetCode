@@ -210,7 +210,9 @@ Applying sliding window technique :
 * To get the current sum of block of k elements just subtract the first element from the previous block and add the last element of the current block .
 
 ![Sliding window 1](../../images/sliding-window1.png)
+
 ![Sliding window 2](../../images/sliding-window2.png)
+
 ![Sliding window 3](../../images/sliding-window3.png)
 
 ### Prefix/Suffix Sum
