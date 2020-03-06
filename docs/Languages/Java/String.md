@@ -8,6 +8,11 @@ A string is traditionally a sequence of characters, either as a literal constant
   - [Memory allotment of String](#memory-allotment-of-string)
   - [String methods](#string-methods)
 - [Classes in Strings in Java](#classes-in-strings-in-java)
+  - [StringBuffer](#stringbuffer)
+    - [StringBuffer Constructor](#stringbuffer-constructor)
+    - [StringBuffer Methods](#stringbuffer-methods)
+  - [StringBuilder](#stringbuilder)
+  - [String vs StringBuffer vs StringBuilder](#string-vs-stringbuffer-vs-stringbuilder)
 - [String-related Methods](#string-related-methods)
 - [Things to be clarified in interview](#things-to-be-clarified-in-interview)
 
@@ -285,6 +290,14 @@ s.indexOf("Code");    // returns: 8
 ```java
 StringBuffer s = new StringBuffer("LeetCode");
 s.setCharAt(4, 'L');    // s contains "LeetLode"
+```
+
+- _String substring(int start)_ and _String substring(int start, int end)_: returns a new String that contains a subsequence of characters currently contained in this character sequence.
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.substring(4);       // returns "Code"
+s.substring(4, 6);    // returns "Co"
 ```
 
 ### StringBuilder
