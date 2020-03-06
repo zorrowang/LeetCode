@@ -7,7 +7,7 @@ A string is traditionally a sequence of characters, either as a literal constant
 - [String in Java](#string-in-java)
   - [Memory allotment of String](#memory-allotment-of-string)
   - [String methods](#string-methods)
-- [Classes in Strings in Java](#classes-in-strings-in-java)
+- [Classes about Strings in Java](#classes-in-strings-in-java)
   - [StringBuffer](#stringbuffer)
     - [StringBuffer Constructor](#stringbuffer-constructor)
     - [StringBuffer Methods](#stringbuffer-methods)
@@ -185,7 +185,7 @@ char[] charArray = "LeetCode".toCharArray();    // returns: {'L', 'e', 'e', 't',
 "Leet Code Code".replaceFirst("Code", "cool");      // returns: {"Leet cool Code"}
 ```
 
-## Classes in Strings in Java
+## Classes about Strings in Java
 
 ### StringBuffer
 
