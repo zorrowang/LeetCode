@@ -258,7 +258,7 @@ for (int i=1; i<nums.length; i++) {
 
 ### Dynamic Programming
 
-DP is introduced in its own [doc](../algorithms/DynamicProgramming.md).
+DP is introduced in its own [doc](../../algorithms/DynamicProgramming.md).
 
 ## References
 
