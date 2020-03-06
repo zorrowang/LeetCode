@@ -1,5 +1,30 @@
 # Array
 
+<!-- MarkdownTOC -->
+- [Array in Java](#array-in-java)
+  - [Declaration](#declaration)
+  - [Initialization](#initialization)
+    - [Array literal](#array-literal)
+  - [Access](#access)
+  - [Multidimensional Arrays](#multidimensional-arrays)
+  - [Using Array in function](#using-array-in-function)
+  - [Arrays class in Java](#arrays-class-in-java)
+    - [Copying an Array with Arrays.copyOf()](#copying-an-array-with-arrayscopyof)
+    - [Copying an Array with Arrays.copyOfRange()](#copying-an-array-with-arrayscopyofrange)
+    - [Sorting Arrays with Arrays.sort()](#sorting-arrays-with-arrayssort)
+    - [Filling Arrays with Arrays.fill()](#filling-arrays-with-arraysfill)
+    - [Searching Arrays with Arrays.binarySearch()](#searching-arrays-with-arraysbinarysearch)
+    - [Checking if Arrays are Equal with Arrays.equals()](#checking-if-arrays-are-equal-with-arraysequals)
+  - [Things to be clarified in interview](#things-to-be-clarified-in-interview)
+  - [Techniques](#techniques)
+    - [Two-Pointer Technique](#two-pointer-technique)
+    - [Sliding Window Technique](#sliding-window-technique)
+    - [Prefix/Suffix Sum](#prefixsuffix-sum)
+    - [Dynamic Programming](#dynamic-programming)
+  - [References](#references)
+
+<!-- /MarkdownTOC -->
+
 Array is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key. So accessing any element by its index or key is constant time as O(1), and looping the array is linear time as O(n).
 
 ## Array in Java
