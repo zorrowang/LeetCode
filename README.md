@@ -38,7 +38,7 @@ The hiring flow is, resume screening -> recruiter call -> technical phone screen
 #### Data Structures in Java
 
 - [Array](./docs/Languages/Java//Array.md)
-- String
+- [String](./docs/Languages/Java//String.md)
 - List
 - Heap
 - Queue
