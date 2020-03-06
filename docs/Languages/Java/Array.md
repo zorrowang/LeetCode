@@ -201,9 +201,17 @@ boolean isSum(int[] nums, int target) {
 
 ### Sliding Window Technique
 
-This technique shows how a nested for loop in few problems can be converted to single for loop and hence reducing the time complexity.
+This technique shows how a nested for loop in few problems can be converted to single for loop and hence reducing the time complexity. It can be best understood with the window pane in bus, consider a window of length **n** and the pane which is fixed in it of length **k**.
 
+Applying sliding window technique :
 
+* We compute the sum of first k elements out of n terms using a linear loop and store the sum in variable window_sum.
+* Then we will graze linearly over the array till it reaches the end and simultaneously keep track of maximum sum.
+* To get the current sum of block of k elements just subtract the first element from the previous block and add the last element of the current block .
+
+![Sliding window 1](../../sliding-window1.png)
+![Sliding window 2](../../sliding-window2.png)
+![Sliding window 3](../../sliding-window3.png)
 
 ### Prefix/Suffix Sum
 
