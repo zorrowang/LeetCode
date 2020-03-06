@@ -209,6 +209,8 @@ Applying sliding window technique :
 * Then we will graze linearly over the array till it reaches the end and simultaneously keep track of maximum sum.
 * To get the current sum of block of k elements just subtract the first element from the previous block and add the last element of the current block .
 
+For example, given an array as `{5, 2, -1, 0, 3}` and fixed window size is `3`.
+
 ![Sliding window 1](../../images/sliding-window1.png)
 
 ![Sliding window 2](../../images/sliding-window2.png)
