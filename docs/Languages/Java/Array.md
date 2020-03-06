@@ -245,6 +245,8 @@ For example, given an array as `{5, 2, -1, 0, 3}` and fixed window size is `3`.
 
 ![Sliding window 3](../../images/sliding-window3.png)
 
+The size of sliding window is, sometimes, not fixed. In that case, we need to move the pointers inconsistently, but make sure the size should *not* be `0`.
+
 ### Prefix/Suffix Sum
 
 For questions where summation or multiplication of a sub-array is involved, pre-computation using hashing or a prefix/suffix sum/product might be useful.
