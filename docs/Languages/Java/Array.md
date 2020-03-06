@@ -15,13 +15,13 @@
     - [Filling Arrays with Arrays.fill()](#filling-arrays-with-arraysfill)
     - [Searching Arrays with Arrays.binarySearch()](#searching-arrays-with-arraysbinarysearch)
     - [Checking if Arrays are Equal with Arrays.equals()](#checking-if-arrays-are-equal-with-arraysequals)
-  - [Things to be clarified in interview](#things-to-be-clarified-in-interview)
-  - [Techniques](#techniques)
-    - [Two-Pointer Technique](#two-pointer-technique)
-    - [Sliding Window Technique](#sliding-window-technique)
-    - [Prefix/Suffix Sum](#prefixsuffix-sum)
-    - [Dynamic Programming](#dynamic-programming)
-  - [References](#references)
+- [Things to be clarified in interview](#things-to-be-clarified-in-interview)
+- [Techniques](#techniques)
+  - [Two-Pointer Technique](#two-pointer-technique)
+  - [Sliding Window Technique](#sliding-window-technique)
+  - [Prefix/Suffix Sum](#prefixsuffix-sum)
+  - [Dynamic Programming](#dynamic-programming)
+- [References](#references)
 
 <!-- /MarkdownTOC -->
 
