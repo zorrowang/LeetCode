@@ -33,14 +33,14 @@ This doc will introduce the data structure of array in Java and techniques for i
 
 Array can contains primitives data types as well as objects of a class depending on the definition of array. In case of primitives data types, the actual values are stored in contiguous memory locations. In case of objects of a class, the actual objects are stored in heap segment.
 
-* In Java all arrays are dynamically allocated.
-* Since arrays are objects in Java, we can find their length using member length.
-* A Java array variable can also be declared like other variables with [] after the data type.
-* The variables in the array are ordered and each have an index beginning from 0.
-* Java array can be also be used as a static field, a local variable or a method parameter.
-* The size of an array must be specified by an int value and not long or short.
-* The direct superclass of an array type is Object.
-* Every array type implements the interfaces _Cloneable_ and _java.io.Serializable_.
+- In Java all arrays are dynamically allocated.
+- Since arrays are objects in Java, we can find their length using member length.
+- A Java array variable can also be declared like other variables with [] after the data type.
+- The variables in the array are ordered and each have an index beginning from 0.
+- Java array can be also be used as a static field, a local variable or a method parameter.
+- The size of an array must be specified by an int value and not long or short.
+- The direct superclass of an array type is Object.
+- Every array type implements the interfaces _Cloneable_ and _java.io.Serializable_.
 
 ### Declaration
 
@@ -86,11 +86,12 @@ System.out.println(Arrays.toString(new int[]{1, 2}));  // Array literal, introdu
 ```
 
 The elements in the array allocated by new will automatically be initialized as
-* boolean : `false`
-* int : `0`
-* double : `0.0`
-* String : `null`
-* User Defined Type : `null`
+
+- boolean : `false`
+- int : `0`
+- double : `0.0`
+- String : `null`
+- User Defined Type : `null`
 
 Array length cannot be changed once it has been created.
 
@@ -192,16 +193,16 @@ System.out.println(ints1EqualsInts3);     // false
 
 ## Things to be clarified in interview
 
-* Is the array sorted or partially sorted?
+- Is the array sorted or partially sorted?
   If so, it means you can use binary search, which is O(lgn).
 
-* Can you manipulate the array in-place?
+- Can you manipulate the array in-place?
   The reference of array is a pointer. So any change will be preserved.
 
-* Can you sort the array?
+- Can you sort the array?
   Sometimes sorting the array first may significantly simplify the problem. Make sure that the order of array elements do not need to be preserved before attempting a sort.
 
-* Are there duplicates in the array? Would it affect the answer?
+- Are there duplicates in the array? Would it affect the answer?
   Make sure if the result is unique or not.
 
 ## Techniques
@@ -232,9 +233,9 @@ This technique shows how a nested for loop in few problems can be converted to s
 
 Applying sliding window technique :
 
-* We compute the sum of first k elements out of n terms using a linear loop and store the sum in variable window_sum.
-* Then we will graze linearly over the array till it reaches the end and simultaneously keep track of maximum sum.
-* To get the current sum of block of k elements just subtract the first element from the previous block and add the last element of the current block .
+- We compute the sum of first k elements out of n terms using a linear loop and store the sum in variable window_sum.
+- Then we will graze linearly over the array till it reaches the end and simultaneously keep track of maximum sum.
+- To get the current sum of block of k elements just subtract the first element from the previous block and add the last element of the current block .
 
 For example, given an array as `{5, 2, -1, 0, 3}` and fixed window size is `3`.
 
@@ -261,7 +262,7 @@ DP is introduced in its own [doc](../algorithms/DynamicProgramming.md).
 
 ## References
 
-* https://en.wikipedia.org/wiki/Array_data_structure
-* https://www.geeksforgeeks.org/arrays-in-java/
-* https://www.geeksforgeeks.org/two-pointers-technique/
-* https://www.geeksforgeeks.org/window-sliding-technique/
+- <https://en.wikipedia.org/wiki/Array_data_structure>
+- <https://www.geeksforgeeks.org/arrays-in-java/>
+- <https://www.geeksforgeeks.org/two-pointers-technique/>
+- <https://www.geeksforgeeks.org/window-sliding-technique/>
