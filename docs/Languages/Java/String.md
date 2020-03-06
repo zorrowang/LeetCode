@@ -13,14 +13,24 @@ String str2 = new String("LeetCode");       // Using new keyword
 
 ### Memory allotment of String
 
+TODO
+
 ### String methods
 
 - _int length()_: Returns the number of characters in the String.
 
 ```java
 String str1 = "LeetCode";
-str1.length();
-"LeetCode".length();
+str1.length();             // returns: 8
+"LeetCode".length();       // returns: 8
+```
+
+- _boolean isEmpty()_: Returns if the length of the String is 0 or not.
+
+```java
+String str1 = "LeetCode";
+str1.isEmpty();         // returns: false
+"".isEmpty();           // returns: true
 ```
 
 - _char charAt(int i)_: Returns the character at i-th index.
@@ -44,7 +54,7 @@ str1.length();
 - _String concat(String str)_: Concatenates specified string to the end of this string.
 
 ```java
-"LeetCode".concat(" is good");    // returns: "tCo"
+"LeetCode".concat(" is good");    // returns: "LeetCode is good"
 ```
 
 - _int indexOf(String s)_: Returns the index within the string of the first occurrence of the specified string, -1 if it does not exist.
@@ -77,7 +87,7 @@ str1.length();
 - _boolean  equalsIgnoreCase(String anotherString)_: Compares string to another string, ignoring case considerations.
 
 ```java
-"LeetCode".equalsIgnoreCase("LeetCode");    // returns: true
+"LeetCode".equalsIgnoreCase("leetcode");    // returns: true
 ```
 
 - _int compareTo(String anotherString)_: Compares two string lexicographically.
@@ -90,7 +100,80 @@ int out = s1.compareTo(s2);
 //  out > 0   // s1 comes after s2
 ```
 
+- _String toLowerCase()_: Converts all the characters in the String to lower case.
+
+```java
+"LeetCode".toLowerCase();    // returns: "leetcode"
+```
+
+- _String toUpperCase()_: Converts all the characters in the String to upper case.
+
+```java
+"LeetCode".toUpperCase();    // returns: "LEETCODE"
+```
+
+- _String trim()_: Returns the copy of the String, by removing white spaces at both ends. It does not affect white spaces in the middle.
+
+```java
+"  Leet  Code   ".trim();    // returns: "Leet  Code"
+```
+
+- _String replace(char oldChar, char newChar)_: Returns new string by replacing all occurrences of oldChar with newChar.
+
+```java
+"LeetCode".replace('e', 'f');    // returns: "LfftCodf"
+```
+
+- _boolean endsWith(String suffix)_: Returns if the String has same suffix.
+
+```java
+"LeetCode".endsWith("Code");    // returns: true
+"LeetCode".endsWith("code");    // returns: false
+```
+
+- _boolean startsWith(String prefix)_: Returns if the String has same prefix.
+
+```java
+"LeetCode".startsWith("Leet");    // returns: true
+"LeetCode".startsWith("leet");    // returns: false
+```
+
+- _char[] toCharArray()_: Returns the character array of the string.
+
+```java
+char[] charArray = "LeetCode".toCharArray();    // returns: {'L', 'e', 'e', 't', 'C', 'o', 'd', 'e'}
+```
+
+- _int codePointAt(int i)_: Returns the _unicode_ of character at i-th index.
+
+```java
+"LeetCode".codePointAt(1);      // returns: 101
+```
+
+- _String[] split(String reg_exp)_: Returns a String array by splitting the string around the regular expression. (Usually split by white spaces)
+
+```java
+"Leet Code".split(" ");      // returns: {"Leet", "Code"}
+"Leet  Code".split(" ");     // returns: {"Leet", "", "Code"}
+```
+
+- _String replaceAll(String reg_exp, String replacement)_: Returns the new modified String by replacing all the Substring of the original string that matches the reg_exp with replacement String.
+
+```java
+"Leet Code Code".replaceAll("Code", "cool");      // returns: {"Leet cool cool"}
+```
+
+- _String replaceFirst(String reg_exp, String replacement)_: Returns the new modified String by replacing the first Substring of the original string that matches the reg_exp with replacement String.
+
+```java
+"Leet Code Code".replaceFirst("Code", "cool");      // returns: {"Leet cool Code"}
+```
+
 ## Classes in Strings in Java
+
+## String-related Methods
+
+- _Integer.parseInt()_: returns 
 
 ## Things to be clarified in interview
 
