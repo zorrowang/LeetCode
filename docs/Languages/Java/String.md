@@ -2,6 +2,17 @@
 
 A string is traditionally a sequence of characters, either as a literal constant or as some kind of variable.
 
+<!-- MarkdownTOC -->
+
+- [String in Java](#string-in-java)
+  - [Memory allotment of String](#memory-allotment-of-string)
+  - [String methods](#string-methods)
+- [Classes in Strings in Java](#classes-in-strings-in-java)
+- [String-related Methods](#string-related-methods)
+- [Things to be clarified in interview](#things-to-be-clarified-in-interview)
+
+<!-- /MarkdownTOC -->
+
 ## String in Java
 
 Strings in Java are Objects that are backed internally by a char array. Since arrays are immutable(cannot grow), Strings are immutable as well. Whenever a change to a String is made, an entirely new String is created.
@@ -171,12 +182,127 @@ char[] charArray = "LeetCode".toCharArray();    // returns: {'L', 'e', 'e', 't',
 
 ## Classes in Strings in Java
 
+### StringBuffer
+
+_StringBuffer_ is a peer class of String that provides much of the functionality of strings. It provides growable and writable character sequences, while _String_ is immutable.
+
+_StringBuffer_ can automatically grow or shrink to allow operations, such as inserting, deleting or appending.
+
+#### StringBuffer Constructor
+
+```java
+// reserves room for 16 characters w/o reallocation as default
+StringBuffer s=new StringBuffer();
+// reserves room for 20 characters w/o reallocation
+StringBuffer s=new StringBuffer(20);
+// a String argument that sets the initial contents of the StringBuffer object.
+// Reserve room for 16 more characters w/o reallocation.
+StringBuffer s=new StringBuffer("LeetCode");
+```
+
+#### StringBuffer Methods
+
+- _int length()_: returns the length of characters.
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.length();     // returns 8
+```
+
+- _int capacity()_: returns the length of reserved room.
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.capacity();     // returns 24
+```
+
+- _StringBuffer capacity()_: returns a reference to this updated object.
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.append(" is good!");  // s contains "LeetCode is good!"
+```
+
+- _StringBuffer insert(int offset, String str)_: returns a reference to this updated object (the same as _StringBuffer insert(int index, char ch)_).
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.insert(4, " is good ");  // s contains "Leet is good Code"
+```
+
+- _StringBuffer delete(int start, int end)_: returns a reference to this updated object.
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.delete(4, 6);  // s contains "Leetde"
+```
+
+- _StringBuffer deleteCharAt(int index)_: return a reference to this updated object
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.deleteCharAt(4);  // s contains "Leetode"
+```
+
+- _StringBuffer replace(int start, int end, String str)_: replaces the characters in a substring of this sequence with characters in the specified String.
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.replace(1, 7, "cool");  // s contains "Lcoole"
+```
+
+- _StringBuffer reverse()_: causes this character sequence to be replaced by the reverse of the sequence.
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.reverse();  // s contains "edoCteeL"
+```
+
+- _char charAt(int i)_: returns the character at i-th index.
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.charAt(4);  // returns 'C'
+```
+
+- _int indexOf(String str)_: returns the index within the string of the first occurrence of the specified string, -1 if it does not exist.
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.indexOf("Code");    // returns: 4
+s.indexOf("code");    // returns: -1
+```
+
+- _int lastIndexOf(String str)_: returns the index within this string of the last occurrence of the specified substring.
+
+```java
+StringBuffer s = new StringBuffer("LeetCodeCode");
+s.indexOf("Code");    // returns: 8
+```
+
+- _void setCharAt(int i, char ch)_: set the character at the i-th index to ch.
+
+```java
+StringBuffer s = new StringBuffer("LeetCode");
+s.setCharAt(4, 'L');    // s contains "LeetLode"
+```
+
+### StringBuilder
+
+TODO
+
+### String vs StringBuffer vs StringBuilder
+
+TODO
+
 ## String-related Methods
 
-- _Integer.parseInt()_: returns 
+- _Integer.parseInt()_: Returns
 
 ## Things to be clarified in interview
 
 ## Techniques
 
 ## Reference
+
+- <https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuffer.html>
