@@ -1,5 +1,9 @@
 # Array
 
+Array is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key. So accessing any element by its index or key is constant time as O(1), and looping the array is linear time as O(n).
+
+This doc will introduce the data structure of array in Java and techniques for interviews.
+
 <!-- MarkdownTOC -->
 - [Array in Java](#array-in-java)
   - [Declaration](#declaration)
@@ -24,8 +28,6 @@
 - [References](#references)
 
 <!-- /MarkdownTOC -->
-
-Array is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key. So accessing any element by its index or key is constant time as O(1), and looping the array is linear time as O(n).
 
 ## Array in Java
 
