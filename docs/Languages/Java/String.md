@@ -12,6 +12,8 @@ A string is traditionally a sequence of characters, either as a literal constant
     - [StringBuffer Constructor](#stringbuffer-constructor)
     - [StringBuffer Methods](#stringbuffer-methods)
   - [StringBuilder](#stringbuilder)
+    - [StringBuilder Constructor](#stringbuilder-constructor)
+    - [StringBuilder Methods](#stringbuilder-methods)
   - [String vs StringBuffer vs StringBuilder](#string-vs-stringbuffer-vs-stringbuilder)
 - [String-related Methods](#string-related-methods)
 - [Things to be clarified in interview](#things-to-be-clarified-in-interview)
@@ -302,19 +304,49 @@ s.substring(4, 6);    // returns "Co"
 
 ### StringBuilder
 
-TODO
+The StringBuilder in Java represents a mutable sequence of characters, which provides an alternative to String Class, as it creates a mutable sequence of characters. The function of StringBuilder is very much similar to the StringBuffer class, as both of them provide an alternative to String Class by making a mutable sequence of characters.
+
+The difference will introduce in next section.
+
+#### StringBuilder Constructor
+
+```java
+// reserves room for 16 characters w/o reallocation as default
+StringBuilder s=new StringBuilder();
+// reserves room for 20 characters w/o reallocation
+StringBuilder s=new StringBuilder(20);
+// a String argument that sets the initial contents of the StringBuffer object.
+// Reserve room for 16 more characters w/o reallocation.
+StringBuilder s=new StringBuilder("LeetCode");
+```
+
+#### StringBuilder Methods
+
+The methods of StringBuffer are mostly the same as StringBuffer.
 
 ### String vs StringBuffer vs StringBuilder
 
-TODO
+| Name | Immutable | Synchronized | Performance |
+|:----:|:---------:|:------------:|:-----------:|
+| String | Yes | String pool is visible to all threads using literal | Very fast |
+| StringBuilder | Not | Not | Fast |
+| StringBuffer | Not | Yes | Slow |
 
 ## String-related Methods
 
-- _Integer.parseInt()_: Returns
+- _Integer.parseInt()_: returns decimal integer by parsing the string argument
+
+```java
+Integer.parseInt("52");     // returns 52
+```
 
 ## Things to be clarified in interview
 
-## Techniques
+- Is input string always valid?
+  The object can be `null` or empty. Please do the sanity check first.
+
+- Does string only contain letter? both upper and lower cases?
+  Since there are only 26 letters in English, loop the count is constant time.
 
 ## Reference
 
