@@ -41,7 +41,7 @@ The hiring flow is, resume screening -> recruiter call -> technical phone screen
 - [String](./docs/Languages/Java/String.md)
 - [Collection](./docs/Languages/Java/Collection.md)
   - List
-  - Heap
+  - Set
   - Queue
   - Deque
 - Map
