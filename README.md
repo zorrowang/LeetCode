@@ -7,10 +7,11 @@ The repo is the summary for technical interview based on my experience and knowl
 <!-- MarkdownTOC -->
 
 - [Interview Preparation](#interview-preparation)
-- [Data Structure and Algorithm](#algorithm-and-data-structure)
-  - [Data Structures](#data-structures)
-  - [Algorithms](#algorithms)
-- [Languages](#languages)
+- [Languages and Data Structures](#languages-and-data-structures)
+  - [Java](#java)
+    - [Language Overview and Features](#language-overview-and-features)
+    - [Data Structures in Java](#data-structures-in-java)
+- [Algorithms](#algorithms)
 - [System Design](#system-design)
 - [Leetcode Preparation](#leetcode-preparation)
   - [Hard Questions](#hard-questions)
@@ -32,7 +33,12 @@ The hiring flow is, resume screening -> recruiter call -> technical phone screen
 
 ### Java 
 
+Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere, meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
+
+#### Language Overview and Features
+
 - [Java Introduction](./docs/Languages/Java/Java.md)
+- Java Virtual Machine (JVM)
 - Garbage Collection
 
 #### Data Structures in Java
