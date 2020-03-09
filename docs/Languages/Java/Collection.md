@@ -50,7 +50,7 @@ Note: that TreeSet implements SortedSet.
 
 - _Object[]	toArray()_: returns an array containing all of the elements in this collection.
 
-## Collections class
+## Collections Class
 
 This class consists exclusively of static methods that operate on or return collections. It directly inherits from `Object` class.
 
