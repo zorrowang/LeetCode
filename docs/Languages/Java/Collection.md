@@ -6,18 +6,14 @@ A Collection is a group of individual objects, known as its elements, represente
 
 ![Java collection 1](../../images/java-collection.jpg)
 
-- Set
-A collection that contains no duplicate elements. The implementations of Set interface contain HashSet (Hashing based) and TreeSet (balanced BST based). 
+- *Set*: a collection that contains no duplicate elements. The implementations of Set interface contain HashSet (Hashing based) and TreeSet (balanced BST based). 
 Note: that TreeSet implements SortedSet.
 
-- List
-An ordered collection (also known as a sequence). The implementations contain LinkedList (linked list based) and ArrayList (dynamic array based).
+- *List*: an ordered collection (also known as a sequence). The implementations contain LinkedList (linked list based) and ArrayList (dynamic array based).
 
-- Queue
-A collection designed for holding elements prior to processing, which typically follows FIFO order. The implementations contain LinkedList (linked list based) and PriorityQueue (heap based).
+- *Queue*: a collection designed for holding elements prior to processing, which typically follows FIFO order. The implementations contain LinkedList (linked list based) and PriorityQueue (heap based).
 
-- Deque
-A linear collection that supports element insertion and removal at both ends. The implementations contain ArrayDeque （dynamic array based) and LinkedList (linked list based).
+- *Deque*: a linear collection that supports element insertion and removal at both ends. The implementations contain ArrayDeque （dynamic array based) and LinkedList (linked list based).
 
 ## Methods in Collection
 
