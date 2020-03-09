@@ -13,7 +13,7 @@ The repo is the summary for technical interview based on my experience and knowl
     - [Data Structures in Java](#data-structures-in-java)
 - [Algorithms](#algorithms)
 - [System Design](#system-design)
-- [Leetcode Preparation](#leetcode-preparation)
+- [LeetCode Preparation](#leetcode-preparation)
   - [Hard Questions](#hard-questions)
   - [Medium Questions](#medium-questions)
   - [Easy Questions](#easy-questions)
@@ -47,10 +47,12 @@ Java is a general-purpose programming language that is class-based, object-orien
 - [String](./docs/Languages/Java/String.md)
 - [Collection](./docs/Languages/Java/Collection.md)
   - [Set](./docs/Languages/Java/Set.md)
-  - List
-  - Queue
-  - Deque
+  - [List](./docs/Languages/Java/List.md)
+  - [Queue](./docs/Languages/Java/Queue.md)
+  - [Deque](./docs/Languages/Java/Deque.md)
   - Map
+    - HashMap
+    - TreeMap
 - Tree
 - Graph
 - Trie
