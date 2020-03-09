@@ -46,11 +46,11 @@ Java is a general-purpose programming language that is class-based, object-orien
 - [Array](./docs/Languages/Java/Array.md)
 - [String](./docs/Languages/Java/String.md)
 - [Collection](./docs/Languages/Java/Collection.md)
-  - Set
+  - [Set](./docs/Languages/Java/Set.md)
   - List
   - Queue
   - Deque
-- Map
+  - Map
 - Tree
 - Graph
 - Trie
