@@ -56,7 +56,7 @@ This class consists exclusively of static methods that operate on or return coll
 
 This class
 
-- supports the **polymorphic algorithms** that operate on collections. (In general, an algorithm is called polymorphic if it can achieve the same functionality using different data structures.)
+- supports the **polymorphic algorithms** that operate on collections. (In general, an algorithm is called _polymorphic_ if it can achieve the same functionality using different data structures.)
 
 - throws a `NullPointerException` if the collections or class objects provided to them are `null`.
 
