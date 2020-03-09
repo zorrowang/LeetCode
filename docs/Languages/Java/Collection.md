@@ -101,7 +101,7 @@ for (int i = 0; i < 10; i++) {
   arrlist1.add(String.valueOf(i));        // arrlist1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   arrlist2.add(String.valueOf(i*10));     // arrlist2 = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
 }
-Collections.copy(arrlist1, arrlist2);     // arrlist2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] 
+Collections.copy(arrlist2, arrlist1);     // arrlist2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] 
 ```
 
 - _static <T extends Object & Comparable<? super T>> T max(Collection<? extends T> coll)_ and _static <T> T	max(Collection<? extends T> coll, Comparator<? super T> comp)_: Returns the maximum element of the given collection, according to the natural ordering of its elements and the order induced by the specified comparator.
@@ -115,6 +115,13 @@ Collections.max(arrlist, (x, y) -> Integer.parseInt(y) - Integer.parseInt(x));  
 ```
 
 - _static <T extends Object & Comparable<? super T>> T min(Collection<? extends T> coll)_ and _static <T> T	min(Collection<? extends T> coll, Comparator<? super T> comp)_: Returns the minimum element of the given collection, according to the natural ordering of its elements and the order induced by the specified comparator.
+
+```java
+List<String> arrlist = new ArrayList<>();
+for (int i = 0; i < 10; i++)
+  arrlist.add(String.valueOf(i));               // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Collections.min(arrlist);                       // 0
+```
 
 - _static <T> boolean	replaceAll(List<T> list, T oldVal, T newVal)_: Replaces all occurrences of one specified value in a list with another.
 
@@ -152,7 +159,7 @@ Collections.swap(arrlist, 2, 8);        // [10, 9, 2, 7, 6, 5, 4, 3, 8, 1]
 List<String> arrlist = new ArrayList<>();
 for (int i = 10; i > 0; i--)
     arrlist.add(String.valueOf(i));     // [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-Collections.shuffle(arrlist);           // one possibility [9, 6, 10, 2, 8, 4, 1, 3, 7, 5]
+Collections.shuffle(arrlist);           // one possibility is [9, 6, 10, 2, 8, 4, 1, 3, 7, 5]
 ```
 
 - _static void rotate(List<?> list, int distance)_: Rotates the elements in the specified list by the specified distance.
