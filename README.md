@@ -38,8 +38,9 @@ Java is a general-purpose programming language that is class-based, object-orien
 #### Language Overview and Features
 
 - [Java Introduction](./docs/Languages/Java/Java.md)
-- Java Virtual Machine (JVM)
-- Garbage Collection
+- [Java Virtual Machine (JVM)](./docs/Languages/Java/JVM.md)
+- [Garbage Collection](./docs/Languages/Java/GC.md)
+- [Lambda in Java](./docs/Languages/Java/Lambda.md)
 
 #### Data Structures in Java
 

@@ -182,3 +182,4 @@ Collections.rotate(arrlist, 3);           // [3, 2, 1, 10, 9, 8, 7, 6, 5, 4]
 - <https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>
 - <https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html>
 - <https://www.geeksforgeeks.org/collections-in-java-2/>
+- <https://www.baeldung.com/java-collections-interview-questions>
