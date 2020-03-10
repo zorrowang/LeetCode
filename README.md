@@ -14,9 +14,9 @@ The repo is the summary for technical interview based on my experience and knowl
 - [Algorithms](#algorithms)
 - [System Design](#system-design)
 - [LeetCode Preparation](#leetcode-preparation)
-  - [Hard Questions](#hard-questions)
-  - [Medium Questions](#medium-questions)
   - [Easy Questions](#easy-questions)
+  - [Medium Questions](#medium-questions)
+  - [Hard Questions](#hard-questions)
 
 <!-- /MarkdownTOC -->
 
@@ -79,7 +79,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 - [System Design Workflow](./docs/system-design/SystemDesignWorkflow.md)
 - System Design Patterns
 
-## LeetCode
+## LeetCode Preparation
 
 ### Easy Questions
 
