@@ -17,11 +17,13 @@
 
 Interface _Set_ in Java defines a collection that contains no duplicate elements. More formally, sets contain no pair of elements `e1` and `e2` such that `e1.equals(e2)`, and at most one `null` element. It inherits from the _Collection_ interface.
 
+The hierarchy of _Set_ classes is
+
+![Java HashSet](../../images/hashset.png)
+
 ## HashSet Class
 
 This class implements the _Set_ interface, backed by a hash table (actually a _HashMap_ instance). It makes no guarantees as to the iteration order of the set; in particular, it does **not** guarantee that the order will remain constant over time. This class permits the `null` element.
-
-![Java HashSet](../../images/hashset.png)
 
 **Note that this implementation is not synchronized.** 
 
