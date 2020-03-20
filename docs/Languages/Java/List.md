@@ -11,8 +11,6 @@
   - [ArrayList Features](#arrayList-features)
   - [Constructor](#constructor)
   - [Special Methods in ArrayList](#special-methods-in-arraylist)
-
-
 - [Techniques in Interview](#techniques-in-nterview)
 - [Reference](#reference)
 
@@ -160,6 +158,7 @@ l.removeIf(n -> (n % 3 == 0));  // {10, 20}
 Note: casting to array is hard to use (not well-implemented). I'd recommend to write a function to do so.
 
 - _void trimToSize()_: Trims the capacity of this ArrayList instance to be the list's current size.
+
 ![Java LinkedList](../../images/ArrayList-trimtosize.png)
 
 ## Techniques in Interview

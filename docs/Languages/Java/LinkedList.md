@@ -76,6 +76,15 @@ _LinkedList_ class implements doubly-linked list based on the _List_, _Queue_ an
 
 ### LinkedList Features
 
+| Comparison | ArrayList | LinkedList |
+| Internal structure | array | doubly linked list |
+| Insert performance | amortized O(1) | O(1) |
+| Search performance | O(1) | O(n) |
+| Memory overhead | array and element	 | two pointers and element |
+
+- ArrayList has O(n) time complexity for arbitrary indices of add/remove, but amortized O(1) for the operation at the end of the list.
+- LinkedList has O(n) time complexity for arbitrary indices of add/remove, but O(1) for operations at end/beginning of the List.
+
 ## Techniques in Interview
 
 ## References
