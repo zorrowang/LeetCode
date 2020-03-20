@@ -77,6 +77,7 @@ _LinkedList_ class implements doubly-linked list based on the _List_, _Queue_ an
 ### LinkedList Features
 
 | Comparison | ArrayList | LinkedList |
+|:----------:|:---------:|:----------:|
 | Internal structure | array | doubly linked list |
 | Insert performance | amortized O(1) | O(1) |
 | Search performance | O(1) | O(n) |
