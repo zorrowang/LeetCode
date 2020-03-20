@@ -1,14 +1,18 @@
 # Linked List
 
 <!-- MarkdownTOC -->
+
 - [Basic Concepts](#basic-concepts)
   - [Singly Linked List](#singly-linked-list)
   - [Doubly Linked List](#doubly-linked-list)
   - [Circular Linked List](#circular-linked-list)
 - [LinkedList Class](#linkedlist-class)
   - [LinkedList Features](#linkedlist-features)
+  - [LinkedList Constructor](#linkedlist-contructor)
+  - [Special Methods in LinkedList](#special-methods-in-linkedList)
 - [Techniques in Interview](#techniques-in-nterview)
 - [Reference](#reference)
+
   <!-- /MarkdownTOC -->
 
 Linked list is a linear collection of data elements, whose order is not given by their physical placement in memory. Instead, each element points to the next.
@@ -85,6 +89,37 @@ _LinkedList_ class implements doubly-linked list based on the _List_, _Queue_ an
 
 - ArrayList has O(n) time complexity for arbitrary indices of add/remove, but amortized O(1) for the operation at the end of the list.
 - LinkedList has O(n) time complexity for arbitrary indices of add/remove, but O(1) for operations at end/beginning of the List.
+
+### LinkedList Constructor
+
+- _LinkedList()_: Constructs an empty list.
+- _LinkedList(Collection<? extends E> c)_: Constructs a list containing the elements of the specified collection, in the order they are returned by the collection's iterator.
+
+```java
+List<Integer> l1 = new LinkedList<>();
+
+List<Integer> l2 = new ArrayList<>(10);
+for (int i = 0; i < 10; i++)
+  l2. add(i);
+
+List<Integer> l3 = new LinkedList<>(l2);
+```
+
+### Special Methods in LinkedList
+
+- _void	addFirst(E e)_: Inserts the specified element at the beginning of this list.
+
+- _void	addLast(E e)_: Appends the specified element to the end of this list.
+
+- _E getFirst()_: Returns the first element in this list.
+
+- _E getLast()_: Returns the last element in this list.
+
+- _E removeFirst()_: Removes and returns the first element from this list.
+
+- _E removeLast()_: Removes and returns the last element from this list.
+
+**Note**, _LinkedList_ also implements the _Queue_ and _Deque_ interfaces. Their methods are introduced in separate docs.**
 
 ## Techniques in Interview
 

@@ -11,7 +11,7 @@
   - [ArrayList Features](#arrayList-features)
   - [Constructor](#constructor)
   - [Special Methods in ArrayList](#special-methods-in-arraylist)
-- [Techniques in Interview](#techniques-in-nterview)
+- [Things to be clarified in interview](#things-to-be-clarified-in-interview)
 - [Reference](#reference)
 
 <!-- /MarkdownTOC -->
@@ -161,7 +161,21 @@ Note: casting to array is hard to use (not well-implemented). I'd recommend to w
 
 ![Java LinkedList](../../images/ArrayList-trimtosize.png)
 
-## Techniques in Interview
+## Things to be clarified in interview
+
+List is usually given as an input of the question in interviews. 
+
+- Is the list sorted or partially sorted?
+  If so, it means you can use binary search, which is O(lgn).
+
+- Can you manipulate the list in-place?
+  The reference of list is a pointer to object. So any change will be preserved.
+
+- Can you sort the list?
+  Sometimes sorting the list first may significantly simplify the problem. Make sure that the order of list elements do not need to be preserved before attempting a sort.
+
+- Are there duplicates in the list? Would it affect the answer?
+  Make sure if the result is unique or not.
 
 ## References
 
