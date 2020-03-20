@@ -51,12 +51,13 @@ Java is a general-purpose programming language that is class-based, object-orien
   - [List](./docs/Languages/Java/List.md)
   - [Queue](./docs/Languages/Java/Queue.md)
   - [Deque](./docs/Languages/Java/Deque.md)
-  - Map
-    - HashMap
-    - TreeMap
-- Tree
-- Graph
-- Trie
+  - [Map](./docs/Languages/Java/Map.md)
+    - [HashMap](./docs/Languages/Java/Deque.md#hashmap)
+    - [TreeMap](./docs/Languages/Java/Deque.md#treemap)
+- [Tree](./docs/Languages/Java/Tree.md)
+  - [Trie](./docs/Languages/Java/Map.md#trie)
+- [Graph](./docs/Languages/Java/Graph.md)
+
 
 ## Algorithms
 
