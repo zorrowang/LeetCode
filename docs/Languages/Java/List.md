@@ -8,6 +8,7 @@
   - [Special Iteration](#special-iteration)
   - [Range View](#range-view)
 - [ArrayList Class](#arraylist-class)
+  - [ArrayList Features](#arrayList-features)
   - [Constructor](#constructor)
   - [Special Methods in ArrayList](#special-methods-in-arraylist)
 - [Linked List Data Structure](#linked-list-data-structure)
@@ -163,9 +164,19 @@ Note: casting to array is hard to use (not well-implemented). I'd recommend to w
 
 ## Linked List Data Structure
 
-![Java LinkedList](../../images/Linkedlist.png)
+Linked list is a linear collection of data elements, whose order is not given by their physical placement in memory. Instead, each element points to the next.
 
-Linked list is a linear data structure. 
+### Singly linked list
+
+![Java singly linked list](../../images/Singly-linked-list.png)
+
+### Doubly linked list
+
+![Java doubly linked list](../../images/Doubly-linked-list.png)
+
+### Multiply linked list
+
+### Circular linked list
 
 ## LinkedList Class
 
