@@ -10,7 +10,8 @@
 - [ArrayList Class](#arraylist-class)
   - [Constructor](#constructor)
   - [Special Methods in ArrayList](#special-methods-in-arraylist)
-- [Linked List](#linked-list)
+- [Linked List Data Structure](#linked-list-data-structure)
+- [LinkedList Class](#linkedlist-class)
 - [Techniques in Interview](#techniques-in-nterview)
 - [Reference](#reference)
 
@@ -29,6 +30,8 @@ Some features in _List_ are:
 
 ## List Interface
 
+![Java Collection](../../images/java-collection.jpg)
+
 List Interface extends Collection, hence it supports all the operations of Collection Interface, along with following additional operations.
 
 ### Positional Access
@@ -37,8 +40,8 @@ List Interface extends Collection, hence it supports all the operations of Colle
 
 ```java
 List<Integer> l = new ArrayList<Integer>(); 
-l.add(0, 1);                   // adds 1 at 0 index 
-l.add(1, 2);                   // adds 2 at 1 index 
+l.add(0, 1);  // adds 1 at 0 index 
+l.add(1, 2);  // adds 2 at 1 index 
 ```
 
 - _boolean addAll(int index, Collection c)_: Inserts all of the elements in the specified collection into this list at the specified position (optional operation).
@@ -70,8 +73,8 @@ l1.addAll(1, l2);
 List<String> l = new ArrayList<>(); 
 l.add("Leet");
 l.add("Code");
-lastIndexOf("Code");         // returns 1
-lastIndexOf("dumb");         // returns -1
+lastIndexOf("Code");  // returns 1
+lastIndexOf("dumb");  // returns -1
 ```
 
 - _int lastIndexOf(Object o)_: Returns the index of the **last** occurrence of the specified element in this list, or -1 if this list does not contain the element.
@@ -90,22 +93,82 @@ List<Integer> l = new ArrayList<Integer>();
 for (int i = 0; i < 10; i++)
   l.add(i * 10);
 List<Integer> sub = new ArrayList<Integer>();
-sub = l.subList(2, 6);            // return [20, 30, 40, 50]
+sub = l.subList(2, 6);  // return [20, 30, 40, 50]
 ```
 
 ## ArrayList Class
 
-ArrayList class implements resizable-array under the List interface.
+ArrayList class implements resizable-array under the List interface. The _size_, _isEmpty_, _get_, _set_, _iterator_, and _listIterator_ operations run in constant time. The _add_ operation runs in **amortized constant time**, that is, adding _n_ elements requires _O(n)_ time. All of the other operations run in linear time (roughly speaking).
 
-## Linked List
+**Note** that this implementation is not synchronized.
 
-![Java HashSet](../../images/hashset.png)
+### ArrayList Features
 
-Linked list is a linear data structure. 
+- ArrayList instance has a capacity. The capacity is the size of the array used to store the elements in the list. It is always at least as large as the list size. The capacity can grow or shrink automatically.
+- ArrayList can not be used for primitive types (it converts the primitive int data type into an Integer object).
+- Since ArrayList can’t be created for primitive data types, members of ArrayList are always references to objects at different memory locations. Therefore in ArrayList, the actual objects are never stored at contiguous locations. References of the actual objects are stored at contiguous locations.
+In array, it depends whether the arrays is of primitive type or object type. In case of primitive types, actual values are contiguous locations, but in case of objects, allocation is similar to ArrayList.
+- ArrayList in Java can be seen as similar to vector in C++.
 
 ### Constructor
 
+- _ArrayList()_: builds an empty ArrayList.
+- _ArrayList(Collection c)_: builds an ArrayList initialized with the elements from collection c.
+- _ArrayList(int capacity)_: builds an ArrayList with initial capacity being specified.
+
+```java
+List<Integer> l1 = new ArrayList<>();
+
+List<Integer> l2 = new ArrayList<>(10);
+for (int i = 0; i < 10; i++)
+  l2. add(i);
+
+List<Integer> l3 = new ArrayList<>(l2);
+```
+
 ### Special Methods in ArrayList
+
+- _void	ensureCapacity(int minCapacity)_: Increases the capacity of this ArrayList instance, if necessary, to ensure that it can hold at least the number of elements specified by the minimum capacity argument.
+
+- _void	forEach(Consumer<? super E> action)_: Performs the given action for each element of the Iterable until all elements have been processed or the action throws an exception.
+
+```java
+List<Integer> l = new ArrayList<>();
+l.add(10);
+l.add(20);
+l.add(30);
+l.forEach((n) -> System.out.println(n)); 
+```
+
+- _E remove(int index)_: Removes the element at the specified position in this list.
+
+- _boolean removeIf(Predicate<? super E> filter)_: Removes all of the elements of this collection that satisfy the given predicate.
+
+```java
+List<Integer> l = new ArrayList<>();
+l.add(10);
+l.add(20);
+l.add(30);
+l.removeIf(n -> (n % 3 == 0));  // {10, 20}
+```
+
+- _Object[]	toArray()_: Returns an array containing all of the elements in this list in proper sequence (from first to last element).
+
+- _<T> T[] toArray(T[] a)_: Returns an array containing all of the elements in this list in proper sequence (from first to last element); the runtime type of the returned array is that of the specified array.
+
+Note: casting to array is hard to use (not well-implemented). I'd recommend to write a function to do so.
+
+- _void trimToSize()_: Trims the capacity of this ArrayList instance to be the list's current size.
+![Java LinkedList](../../images/ArrayList-trimtosize.png)
+
+## Linked List Data Structure
+
+![Java LinkedList](../../images/Linkedlist.png)
+
+Linked list is a linear data structure. 
+
+## LinkedList Class
+
 
 ## Techniques in Interview
 
