@@ -168,18 +168,60 @@ Linked list is a linear collection of data elements, whose order is not given by
 
 ### Singly linked list
 
+Singly linked lists contain nodes which have a data field as well as 'next' field, which points to the next node in line of nodes. Operations that can be performed on singly linked lists include insertion, deletion and traversal.
+
 ![Java singly linked list](../../images/Singly-linked-list.png)
+
+```java
+class SinglyLinkedList {
+    Node head; // head of the list
+
+    /* Singly Linked list Node */
+    class Node {
+        int val;
+        Node next;
+        Node(int v) { val = v; }
+        Node(int v, Node n) {
+          val = v;
+          next = n;
+        }
+    }
+}
+```
 
 ### Doubly linked list
 
+Each node contains, besides the next-node link, a second link field pointing to the 'previous' node in the sequence. The two links may be called 'forward('s') and 'backwards', or 'next' and 'prev'('previous').
+
 ![Java doubly linked list](../../images/Doubly-linked-list.png)
 
-### Multiply linked list
+```java
+class DoublyLinkedList {
+    Node head; // head of the list
+
+    /* Doubly Linked list Node */
+    class Node {
+        int val;
+        Node next, pre;
+        Node(int v) { val = v; }
+        Node(int v, Node n, Node p) {
+          val = v;
+          next = n;
+          pre = p;
+        }
+    }
+}
+```
 
 ### Circular linked list
 
+In the last node of a list, the link field often contains a null reference, a special value is used to indicate the lack of further nodes.
+
+![Java doubly linked list](../../images/Circularly-linked-list.png)
+
 ## LinkedList Class
 
+_LinkedList_ class implements doubly-linked list based on the _List_ and _Deque_ interfaces.
 
 ## Techniques in Interview
 
@@ -187,3 +229,5 @@ Linked list is a linear collection of data elements, whose order is not given by
 
 - <https://docs.oracle.com/javase/8/docs/api/java/util/List.html>
 - <https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html>
+- <https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html>
+- <https://en.wikipedia.org/wiki/Linked_list>
