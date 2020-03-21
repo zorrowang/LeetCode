@@ -13,7 +13,7 @@ A Collection is a group of individual objects, known as its elements, represente
 
 ## Hierarchy of Collection Framework
 
-![Java collection 1](../../images/java-collection.jpg)
+![Java collection 1](../../../images/java-collection.jpg)
 
 - *Set*: a collection that contains no duplicate elements. The implementations of Set interface contain HashSet (Hashing based) and TreeSet (balanced BST based). 
 Note: that TreeSet implements SortedSet.

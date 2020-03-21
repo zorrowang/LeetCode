@@ -29,7 +29,7 @@ Some features in _List_ are:
 
 ## List Interface
 
-![Java Collection](../../images/java-collection.jpg)
+![Java Collection](../../../images/java-collection.jpg)
 
 List Interface extends Collection, hence it supports all the operations of Collection Interface, along with following additional operations.
 
@@ -159,7 +159,7 @@ Note: casting to array is hard to use (not well-implemented). I'd recommend to w
 
 - _void trimToSize()_: Trims the capacity of this ArrayList instance to be the list's current size.
 
-![Java LinkedList](../../images/ArrayList-trimtosize.png)
+![Java LinkedList](../../../images/ArrayList-trimtosize.png)
 
 ## Things to be clarified in interview
 

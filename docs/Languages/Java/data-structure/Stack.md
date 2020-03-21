@@ -12,7 +12,7 @@
 
 Stack is a linear data structure, which follows the operational order LIFO(Last In First Out) or FILO(First In Last Out).
 
-![stack](../../images/stack.jpg)
+![stack](../../../images/stack.jpg)
 
 ## Basic Operations
 

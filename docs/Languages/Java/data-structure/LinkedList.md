@@ -25,7 +25,7 @@ Each record of a linked list is often called an _element_ or _node_. The field o
 
 Singly linked lists contain nodes which have a _data_ field as well as _next_ field, which points to the next node in line of nodes. Operations that can be performed on singly linked lists include insertion, deletion and traversal.
 
-![Singly linked list](../../images/Singly-linked-list.png)
+![Singly linked list](../../../images/Singly-linked-list.png)
 
 ```java
 class SinglyLinkedList {
@@ -48,7 +48,7 @@ class SinglyLinkedList {
 
 Each node contains, besides the next-node link, a second link field pointing to the _previous_ node in the sequence. The two links may be called 'forward('s') and 'backwards', or 'next' and 'prev'('previous').
 
-![Doubly linked list](../../images/Doubly-linked-list.png)
+![Doubly linked list](../../../images/Doubly-linked-list.png)
 
 ```java
 class DoublyLinkedList {
@@ -72,7 +72,7 @@ class DoublyLinkedList {
 
 In the last node of a list, the link field often contains a _null_ reference, a special value is used to indicate the lack of further nodes.
 
-![Circularly linked list](../../images/Circularly-linked-list.png)
+![Circularly linked list](../../../images/Circularly-linked-list.png)
 
 ## LinkedList Class
 

@@ -19,7 +19,7 @@ Interface _Set_ in Java defines a collection that contains no duplicate elements
 
 The hierarchy of _Set_ classes is
 
-![Java HashSet](../../images/hashset.png)
+![Java HashSet](../../../images/hashset.png)
 
 ## HashSet Class
 

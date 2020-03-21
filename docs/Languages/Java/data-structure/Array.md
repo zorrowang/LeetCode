@@ -239,11 +239,11 @@ Applying sliding window technique :
 
 For example, given an array as `{5, 2, -1, 0, 3}` and fixed window size is `3`.
 
-![Sliding window 1](../../images/sliding-window1.png)
+![Sliding window 1](../../../images/sliding-window1.png)
 
-![Sliding window 2](../../images/sliding-window2.png)
+![Sliding window 2](../../../images/sliding-window2.png)
 
-![Sliding window 3](../../images/sliding-window3.png)
+![Sliding window 3](../../../images/sliding-window3.png)
 
 The size of sliding window is, sometimes, not fixed. In that case, we need to move the pointers inconsistently, but make sure the size should *not* be `0`.
 
