@@ -58,9 +58,12 @@ Java is a general-purpose programming language that is class-based, object-orien
     - [HashMap](./docs/Languages/Java/data-structure/Map.md#hashmap)
     - [TreeMap](./docs/Languages/Java/data-structure/Map.md#treemap)
 - [Tree](./docs/Languages/Java/data-structure/Tree.md)
+  - [Binary Search Tree]
+  - [Segment Tree]
   - [Trie](./docs/Languages/Java/data-structure/Map.md#trie)
 - [Graph](./docs/Languages/Java/data-structure/Graph.md)
-
+  - [Topological Sort]
+  - [Union Find]
 
 ## Algorithms
 
@@ -68,13 +71,12 @@ This section covers the algorithms in tech interviews. Given the restriction of 
 
 This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition), and their class, [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb), are very helpful and comprehensive if you want to learn algorithm and data structure.
 
-(Still working on the list)
-
 - Backtrack
 - Binary Search
 - Bit Manipulation
 - [Dynamic Programming](./docs/algorithms/DynamicProgramming.md)
 - Greedy
+- Math
 - [Memorization](./docs/algorithms/Memorization.md)
 - Sort
 - Search
