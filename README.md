@@ -72,9 +72,9 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 - Bit Manipulation
 - Sort
 - Search
-- Recursion
-- Memorization
-- Dynamic Programming
+- [Recursion](./docs/algorithms/Recursion.md)
+- [Memorization](./docs/algorithms/Memorization.md)
+- [Dynamic Programming](./docs/algorithms/DynamicProgramming.md)
 - Greedy
 
 ## System Design

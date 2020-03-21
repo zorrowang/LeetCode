@@ -75,15 +75,19 @@ class Stack {
 
 ```
 
+## LinkedList Class
+
+
+
 ## Applications of Stack
 
-Balancing of symbols
-Infix to Postfix /Prefix conversion
-Redo-undo features at many places like editors, photoshop.
-Forward and backward feature in web browsers
-Used in many algorithms like Tower of Hanoi, tree traversals, stock span problem, histogram problem.
-Other applications can be Backtracking, Knight tour problem, rat in a maze, N queen problem and sudoku solver
-In Graph Algorithms like Topological Sorting and Strongly Connected Components
+- Balancing of symbols
+- Infix to Postfix /Prefix conversion
+- Redo-undo features at many places like editors, photoshop.
+- Forward and backward feature in web browsers
+- Used in many algorithms like Tower of Hanoi, tree traversals, stock span problem, histogram problem.
+- Other applications can be Backtracking, Knight tour problem, rat in a maze, N queen problem and sudoku solver
+- In Graph Algorithms like Topological Sorting and Strongly Connected Components
 
 ## References
 - <https://en.wikipedia.org/wiki/Stack_(abstract_data_type)>
