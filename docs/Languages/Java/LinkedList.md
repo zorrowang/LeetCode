@@ -119,9 +119,11 @@ List<Integer> l3 = new LinkedList<>(l2);
 
 - _E removeLast()_: Removes and returns the last element from this list.
 
-**Note**, _LinkedList_ also implements the _Queue_ and _Deque_ interfaces. Their methods are introduced in separate docs.**
+**Note**, _LinkedList_ also implements the _Queue_ and _Deque_ interfaces. Their methods are introduced in separate docs.
 
 ## Techniques in Interview
+
+
 
 ## References
 - <https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html>
