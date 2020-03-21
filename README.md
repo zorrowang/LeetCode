@@ -44,21 +44,22 @@ Java is a general-purpose programming language that is class-based, object-orien
 
 #### Data Structures in Java
 
-- [Array](./docs/Languages/Java/Array.md)
-- [String](./docs/Languages/Java/String.md)
-- [Collection](./docs/Languages/Java/Collection.md)
-  - [Set](./docs/Languages/Java/Set.md)
-  - [List](./docs/Languages/Java/List.md)
-    - [Linked List](./docs/Languages/Java/LinkedList.md)
-  - [Stack](./docs/Languages/Java/Stack.md)
-  - [Queue](./docs/Languages/Java/Queue.md)
-    - [Deque](./docs/Languages/Java/Deque.md)
-  - [Map](./docs/Languages/Java/Map.md)
-    - [HashMap](./docs/Languages/Java/Deque.md#hashmap)
-    - [TreeMap](./docs/Languages/Java/Deque.md#treemap)
-- [Tree](./docs/Languages/Java/Tree.md)
-  - [Trie](./docs/Languages/Java/Map.md#trie)
-- [Graph](./docs/Languages/Java/Graph.md)
+- [Array](./docs/languages/Java/data-structure/Array.md)
+- [String](./docs/languages/Java/data-structure/String.md)
+- [Collection](./docs/languages/Java/data-structure/Collection.md)
+  - [Set](./docs/languages/Java/data-structure/Set.md)
+  - [List](./docs/languages/Java/data-structure/List.md)
+    - [Linked List](./docs/languages/Java/data-structure/LinkedList.md)
+  - [Stack](./docs/languages/Java/data-structure/Stack.md)
+  - [Queue](./docs/languages/Java/data-structure/Queue.md)
+    - [PriorityQueue](./docs/languages/Java/data-structure/PriorityQueue.md)
+    - [Deque](./docs/languages/Java/data-structure/Deque.md)
+  - [Map](./docs/languages/Java/data-structure/Map.md)
+    - [HashMap](./docs/languages/Java/data-structure/Map.md#hashmap)
+    - [TreeMap](./docs/languages/Java/data-structure/Map.md#treemap)
+- [Tree](./docs/languages/Java/data-structure/Tree.md)
+  - [Trie](./docs/languages/Java/data-structure/Map.md#trie)
+- [Graph](./docs/languages/Java/data-structure/Graph.md)
 
 
 ## Algorithms
@@ -69,13 +70,15 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 
 (Still working on the list)
 
+- Backtrack
+- Binary Search
 - Bit Manipulation
+- [Dynamic Programming](./docs/algorithms/DynamicProgramming.md)
+- Greedy
+- [Memorization](./docs/algorithms/Memorization.md)
 - Sort
 - Search
 - [Recursion](./docs/algorithms/Recursion.md)
-- [Memorization](./docs/algorithms/Memorization.md)
-- [Dynamic Programming](./docs/algorithms/DynamicProgramming.md)
-- Greedy
 
 ## System Design
 
