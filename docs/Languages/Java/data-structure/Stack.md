@@ -10,6 +10,7 @@
     - [LinkedList vs Stack](#linkedlist-vs-stack)
     - [Stack Featured Methods](#stack-featured-ethods)
 - [Applications of Stack](#applications-of-stack)
+- [Techniques in Interviews](#techniques-in-nterviews)
 - [References](#references)
 
 <!-- /MarkdownTOC -->
@@ -143,14 +144,48 @@ In Java, both _LinkedList_ and _Stack_ classes represents a last-in-first-out (L
 
 - _E peek()_: Retrieves, but does not remove, the head (first element) of this list.
 
-## Applications of Stack
+## Application of Stacks
 
-- Balancing of symbols
-- Infix to Postfix /Prefix conversion
-- Forward and backward feature in web browsers
-- Used in many algorithms like Tower of Hanoi, tree traversals, stock span problem, histogram problem.
-- Other applications can be Backtracking, Knight tour problem, rat in a maze, N queen problem and sudoku solver
-- In Graph Algorithms like Topological Sorting and Strongly Connected Components
+### Design and Implementation Questions
+
+#### Implement Queue using Stacks
+
+Using two stacks to accomplish it.
+
+- enQueue operation costly
+```
+enQueue(q, x):
+    While stack1 is not empty, push everything from stack1 to stack2.
+    Push x to stack1 (assuming size of stacks is unlimited).
+    Push everything back to stack1.
+
+deQueue(q):
+    If stack1 is empty then error
+    Pop an item from stack1 and return it
+```
+
+- deQueue operation costly
+```
+enQueue(q,  x):
+    Push x to stack1
+
+deQueue(q):
+    If both stacks are empty then error.
+    If stack2 is empty
+        While stack1 is not empty, push everything from stack1 to stack2.
+    Pop the element from stack2 and return it.
+```
+
+#### Implement two stacks in an array
+
+Create a data structure twoStacks that represents two stacks. Implementation of twoStacks should use only one array. Following functions must be supported by twoStacks,
+- _push1(int x)_ –> pushes x to first stack
+- _push2(int x)_ –> pushes x to second stack
+- _pop1()_ –> pops an element from first stack and return the popped element
+- _pop2()_ –> pops an element from second stack and return the popped element
+
+```
+```
 
 ## References
 - <https://en.wikipedia.org/wiki/Stack_(abstract_data_type)>
