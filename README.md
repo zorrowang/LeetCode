@@ -44,22 +44,22 @@ Java is a general-purpose programming language that is class-based, object-orien
 
 #### Data Structures in Java
 
-- [Array](./docs/languages/Java/data-structure/Array.md)
-- [String](./docs/languages/Java/data-structure/String.md)
-- [Collection](./docs/languages/Java/data-structure/Collection.md)
-  - [Set](./docs/languages/Java/data-structure/Set.md)
-  - [List](./docs/languages/Java/data-structure/List.md)
-    - [Linked List](./docs/languages/Java/data-structure/LinkedList.md)
-  - [Stack](./docs/languages/Java/data-structure/Stack.md)
-  - [Queue](./docs/languages/Java/data-structure/Queue.md)
-    - [PriorityQueue](./docs/languages/Java/data-structure/PriorityQueue.md)
-    - [Deque](./docs/languages/Java/data-structure/Deque.md)
-  - [Map](./docs/languages/Java/data-structure/Map.md)
-    - [HashMap](./docs/languages/Java/data-structure/Map.md#hashmap)
-    - [TreeMap](./docs/languages/Java/data-structure/Map.md#treemap)
-- [Tree](./docs/languages/Java/data-structure/Tree.md)
-  - [Trie](./docs/languages/Java/data-structure/Map.md#trie)
-- [Graph](./docs/languages/Java/data-structure/Graph.md)
+- [Array](./docs/Languages/Java/data-structure/Array.md)
+- [String](./docs/Languages/Java/data-structure/String.md)
+- [Collection](./docs/Languages/Java/data-structure/Collection.md)
+  - [Set](./docs/Languages/Java/data-structure/Set.md)
+  - [List](./docs/Languages/Java/data-structure/List.md)
+    - [Linked List](./docs/Languages/Java/data-structure/LinkedList.md)
+  - [Stack](./docs/Languages/Java/data-structure/Stack.md)
+  - [Queue](./docs/Languages/Java/data-structure/Queue.md)
+    - [PriorityQueue](./docs/Languages/Java/data-structure/PriorityQueue.md)
+    - [Deque](./docs/Languages/Java/data-structure/Deque.md)
+  - [Map](./docs/Languages/Java/data-structure/Map.md)
+    - [HashMap](./docs/Languages/Java/data-structure/Map.md#hashmap)
+    - [TreeMap](./docs/Languages/Java/data-structure/Map.md#treemap)
+- [Tree](./docs/Languages/Java/data-structure/Tree.md)
+  - [Trie](./docs/Languages/Java/data-structure/Map.md#trie)
+- [Graph](./docs/Languages/Java/data-structure/Graph.md)
 
 
 ## Algorithms
