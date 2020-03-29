@@ -10,7 +10,9 @@
     - [LinkedList vs Stack](#linkedlist-vs-stack)
     - [Stack Featured Methods](#stack-featured-ethods)
 - [Applications of Stack](#applications-of-stack)
-- [Techniques in Interviews](#techniques-in-nterviews)
+  - [Design and Implementation](#design-and-implementation)
+    - [Implement Queue using Stacks](#implement-queue-using-stacks)
+    - [Implement Two Stacks in One Array](#implement-two-stacks-in-one-array)
 - [References](#references)
 
 <!-- /MarkdownTOC -->
@@ -146,7 +148,7 @@ In Java, both _LinkedList_ and _Stack_ classes represents a last-in-first-out (L
 
 ## Application of Stacks
 
-### Design and Implementation Questions
+### Design and Implementation
 
 #### Implement Queue using Stacks
 
@@ -176,7 +178,7 @@ deQueue(q):
     Pop the element from stack2 and return it.
 ```
 
-#### Implement two stacks in an array
+#### Implement Two Stacks in One Array
 
 Create a data structure twoStacks that represents two stacks. Implementation of twoStacks should use only one array. Following functions must be supported by twoStacks,
 - _push1(int x)_ –> pushes x to first stack
