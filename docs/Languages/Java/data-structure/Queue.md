@@ -60,6 +60,8 @@ s = q.peek();           // "element 2"
 
 ## PriorityQueue Class
 
+![PriorityQueue](../../../images/priority-queue-pattern.png)
+
 _PriorityQueue_ class in Java is an _unbounded_ priority queue based on a **priority heap**, which also implements _Queue_ interface. The elements of the priority queue are ordered according to their natural ordering, or by a Comparator provided at queue construction time. So, a priority queue does not permit _null_ elements or _non-comparable_ objects.
 
 The head of this queue is the least element with respect to the specified ordering. If multiple elements are tied for least value, the head is one of those elements -- ties are broken arbitrarily.
@@ -130,6 +132,8 @@ System.out.println(pQueue.peek()); // 15
 TODO
 
 ## Deque Interface
+
+![Deque](../../../images/deque.png)
 
 _Deque_ is a linear collection that supports element insertion and removal at both ends. The name "deque" is short for "double ended queue" and is usually pronounced "deck".
 
