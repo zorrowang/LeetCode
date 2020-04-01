@@ -163,3 +163,4 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 | # | Name | Solution | Algorithm | Note |
 |:-:|:----:|:--------:|:---------:|:----:|
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/hard/stack/LargestRectangleHistogram.java)| Stack |
+|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/hard/deque/SlidingWindowMaximum.java)| Deque |

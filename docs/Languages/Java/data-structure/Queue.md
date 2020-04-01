@@ -9,6 +9,8 @@
   - [Special Methods in Deque](#special-methods-in-deque)
   - [LinkedList Class for Deque](#linkedlist-class-for-deque)
   - [ArrayDeque Class](#arraydeque-class)
+  - [Applications of Deque](#applications-of-deque)
+    - [Sliding Window Maximum](#sliding-window-maximum)
 - [BlockingQueue Interface](#blockingqueue-interface)
 
 <!-- /MarkdownTOC -->
@@ -207,16 +209,39 @@ _ArrayDeque_ is a resizable-array implementation of the _Deque_ interface. It ha
 
 Since Deque supports both stack and queue operations, it can be used as both. The Deque data structure supports clockwise and anticlockwise rotations in O(1) time which can be useful in certain applications. So the problems where elements need to be removed and or added both ends can be efficiently solved using Deque.
 
-#### Maximum of All Sub-arrays of Size k Problem
+#### Sliding Window Maximum
 
-Definition: Given an array and an integer K, find the maximum for each and every contiguous sub-array of size k.
+Definition: Given an array and an integer K, find the maximum for each and every contiguous sub-array of size k. (LeetCode [239](https://leetcode.com/problems/sliding-window-maximum/))
 
-Solution: create create a Deque, with capacity k, that stores only useful elements of current window of k elements. An element is useful if it is in current window and is greater than all other elements on left side of it in current window. 
+Solution: create create a Deque that stores only useful elements of current window of k elements. An element is useful if it is in current window and is greater than all other elements on left side of it in current window. 
 
 ```java
-
+public int[] maxSlidingWindow(int[] nums, int k) {
+        if (nums==null || k<=0)    return null;
+        
+        int[] ret = new int[nums.length-k+1];
+        Deque<Integer> dq = new LinkedList<>();
+        
+        int i = 0, cur = 0;
+        for(; i<k; i++) {
+            while(!dq.isEmpty() && nums[dq.peekLast()]<=nums[i])
+                dq.removeLast();
+            dq.addLast(i);
+        }
+        ret[cur++] = nums[dq.peekFirst()];
+        
+        for(; i<nums.length; i++) {
+            while(!dq.isEmpty() && dq.peekFirst()<=i-k)
+                dq.removeFirst();
+            while(!dq.isEmpty() && nums[dq.peekLast()]<=nums[i])
+                dq.removeLast();
+            dq.addLast(i);
+            ret[cur++] = nums[dq.peekFirst()];
+        }
+        
+        return ret;
+    }
 ```
-
 
 ## BlockingQueue Interface
 
