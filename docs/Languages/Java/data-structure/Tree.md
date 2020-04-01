@@ -68,13 +68,11 @@ Following are the important terms with respect to tree.
 A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
 
 ```java
-class Node 
-{ 
+class Node { 
     int key; 
     Node left, right; 
   
-    public Node(int item) 
-    { 
+    public Node(int item) { 
         key = item; 
         left = right = null; 
     } 
@@ -174,13 +172,11 @@ public Node search(Node root, int key) {
 ```java      
 /* A recursive function to insert a new key in BST */
 Node insert(Node root, int key) { 
-
     /* If the tree is empty, return a new node */
     if (root == null) { 
         root = new Node(key); 
         return root; 
     } 
-
     /* Otherwise, recur down the tree */
     if (key < root.key) 
         root.left = insertRec(root.left, key); 
