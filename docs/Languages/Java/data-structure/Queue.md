@@ -131,7 +131,6 @@ _Deque_ is a linear collection that supports element insertion and removal at bo
 Summary of Deque methods
 
 |   | First Element (Head) | Last Element (Tail) |
-|:-:|:--------------------:|:-------------------:|
 |:-:|:-------:|:----------:|:--------:|:--------:|
 |Insert|addFirst(e)|offerFirst(e)|addLast(e)|offerLast(e)|
 
