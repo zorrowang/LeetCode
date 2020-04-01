@@ -3,9 +3,11 @@
 <!-- MarkdownTOC -->
 - [Queue Interface](#queue-interface)
   - [Special Methods in Queue Interface](#special-methods-in-queue-interface)
-  - [LinkedList Class](#linkedlist-class)
+  - [LinkedList Class for Queue](#linkedlist-class-for-queue)
 - [PriorityQueue Class](#priorityqueue-class)
 - [Deque Interface](#deque-interface)
+  - [Special Methods in Deque](#special-methods-in-deque)
+  - [LinkedList Class for Deque](#linkedlist-class-for-deque)
   - [ArrayDeque Class](#arraydeque-class)
 - [BlockingQueue Interface](#blockingqueue-interface)
 
@@ -36,7 +38,7 @@ The _Queue_ interface extends the _Collection_ interface and provides extra oper
 
 - _E poll()_: Retrieves and removes the head of this queue, or returns null if this queue is empty.
 
-### LinkedList Class
+### LinkedList Class for Queue
 
 _LinkedList_ class implements standard _Queue_ interface.
 
@@ -126,13 +128,17 @@ TODO
 
 _Deque_ is a linear collection that supports element insertion and removal at both ends. The name "deque" is short for "double ended queue" and is usually pronounced "deck".
 
+_Deque_ can be used as a queue (first-in-first-out/FIFO) or as a stack (last-in-first-out/LIFO). These are faster than Stack and LinkedList.
+
 ### Special Methods in Deque
 
 Summary of Deque methods
 
-|   | First Element (Head) | Last Element (Tail) |
+|Operation| First Element (Head) _Throws exception_ | First Element (Head) _Special value_  | Last Element (Tail) _Throws exception_ |  Last Element (Tail) _Special value_ |
 |:-:|:-------:|:----------:|:--------:|:--------:|
 |Insert|addFirst(e)|offerFirst(e)|addLast(e)|offerLast(e)|
+|Remove|removeFirst()|pollFirst()|removeLast()|pollLast()|
+|Examine|getFirst()|peekFirst()|getLast()|peekLast()|
 
 - _boolean add(E e)_: Inserts the specified element into the queue represented by this deque (in other words, at the tail of this deque) if it is possible to do so immediately without violating capacity restrictions, returning true upon success and throwing an IllegalStateException if no space is currently available.
 
@@ -172,16 +178,55 @@ Summary of Deque methods
 
 Note: I'd rather use the function with _First_ or _Last_ suffix to avoid confusion.
 
-### LinkedList Class
+### LinkedList Class for Deque
 
 _LinkedList_ class implements standard _Deque_ interface.
 
 ```java
-Deque<String> q = new LinkedList<String>();
+Deque<String> deque = new LinkedList<String>(); 
+  
+deque.add("Element 1 (Tail)"); // add to tail 
+deque.addFirst("Element 2 (Head)"); 
+deque.addLast("Element 3 (Tail)"); 
+deque.push("Element 4 (Head)"); //add to head 
+deque.offer("Element 5 (Tail)"); 
+deque.offerFirst("Element 6 (Head)"); 
+deque.offerLast("Element 7 (Tail)"); 
+
+Iterator reverse = deque.descendingIterator(); 
+System.out.println("Reverse Iterator"); 
+while (reverse.hasNext()) 
+    System.out.println("\t" + reverse.next());
 ```
 
 ### ArrayDeque Class
 
+_ArrayDeque_ is a resizable-array implementation of the _Deque_ interface. It has no capacity restrictions, it grows as necessary to support usage.
+
+### Applications of Deque
+
+Since Deque supports both stack and queue operations, it can be used as both. The Deque data structure supports clockwise and anticlockwise rotations in O(1) time which can be useful in certain applications. So the problems where elements need to be removed and or added both ends can be efficiently solved using Deque.
+
+#### Maximum of All Sub-arrays of Size k Problem
+
+Definition: Given an array and an integer K, find the maximum for each and every contiguous sub-array of size k.
+
+Solution: create create a Deque, with capacity k, that stores only useful elements of current window of k elements. An element is useful if it is in current window and is greater than all other elements on left side of it in current window. 
+
+```java
+
+```
+
+
 ## BlockingQueue Interface
 
-**Note**, _PriorityQueue_ is not multi-threading safe. _PriorityBlockingQueue_ or _ArrayBlockingQueue_ class are the alternative implementation if thread safe implementation is needed.
+A Queue that additionally supports operations that wait for the queue to become non-empty when retrieving an element, and wait for space to become available in the queue when storing an element.
+
+Summary of BlockingQueue methods
+| Operation |	Throws exception | Special value | Blocks | Times out |
+| --------- | ---------------- | ------------- | ------ | --------- |
+| Insert | add(e) | offer(e) | put(e) | offer(e, time, unit) |
+| Remove | remove() | poll() | take() | poll(time, unit) |
+| Examine | element() | peek() | not applicable | not applicable |
+
+**Note**, _PriorityQueue_ is not multi-threading safe. _PriorityBlockingQueue_ or _ArrayBlockingQueue_ classes, implementing _BlockingQueue_ interface, are the alternative implementation if thread safe implementation is needed.
