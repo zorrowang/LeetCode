@@ -8,6 +8,7 @@
   - [Constructor](#constructor)
   - [Special Methods in PriorityQueue](#special-methods-in-priorityqueue)
   - [Applications of PriorityQueue](#applications-of-priorityqueue)
+    - [Top K Problems](#top-k-problems)
 - [Deque Interface](#deque-interface)
   - [Special Methods in Deque](#special-methods-in-deque)
   - [LinkedList Class for Deque](#linkedlist-class-for-deque)
@@ -129,7 +130,29 @@ System.out.println(pQueue.peek()); // 15
 
 ### Applications of PriorityQueue
 
-TODO
+#### Top K Problems
+
+Definition: calculate the top K most frequent characters in a string.
+
+Solutions:
+- Use TreeMap to maintain topK sorted order. Suppose m is the number of input and n is the number of distinct input, then build treemap requires O(mlogn), + nlogn) complexity.
+- A more efficient approach is to use HashMap + PriorityQueue.
+
+```java
+// initialize
+Map<Character, Integer> histogram = new HashMap<>();
+histogram.put( 'c', 10 );
+histogram.put( 'a', 12 );
+histogram.put( 'b', 6 );
+// output according to priorityqueue
+Queue<Map.Entry<Character, Integer>> maxQueue = new PriorityQueue<>( ( o1, o2 ) ->  o2.getValue() - o1.getValue() );
+maxQueue.addAll( histogram.entrySet() );
+return maxQueue.stream()
+                .sorted( ( o1, o2 ) -> ( o2.getValue() - o1.getValue() ) )
+                .limit( k )
+                .map( o -> o.getKey() )
+                .collect( Collectors.toList() );
+```
 
 ## Deque Interface
 
