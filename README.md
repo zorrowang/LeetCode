@@ -58,12 +58,12 @@ Java is a general-purpose programming language that is class-based, object-orien
     - [HashMap](./docs/Languages/Java/data-structure/Map.md#hashmap)
     - [TreeMap](./docs/Languages/Java/data-structure/Map.md#treemap)
 - [Tree](./docs/Languages/Java/data-structure/Tree.md)
-  - [Binary Search Tree]
-  - [Segment Tree]
-  - [Trie](./docs/Languages/Java/data-structure/Map.md#trie)
+  - [Binary Search Tree](./docs/Languages/Java/data-structure/Tree.md#binary-search-tree)
+  - [Segment Tree](./docs/Languages/Java/data-structure/Tree.md#segment-tree)
+  - [Trie](./docs/Languages/Java/data-structure/Tree.md#trie)
 - [Graph](./docs/Languages/Java/data-structure/Graph.md)
-  - [Topological Sort]
-  - [Union Find]
+  - [Topological Sort](./docs/Languages/Java/data-structure/Graph.md#topological-sort)
+  - [Union Find](./docs/Languages/Java/data-structure/Graph.md#union-find)
 
 ## Algorithms
 
