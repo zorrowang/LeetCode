@@ -12,6 +12,8 @@
     - [Search](#search)
     - [Insert](#insert)
     - [Delete](#delete)
+    - [Application of BST](#application-of-bst)
+      - [Find k-th Smallest Element in BST](#Find-k-th-smallest-element-in-bst)
 - [Segment Tree](#segment-tree)
 - [Trie](#trie)
 - [References](#references)
@@ -192,18 +194,102 @@ Node insert(Node root, int key) {
 
 #### Delete
 
+```
+def find_min(self):
+    """Get minimum node in a subtree."""
+    current_node = self
+    while current_node.left_child:
+        current_node = current_node.left_child
+    return current_node
 
+def replace_node_in_parent(self, new_value=None) -> None:
+    if self.parent:
+        if self == self.parent.left_child:
+            self.parent.left_child = new_value
+        else:
+            self.parent.right_child = new_value
+    if new_value:
+        new_value.parent = self.parent
+
+def binary_tree_delete(self, key) -> None:
+    if key < self.key:
+        self.left_child.binary_tree_delete(key)
+        return
+    if key > self.key:
+        self.right_child.binary_tree_delete(key)
+        return
+    # Delete the key here
+    if self.left_child and self.right_child:  # If both children are present
+        successor = self.right_child.find_min()
+        self.key = successor.key
+        successor.binary_tree_delete(successor.key)
+    elif self.left_child:  # If the node has only a *left* child
+        self.replace_node_in_parent(self.left_child)
+    elif self.right_child:  # If the node has only a *right* child
+        self.replace_node_in_parent(self.right_child)
+    else:
+        self.replace_node_in_parent(None)  # This node has no children
+```
 
 #### Verify
 
 ```java
+boolean isBST(Node root) {
+  return isBST(root, Integer.MAX_VALUE, Integer.MIN_VALUE);
+}
 
+boolean isBST(Node root, int max, int min) {
+  if (root == null) return true;
+  return root.val <= max && root.val >= min && isBST(root.left, root.val, min) && isBST(root.right, max, root.val);
+}
+```
+
+#### Application of BST
+
+##### Find k-th Smallest Element in BST
+
+Solution #1: use DFS and stack. The time complexity is O(k).
+
+```
+count = 0
+while(root != null)
+  stack.push(root)
+  root = root.left
+
+while(stack is not empty)
+  node = stack.pop();
+  if (++count == k) return node.val
+
+  if (node.right != null)
+    node = node.right
+    while(node != null)
+      stack.push(node)
+      node = node.left
 ```
 
 ## Segment Tree
 
+Representation of Segment trees
+
+- Leaf Nodes are the elements of the input array.
+- Each internal node represents some merging of the leaf nodes. The merging may be different for different problems. For this problem, merging is sum of leaves under a node.
+
+![Segment Tree](../../../images/segment-tree.png)
+
+### Construction of Segment Tree from given array
+
+### Query for Sum of given range
+
+### Update a value
+
 ## Trie
+
+Trie is also known as radix tree or prefix tree.
+
+## Suffix Tree
 
 ## References
 - <https://en.wikipedia.org/wiki/Tree_(data_structure)>
 - <https://en.wikipedia.org/wiki/Binary_tree>
+- <https://en.wikipedia.org/wiki/Binary_search_tree>
+- <https://en.wikipedia.org/wiki/Segment_tree>
