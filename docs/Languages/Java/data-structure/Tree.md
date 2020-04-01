@@ -68,14 +68,14 @@ Following are the important terms with respect to tree.
 A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
 
 ```java
-class Node { 
-    int key; 
-    Node left, right; 
+class Node {
+    int key;
+    Node left, right;
   
-    public Node(int item) { 
-        key = item; 
-        left = right = null; 
-    } 
+    public Node(int item) {
+        key = item;
+        left = right = null;
+    }
 }
 ```
 
@@ -190,7 +190,7 @@ Node insert(Node root, int key) {
 
 #### Delete
 
-```
+```python
 def find_min(self):
     """Get minimum node in a subtree."""
     current_node = self
