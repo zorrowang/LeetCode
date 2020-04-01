@@ -248,23 +248,32 @@ boolean isBST(Node root, int max, int min) {
 
 ##### Find k-th Smallest Element in BST
 
-Solution #1: use DFS and stack. The time complexity is O(k).
+Solution #1: use DFS and stack. The time complexity is O(k). (LeetCode [230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/))
 
-```
-count = 0
-while(root != null)
-  stack.push(root)
-  root = root.left
-
-while(stack is not empty)
-  node = stack.pop();
-  if (++count == k) return node.val
-
-  if (node.right != null)
-    node = node.right
-    while(node != null)
-      stack.push(node)
-      node = node.left
+```java
+public int kthSmallest(TreeNode root, int k) {
+    LinkedList<TreeNode> stack = new LinkedList<>();
+    int count = 0;
+    
+    while(root != null) {
+        stack.push(root);
+        root = root.left;
+    }
+    
+    while(!stack.isEmpty()) {
+        TreeNode node = stack.pop();
+        if (++count == k)   return node.val;
+        
+        if (node.right != null) {
+            node = node.right;
+            while(node != null) {
+                stack.push(node);
+                node = node.left;
+            }
+        }
+    }
+    return -1;
+}
 ```
 
 ## Segment Tree
