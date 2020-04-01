@@ -145,13 +145,13 @@ histogram.put( 'c', 10 );
 histogram.put( 'a', 12 );
 histogram.put( 'b', 6 );
 // output according to priorityqueue
-Queue<Map.Entry<Character, Integer>> maxQueue = new PriorityQueue<>( ( o1, o2 ) ->  o2.getValue() - o1.getValue() );
+Queue<Map.Entry<Character, Integer>> maxQueue = new PriorityQueue<>((o1, o2) -> o2.getValue() - o1.getValue());
 maxQueue.addAll( histogram.entrySet() );
 return maxQueue.stream()
-                .sorted( ( o1, o2 ) -> ( o2.getValue() - o1.getValue() ) )
-                .limit( k )
-                .map( o -> o.getKey() )
-                .collect( Collectors.toList() );
+                .sorted((o1, o2) -> (o2.getValue() - o1.getValue()))
+                .limit(k)
+                .map(o -> o.getKey())
+                .collect(Collectors.toList());
 ```
 
 ## Deque Interface
