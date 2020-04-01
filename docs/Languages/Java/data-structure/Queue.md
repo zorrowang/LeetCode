@@ -217,31 +217,35 @@ Solution: create create a Deque that stores only useful elements of current wind
 
 ```java
 public int[] maxSlidingWindow(int[] nums, int k) {
-        if (nums==null || k<=0)    return null;
-        
-        int[] ret = new int[nums.length-k+1];
-        Deque<Integer> dq = new LinkedList<>();
-        
-        int i = 0, cur = 0;
-        for(; i<k; i++) {
-            while(!dq.isEmpty() && nums[dq.peekLast()]<=nums[i])
-                dq.removeLast();
-            dq.addLast(i);
-        }
-        ret[cur++] = nums[dq.peekFirst()];
-        
-        for(; i<nums.length; i++) {
-            while(!dq.isEmpty() && dq.peekFirst()<=i-k)
-                dq.removeFirst();
-            while(!dq.isEmpty() && nums[dq.peekLast()]<=nums[i])
-                dq.removeLast();
-            dq.addLast(i);
-            ret[cur++] = nums[dq.peekFirst()];
-        }
-        
-        return ret;
+    if (nums==null || k<=0)    return null;
+    
+    int[] ret = new int[nums.length-k+1];
+    Deque<Integer> dq = new LinkedList<>();
+    
+    int i = 0, cur = 0;
+    for(; i<k; i++) {
+        while(!dq.isEmpty() && nums[dq.peekLast()]<=nums[i])
+            dq.removeLast();
+        dq.addLast(i);
     }
+    ret[cur++] = nums[dq.peekFirst()];
+    
+    for(; i<nums.length; i++) {
+        while(!dq.isEmpty() && dq.peekFirst()<=i-k)
+            dq.removeFirst();
+        while(!dq.isEmpty() && nums[dq.peekLast()]<=nums[i])
+            dq.removeLast();
+        dq.addLast(i);
+        ret[cur++] = nums[dq.peekFirst()];
+    }
+    
+    return ret;
+}
 ```
+
+#### 0-1 BFS
+
+#### Find The First Circular Tour
 
 ## BlockingQueue Interface
 
@@ -255,3 +259,11 @@ Summary of BlockingQueue methods
 | Examine | element() | peek() | not applicable | not applicable |
 
 **Note**, _PriorityQueue_ is not multi-threading safe. _PriorityBlockingQueue_ or _ArrayBlockingQueue_ classes, implementing _BlockingQueue_ interface, are the alternative implementation if thread safe implementation is needed.
+
+## Reference
+- <https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html>
+- <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html>
+- <https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html>
+- <https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html>
+- <https://en.wikipedia.org/wiki/Queue_(abstract_data_type)>
+- <https://www.geeksforgeeks.org/queue-data-structure/>
