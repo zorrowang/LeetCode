@@ -26,7 +26,7 @@ A tree data structure is represented as a root value and subtrees of children wi
 
 Unlike Arrays, Linked Lists, Stack and queues, which are linear data structures, trees are **hierarchical** data structures.
 
-![Tree](../../../images/tree.jpeg)
+![Tree](../../../images/tree.png)
 
 ```java
 public class Tree<T> {
