@@ -60,7 +60,7 @@ Java is a general-purpose programming language that is class-based, object-orien
 - [Tree](./docs/Languages/Java/data-structure/Tree.md)
   - [Binary Search Tree](./docs/Languages/Java/data-structure/Tree.md#binary-search-tree)
   - [Segment Tree](./docs/Languages/Java/data-structure/Tree.md#segment-tree)
-  - [Trie](./docs/Languages/Java/data-structure/Tree.md#trie)
+  - [Trie](./docs/Languages/Java/data-structure/Tree.md##trie-prefix-tree)
 - [Graph](./docs/Languages/Java/data-structure/Graph.md)
   - [Topological Sort](./docs/Languages/Java/data-structure/Graph.md#topological-sort)
   - [Union Find](./docs/Languages/Java/data-structure/Graph.md#union-find)

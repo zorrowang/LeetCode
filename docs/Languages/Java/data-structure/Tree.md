@@ -18,7 +18,12 @@
   - [Construct Segment Tree](#construct-segment-tree)
   - [Query a Sum of Given Range](#query-a-sum-of-given-range)
   - [Update a Value](#update-a-value)
-- [Trie](#trie)
+- [Trie](##trie-prefix-tree)
+  - [Trie Node](#trie-node)
+  - [Insert](#insert-1)
+  - [Search](#search-1)
+  - [Radix Tree](#radix-tree)
+- [Suffix Tree](#suffix-tree)
 - [References](#references)
 
 <!-- /MarkdownTOC -->
@@ -427,7 +432,7 @@ Radix tree (also radix trie or compact prefix tree) is a data structure that rep
 
 Suffix tree (also called PAT tree or, in an earlier form, position tree) is a compressed trie containing all the suffixes of the given text as their keys and positions in the text as their values. Suffix trees allow particularly fast implementations of many important string operations.
 
-![Radix Tree](../../../images/radix_tree.png)
+![Suffix Tree](../../../images/suffix_tree.png)
 
 ## References
 - <https://en.wikipedia.org/wiki/Tree_(data_structure)>
@@ -435,3 +440,4 @@ Suffix tree (also called PAT tree or, in an earlier form, position tree) is a co
 - <https://en.wikipedia.org/wiki/Binary_search_tree>
 - <https://en.wikipedia.org/wiki/Segment_tree>
 - <https://en.wikipedia.org/wiki/Trie>
+- <https://en.wikipedia.org/wiki/Suffix_tree>
