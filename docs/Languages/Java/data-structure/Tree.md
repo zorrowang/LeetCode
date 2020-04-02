@@ -352,14 +352,86 @@ private void update(Node node, int val, int pos) {
 
 *Note*: segment tree is usually represented by array. In order to display tree-based features here, I choose to use native tree structure.
 
-## Trie
+## Trie (Prefix Tree)
 
-Trie is also known as radix tree or prefix tree.
+Trie, also called digital tree or prefix tree, is a kind of search tree—an ordered tree data structure used to store a dynamic set or associative array where the keys are usually strings. 
+
+Using Trie, search complexities can be brought to optimal limit (key length). However the penalty is on Trie storage requirements.
+
+![Trie](../../../images/Trie.png)
+
+### Trie Node
+
+```java
+class TrieNode {
+    char val;
+    TrieNode[] children;
+    boolean isLeaf;
+
+    TrieNode(char ch) {
+        val = ch;
+        children = new TrieNode[26];
+    }
+
+    TrieNode(char ch, boolean isWord) {
+        this(ch);
+        isLeaf = isWord;
+    }
+}
+```
+
+### Insert
+
+```java
+void insert(String word) {
+    word = word.toLowerCase();
+    TrieNode cur = root;
+
+    for (int i=0; i<word.length(); i++) {
+        char ch = word.charAt(i);
+        if (cur.children[ch - 'a'] == null) {
+            TrieNode node = new TrieNode(ch);
+            cur.children[ch-'a'] = node;
+        }
+        cur = cur.children[ch-'a'];
+    }
+
+    cur.isLeaf = true;
+}
+```
+
+### Search
+
+```java
+boolean search(String word) {
+    word = word.toLowerCase();
+    TrieNode cur = root;
+
+    for (int i=0; i<word.length(); i++) {
+        char ch = word.charAt(i);
+        if (cur.children[ch - 'a'] == null)
+            return false;
+        cur = cur.children[ch-'a'];
+    }
+    return cur.isLeaf;
+}
+```
+
+### Radix Tree
+
+Radix tree (also radix trie or compact prefix tree) is a data structure that represents a space-optimized trie (prefix tree) in which each node that is the only child is merged with its parent.
+
+![Radix Tree](../../../images/radix_tree.png)
 
 ## Suffix Tree
+
+Suffix tree (also called PAT tree or, in an earlier form, position tree) is a compressed trie containing all the suffixes of the given text as their keys and positions in the text as their values. Suffix trees allow particularly fast implementations of many important string operations.
+
+![Radix Tree](../../../images/radix_tree.png)
 
 ## References
 - <https://en.wikipedia.org/wiki/Tree_(data_structure)>
 - <https://en.wikipedia.org/wiki/Binary_tree>
 - <https://en.wikipedia.org/wiki/Binary_search_tree>
 - <https://en.wikipedia.org/wiki/Segment_tree>
+- <https://en.wikipedia.org/wiki/Trie>
