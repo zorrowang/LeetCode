@@ -2,8 +2,6 @@
 
 Author: zorrowanghw@gmail.com
 
-The repo is the summary for technical interview based on my experience and knowledge.
-
 <!-- MarkdownTOC -->
 
 - [Interview Preparation](#interview-preparation)
@@ -19,6 +17,8 @@ The repo is the summary for technical interview based on my experience and knowl
   - [Hard Questions](#hard-questions)
 
 <!-- /MarkdownTOC -->
+
+The repo is the summary for technical interview based on my experience and knowledge.
 
 ## Interview Preparation
 
@@ -60,7 +60,7 @@ Java is a general-purpose programming language that is class-based, object-orien
 - [Tree](./docs/Languages/Java/data-structure/Tree.md)
   - [Binary Search Tree](./docs/Languages/Java/data-structure/Tree.md#binary-search-tree)
   - [Segment Tree](./docs/Languages/Java/data-structure/Tree.md#segment-tree)
-  - [Trie](./docs/Languages/Java/data-structure/Tree.md##trie-prefix-tree)
+  - [Trie](./docs/Languages/Java/data-structure/Tree.md#trie-prefix-tree)
 - [Graph](./docs/Languages/Java/data-structure/Graph.md)
   - [Topological Sort](./docs/Languages/Java/data-structure/Graph.md#topological-sort)
   - [Union Find](./docs/Languages/Java/data-structure/Graph.md#union-find)
