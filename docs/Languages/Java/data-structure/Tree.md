@@ -15,6 +15,9 @@
     - [Application of BST](#application-of-bst)
       - [Find k-th Smallest Element in BST](#Find-k-th-smallest-element-in-bst)
 - [Segment Tree](#segment-tree)
+  - [Construct Segment Tree](#construct-segment-tree)
+  - [Query a Sum of Given Range](#query-a-sum-of-given-range)
+  - [Update a Value](#update-a-value)
 - [Trie](#trie)
 - [References](#references)
 
@@ -281,11 +284,73 @@ Representation of Segment trees
 
 ![Segment Tree](../../../images/segment-tree.png)
 
-### Construction of Segment Tree from given array
+The full class implementation is [here](https://github.com/zorrowang/LeetCode/blob/master/src/lib/SegmentTree.java)
 
-### Query for Sum of given range
+### Construct Segment Tree
 
-### Update a value
+The time complexity of building s segment tree is _O(n)_.
+
+```java
+Node build(int[] nums) {
+    return buildRec(nums, 0, nums.length - 1);
+}
+
+Node buildRec(int[] nums, int i, int j) {
+    if (i == j) 
+        return new Node(nums[i]);
+
+    int mid = (i + j) / 2;
+    Node left = buildRec(nums, i, mid);
+    Node right = buildRec(nums, mid+1, j);
+
+    Node root = new Node(left.val + right.val);
+    root.left = left;
+    root.right = right;
+
+    return root;
+}
+```
+
+### Query a Sum of Given Range
+
+```java
+int sum(int left, int right) {
+    return sumRec(this.root, left, right);
+}
+
+private int sumRec(Node cur, int left, int right) {
+    if (cur.rangeLeft >= left && cur.rangeRight <= right)
+        return cur.val;
+    if (right < cur.rangeLeft || left > cur.rangeRight)
+        return 0;
+    return sumRec(cur.left, left, right) + sumRec(cur.right, left, right);
+}
+```
+
+### Update a Value
+
+```java
+void update(int val, int pos) {
+    update(root, val, pos);
+}
+
+private void update(Node node, int val, int pos) {
+    if (node.rangeLeft == pos && node.rangeRight == pos) {
+        node.val = val;
+        return;
+    }
+
+    int mid = (node.rangeLeft + node.rangeRight) / 2;
+    if (pos <= mid)
+        update(node.left, val, pos);
+    else 
+        update(node.right, val, pos);
+    
+    node.val = node.left.val + node.right.val;
+}
+```
+
+*Note*: segment tree is usually represented by array. In order to display tree-based features here, I choose to use native tree structure.
 
 ## Trie
 
