@@ -150,14 +150,16 @@ Binary search tree (BST) is a binary tree data structure which has the following
 
 ![BST](../../../images/binary-search-tree.png)
 
+The class implementation is [here](https://github.com/zorrowang/LeetCode/blob/master/src/lib/BST.java)
+
 ### Time Complexity
 
 | Algorithm | Average | Worst case |
 | :-------: | :-----: | :--------: |
-| Space	|	_O(n)_ | _O(n)_ |
-| Search	|	_O(log n)_ | _O(n)_ |
-| Insert	|	_O(log n)_ | _O(n)_ |
-| Delete	|	_O(log n)_ | _O(n)_ |
+| Space	 |	_O(n)_     | _O(n)_ |
+| Search |	_O(log n)_ | _O(n)_ |
+| Insert |	_O(log n)_ | _O(n)_ |
+| Delete |	_O(log n)_ | _O(n)_ |
 
 #### Search
 
