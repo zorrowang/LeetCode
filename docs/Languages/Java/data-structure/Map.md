@@ -73,6 +73,12 @@ Some chaining implementations store the first record of each chain in the slot a
 
 A drawback of all these open addressing schemes is that the number of stored entries cannot exceed the number of slots in the bucket array.
 
+### Best Practice
+
+- Use _Double_/_Float_ as hashmap keys is a bad practice. Especially if needing to perform calculations on double keys, the hash of double could mess up.
+
+- Use Object as hashmap keys. When the hashCode() and equals(Object o) methods are not overridden by your class, the default implementation are used. The default behavior is to treat all objects as different, unless they are the same object. _IdentityHashMap_ always does this by using reference-equality in place of object-equality
+
 ## Map Interface
 
 An object that maps keys to values. A map cannot contain duplicate keys; each key can map to at most one value.
