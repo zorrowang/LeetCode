@@ -10,6 +10,8 @@
   - [Adjacency Matrix](#adjacency-matrix)
   - [Adjacency List](#adjacency-list)
 - [Applications of Graph](#applications-of-graph)
+  - [BFS](#bfs)
+  - [DFS](#dfs)
   - [Topological Sort](#topological-sort)
   - [Union Find](#union-find)
 - [References](#references)
@@ -207,7 +209,7 @@ class Graph {
 }
 ```
 
-### DSF
+### DFS
 
 ### Topological Sort
 
