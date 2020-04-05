@@ -53,11 +53,161 @@ The representation of graph includes two components
 
 ### Adjacency Matrix
 
+![Adjacency Matrix](../../../images/graph-adjacency-matrix.jpg)
 
+Adjacency Matrix is a 2D array of size V x V where V is the number of vertices in a graph. Let the 2D array be adj[][], a slot adj[i][j] = 1 indicates that there is an edge from vertex i to vertex j. Adjacency matrix for undirected graph is always symmetric. Adjacency Matrix is also used to represent weighted graphs. If adj[i][j] = w, then there is an edge from vertex i to vertex j with weight w.
+
+
+```java
+// Undirected graph without weight
+class UndirectedGraph {
+    private boolean adjMatrix[][];
+    private int numVertices;
+
+    UndirectedGraph(int numVertices) {
+        this.numVertices = numVertices;
+        adjMatrix = new boolean[numVertices][numVertices];
+    }
+ 
+    void addEdge(int i, int j) {
+        adjMatrix[i][j] = true;
+        adjMatrix[j][i] = true;
+    }
+ 
+    void removeEdge(int i, int j) {
+        adjMatrix[i][j] = false;
+        adjMatrix[j][i] = false;
+    }
+ 
+    boolean isEdge(int i, int j) {
+        return adjMatrix[i][j];
+    }
+}
+
+// Directed graph with weight
+class DirectedGraph {
+    private int adjMatrix[][];
+    private int numVertices;
+
+    DirectedGraph(int numVertices) {
+        this.numVertices = numVertices;
+        adjMatrix = new int[numVertices][numVertices];
+    }
+ 
+    void addEdge(int src, int dst, int weight) {
+        adjMatrix[src][dst] = weight;
+    }
+ 
+    void removeEdge(int src, int dst) {
+        adjMatrix[src][dst] = 0;
+    }
+ 
+    boolean isEdge(int src, int dst) {
+        return adjMatrix[src][dst] > 0;
+    }
+}
+```
 
 ### Adjacency List
 
+![Adjacency List](../../../images/graph-adjacency-list.jpg)
+
+An array of lists is used. Size of the array is equal to the number of vertices. Let the array be array[]. An entry array[i] represents the list of vertices adjacent to the ith vertex. This representation can also be used to represent a weighted graph. The weights of edges can be represented as lists of pairs. Following is adjacency list representation of the above graph.
+
+```java
+// Directed graph w/o weight
+class DirectedGraph {
+    private int numVertices;
+    private LinkedList<Integer>[] adjLists;
+ 
+    Graph(int vertices) {
+        numVertices = vertices;
+        adjLists = new LinkedList<>[vertices];
+        
+        for (int i = 0; i < vertices; i++)
+            adjLists[i] = new LinkedList();
+    }
+
+    void addEdge(int src, int dst) {
+        adjLists[src].add(dest);
+    }
+ 
+    void removeEdge(int i, int j) {
+        adjLists[src].remove(dest);
+    }
+ 
+    boolean isEdge(int i, int j) {
+        return adjLists[src].contains(dest);
+    }
+```
+
 ## Applications of Graph
+
+### BFS
+
+BFS for a graph is similar to BFS for a tree. The only difference is graphs may contain cycles.
+
+```java
+// Direct graph with adjacency representation
+class Graph {
+    private int numVertices;
+    private LinkedList<Integer>[] adjLists;
+
+    Graph(int vertices) {
+        numVertices = vertices;
+        adjLists = new LinkedList<>[vertices];
+        
+        for (int i = 0; i < vertices; i++)
+            adjLists[i] = new LinkedList();
+    }
+
+    void addEdge(int src, int dst) {
+        adjLists[src].add(dest);
+    }
+
+    void BFS(int start) {
+        // Mark all the vertices as not visited (By default set as false)
+        boolean visited[] = new boolean[V];
+        // Create a queue for BFS
+        LinkedList<Integer> queue = new LinkedList<Integer>();
+
+        visited[start]=true;
+        queue.add(start);
+
+        while (queue.size() != 0){
+            int s = queue.poll();
+            System.out.print(s + " ");
+
+            Iterator<Integer> i = adjLists[s].listIterator();
+            while (i.hasNext()) {
+                int n = i.next();
+                if (!visited[n]) {
+                    visited[n] = true;
+                    queue.add(n);
+                }
+            }
+        }
+```
+
+```java
+// Undirected graph with adjacency matrix representation
+class Graph {
+    private boolean adjMatrix[][];
+    private int numVertices;
+
+    Graph(int numVertices) {
+        this.numVertices = numVertices;
+        adjMatrix = new boolean[numVertices][numVertices];
+    }
+ 
+    void addEdge(int i, int j) {
+        adjMatrix[i][j] = true;
+        adjMatrix[j][i] = true;
+    }
+}
+```
+
+### DSF
 
 ### Topological Sort
 
@@ -67,3 +217,5 @@ The representation of graph includes two components
 
 - <https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>
 - <https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)>
+- <https://www.programiz.com/dsa/graph-adjacency-matrix>
+- <https://www.programiz.com/dsa/graph-adjacency-list>
