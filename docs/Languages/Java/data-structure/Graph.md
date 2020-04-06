@@ -206,10 +206,44 @@ class Graph {
         adjMatrix[i][j] = true;
         adjMatrix[j][i] = true;
     }
+
+    void BFS(int i, int j) {
+        int[] horizontal = {1, 0, -1, 0};
+        int[] vertical = {0, 1, 0, -1};
+
+        Stack<Integer> hStack = new LinkedList<>();
+        Stack<Integer> vStack = new LinkedList<>();
+        
+        boolean[][] visited = new boolean[numVertices][numVertices];
+
+        hStack.push(i);
+        vStack.push(j);
+
+        while(!hStack.isEmpty() && !vStack.isEmpty) {
+            int h = hStack.pop();
+            int v = vStack.pop();
+            
+            visited[h][v] = true;
+            System.out.print(h + "," + v + " ");
+
+            for (int i = 0; i < 4; i++) {
+                int hNext = horizontal[i];
+                int vNext = vertical[i];
+                if (hNext >= 0 && hNext < numVertices && vNext >=0 && vNext < numVertices && !visited[hNext][vNext] && adjMatrix[hNext][vNext]) {
+                    hStack.push(hNext);
+                    vStack.push(vNext);
+                }
+            }
+        }
+    }
 }
 ```
 
 ### DFS
+
+```java
+
+```
 
 ### Topological Sort
 
