@@ -73,7 +73,7 @@ This section covers the algorithms in tech interviews. Given the restriction of 
 
 This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition), and their class, [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb), are very helpful and comprehensive if you want to learn algorithm and data structure.
 
-- Backtrack
+- [Backtracking](./docs/algorithms/Backtracking.md)
 - Binary Search
 - Bit Manipulation
 - [Dynamic Programming](./docs/algorithms/DynamicProgramming.md)
