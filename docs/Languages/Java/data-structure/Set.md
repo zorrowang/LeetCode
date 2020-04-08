@@ -11,6 +11,7 @@
     - [Constructor](#constructor)
     - [Special Methods in TreeSet](#special-methods-in-treeSet)
 - [Techniques in Interview](#techniques-in-nterview)
+  - [Union Find (Disjoint Set)](#union-find-disjoint-set)
 - [Reference](#reference)
 
 <!-- /MarkdownTOC -->
@@ -256,6 +257,10 @@ ts.tailSet("5");           // return [5, 6, 7, 8, 9]
 
 _HashSet_ is usually used to store processed values, like Two Sum question, and visited nodes in graph for BFS.
 
+### Union Find (Disjoint Set)
+
+![Disjoint Set](../../../images/Disjoint-Sets.png)
+
 ## Reference
 
 - <https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>
@@ -264,3 +269,4 @@ _HashSet_ is usually used to store processed values, like Two Sum question, and 
 - <https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html>
 - <https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html>
 - <https://www.geeksforgeeks.org/hashset-in-java/>
+- <https://en.wikipedia.org/wiki/Disjoint-set_data_structure>

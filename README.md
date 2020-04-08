@@ -48,6 +48,7 @@ Java is a general-purpose programming language that is class-based, object-orien
 - [String](./docs/Languages/Java/data-structure/String.md)
 - [Collection](./docs/Languages/Java/data-structure/Collection.md)
   - [Set](./docs/Languages/Java/data-structure/Set.md)
+    - [Union Find](./docs/Languages/Java/data-structure/Set.md#union-find-disjoint-set)
   - [List](./docs/Languages/Java/data-structure/List.md)
     - [Linked List](./docs/Languages/Java/data-structure/LinkedList.md)
   - [Stack](./docs/Languages/Java/data-structure/Stack.md)
@@ -64,7 +65,7 @@ Java is a general-purpose programming language that is class-based, object-orien
   - [Trie](./docs/Languages/Java/data-structure/Tree.md#trie-prefix-tree)
 - [Graph](./docs/Languages/Java/data-structure/Graph.md)
   - [Topological Sort](./docs/Languages/Java/data-structure/Graph.md#topological-sort)
-  - [Union Find](./docs/Languages/Java/data-structure/Graph.md#union-find)
+  
 
 ## Algorithms
 
