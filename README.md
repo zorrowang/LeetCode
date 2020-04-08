@@ -68,7 +68,7 @@ Java is a general-purpose programming language that is class-based, object-orien
   - [Breadth-First Search](./docs/Languages/Java/data-structure/Graph.md#bfs)
   - [Depth-First Search](./docs/Languages/Java/data-structure/Graph.md#dfs)
   - [Topological Sort](./docs/Languages/Java/data-structure/Graph.md#topological-sort)
-  - [Shortest Path](./docs/Languages/Java/data-structure/Graph. md#shortest-path)
+  - [Shortest Path](./docs/Languages/Java/data-structure/Graph.md#shortest-path)
   
 
 ## Algorithms
@@ -97,6 +97,13 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 ## LeetCode Preparation
 
 [How to use LeetCode](./docs/Leetcode.md)
+
+### Current Status
+
+- **Total**:  270/1406
+- **Easy**:   137 
+- **Medium**: 117 
+- **Hard**:   16
 
 ### Easy Questions
 
