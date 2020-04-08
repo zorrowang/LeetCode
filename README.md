@@ -48,9 +48,10 @@ Java is a general-purpose programming language that is class-based, object-orien
 - [String](./docs/Languages/Java/data-structure/String.md)
 - [Collection](./docs/Languages/Java/data-structure/Collection.md)
   - [Set](./docs/Languages/Java/data-structure/Set.md)
-    - [Union Find](./docs/Languages/Java/data-structure/Set.md#union-find-disjoint-set)
+    - [Union Find (Disjoint Set)](./docs/Languages/Java/data-structure/Set.md#union-find-disjoint-set)
   - [List](./docs/Languages/Java/data-structure/List.md)
-    - [Linked List](./docs/Languages/Java/data-structure/LinkedList.md)
+    - [ArrayList](./docs/Languages/Java/data-structure/List.md#arraylist-class)
+    - [LinkedList](./docs/Languages/Java/data-structure/LinkedList.md)
   - [Stack](./docs/Languages/Java/data-structure/Stack.md)
   - [Queue](./docs/Languages/Java/data-structure/Queue.md)
     - [PriorityQueue](./docs/Languages/Java/data-structure/Queue.md#priorityqueue-class)
@@ -64,7 +65,10 @@ Java is a general-purpose programming language that is class-based, object-orien
   - [Segment Tree](./docs/Languages/Java/data-structure/Tree.md#segment-tree)
   - [Trie](./docs/Languages/Java/data-structure/Tree.md#trie-prefix-tree)
 - [Graph](./docs/Languages/Java/data-structure/Graph.md)
+  - [Breadth-First Search](./docs/Languages/Java/data-structure/Graph.md#bfs)
+  - [Depth-First Search](./docs/Languages/Java/data-structure/Graph.md#dfs)
   - [Topological Sort](./docs/Languages/Java/data-structure/Graph.md#topological-sort)
+  - [Shortest Path](./docs/Languages/Java/data-structure/Graph. md#shortest-path)
   
 
 ## Algorithms
@@ -74,15 +78,16 @@ This section covers the algorithms in tech interviews. Given the restriction of 
 This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition), and their class, [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb), are very helpful and comprehensive if you want to learn algorithm and data structure.
 
 - [Backtracking](./docs/algorithms/Backtracking.md)
-- Bit Manipulation
+- [Bit Manipulation](./docs/algorithms/BitManipulation.md)
 - [Dynamic Programming](./docs/algorithms/DynamicProgramming.md)
-- Greedy
-- Math
+- [Greedy](./docs/algorithms/Greedy.md)
+- [Math](./docs/algorithms/Math.md)
 - [Memorization](./docs/algorithms/Memorization.md)
-- Sort
-- Search
+- [Sort](./docs/algorithms/Sort.md)
+- [Search](./docs/algorithms/Search.md)
   - Binary Search
 - [Recursion](./docs/algorithms/Recursion.md)
+  - Divide and Conquer
 
 ## System Design
 
