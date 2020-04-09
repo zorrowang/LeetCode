@@ -1,10 +1,11 @@
-public class Solution {
+package src.medium.string;
+
+public class StringToIngeter {
     public int atoi(String str) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         long ret = 0L;
-        if (str==null || str.isEmpty()) return (int)ret;
+        if (str==null) return (int)ret;
         str = str.trim();
+        if (str.isEmpty())  return (int)ret;
         int neg = 1;
         if (str.charAt(0)=='-'){
             neg = -1;

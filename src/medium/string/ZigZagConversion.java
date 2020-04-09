@@ -1,9 +1,11 @@
-public class Solution {
+package src.medium.string;
+
+import java.util.ArrayList;
+
+public class ZigZagConversion {
     public String convert(String s, int nRows) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (s==null || nRows<=1) return s;
-        ArrayList[] list = new ArrayList[nRows];
+        ArrayList<Character>[] list = new ArrayList[nRows];
         for (int i=0; i<nRows; i++)
             list[i] = new ArrayList<Character>();
         

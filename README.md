@@ -110,8 +110,8 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 ### Current Status
 
 - &#x1F536;**Total**:  270/1406
-  - &#x1F4D7;Easy:   137 
-  - &#x1F4D8;Medium: 117 
+  - &#x1F4D7;Easy:   137
+  - &#x1F4D8;Medium: 117
   - &#x1F4D9;Hard:   16
 
 ### Easy Questions
@@ -122,6 +122,10 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](./src/medium/linkedlist/AddTwoNumbers.java) [Python](./src/python/linkedlist/add-two-numbers.py)| Linked List |
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Java](./src/medium/string/LongestSubstringWithoutRepeatingCharacters.java)| Two-Pointer |
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./src/medium/dp/LongestPalindromicSubstring.java)| DP |
+|6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Java](./src/medium/string/ZigZagConversion.java)| String |
+|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java](./src/easy/number/ReverseInteger.java)| Number |
+|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[Java](./src/medium/string/StringToIngeter.java)| String |
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](./src/easy/number/PalindromeNumber.java)| Number |
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Java](./src/easy/string/RomanToInteger.java)| BruteForce |
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Java](./src/easy/array/LongestCommonPrefix.java)| BruteForce | More [solutions](https://leetcode.com/problems/longest-common-prefix/solution/)|
 |15|[Three Sum](https://leetcode.com/problems/3sum/)|[Java](./src/medium/array/ThreeSum.java) [Python](./src/python/array/3sum.py)| Array/Two-Pointer |
