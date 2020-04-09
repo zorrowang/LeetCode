@@ -1,8 +1,6 @@
-// 2D dp solution
-// More readings: http://leetcode.com/2011/11/longest-palindromic-substring-part-i.html
-// http://leetcode.com/2011/11/longest-palindromic-substring-part-ii.html
-// http://fisherlei.blogspot.com/2012/12/leetcode-longest-palindromic-substring.html
-public class Solution {
+package src.medium.dp;
+
+public class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
         // Start typing your Java solution below
         // DO NOT write main() function

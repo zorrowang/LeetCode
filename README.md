@@ -9,6 +9,8 @@ Author: zorrowanghw@gmail.com
   - [Java](#java)
     - [Language Overview and Features](#language-overview-and-features)
     - [Data Structures in Java](#data-structures-in-java)
+  - [Python](#python)
+  - [Go](#go)
 - [Algorithms](#algorithms)
 - [System Design](#system-design)
 - [LeetCode Preparation](#leetcode-preparation)
@@ -118,6 +120,8 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |:-:|:----:|:--------:|:---------:|:----:|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](./src/easy/array/TwoSum.java) [Python](./src/python/array/2sum.py)| Array/HashMap |
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](./src/medium/linkedlist/AddTwoNumbers.java) [Python](./src/python/linkedlist/add-two-numbers.py)| Linked List |
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Java](./src/medium/string/LongestSubstringWithoutRepeatingCharacters.java)| Two-Pointer |
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./src/medium/dp/LongestPalindromicSubstring.java)| DP |
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Java](./src/easy/string/RomanToInteger.java)| BruteForce |
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Java](./src/easy/array/LongestCommonPrefix.java)| BruteForce | More [solutions](https://leetcode.com/problems/longest-common-prefix/solution/)|
 |15|[Three Sum](https://leetcode.com/problems/3sum/)|[Java](./src/medium/array/ThreeSum.java) [Python](./src/python/array/3sum.py)| Array/Two-Pointer |

@@ -1,8 +1,10 @@
-public class Solution {
+package src.medium.string;
+
+public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         if (s==null || s.length()==0)    return 0;
         boolean[] check = new boolean[256];
-        Arrays.fill(check, false);
+
         int max = 1;
         int start = 0, end = 1;
         check[s.charAt(start)] = true;
