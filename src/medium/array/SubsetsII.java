@@ -1,4 +1,9 @@
-public class Solution {
+package src.medium.array;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class SubsetsII {
     public ArrayList<ArrayList<Integer>> subsetsWithDup(int[] S) {
         // Start typing your Java solution below
         // DO NOT write main() function
