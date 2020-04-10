@@ -1,4 +1,6 @@
-public class Solution {
+package src.hard.string;
+
+public class RegularExpressionMatching {
     public boolean isMatch(String s, String p) {
         // Start typing your Java solution below
         // DO NOT write main() function
@@ -17,7 +19,8 @@ public class Solution {
         else{
             if (s.charAt(0)==p.charAt(0) || p.charAt(0)=='.')   
                 return isMatch(s.substring(1), p.substring(1));
-            else return false;
+            else
+                return false;
         }
         
     }

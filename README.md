@@ -109,7 +109,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 
 ### Current Status
 
-- &#x1F536;**Total**:  270/1406
+- **Total**:  270/1406
   - &#x1F4D7;Easy:   137
   - &#x1F4D8;Medium: 117
   - &#x1F4D9;Hard:   16
@@ -186,6 +186,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./src/medium/dp/LongestPalindromicSubstring.java)| DP |
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Java](./src/medium/string/ZigZagConversion.java)| String |
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[Java](./src/medium/string/StringToIngeter.java)| String |
+|46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](./src/medium/array/Permutations.java)| Backtracking (BFS & DFS) |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/medium/tree/KthSmallestElementInBST.java)| BST/DFS |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/medium/array/HIndex.java)| Array/Sort/Map |
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/DailyTemperatures.java)| Heap/MaxQueue |
@@ -197,6 +198,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 
 | # | Name | Solution | Algorithm | Note |
 |:-:|:----:|:--------:|:---------:|:----:|
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Java](./src/hard/string/RegularExpressionMatching.java)| Backtracking |
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/hard/stack/LargestRectangleHistogram.java)| Stack |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/hard/deque/SlidingWindowMaximum.java)| Deque |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./src/hard/tree/SerializeDeserializeBinaryTree.java)| Tree/DFS/Queue |

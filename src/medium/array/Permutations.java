@@ -1,5 +1,13 @@
-// Recursive solution
-public class Solution {
+package src.medium.array;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
+
+public class Permutations {
+    // Backtracking BFS Implementation
+    // Recursive solution
     public ArrayList<ArrayList<Integer>> permute(int[] num) {
         // Start typing your Java solution below
         // DO NOT write main() function
@@ -34,11 +42,9 @@ public class Solution {
         }
         return ret;
     }
-}
 
-//Iterative solution
-public class Solution {
-    public ArrayList<ArrayList<Integer>> permute(int[] num) {
+    //Iterative solution
+    public ArrayList<ArrayList<Integer>> permute2(int[] num) {
         // Start typing your Java solution below
         // DO NOT write main() function
         if (num == null)   return null;
@@ -58,5 +64,31 @@ public class Solution {
         }
         
         return ret;
+    }
+
+    // Backtracking DFS Implementation
+    public List<List<Integer>> permute3(int[] nums) {
+        List<List<Integer>> ret = new ArrayList<>();
+        HashSet<Integer> used = new HashSet<>();
+        ArrayList<Integer> list = new ArrayList<>();
+        permute(nums, list, used, ret);
+        return ret;
+    }
+    
+    private void permute(int[] nums, ArrayList<Integer> list, HashSet<Integer> used, List<List<Integer>> ret) {
+        if (list.size() == nums.length) {
+            ret.add(new ArrayList<>(list));
+            return;
+        }
+        
+        for (int i=0; i<nums.length; i++) {
+            if (!used.contains(i)) {
+                used.add(i);
+                list.add(nums[i]);
+                permute(nums, list, used, ret);
+                list.remove(list.size()-1);
+                used.remove(i);
+            }
+        }
     }
 }
