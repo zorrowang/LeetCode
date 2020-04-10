@@ -33,10 +33,7 @@ public class Subsets {
         return ret;
     }
     
-    private void subsets(int[] nums, int start, List<Integer> list, List<List<Integer>> ret) {
-        if (start > nums.length)
-            return;
-        
+    private void subsets(int[] nums, int start, List<Integer> list, List<List<Integer>> ret) {       
         ret.add(new ArrayList<>(list));
         for (int i=start; i<nums.length; i++) {
             list.add(nums[i]);
