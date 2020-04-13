@@ -1,9 +1,8 @@
-// This backtracking solution written by Java can't pass the large test set
-// I think it's because of the instinct JVM slowness, but the algorith is correct
-public class Solution {
+package src.hard.string;
+
+public class WildcardMatching {
+    // This backtracking solution written by Java can't pass the large test set
     public boolean isMatch(String s, String p) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if(s.isEmpty() && p.isEmpty())   return true;
         if(s.isEmpty() && p.charAt(0)=='*')   return isMatch(s, p.substring(1));
         if(s.isEmpty() || p.isEmpty())  return false;
@@ -19,14 +18,10 @@ public class Solution {
         else
             return false;
     }
-}
 
-// Iterative solution
-// The time complexity is O(m*n)
-public class Solution {
-    public boolean isMatch(String s, String p) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
+    // Iterative solution
+    // The time complexity is O(m*n)
+    public boolean isMatch2(String s, String p) {
         int i=0, startI=-1;
         int j=0, startJ=-1;
         

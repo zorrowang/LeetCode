@@ -85,7 +85,7 @@ _LinkedList_ class implements doubly-linked list based on the _List_, _Queue_ an
 | Internal structure | array | doubly linked list |
 | Insert performance | amortized O(1) | O(1) |
 | Search performance | O(1) | O(n) |
-| Memory overhead | array and element	 | two pointers and element |
+| Memory overhead | array and element | two pointers and element |
 
 - ArrayList has O(n) time complexity for arbitrary indices of add/remove, but amortized O(1) for the operation at the end of the list.
 - LinkedList has O(n) time complexity for arbitrary indices of add/remove, but O(1) for operations at end/beginning of the List.
@@ -123,8 +123,18 @@ List<Integer> l3 = new LinkedList<>(l2);
 
 ## Techniques in Interview
 
+### Intersection of Two Linked Lists
 
+- Maintain two pointers _pA_ and _pB_ initialized at the head of A and B, respectively. Then let them both traverse through the lists, one node at a time.
+- When _pA_ reaches the end of a list, then redirect it to the head of B (yes, B, that's right.); similarly when _pB_ reaches the end of a list, redirect it the head of A.
+- If at any point _pA_ meets _pB_, then _pA_/_pB_ is the intersection node.
+
+To see why the above trick would work, consider the following two lists: A = {1,3,5,7,9,11} and B = {2,4,9,11}, which are intersected at node '9'. Since B.length (=4) < A.length (=6), _pB_ would reach the end of the merged list first, because _pB_ traverses exactly 2 nodes less than _pA_ does. By redirecting _pB_ to head A, and _pA_ to head B, we now ask _pB_ to travel exactly 2 more nodes than _pA_ would. So in the second iteration, they are guaranteed to reach the intersection node at the same time.
+If two lists have intersection, then their last nodes must be the same one. So when _pA_/_pB_ reaches the end of a list, record the last element of A/B respectively. If the two last elements are not the same one, then the two lists have no intersections.
+
+Code is [here](./src/easy/linkedlist/IntersectionTwoLinkedLists.java).
 
 ## References
 - <https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html>
 - <https://en.wikipedia.org/wiki/Linked_list>
+- <https://leetcode.com/problems/intersection-of-two-linked-lists/solution/>

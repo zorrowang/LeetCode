@@ -1,4 +1,6 @@
-public class Solution {
+package src.medium.matrix;
+
+public class ValidSudoku {
     public boolean isValidSudoku(char[][] board) {
         // Start typing your Java solution below
         // DO NOT write main() function
@@ -9,9 +11,11 @@ public class Solution {
         for(int i=0; i<board.length; i++){
             for(int j=0; j<board[i].length; j++){
                 if (board[i][j] != '.'){
-                    if (checkRows[i][board[i][j]-'0'-1])  return false;
+                    if (checkRows[i][board[i][j]-'0'-1])
+                        return false;
                     checkRows[i][board[i][j]-'0'-1] = true;
-                    if (checkColumns[board[i][j]-'0'-1][j])   return false;
+                    if (checkColumns[board[i][j]-'0'-1][j])
+                        return false;
                     checkColumns[board[i][j]-'0'-1][j] = true;
                 }
             }
@@ -22,7 +26,8 @@ public class Solution {
                 for (int m=0; m<3; m++){
                     for (int n=0; n<3; n++){
                         if (board[i*3+m][j*3+n] != '.'){
-                            if (checkSubs[i*3+j][board[i*3+m][j*3+n]-'0'-1])    return false;
+                            if (checkSubs[i*3+j][board[i*3+m][j*3+n]-'0'-1])
+                                return false;
                             checkSubs[i*3+j][board[i*3+m][j*3+n]-'0'-1] = true;
                         }
                     }

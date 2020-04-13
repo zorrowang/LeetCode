@@ -1,7 +1,10 @@
-public class Solution {
+package src.hard.matrix;
+
+import java.util.Arrays;
+
+public class SudokuSolver {
+    // Solution #1
     public void solveSudoku(char[][] board) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         boolean[][] checkRows = new boolean[board.length][board[0].length];
         boolean[][] checkColumns = new boolean[board.length][board[0].length];
         boolean[][] checkSubs = new boolean[board.length][board[0].length];
@@ -54,12 +57,9 @@ public class Solution {
         }
         return true;
     }
-}
 
-public class Solution {
-    public void solveSudoku(char[][] board) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
+    // Solution #2
+    public void solveSudoku1(char[][] board) {
         solveSudokuHelper(board);
     }
     
