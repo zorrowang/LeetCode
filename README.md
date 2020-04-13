@@ -33,7 +33,7 @@ The hiring flow is, resume screening -> recruiter call -> technical phone screen
 
 ## Languages and Data Structures
 
-### Java 
+### Java
 
 Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere, meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
 
@@ -74,7 +74,24 @@ Java is a general-purpose programming language that is class-based, object-orien
   
 ### Python
 
-TODO
+Python is an interpreted, high-level, general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace (indentation). Python is dynamically typed and garbage-collected.
+
+#### Data Structures in Python
+
+- Array and Sequence
+  - Range
+  - String
+  - List
+  - Tuple
+- Linked List
+  - Singly Linked List
+  - Doubly Linked List
+- Stack And Queue
+  - Deque
+- Hash Table
+- Tree
+- Graph
+- Priority Queue
 
 ### Go
 
