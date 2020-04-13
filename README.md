@@ -7,9 +7,11 @@ Author: zorrowanghw@gmail.com
 - [Interview Preparation](#interview-preparation)
 - [Languages and Data Structures](#languages-and-data-structures)
   - [Java](#java)
-    - [Language Overview and Features](#language-overview-and-features)
+    - [Java Overview and Features](#java-overview-and-features)
     - [Data Structures in Java](#data-structures-in-java)
   - [Python](#python)
+    - [Python Overview and Features](#python-overview-and-features)
+    - [Data Structures in Python](#data-structures-in-python)
   - [Go](#go)
 - [Algorithms](#algorithms)
 - [System Design](#system-design)
@@ -37,7 +39,7 @@ The hiring flow is, resume screening -> recruiter call -> technical phone screen
 
 Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere, meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
 
-#### Language Overview and Features
+#### Java Overview and Features
 
 - [Java Introduction](./docs/Languages/Java/Java.md)
 - [Java Virtual Machine (JVM)](./docs/Languages/Java/JVM.md)
@@ -75,6 +77,8 @@ Java is a general-purpose programming language that is class-based, object-orien
 ### Python
 
 Python is an interpreted, high-level, general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace (indentation). Python is dynamically typed and garbage-collected.
+
+#### Python Overview and Features
 
 #### Data Structures in Python
 
