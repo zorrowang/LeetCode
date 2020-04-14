@@ -92,14 +92,14 @@ Python is an interpreted, high-level, general-purpose programming language. Pyth
   - Doubly Linked List
 - Stack And Queue
   - Deque
+- Priority Queue
 - Hash Table
 - Tree
 - Graph
-- Priority Queue
 
 ### Go
 
-TODO
+Go is a statically typed, compiled programming language designed at Google. Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.
 
 ## Algorithms
 
