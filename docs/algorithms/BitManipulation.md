@@ -136,7 +136,7 @@ int clearBitsLeftmost( int num, int i) {
 }
 ```
 
-### Update Bits
+### Update Bit
 
 Set the bit at _i-th_ position to given boolean value.
 
