@@ -13,6 +13,11 @@
   - [Get Bit](#get-bit)
   - [Set Bit](#set-bit)
   - [Clear Bits](#clear-bits)
+  - [Update Bit](#update-bit)
+- [Applications](#applications)
+  - [Math Problems](#math-problems)
+  - [Optimization Problems](#optimization-problems)
+- [References](#references)
 
 <!-- /MarkdownTOC -->
 
@@ -101,24 +106,60 @@ Return the bit (boolean value) at _i-th_ position.
 
 ```java
 boolean getBit( int num, int i ) {
-    return ((num & (1 << i)) != 0 );
+    return ((num & (1 << i)) != 0);
 }
 ```
 
 ### Set Bit
 
-Set the bit at _i-th_ position to given value as boolean.
+Set the bit at _i-th_ position to 1.
 
 ```java
 int setBit( int num, int i, boolean value) {
-    if (value)
-      return num | (1 << i);
-    else
-      return num & ~(1 << i);
+    return num | (1 << i);
 }
 ```
 
 ### Clear Bits
+
+Clear bits at leftmost or rightmost.
+
+```java
+int clearBitsRightmost( int num, int i) {
+    int mask = ~(-1 >>> (31 - i));
+    return num & mask;
+}
+
+int clearBitsLeftmost( int num, int i) {
+    int mask = ~(-1 << (31 - i));
+    return num & mask;
+}
+```
+
+### Update Bits
+
+Set the bit at _i-th_ position to given boolean value.
+
+```java
+int updateBit(int num, int i, boolean val) {
+    int value = val ? 1 : 0;
+    int mask = ~(1 << i);
+    return (num & mask) | (value << i);
+}
+```
+
+## Applications
+
+There are commonly two categories of bitwise interview questions:
+
+- Math: use bit manipulation to resolve mathematical problems.
+- Optimization: use integer bits as storage (_O(1)_ space complexity) to optimize solutions.
+
+### Math Problems
+
+- [Pow of Two](https://leetcode.com/problems/power-of-two/): determine if it is a power of two. The solution is [here](../../src/easy/number/PowerOfTwo.java).
+
+### Optimization Problems
 
 ## References
 
