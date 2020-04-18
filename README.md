@@ -110,9 +110,9 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 - [Backtracking](./docs/algorithms/Backtracking.md)
 - [Bit Manipulation](./docs/algorithms/BitManipulation.md)
 - [Dynamic Programming](./docs/algorithms/DynamicProgramming.md)
+  - [Memorization](./docs/algorithms/Memorization.md)
 - [Greedy](./docs/algorithms/Greedy.md)
 - [Math](./docs/algorithms/Math.md)
-- [Memorization](./docs/algorithms/Memorization.md)
 - [Sort](./docs/algorithms/Sort.md)
 - [Search](./docs/algorithms/Search.md)
   - Binary Search
@@ -167,6 +167,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./src/easy/string/ReverseWordInStringIII.java)| BruteForce |
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Java](./src/easy/array/ArrayPartitionI.java)| Math |
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](./src/easy/tree/SubtreeOfAnotherTree.java)| Recursion | [Converting to string](https://leetcode.com/problems/subtree-of-another-tree/solution/) is a brilliant idea |
+|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Java](./src/easy/array/DistributeCandies.java)| Greedy |
 |594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](./src/easy/array/LongestHarmoniousSubsequence.java)| HashMap |
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](./src/easy/tree/SearchBinarySearchTree.java)| BinarySearch |
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](./src/easy/array/KthLargestElementInStream.java)| MinQueue |
