@@ -264,7 +264,7 @@ class Graph {
     Graph(int vertices) {
         numVertices = vertices;
         adjLists = new LinkedList[vertices];
-        
+
         for (int i = 0; i < vertices; i++)
             adjLists[i] = new LinkedList<Integer>();
     }
@@ -280,7 +280,7 @@ class Graph {
 
     void DFSRec(int src, boolean[] visited) {
         visited[src] = true;
-        System.out.print(src + " "); 
+        System.out.print(src + " ");
 
         List<Integer> l = adjLists[src];
         for (int i = 0; i < l.size(); i++)
