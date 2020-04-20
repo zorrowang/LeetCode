@@ -1,8 +1,7 @@
-// O(n^3) solution
-public class Solution {
+package src.hard.matrix;
+
+public class MaximalRectangle {
     public int maximalRectangle(char[][] matrix) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (matrix==null || matrix.length==0)   return 0;
         int ret = 0;
         

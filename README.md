@@ -217,7 +217,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/medium/array/PermutationsUnique.java)| Backtracking (BFS & DFS) |
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |
-|127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is a overkill|
+|127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/medium/tree/KthSmallestElementInBST.java)| BST/DFS |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/medium/array/HIndex.java)| Array/Sort/Map |
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/DailyTemperatures.java)| Heap/MaxQueue |
@@ -233,6 +233,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Java](./src/hard/matrix/SudokuSolver.java)| Backtracking |
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](./src/hard/string/WildcardMatching.java)| Backtracking/Two-Pointer |
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/hard/stack/LargestRectangleHistogram.java)| Stack |
+|85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Java](./src/hard/matrix/MaximalRectangle.java)| 2D DP |
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/) | [Java](./src/hard/string/WordBreakII.java)| 1D DP + DFS |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/hard/deque/SlidingWindowMaximum.java)| Deque |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./src/hard/tree/SerializeDeserializeBinaryTree.java)| Tree/DFS/Queue |
