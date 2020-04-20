@@ -174,11 +174,12 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](./src/easy/array/KthLargestElementInStream.java)| MinQueue |
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Java](./src/easy/array/BinarySearch.java)| BinarySearch |
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java](./src/easy/string/ToLowerCase.java)| String |
-|720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](./src/easy/string/LongestWordDictionary.java)| Memorization/Trie |
+|720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](./src/easy/string/LongestWordDictionary.java)| HashSet |
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./src/easy/array/FindPivotIndex.java)| Prefix/Suffix Sum |
 |728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Java](./src/easy/number/SelfDividingNumbers.java)| BruteForce |
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Java](./src/easy/matrix/FloodFill.java)| DFS |
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](./src/easy/string/ShortestCompletingWord.java)| String |
+|746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Java](./src/easy/array/MinCostClimbingStairs.java)| 1D DP |
 |766|[Toeplitz Matrix](https://leetcode.com/problems/matrix-block-sum/)|[Java](./src/easy/matrix/ToeplitzMatrix.java)| Matrix |
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](./src/easy/string/JewelsStones.java)| Set |
 |783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Java](./src/easy/tree/MinimumDistanceBSTNodes.java)| DFS |
@@ -218,6 +219,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
+|229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/medium/tree/KthSmallestElementInBST.java)| BST/DFS |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/medium/array/HIndex.java)| Array/Sort/Map |
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/DailyTemperatures.java)| Heap/MaxQueue |
