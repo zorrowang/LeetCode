@@ -16,6 +16,7 @@ Author: zorrowanghw@gmail.com
 - [Algorithms](#algorithms)
 - [System Design](#system-design)
 - [LeetCode Preparation](#leetcode-preparation)
+  - [Current Status](#current-status)
   - [Easy Questions](#easy-questions)
   - [Medium Questions](#medium-questions)
   - [Hard Questions](#hard-questions)
@@ -101,6 +102,18 @@ Python is an interpreted, high-level, general-purpose programming language. Pyth
 
 Go is a statically typed, compiled programming language designed at Google. Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.
 
+- Basic Data Structures
+  - Array
+  - Slice
+  - Map
+  - Struct
+- Linked List
+- Queue
+- Stack
+- Set
+- Tree
+- Graph
+
 ## Algorithms
 
 This section covers the algorithms in tech interviews. Given the restriction of whiteboard coding, most of questions can be solved in ~50 lines of code. So I'd like to summarize most of the patterns in the tech interview.
@@ -157,6 +170,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./src/easy/linkedlist/RemoveDuplicatesSortedList.java)| TwoPointer |
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./src/easy/array/MergeSortedArray.java)| TwoPointer |
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./src/easy/tree/ConvertSortedArrayBST.java)| Recursion |
+|112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./src/easy/tree/PathSum.java)| DFS |
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./src/easy/math/PascalTriangle.java)| BruteForce |
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./src/easy/math/PascalTriangleII.java)| 1D DP |
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./src/medium/dp/WordBreak.java)| 1D DP |
