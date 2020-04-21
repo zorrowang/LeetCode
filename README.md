@@ -13,6 +13,8 @@ Author: zorrowanghw@gmail.com
     - [Python Overview and Features](#python-overview-and-features)
     - [Data Structures in Python](#data-structures-in-python)
   - [Go](#go)
+    - [Go Overview and Features](#go-overview-and-features)
+    - [Data Structures in Go](#data-structures-in-go)
 - [Algorithms](#algorithms)
 - [System Design](#system-design)
 - [LeetCode Preparation](#leetcode-preparation)
@@ -101,6 +103,10 @@ Python is an interpreted, high-level, general-purpose programming language. Pyth
 ### Go
 
 Go is a statically typed, compiled programming language designed at Google. Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.
+
+#### Go Overview and Features
+
+#### Data Structures in Go
 
 - Basic Data Structures
   - Array
