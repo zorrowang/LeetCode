@@ -238,6 +238,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/medium/array/PermutationsUnique.java)| Backtracking (BFS & DFS) |
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |
+|91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Java](./src/medium/dp/DecodeWays.java)| 1D DP |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/medium/tree/KthSmallestElementInBST.java)| BST/DFS |
