@@ -149,10 +149,10 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 
 ### Current Status
 
-- **Total**:  281/1406
-  - &#x1F4D7;Easy:   139
-  - &#x1F4D8;Medium: 123
-  - &#x1F4D9;Hard:   19
+- **Total**:  291/1406
+  - &#x1F4D7;Easy:   141
+  - &#x1F4D8;Medium: 129
+  - &#x1F4D9;Hard:   21
 
 ### Easy Questions
 
