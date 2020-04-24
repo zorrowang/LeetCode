@@ -1,23 +1,16 @@
-/**
- * Definition for binary tree
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; left = null; right = null; }
- * }
- */
-public class Solution {
+package src.medium.tree;
+
+import java.util.ArrayList;
+
+public class UniqueBinarySearchTreeII {
+    // Recursive solution
     public ArrayList<TreeNode> generateTrees(int n) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
+        if (n==0)   return new ArrayList<TreeNode>();
         return generateTrees(n, 0);
 
     }
     
     public ArrayList<TreeNode> generateTrees(int n, int offset) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         ArrayList<TreeNode> ret = new ArrayList<TreeNode>();
         if (n<=0){
             ret.add(null);
@@ -44,9 +37,9 @@ public class Solution {
                 }
             }
         }
-        
         return ret;
-
     }
+
+    // DP solution
 }
 
