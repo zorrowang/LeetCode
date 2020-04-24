@@ -234,6 +234,8 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Java](./src/medium/string/ZigZagConversion.java)| String |
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[Java](./src/medium/string/StringToIngeter.java)| String |
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java](./src/medium/matrix/ValidSudoku.java)| Matrix |
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](./src/medium/backtracking/CombinationSum.java)| Backtracking (DFS) |
+|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Java](./src/medium/backtracking/CombinationSumII.java)| Backtracking (DFS) |
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](./src/medium/array/Permutations.java)| Backtracking (BFS & DFS) |
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/medium/array/PermutationsUnique.java)| Backtracking (BFS & DFS) |
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](./src/medium/backtracking/Combinations.java)| Backtracking (DFS) |
@@ -242,6 +244,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Java](./src/medium/dp/DecodeWays.java)| 1D DP |
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[Java](./src/medium/dp/UniqueBinarySearchTree.java)| 1D DP | Optimized from 2D to 1D |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
+|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/medium/tree/KthSmallestElementInBST.java)| BST/DFS |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/medium/array/HIndex.java)| Array/Sort/Map |
