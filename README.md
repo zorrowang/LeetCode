@@ -181,7 +181,8 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./src/easy/math/PascalTriangleII.java)| 1D DP |
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./src/medium/dp/WordBreak.java)| 1D DP |
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/easy/number/PowerOfTwo.java)| Bit Manipulation |
-|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/easy/array/MoveZeroes.java)| TODO |
+|263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/easy/number/UglyNumber.java)| Brute-Force |
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/easy/array/MoveZeroes.java)| Two-Pointer |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/easy/math/ValidPerfectSquare.java)| Math |
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/easy/string/ReverseStringII.java)| BruteForce |
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](./src/easy/array/StudentAttendanceRecord.java)| Array |
