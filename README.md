@@ -248,6 +248,8 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/medium/array/PermutationsUnique.java)| Backtracking (BFS & DFS) |
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./src/medium/string/GroupAnagrams.java)| HashMap/String Signature |
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](./src/medium/greedy/JumpGame.java)| Greedy |
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Java](./src/medium/dp/UniquePaths.java)| 2D DP |
+|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Java](./src/medium/dp/UniquePathsII.java)| 2D DP |
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](./src/medium/matrix/MinPathSum.java)| 2D DP |
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](./src/medium/backtracking/Combinations.java)| Backtracking (DFS) |
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
