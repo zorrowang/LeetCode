@@ -241,6 +241,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Java](./src/medium/backtracking/CombinationSumII.java)| Backtracking (DFS) |
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](./src/medium/array/Permutations.java)| Backtracking (BFS & DFS) |
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/medium/array/PermutationsUnique.java)| Backtracking (BFS & DFS) |
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./src/medium/string/GroupAnagrams.java)| HashMap/String Signature |
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](./src/medium/backtracking/Combinations.java)| Backtracking (DFS) |
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |

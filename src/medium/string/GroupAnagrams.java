@@ -1,15 +1,21 @@
-// String signature
-public class Solution {
+package src.medium.string;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+
+public class GroupAnagrams {
     public ArrayList<String> anagrams(String[] strs) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         ArrayList<String> ret = new ArrayList<String>();
-        HashMap<String, LinkedList<String>> map = new HashMap<String, LinkedList<String>>();
+        Map<String, LinkedList<String>> map = new HashMap<>();
         
         for(int i=0; i<strs.length; i++){
             String str = strs[i];
             char[] array = str.toCharArray();
             Arrays.sort(array);
+            // String signature
             String temp = new String(array);
             if(map.containsKey(temp))
                 map.get(temp).add(str);
