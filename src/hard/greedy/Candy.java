@@ -1,8 +1,10 @@
-public class Solution {
+package src.hard.greedy;
+
+import java.util.Arrays;
+
+public class Candy {
     public int candy(int[] ratings) {
-        // IMPORTANT: Please reset any member data you declared, as
-        // the same Solution instance will be reused for each test case.
-        if (ratings==null && ratings.length==0)
+        if (ratings==null || ratings.length==0)
             return 0;
         int[] candy = new int[ratings.length];
         Arrays.fill(candy, 1);

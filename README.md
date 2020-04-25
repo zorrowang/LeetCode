@@ -178,6 +178,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./src/easy/array/MergeSortedArray.java)| TwoPointer |
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./src/easy/tree/ConvertSortedArrayBST.java)| Recursion |
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](./src/easy/tree/BalancedBinaryTree.java)| DFS |
+|111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](./src/easy/tree/MinimumDepthBinaryTree.java)| DFS |
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./src/easy/tree/PathSum.java)| DFS |
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./src/easy/math/PascalTriangle.java)| BruteForce |
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./src/easy/math/PascalTriangleII.java)| 1D DP |
@@ -246,6 +247,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](./src/medium/array/Permutations.java)| Backtracking (BFS & DFS) |
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/medium/array/PermutationsUnique.java)| Backtracking (BFS & DFS) |
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./src/medium/string/GroupAnagrams.java)| HashMap/String Signature |
+|55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](./src/medium/greedy/JumpGame.java)| Greedy |
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](./src/medium/matrix/MinPathSum.java)| 2D DP |
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](./src/medium/backtracking/Combinations.java)| Backtracking (DFS) |
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
@@ -265,6 +267,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/medium/array/DailyTemperatures.java)| Stack |
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/DeleteNodesAndReturnForest.java)| Tree/Recursion/DFS |
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | [Java](./src/medium/tree/DeepestLeavesSum.java)| DFS |
+|1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [Java](./src/medium/array/JumpGameIII.java)| Recursion |
 |1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | [Java](./src/medium/tree/MaximumProductSplittedBinaryTree.java)| Tree/Recursion |
 
 ### Hard Questions
@@ -274,8 +277,10 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Java](./src/hard/string/RegularExpressionMatching.java)| Backtracking |
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Java](./src/hard/matrix/SudokuSolver.java)| Backtracking |
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](./src/hard/string/WildcardMatching.java)| Backtracking/Two-Pointer |
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/hard/dp/JumpGameII.java)| 1D DP/Greedy |
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/hard/stack/LargestRectangleHistogram.java)| Stack |
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Java](./src/hard/matrix/MaximalRectangle.java)| 2D DP |
+|135|[Candy](https://leetcode.com/problems/candy/) | [Java](./src/hard/greedy/Candy.java)| Greedy |
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/) | [Java](./src/hard/string/WordBreakII.java)| 1D DP + DFS |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/hard/deque/SlidingWindowMaximum.java)| Deque |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./src/hard/tree/SerializeDeserializeBinaryTree.java)| Tree/DFS/Queue |
