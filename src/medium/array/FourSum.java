@@ -1,8 +1,12 @@
-public class Solution {
-    public ArrayList<ArrayList<Integer>> fourSum(int[] num, int target) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
-        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
+package src.medium.array;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class FourSum {
+    public List<List<Integer>> fourSum(int[] num, int target) {
+        List<List<Integer>> ret = new ArrayList<>();
         if (num==null || num.length<4)  return ret;
         
         Arrays.sort(num);
@@ -19,7 +23,7 @@ public class Solution {
                     if (sum2 < n)    s++;
                     else if (sum2 > n)  t--;
                     else{
-                        ArrayList<Integer> list = new ArrayList<Integer>();
+                        List<Integer> list = new ArrayList<>();
                         list.add(num[i]);
                         list.add(num[j]);
                         list.add(num[s++]);

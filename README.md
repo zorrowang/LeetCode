@@ -173,9 +173,11 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./src/easy/array/PlusOne.java)| BruteForce |
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[Java](./src/easy/string/AddBinary.java)| BruteForce |
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Java](./src/easy/math/Sqrt.java)| Math | Apply [Newton's Method](https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap06/sqrt-1.html) |
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Java](./src/easy/dp/ClimbingStairs.java)| 1D DP |
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./src/easy/linkedlist/RemoveDuplicatesSortedList.java)| TwoPointer |
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./src/easy/array/MergeSortedArray.java)| TwoPointer |
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./src/easy/tree/ConvertSortedArrayBST.java)| Recursion |
+|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](./src/easy/tree/BalancedBinaryTree.java)| DFS |
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./src/easy/tree/PathSum.java)| DFS |
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./src/easy/math/PascalTriangle.java)| BruteForce |
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./src/easy/math/PascalTriangleII.java)| 1D DP |
@@ -183,6 +185,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/easy/number/PowerOfTwo.java)| Bit Manipulation |
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./src/easy/string/ValidAnagram.java)| Counting Sort |
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/easy/number/UglyNumber.java)| Brute-Force |
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](./src/easy/array/FirstBadVersion.java)| Binary Search |
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/easy/array/MoveZeroes.java)| Two-Pointer |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/easy/math/ValidPerfectSquare.java)| Math |
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](./src/easy/tree/PathSumIII.java)| DFS | Deserve as `medium`|
@@ -236,12 +239,14 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./src/medium/dp/LongestPalindromicSubstring.java)| DP |
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Java](./src/medium/string/ZigZagConversion.java)| String |
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[Java](./src/medium/string/StringToIngeter.java)| String |
+|18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](./src/medium/array/FourSum.java)| Two-Pointer |
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java](./src/medium/matrix/ValidSudoku.java)| Matrix |
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](./src/medium/backtracking/CombinationSum.java)| Backtracking (DFS) |
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Java](./src/medium/backtracking/CombinationSumII.java)| Backtracking (DFS) |
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](./src/medium/array/Permutations.java)| Backtracking (BFS & DFS) |
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/medium/array/PermutationsUnique.java)| Backtracking (BFS & DFS) |
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./src/medium/string/GroupAnagrams.java)| HashMap/String Signature |
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](./src/medium/matrix/MinPathSum.java)| 2D DP |
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](./src/medium/backtracking/Combinations.java)| Backtracking (DFS) |
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |
