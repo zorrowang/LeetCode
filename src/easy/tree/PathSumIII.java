@@ -1,14 +1,29 @@
+package src.easy.tree;
+
 /**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
+ * Definition for a binary tree node. public class TreeNode { int val; TreeNode
+ * left; TreeNode right; TreeNode(int x) { val = x; } }
  */
-public class Solution {
-    public int sumOfLeftLeaves(TreeNode root) {
+public class PathSumIII {
+    public int pathSum(TreeNode root, int sum) {
+        return pathSum(root, sum, false);
+    }
+    
+    private int pathSum(TreeNode root, int sum, boolean connected) {
+        int ret = 0;
+        if (root==null)
+            return ret;
+        else if (root.val==sum)
+            ret++;
+        
+        if (connected)
+            return ret + pathSum(root.left, sum-root.val, true) + pathSum(root.right, sum-root.val, true);
+        else
+            return ret + pathSum(root.left, sum, false) + pathSum(root.right, sum, false) + pathSum(root.left, sum-root.val, true) + pathSum(root.right, sum-root.val, true);
+    } 
+
+    // Legacy Solution
+    public int sumOfLeftLeaves2(TreeNode root) {
         if (root == null || (root.left == null && root.right == null)) {
             return 0;
         }

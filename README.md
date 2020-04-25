@@ -181,9 +181,11 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./src/easy/math/PascalTriangleII.java)| 1D DP |
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./src/medium/dp/WordBreak.java)| 1D DP |
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/easy/number/PowerOfTwo.java)| Bit Manipulation |
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./src/easy/string/ValidAnagram.java)| Counting Sort |
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/easy/number/UglyNumber.java)| Brute-Force |
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/easy/array/MoveZeroes.java)| Two-Pointer |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/easy/math/ValidPerfectSquare.java)| Math |
+|437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](./src/easy/tree/PathSumIII.java)| DFS | Deserve as `medium`|
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/easy/string/ReverseStringII.java)| BruteForce |
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](./src/easy/array/StudentAttendanceRecord.java)| Array |
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./src/easy/string/ReverseWordInStringIII.java)| BruteForce |
@@ -244,6 +246,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Java](./src/medium/dp/DecodeWays.java)| 1D DP |
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[Java](./src/medium/dp/UniqueBinarySearchTree.java)| 1D DP | Optimized from 2D to 1D |
+|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](./src/medium/tree/PathSumII.java)| Backtracking (DFS) |
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Java](./src/medium/dp/Triangle.java)| 1D DP |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
