@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PascalTriangle {
-    public ArrayList<ArrayList<Integer>> generate(int numRows) {
-        List<List<Integer>> ret = new ArrayList<List<Integer>>();
+    public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> ret = new ArrayList<>();
         if (numRows <= 0)   return ret;
         
         List<Integer> list = new ArrayList<>();

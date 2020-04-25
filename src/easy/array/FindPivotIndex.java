@@ -1,6 +1,6 @@
 package src.easy.array;
 
-class Solution {
+class FindPivotIndex {
   public int pivotIndex(int[] nums) {
       int[] left = new int[nums.length];
       int[] right = new int[nums.length];

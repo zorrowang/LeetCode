@@ -1,4 +1,4 @@
-package src.hard.Deque;
+package src.hard.deque;
 
 import java.util.Deque;
 import java.util.LinkedList;

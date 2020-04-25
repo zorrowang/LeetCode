@@ -1,9 +1,9 @@
 package src.lib;
 
 public class TreeNode {
-    int val;
-    TreeNode left, right;
-    TreeNode(int v) {
+    public int val;
+    public TreeNode left, right;
+    public TreeNode(int v) {
       val = v;
     }
 }

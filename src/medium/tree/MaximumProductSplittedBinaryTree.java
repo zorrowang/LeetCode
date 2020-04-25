@@ -1,4 +1,4 @@
-package src.medium;
+package src.medium.tree;
 
 /**
  * Definition for a binary tree node. public class TreeNode { int val; TreeNode

@@ -44,8 +44,8 @@ public class PathSumII {
             return ret;
         }
         
-        ArrayList<ArrayList<Integer>> left = pathSum(root.left, sum-root.val);
-        ArrayList<ArrayList<Integer>> right = pathSum(root.right, sum-root.val);
+        ArrayList<ArrayList<Integer>> left = pathSum2(root.left, sum-root.val);
+        ArrayList<ArrayList<Integer>> right = pathSum2(root.right, sum-root.val);
         
         if (!left.isEmpty())
             ret.addAll(left);

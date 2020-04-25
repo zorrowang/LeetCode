@@ -1,12 +1,13 @@
 package src.easy.math;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class PascalTriangleII {
-    public ArrayList<Integer> getRow(int rowIndex) {
+    public List<Integer> getRow(int rowIndex) {
         // Start typing your Java solution below
         // DO NOT write main() function
-        ArrayList<Integer> ret = new ArrayList<Integer>();
+        List<Integer> ret = new ArrayList<Integer>();
         if (rowIndex<0)    return ret;
         
         int[] retArray = new int[rowIndex+1];

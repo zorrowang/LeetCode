@@ -5,7 +5,7 @@ package src.easy.string;
  * 1. they are the same, and one letter exists at least twice
  * 2. they are different on two positions, and the count of each letter is the same 
  */
-class Solution {
+class BuddyStrings {
   public boolean buddyStrings(String A, String B) {
       if (A==null || B==null) return false;
       if (A.length() != B.length())   return false;
