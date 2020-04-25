@@ -254,7 +254,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/medium/tree/KthSmallestElementInBST.java)| BST/DFS |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/medium/array/HIndex.java)| Array/Sort/Map |
-|322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./ssrc/medium/dp/CoinChange.java)| 1D DP |
+|322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/medium/dp/CoinChange.java)| 1D DP |
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/medium/dp/WiggleSubsequence.java)| 1D DP |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/medium/dp/CombinationSumIV.java)| 1D DP |
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/medium/array/DailyTemperatures.java)| Stack |
