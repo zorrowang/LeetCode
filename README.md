@@ -209,7 +209,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[Java](./src/easy/dp/RotatedDigits.java)| Array/DP | There is O(lgn) [solution](https://leetcode.com/problems/rotated-digits/discuss/264282/Java-O(logN)-0ms-100), but very tricky! |
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[Java](./src/easy/string/RotateString.java)| String/BruteForce | The [rolling hash](https://leetcode.com/problems/rotate-string/solution/) solution is great! |
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](./src/easy/array/ShortestDistanceCharacter.java)| MinArray |
-|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](./src/PeakIndexInMountainArray.java)| Array/BinarySearch |
+|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](./src/easy/array/PeakIndexInMountainArray.java)| Array/BinarySearch |
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Java](./src/easy/string/BackspaceStringCompare.java)| Stack | Two pointers starting from the end is better in term of space performance |
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Java](./src/easy/dp/MaximizeDistanceClosestPerson.java)| DP |
 |859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[Java](./src/easy/string/BuddyStrings.java)| StringLoop/LetterCount |
@@ -254,6 +254,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/medium/tree/KthSmallestElementInBST.java)| BST/DFS |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/medium/array/HIndex.java)| Array/Sort/Map |
+|322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./ssrc/medium/dp/CoinChange.java)| 1D DP |
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/medium/dp/WiggleSubsequence.java)| 1D DP |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/medium/dp/CombinationSumIV.java)| 1D DP |
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/medium/array/DailyTemperatures.java)| Stack |
