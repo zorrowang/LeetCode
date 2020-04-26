@@ -1,7 +1,7 @@
-public class Solution {
+package src.easy.array;
+
+public class BestTimeBuySellStock {
     public int maxProfit(int[] prices) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         int ret = 0;
         if (prices==null || prices.length==0)   return ret;
         

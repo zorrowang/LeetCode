@@ -182,6 +182,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./src/easy/tree/PathSum.java)| DFS |
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./src/easy/math/PascalTriangle.java)| BruteForce |
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./src/easy/math/PascalTriangleII.java)| 1D DP |
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java](./src/easy/array/BestTimeBuySellStock.java)| DP |
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./src/medium/dp/WordBreak.java)| 1D DP |
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/easy/number/PowerOfTwo.java)| Bit Manipulation |
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./src/easy/string/ValidAnagram.java)| Counting Sort |
