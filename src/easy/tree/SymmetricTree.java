@@ -1,16 +1,7 @@
-/**
- * Definition for binary tree
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-public class Solution {
+package src.easy.tree;
+
+public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (root==null) return true;
         return isSymmetric(root.left, root.right);
     }

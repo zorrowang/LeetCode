@@ -1,7 +1,7 @@
-public class Solution {
+package src.hard.dp;
+
+public class BestTimeBuySellStockIII {
     public int maxProfit(int[] prices) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         int ret = 0;
         if (prices==null || prices.length==0)   return ret;
         
@@ -42,13 +42,9 @@ public class Solution {
         
         return Math.max(max, doubleMax);
     }
-}
 
-// Improving the solution from O(n^2) to O(n)
-public class Solution {
-    public int maxProfit(int[] prices) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
+    // Improving the solution from O(n^2) to O(n)
+    public int maxProfit2(int[] prices) {
         int ret = 0;
         if (prices==null || prices.length==0)   return ret;
         
@@ -90,13 +86,9 @@ public class Solution {
         
         return Math.max(max, doubleMax);
     }
-}
 
-// Slightly improving the performance and make the code more precise
-public class Solution {
-    public int maxProfit(int[] prices) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
+    // Slightly improving the performance and make the code more concise
+    public int maxProfit3(int[] prices) {
         int ret = 0;
         if (prices==null || prices.length==0)   return ret;
         
