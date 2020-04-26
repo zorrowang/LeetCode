@@ -280,6 +280,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Java](./src/hard/matrix/SudokuSolver.java)| Backtracking |
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](./src/hard/string/WildcardMatching.java)| Backtracking/Two-Pointer |
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/hard/dp/JumpGameII.java)| 1D DP/Greedy |
+|76|[Minimum Window Substring](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/hard/string/MinimumWindowSubstring.java)| Sliding Window |
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/hard/stack/LargestRectangleHistogram.java)| Stack |
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Java](./src/hard/matrix/MaximalRectangle.java)| 2D DP |
 |135|[Candy](https://leetcode.com/problems/candy/) | [Java](./src/hard/greedy/Candy.java)| Greedy |
