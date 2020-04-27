@@ -245,6 +245,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Java](./src/medium/string/ZigZagConversion.java)| String |
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[Java](./src/medium/string/StringToIngeter.java)| String |
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](./src/medium/array/FourSum.java)| Two-Pointer |
+|31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./src/medium/math/NextPermutation.java)| Math |
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java](./src/medium/matrix/ValidSudoku.java)| Matrix |
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](./src/medium/backtracking/CombinationSum.java)| Backtracking (DFS) |
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Java](./src/medium/backtracking/CombinationSumII.java)| Backtracking (DFS) |
