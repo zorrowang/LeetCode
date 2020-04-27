@@ -23,9 +23,9 @@ Author: zorrowanghw@gmail.com
     - [Dynamic Programming](./docs/algorithms/basic/DynamicProgramming.md)
     - [Greedy](./docs/algorithms/basic/Greedy.md)
   - [Sort Algorithms](#sort-algorithms)
-    - O(n^2) Solutions
-    - O(nlogn) Solutions
-    - O(n) Solutions
+    - [O(n^2) Solutions](#on2-solutions)
+    - [O(nlogn) Solutions](#onlogn-solutions)
+    - [O(n) Solutions](#on-solutions)
   - [Search Algorithms](#search-algorithms)
     - [Graph Search](#graph-search)
     - [Linear List Search](#linear-list-search)

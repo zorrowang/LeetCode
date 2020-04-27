@@ -38,7 +38,7 @@ To generalize the characters of backtracking:
 
  Given a set of integers {1, 2, 3}, enumerate all possible permutations using all items from the set without repetition. A permutation describes an arrangement or ordering of items. It is trivial to figure out that we can have the following six permutations: [1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], and [3, 2, 1].
 
-![Backtracking Permutation](../images/backtracking-permute.png)
+![Backtracking Permutation](../../images/backtracking-permute.png)
 
 To construct the final solution, we can start from an empty ordering shown at the first level, [ ]. Then we try to add one item where we have three choices :1, 2, and 3. We get three partial solutions [1], [2], [3] at the second level. Next, for each of these partial solutions, we have two choices, for [1], we can either put 2 or 3 first. Similarly, for [2], we can do either 1 and 3, and so on. Given _n_ distinct items, the number of possible permutations are _n*(n-1)*…*1 = n!_.
 
@@ -89,7 +89,7 @@ In the example of permutation, we can see that backtracking only visit each stat
 
 Given a set of distinct integers {1, 2, 3}, enumerate all possible subsets (the power set). A combination describes an arrangement of items without ordering. It is trivial to figure out that we can have the following six combinations: [1], [2], [3], [1, 2], [1, 3], and [3, 2, 1].
 
-![Backtracking Combination](../images/backtracking-combination.png)
+![Backtracking Combination](../../images/backtracking-combination.png)
 
 #### Implementation
 
@@ -135,7 +135,7 @@ Given a partially filled grid of size n*n, completely fill the grid with number 
 - Each column has all numbers form 1 to _n_
 - Each sub-grid (_√(n)×√(n)_) has all numbers form 1 to _n_
 
-![Backtracking Sudoku](../images/backtracking-sudoku-1.png) ![Backtracking Sudoku](../images/backtracking-sudoku.png)
+![Backtracking Sudoku](../../images/backtracking-sudoku-1.png) ![Backtracking Sudoku](../../images/backtracking-sudoku.png)
 
 Only all constraint are satisfied can we have a valid candidate. How many possible candidates here? Suppose we have an empty table, the brute force is to try 1 to n at each grid, we have possible solution space of nⁿ². How many of them are valid solutions? We can get closer by permuting numbers from 1 to 9 at each row, with 9!⁹ possible search space. This is already a lot better than the first. How to know the exact possible solutions? This site demonstrates that the actual N=6670903752021072936960 which is approximately 6.671×1⁰²¹ possible solutions. This shows that sudo problem is actually NP-hard problem.
 
