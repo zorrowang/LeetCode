@@ -1,4 +1,4 @@
-# LeetCode
+# Software Engineer Interview
 
 Author: zorrowanghw@gmail.com
 
@@ -16,6 +16,21 @@ Author: zorrowanghw@gmail.com
     - [Go Overview and Features](#go-overview-and-features)
     - [Data Structures in Go](#data-structures-in-go)
 - [Algorithms](#algorithms)
+  - [Algorithm Complexity](#algorithm-complexity)
+  - [Basic Algorithms](#basic-algorithms)
+    - [Backtracking](./docs/algorithms/basic/Backtracking.md)
+    - [Divide and Conquer](./docs/algorithms/basic/Divide-Conquer.md)
+    - [Dynamic Programming](./docs/algorithms/basic/DynamicProgramming.md)
+    - [Greedy](./docs/algorithms/basic/Greedy.md)
+  - [Sort Algorithms](#sort-algorithms)
+    - O(n^2) Solutions
+    - O(nlogn) Solutions
+    - O(n) Solutions
+  - [Search Algorithms](#search-algorithms)
+    - [Graph Search](#graph-search)
+    - [Linear List Search](#linear-list-search)
+    - [Search Tree](#search-tree)
+  - [Other Algorithms](#other-algorithms)
 - [System Design](#system-design)
 - [LeetCode Preparation](#leetcode-preparation)
   - [Current Status](#current-status)
@@ -25,7 +40,7 @@ Author: zorrowanghw@gmail.com
 
 <!-- /MarkdownTOC -->
 
-The repo is the summary for technical interview based on my experience and knowledge.
+The repo is the summary for software engineer interview based on my experience and knowledge.
 
 ## Interview Preparation
 
@@ -126,18 +141,65 @@ This section covers the algorithms in tech interviews. Given the restriction of 
 
 This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition), and their class, [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb), are very helpful and comprehensive if you want to learn algorithm and data structure.
 
-- [Backtracking](./docs/algorithms/Backtracking.md)
-- [Bit Manipulation](./docs/algorithms/BitManipulation.md)
-- [Dynamic Programming](./docs/algorithms/DynamicProgramming.md)
-  - [Memorization](./docs/algorithms/Memorization.md)
-- [Greedy](./docs/algorithms/Greedy.md)
-- [Math](./docs/algorithms/Math.md)
-- [Sort](./docs/algorithms/Sort.md)
-- [Search](./docs/algorithms/Search.md)
-  - Binary Search
-- [Recursion](./docs/algorithms/Recursion.md)
-  - Divide and Conquer
+### Algorithm Complexity
 
+- Time Complexity
+- Space Complexity
+
+### Basic Algorithms
+
+- [Backtracking](./docs/algorithms/basic/Backtracking.md)
+- [Divide and Conquer](./docs/algorithms/basic/Divide-Conquer.md)
+- [Dynamic Programming](./docs/algorithms/basic/DynamicProgramming.md)
+  - [Memorization](./docs/algorithms/basic/DynamicProgramming.md#memorization)
+- [Greedy](./docs/algorithms/basic/Greedy.md)
+
+### Sort Algorithms
+
+#### O(n^2) Solutions
+
+- Bubble Sort
+- Insertion Sort
+- Selection sort
+- Shell Sort
+
+#### O(nlogn) Solutions
+
+- Quick Sort
+- Merge Sort
+- Heap Sort
+- Tree Sort
+
+#### O(n) Solutions
+
+- Bucket Sort
+- Counting Sort
+- Radix Sort
+
+### Search Algorithms
+
+#### Graph Search
+
+- Depth-First Search
+- Breadth-First Search
+- A-Star(A*) Search
+
+#### Linear List Search
+
+- Linear Search
+- Binary Search
+
+#### Search Tree
+
+- Binary Search Tree
+- B-tree
+- (a,b)-tree
+
+### Other Algorithms
+
+- [Bit Manipulation](./docs/algorithms/BitManipulation.md)
+- [Math](./docs/algorithms/Math.md)
+  
 ## System Design
 
 - [System Design Workflow](./docs/system-design/SystemDesignWorkflow.md)
