@@ -1,7 +1,7 @@
-public class Solution {
+package src.medium.string;
+
+public class MultiplyStrings {
     public String multiply(String num1, String num2) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (num1==null || num2==null)   return null;
         
         char[] ret = new char[num1.length()+num2.length()];

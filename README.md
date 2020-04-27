@@ -285,6 +285,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |:-:|:----:|:--------:|:---------:|:----:|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Java](./src/hard/string/RegularExpressionMatching.java)| Backtracking |
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Java](./src/hard/matrix/SudokuSolver.java)| Backtracking |
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Java](./src/medium/string/MultiplyStrings.java)| Brute-Force |
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](./src/hard/string/WildcardMatching.java)| Backtracking/Two-Pointer |
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/hard/dp/JumpGameII.java)| 1D DP/Greedy |
 |76|[Minimum Window Substring](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/hard/string/MinimumWindowSubstring.java)| Sliding Window |
