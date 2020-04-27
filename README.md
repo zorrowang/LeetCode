@@ -314,6 +314,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](./src/medium/array/Permutations.java)| Backtracking (BFS & DFS) |
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/medium/array/PermutationsUnique.java)| Backtracking (BFS & DFS) |
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./src/medium/string/GroupAnagrams.java)| HashMap/String Signature |
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](./src/medium/math/Pow.java)| Math |
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](./src/medium/greedy/JumpGame.java)| Greedy |
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Java](./src/medium/dp/UniquePaths.java)| 2D DP |
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Java](./src/medium/dp/UniquePathsII.java)| 2D DP |
