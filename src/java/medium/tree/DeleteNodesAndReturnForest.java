@@ -1,4 +1,4 @@
-package src;
+package src.java.medium.tree;
 
 import java.util.ArrayList;
 import java.util.HashSet;
