@@ -22,6 +22,7 @@ Author: zorrowanghw@gmail.com
     - [Divide and Conquer](./docs/algorithms/basic/Divide-Conquer.md)
     - [Dynamic Programming](./docs/algorithms/basic/DynamicProgramming.md)
     - [Greedy](./docs/algorithms/basic/Greedy.md)
+    - [Enumeration](./docs/algorithms/basic/Enumeration.md)
   - [Sort Algorithms](#sort-algorithms)
     - [O(n^2) Solutions](#on2-solutions)
     - [O(nlogn) Solutions](#onlogn-solutions)
@@ -31,6 +32,7 @@ Author: zorrowanghw@gmail.com
     - [Linear List Search](#linear-list-search)
     - [Search Tree](#search-tree)
   - [Other Algorithms](#other-algorithms)
+  - [More Readings](#more-readings)
 - [System Design](#system-design)
 - [LeetCode Preparation](#leetcode-preparation)
   - [Current Status](#current-status)
@@ -44,11 +46,20 @@ The repo is the summary for software engineer interview based on my experience a
 
 ## Interview Preparation
 
-The hiring flow is, resume screening -> recruiter call -> technical phone screening -> onsite -> hiring committee debrief -> decision call. In general, the more we prepare, the better offer we could get.
+The hiring flow for software engineer role is
 
-- [Mindset](./docs/tech-interview/Mindset.md)
-- [Self Introduction](./docs/tech-interview/SelfIntroduction.md)
-- [Phone Screen](./docs/tech-interview/PhoneScreen.md)
+- resume screening
+- recruiter call
+- technical phone screening
+- onsite interview
+- hiring committee debrief
+- decision call
+
+In general, the more we prepare, the better result we could get.
+
+- [Mindset for Interview](./docs/tech-interview/Mindset.md)
+- [Self-Introduction](./docs/tech-interview/SelfIntroduction.md)
+- [Phone Screening](./docs/tech-interview/PhoneScreen.md)
 - [Whiteboard Coding Workflow and Best Practice](./docs/tech-interview/WhiteboardCoding.md)
 
 ## Languages and Data Structures
@@ -269,6 +280,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](./src/easy/array/FirstBadVersion.java)| Binary Search |
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/easy/array/MoveZeroes.java)| Two-Pointer |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/easy/math/ValidPerfectSquare.java)| Math |
+|383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Java](./src/easy/string/RansomNote.java)| Letter Count |
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](./src/easy/tree/PathSumIII.java)| DFS | Deserve as `medium`|
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/easy/string/ReverseStringII.java)| BruteForce |
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](./src/easy/array/StudentAttendanceRecord.java)| Array |

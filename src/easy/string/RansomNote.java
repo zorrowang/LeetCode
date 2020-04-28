@@ -1,4 +1,6 @@
-public class Solution {
+package src.easy.string;
+
+public class RansomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] counts = new int[26];
         for (int i=0; i<magazine.length(); i++) {
