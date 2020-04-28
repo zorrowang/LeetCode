@@ -1,7 +1,7 @@
-public class Solution {
+package src.medium.greedy;
+
+public class ContainerWithMostWater {
     public int maxArea(int[] height) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (height==null || height.length==0)   return 0;
         int left=0, right=height.length-1;
         int ret=0;
