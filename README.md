@@ -137,14 +137,22 @@ Go is a statically typed, compiled programming language designed at Google. Go i
 
 ## Algorithms
 
-This section covers the algorithms in tech interviews. Given the restriction of whiteboard coding, most of questions can be solved in ~50 lines of code. So I'd like to summarize most of the patterns in the tech interview.
+Algorithm is one of core parts in computer science. This section covers the algorithms in tech interviews.
 
-This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition), and their class, [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb), are very helpful and comprehensive if you want to learn algorithm and data structure.
+An algorithm must possess the following five properties:
+
+- **finiteness**: the algorithm must always terminate after a finite number of steps.
+- **definiteness**: Each step must be precisely defined; the actions to be carried out must be rigorously and unambiguously specified for each case.
+- **input**: an algorithm has zero or more inputs, taken from a specified set of objects.
+- **output**: an algorithm has one or more outputs, which have a specified relation to the inputs.
+- **effectiveness**: all operations to be performed must be sufficiently basic that they can be done exactly and in finite length.
+
+As the restriction of whiteboard coding and the properties of algorithm, most of interview questions can be resolved in ~50 lines of code.
 
 ### Algorithm Complexity
 
-- Time Complexity
-- Space Complexity
+- [Time Complexity](./docs/algorithms/Complexity.md#time-complexity)
+- [Space Complexity](./docs/algorithms/Complexity.md#space-complexity)
 
 ### Basic Algorithms
 
@@ -153,6 +161,7 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 - [Dynamic Programming](./docs/algorithms/basic/DynamicProgramming.md)
   - [Memorization](./docs/algorithms/basic/DynamicProgramming.md#memorization)
 - [Greedy](./docs/algorithms/basic/Greedy.md)
+- [Enumeration](./docs/algorithms/basic/Enumeration.md)
 
 ### Sort Algorithms
 
@@ -199,7 +208,12 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 
 - [Bit Manipulation](./docs/algorithms/BitManipulation.md)
 - [Math](./docs/algorithms/Math.md)
-  
+
+### More Readings
+
+- [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)
+- [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+
 ## System Design
 
 - [System Design Workflow](./docs/system-design/SystemDesignWorkflow.md)
@@ -330,9 +344,11 @@ This book, [Introduction to Algorithms](https://mitpress.mit.edu/books/introduct
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](./src/medium/tree/PathSumII.java)| Backtracking (DFS) |
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Java](./src/medium/dp/Triangle.java)| 1D DP |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
+|211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Java](./src/medium/string/WordDictionary.java)| Trie+Backtracking |
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/medium/tree/KthSmallestElementInBST.java)| BST/DFS |
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./src/easy/linkedlist/PalindromeLinkedList.java)| Two-Pointer | [Reversing a list is not considered "O(1) space"](https://leetcode.com/problems/palindrome-linked-list/discuss/64493/Reversing-a-list-is-not-considered-%22O(1)-space%22) |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/medium/array/HIndex.java)| Array/Sort/Map |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/medium/dp/CoinChange.java)| 1D DP |
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/medium/dp/WiggleSubsequence.java)| 1D DP |

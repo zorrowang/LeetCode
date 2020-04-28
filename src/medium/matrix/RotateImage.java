@@ -1,7 +1,7 @@
-public class Solution {
+package src.medium.matrix;
+
+public class RotateImage {
     public void rotate(int[][] matrix) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (matrix==null || matrix.length<2)    return;
         for (int i=0; i<matrix.length/2; i++)
             rotate(matrix, i);
