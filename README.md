@@ -168,7 +168,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 ### Basic Algorithms
 
 - [Backtracking](./docs/algorithms/basic/Backtracking.md)
-- [Divide and Conquer](./docs/algorithms/basic/Divide-Conquer.md)
+- [Divide and Conquer](./docs/algorithms/basic/DivideConquer.md)
 - [Dynamic Programming](./docs/algorithms/basic/DynamicProgramming.md)
   - [Memorization](./docs/algorithms/basic/DynamicProgramming.md#memorization)
 - [Greedy](./docs/algorithms/basic/Greedy.md)
@@ -345,6 +345,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Java](./src/medium/dp/UniquePaths.java)| 2D DP |
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Java](./src/medium/dp/UniquePathsII.java)| 2D DP |
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](./src/medium/matrix/MinPathSum.java)| 2D DP |
+|73|[Set Matrix Zeros](https://leetcode.com/problems/combinations/)|[Java](./src/medium/matrix/SetMatrixZeros.java)| Matrix |
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](./src/medium/backtracking/Combinations.java)| Backtracking (DFS) |
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |

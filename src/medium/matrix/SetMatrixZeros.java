@@ -1,7 +1,7 @@
-public class Solution {
+package src.medium.matrix;
+
+public class SetMatrixZeros {
     public void setZeroes(int[][] matrix) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (matrix==null || matrix.length==0)   return;
         
         boolean[] rows = new boolean[matrix.length];
