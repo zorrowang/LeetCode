@@ -245,84 +245,84 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 
 | # | Name | Solution | Algorithm | Note |
 |:-:|:----:|:--------:|:---------:|:----:|
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](./src/easy/array/TwoSum.java) [Python](./src/python/array/2sum.py)| Array/HashMap |
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](./src/java/easy/array/TwoSum.java) [Python](./src/python/array/2sum.py)| Array/HashMap |
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](./src/medium/linkedlist/AddTwoNumbers.java) [Python](./src/python/linkedlist/add-two-numbers.py)| Linked List |
-|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java](./src/easy/number/ReverseInteger.java)| Number |
-|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](./src/easy/number/PalindromeNumber.java)| Number |
-|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Java](./src/easy/string/RomanToInteger.java)| BruteForce |
-|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Java](./src/easy/array/LongestCommonPrefix.java)| BruteForce | More [solutions](https://leetcode.com/problems/longest-common-prefix/solution/)|
+|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java](./src/java/easy/number/ReverseInteger.java)| Number |
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](./src/java/easy/number/PalindromeNumber.java)| Number |
+|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Java](./src/java/easy/string/RomanToInteger.java)| BruteForce |
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Java](./src/java/easy/array/LongestCommonPrefix.java)| BruteForce | More [solutions](https://leetcode.com/problems/longest-common-prefix/solution/)|
 |15|[Three Sum](https://leetcode.com/problems/3sum/)|[Java](./src/medium/array/ThreeSum.java) [Python](./src/python/array/3sum.py)| Array/Two-Pointer |
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Java](./src/medium/array/ThreeSumClosest.java) [Python](./src/python/array/three-sum-closest.py)| Array/Two-Pointer |
-|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](./src/easy/string/ValidParentheses.java) [Python](./src/python/string/valid-parentheses.py)| Stack |
-|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](./src/easy/linkedlist/MergeTwoSortedLists.java)| BruteForce |
-|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./src/easy/array/RemoveDuplicatesSortedArray.java)| TwoPointer |
-|27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./src/easy/array/RemoveElement.java)| BruteForce |
-|66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./src/easy/array/PlusOne.java)| BruteForce |
-|67|[Add Binary](https://leetcode.com/problems/add-binary/)|[Java](./src/easy/string/AddBinary.java)| BruteForce |
-|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Java](./src/easy/math/Sqrt.java)| Math | Apply [Newton's Method](https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap06/sqrt-1.html) |
-|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Java](./src/easy/dp/ClimbingStairs.java)| 1D DP |
-|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./src/easy/linkedlist/RemoveDuplicatesSortedList.java)| TwoPointer |
-|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./src/easy/array/MergeSortedArray.java)| TwoPointer |
-|100|[Same Tree](https://leetcode.com/problems/same-tree/)|[Java](./src/easy/tree/SameTree.java)| Recursion |
-|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Java](./src/easy/tree/SymmetricTree.java)| Recursion |
-|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./src/easy/tree/ConvertSortedArrayBST.java)| Recursion |
-|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](./src/easy/tree/BalancedBinaryTree.java)| DFS |
-|111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](./src/easy/tree/MinimumDepthBinaryTree.java)| DFS |
-|112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./src/easy/tree/PathSum.java)| DFS |
-|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./src/easy/math/PascalTriangle.java)| BruteForce |
-|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./src/easy/math/PascalTriangleII.java)| 1D DP |
-|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java](./src/easy/array/BestTimeBuySellStock.java)| DP |
-|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Java](./src/easy/array/BestTimeBuySellStockII.java)| Greedy |
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](./src/java/easy/string/ValidParentheses.java) [Python](./src/python/string/valid-parentheses.py)| Stack |
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](./src/java/easy/linkedlist/MergeTwoSortedLists.java)| BruteForce |
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./src/java/easy/array/RemoveDuplicatesSortedArray.java)| TwoPointer |
+|27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./src/java/easy/array/RemoveElement.java)| BruteForce |
+|66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./src/java/easy/array/PlusOne.java)| BruteForce |
+|67|[Add Binary](https://leetcode.com/problems/add-binary/)|[Java](./src/java/easy/string/AddBinary.java)| BruteForce |
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Java](./src/java/easy/math/Sqrt.java)| Math | Apply [Newton's Method](https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap06/sqrt-1.html) |
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Java](./src/java/easy/dp/ClimbingStairs.java)| 1D DP |
+|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./src/java/easy/linkedlist/RemoveDuplicatesSortedList.java)| TwoPointer |
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./src/java/easy/array/MergeSortedArray.java)| TwoPointer |
+|100|[Same Tree](https://leetcode.com/problems/same-tree/)|[Java](./src/java/easy/tree/SameTree.java)| Recursion |
+|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Java](./src/java/easy/tree/SymmetricTree.java)| Recursion |
+|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./src/java/easy/tree/ConvertSortedArrayBST.java)| Recursion |
+|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](./src/java/easy/tree/BalancedBinaryTree.java)| DFS |
+|111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](./src/java/easy/tree/MinimumDepthBinaryTree.java)| DFS |
+|112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./src/java/easy/tree/PathSum.java)| DFS |
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./src/java/easy/math/PascalTriangle.java)| BruteForce |
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./src/java/easy/math/PascalTriangleII.java)| 1D DP |
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java](./src/java/easy/array/BestTimeBuySellStock.java)| DP |
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Java](./src/java/easy/array/BestTimeBuySellStockII.java)| Greedy |
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./src/medium/dp/WordBreak.java)| 1D DP |
-|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/easy/number/PowerOfTwo.java)| Bit Manipulation |
-|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./src/easy/string/ValidAnagram.java)| Counting Sort |
-|263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/easy/number/UglyNumber.java)| Brute-Force |
-|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](./src/easy/array/FirstBadVersion.java)| Binary Search |
-|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/easy/array/MoveZeroes.java)| Two-Pointer |
-|367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/easy/math/ValidPerfectSquare.java)| Math |
-|383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Java](./src/easy/string/RansomNote.java)| Letter Count |
-|437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](./src/easy/tree/PathSumIII.java)| DFS | Deserve as `medium`|
-|541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/easy/string/ReverseStringII.java)| BruteForce |
-|551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](./src/easy/array/StudentAttendanceRecord.java)| Array |
-|557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./src/easy/string/ReverseWordInStringIII.java)| BruteForce |
-|561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Java](./src/easy/array/ArrayPartitionI.java)| Math |
-|572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](./src/easy/tree/SubtreeOfAnotherTree.java)| Recursion | [Converting to string](https://leetcode.com/problems/subtree-of-another-tree/solution/) is a brilliant idea |
-|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Java](./src/easy/array/DistributeCandies.java)| Greedy |
-|594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](./src/easy/array/LongestHarmoniousSubsequence.java)| HashMap |
-|700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](./src/easy/tree/SearchBinarySearchTree.java)| BinarySearch |
-|703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](./src/easy/array/KthLargestElementInStream.java)| MinQueue |
-|704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Java](./src/easy/array/BinarySearch.java)| BinarySearch |
-|709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java](./src/easy/string/ToLowerCase.java)| String |
-|720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](./src/easy/string/LongestWordDictionary.java)| HashSet |
-|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./src/easy/array/FindPivotIndex.java)| Prefix/Suffix Sum |
-|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Java](./src/easy/number/SelfDividingNumbers.java)| BruteForce |
-|733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Java](./src/easy/matrix/FloodFill.java)| DFS |
-|748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](./src/easy/string/ShortestCompletingWord.java)| String |
-|746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Java](./src/easy/array/MinCostClimbingStairs.java)| 1D DP |
-|766|[Toeplitz Matrix](https://leetcode.com/problems/matrix-block-sum/)|[Java](./src/easy/matrix/ToeplitzMatrix.java)| Matrix |
-|771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](./src/easy/string/JewelsStones.java)| Set |
-|783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Java](./src/easy/tree/MinimumDistanceBSTNodes.java)| DFS |
-|788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[Java](./src/easy/dp/RotatedDigits.java)| Array/DP | There is O(lgn) [solution](https://leetcode.com/problems/rotated-digits/discuss/264282/Java-O(logN)-0ms-100), but very tricky! |
-|796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[Java](./src/easy/string/RotateString.java)| String/BruteForce | The [rolling hash](https://leetcode.com/problems/rotate-string/solution/) solution is great! |
-|821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](./src/easy/array/ShortestDistanceCharacter.java)| MinArray |
-|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](./src/easy/array/PeakIndexInMountainArray.java)| Array/BinarySearch |
-|844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Java](./src/easy/string/BackspaceStringCompare.java)| Stack | Two pointers starting from the end is better in term of space performance |
-|849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Java](./src/easy/dp/MaximizeDistanceClosestPerson.java)| DP |
-|859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[Java](./src/easy/string/BuddyStrings.java)| StringLoop/LetterCount |
-|860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[Java](./src/easy/array/LemonadeChange.java)| Greedy |
-|867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Java](./src/easy/matrix/TransposeMatrix.java)| Loop |
-|872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[Java](./src/easy/tree/LeafSimilarTrees.java)| DFS |
-|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](./src/easy/linked-list/MiddleLinkedList.java)| LinkedList |
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/java/easy/number/PowerOfTwo.java)| Bit Manipulation |
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./src/java/easy/string/ValidAnagram.java)| Counting Sort |
+|263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/java/easy/number/UglyNumber.java)| Brute-Force |
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](./src/java/easy/array/FirstBadVersion.java)| Binary Search |
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/java/easy/array/MoveZeroes.java)| Two-Pointer |
+|367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/java/easy/math/ValidPerfectSquare.java)| Math |
+|383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Java](./src/java/easy/string/RansomNote.java)| Letter Count |
+|437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](./src/java/easy/tree/PathSumIII.java)| DFS | Deserve as `medium`|
+|541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/java/easy/string/ReverseStringII.java)| BruteForce |
+|551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](./src/java/easy/array/StudentAttendanceRecord.java)| Array |
+|557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./src/java/easy/string/ReverseWordInStringIII.java)| BruteForce |
+|561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Java](./src/java/easy/array/ArrayPartitionI.java)| Math |
+|572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](./src/java/easy/tree/SubtreeOfAnotherTree.java)| Recursion | [Converting to string](https://leetcode.com/problems/subtree-of-another-tree/solution/) is a brilliant idea |
+|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Java](./src/java/easy/array/DistributeCandies.java)| Greedy |
+|594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](./src/java/easy/array/LongestHarmoniousSubsequence.java)| HashMap |
+|700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](./src/java/easy/tree/SearchBinarySearchTree.java)| BinarySearch |
+|703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](./src/java/easy/array/KthLargestElementInStream.java)| MinQueue |
+|704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Java](./src/java/easy/array/BinarySearch.java)| BinarySearch |
+|709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java](./src/java/easy/string/ToLowerCase.java)| String |
+|720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](./src/java/easy/string/LongestWordDictionary.java)| HashSet |
+|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./src/java/easy/array/FindPivotIndex.java)| Prefix/Suffix Sum |
+|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Java](./src/java/easy/number/SelfDividingNumbers.java)| BruteForce |
+|733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Java](./src/java/easy/matrix/FloodFill.java)| DFS |
+|748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](./src/java/easy/string/ShortestCompletingWord.java)| String |
+|746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Java](./src/java/easy/array/MinCostClimbingStairs.java)| 1D DP |
+|766|[Toeplitz Matrix](https://leetcode.com/problems/matrix-block-sum/)|[Java](./src/java/easy/matrix/ToeplitzMatrix.java)| Matrix |
+|771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](./src/java/easy/string/JewelsStones.java)| Set |
+|783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Java](./src/java/easy/tree/MinimumDistanceBSTNodes.java)| DFS |
+|788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[Java](./src/java/easy/dp/RotatedDigits.java)| Array/DP | There is O(lgn) [solution](https://leetcode.com/problems/rotated-digits/discuss/264282/Java-O(logN)-0ms-100), but very tricky! |
+|796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[Java](./src/java/easy/string/RotateString.java)| String/BruteForce | The [rolling hash](https://leetcode.com/problems/rotate-string/solution/) solution is great! |
+|821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](./src/java/easy/array/ShortestDistanceCharacter.java)| MinArray |
+|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](./src/java/easy/array/PeakIndexInMountainArray.java)| Array/BinarySearch |
+|844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Java](./src/java/easy/string/BackspaceStringCompare.java)| Stack | Two pointers starting from the end is better in term of space performance |
+|849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Java](./src/java/easy/dp/MaximizeDistanceClosestPerson.java)| DP |
+|859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[Java](./src/java/easy/string/BuddyStrings.java)| StringLoop/LetterCount |
+|860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[Java](./src/java/easy/array/LemonadeChange.java)| Greedy |
+|867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Java](./src/java/easy/matrix/TransposeMatrix.java)| Loop |
+|872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[Java](./src/java/easy/tree/LeafSimilarTrees.java)| DFS |
+|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](./src/java/easy/linked-list/MiddleLinkedList.java)| LinkedList |
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Java](./src/string/UncommonWordsTwoSentences.java)| String |
-|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](./src/easy/array/SortArrayByParity.java)| Array |
-|908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[Java](./src/easy/math/SmallestRangeI.java)| Math |
-|917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[Java](./src/easy/string/ReverseOnlyLetters.java)| String/TwoPointer |
-|922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Java](./src/easy/array/SortArrayParityII.java)| Read/Write Head |
-|994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Java](./src/easy/matrix/RottingOranges.java)| BFS |
-|1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Java](./src/easy/tree/SumRootLeafBinaryNumbers.java)| DFS |
-|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Java](./src/easy/string/RemoveAllAdjacentDuplicatesString.java)| Stack |
-|1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Java](./src/easy/number/SubtractProductSumDigitsInteger.java)| Number |
-|1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Java](./src/easy/matrix/KWeakestRowsInMatrix.java)| MaxQueue |
+|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](./src/java/easy/array/SortArrayByParity.java)| Array |
+|908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[Java](./src/java/easy/math/SmallestRangeI.java)| Math |
+|917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[Java](./src/java/easy/string/ReverseOnlyLetters.java)| String/TwoPointer |
+|922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Java](./src/java/easy/array/SortArrayParityII.java)| Read/Write Head |
+|994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Java](./src/java/easy/matrix/RottingOranges.java)| BFS |
+|1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Java](./src/java/easy/tree/SumRootLeafBinaryNumbers.java)| DFS |
+|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Java](./src/java/easy/string/RemoveAllAdjacentDuplicatesString.java)| Stack |
+|1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Java](./src/java/easy/number/SubtractProductSumDigitsInteger.java)| Number |
+|1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Java](./src/java/easy/matrix/KWeakestRowsInMatrix.java)| MaxQueue |
 
 ### Medium Questions
 
@@ -343,7 +343,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./src/medium/string/GroupAnagrams.java)| HashMap/String Signature |
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](./src/medium/math/Pow.java)| Math |
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](./src/medium/greedy/JumpGame.java)| Greedy |
-|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](./src/easy/string/LengthLastWord.java)| String |
+|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](./src/java/easy/string/LengthLastWord.java)| String |
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Java](./src/medium/dp/UniquePaths.java)| 2D DP |
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Java](./src/medium/dp/UniquePathsII.java)| 2D DP |
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](./src/medium/matrix/MinPathSum.java)| 2D DP |
@@ -363,7 +363,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/medium/tree/KthSmallestElementInBST.java)| BST/DFS |
-|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./src/easy/linkedlist/PalindromeLinkedList.java)| Two-Pointer | [Reversing a list is not considered "O(1) space"](https://leetcode.com/problems/palindrome-linked-list/discuss/64493/Reversing-a-list-is-not-considered-%22O(1)-space%22) |
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./src/java/easy/linkedlist/PalindromeLinkedList.java)| Two-Pointer | [Reversing a list is not considered "O(1) space"](https://leetcode.com/problems/palindrome-linked-list/discuss/64493/Reversing-a-list-is-not-considered-%22O(1)-space%22) |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/medium/array/HIndex.java)| Array/Sort/Map |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/medium/dp/CoinChange.java)| 1D DP |
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/medium/dp/WiggleSubsequence.java)| 1D DP |
@@ -386,7 +386,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |76|[Minimum Window Substring](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/hard/string/MinimumWindowSubstring.java)| Sliding Window |
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/hard/stack/LargestRectangleHistogram.java)| Stack |
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Java](./src/hard/matrix/MaximalRectangle.java)| 2D DP |
-|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Java](./src/easy/array/BestTimeBuySellStockII.java)| 1D DP |
+|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Java](./src/java/easy/array/BestTimeBuySellStockII.java)| 1D DP |
 |135|[Candy](https://leetcode.com/problems/candy/) | [Java](./src/hard/greedy/Candy.java)| Greedy |
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/) | [Java](./src/hard/string/WordBreakII.java)| 1D DP + DFS |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/hard/deque/SlidingWindowMaximum.java)| Deque |
