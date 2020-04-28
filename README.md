@@ -343,6 +343,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./src/medium/string/GroupAnagrams.java)| HashMap/String Signature |
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](./src/medium/math/Pow.java)| Math |
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](./src/medium/greedy/JumpGame.java)| Greedy |
+|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](./src/easy/string/LengthLastWord.java)| String |
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Java](./src/medium/dp/UniquePaths.java)| 2D DP |
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Java](./src/medium/dp/UniquePathsII.java)| 2D DP |
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](./src/medium/matrix/MinPathSum.java)| 2D DP |
