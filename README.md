@@ -245,7 +245,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 
 | # | Name | Solution | Algorithm | Note |
 |:-:|:----:|:--------:|:---------:|:----:|
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](./src/java/easy/array/TwoSum.java) [Python](./src/python/array/2sum.py)| Array/HashMap |
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](./src/java/easy/array/TwoSum.java) [Python](./src/python/array/2sum.py)| HashMap |
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java](./src/java/easy/number/ReverseInteger.java)| Number |
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](./src/java/easy/number/PalindromeNumber.java)| Number |
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Java](./src/java/easy/string/RomanToInteger.java)| BruteForce |
@@ -302,10 +302,10 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |766|[Toeplitz Matrix](https://leetcode.com/problems/matrix-block-sum/)|[Java](./src/java/easy/matrix/ToeplitzMatrix.java)| Matrix |
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](./src/java/easy/string/JewelsStones.java)| Set |
 |783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Java](./src/java/easy/tree/MinimumDistanceBSTNodes.java)| DFS |
-|788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[Java](./src/java/easy/dp/RotatedDigits.java)| Array/DP | There is O(lgn) [solution](https://leetcode.com/problems/rotated-digits/discuss/264282/Java-O(logN)-0ms-100), but very tricky! |
+|788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[Java](./src/java/easy/dp/RotatedDigits.java)| DP | There is O(lgn) [solution](https://leetcode.com/problems/rotated-digits/discuss/264282/Java-O(logN)-0ms-100), but very tricky! |
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[Java](./src/java/easy/string/RotateString.java)| String/BruteForce | The [rolling hash](https://leetcode.com/problems/rotate-string/solution/) solution is great! |
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](./src/java/easy/array/ShortestDistanceCharacter.java)| MinArray |
-|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](./src/java/easy/array/PeakIndexInMountainArray.java)| Array/BinarySearch |
+|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](./src/java/easy/array/PeakIndexInMountainArray.java)| BinarySearch |
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Java](./src/java/easy/string/BackspaceStringCompare.java)| Stack | Two pointers starting from the end is better in term of space performance |
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Java](./src/java/easy/dp/MaximizeDistanceClosestPerson.java)| DP |
 |859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[Java](./src/java/easy/string/BuddyStrings.java)| StringLoop/LetterCount |
@@ -334,8 +334,8 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Java](./src/java/medium/string/ZigZagConversion.java)| String |
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[Java](./src/java/medium/string/StringToIngeter.java)| String |
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Java](./ssrc/java/medium/greedy/ContainerWithMostWater.java)| Two-Pointer/Greedy |
-|15|[Three Sum](https://leetcode.com/problems/3sum/)|[Java](./src/java/medium/array/ThreeSum.java) [Python](./src/python/array/3sum.py)| Array/Two-Pointer |
-|16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Java](./src/java/medium/array/ThreeSumClosest.java) [Python](./src/python/array/three-sum-closest.py)| Array/Two-Pointer |
+|15|[Three Sum](https://leetcode.com/problems/3sum/)|[Java](./src/java/medium/array/ThreeSum.java) [Python](./src/python/array/3sum.py)| Two-Pointer |
+|16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Java](./src/java/medium/array/ThreeSumClosest.java) [Python](./src/python/array/three-sum-closest.py)| Two-Pointer |
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](./src/java/medium/array/FourSum.java)| Two-Pointer |
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./src/java/medium/math/NextPermutation.java)| Math |
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java](./src/java/medium/matrix/ValidSudoku.java)| Matrix |
@@ -371,16 +371,16 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Java](./src/java/medium/string/WordDictionary.java)| Trie+Backtracking |
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/java/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/java/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
-|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/java/medium/tree/KthSmallestElementInBST.java)| BST/DFS |
-|274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/java/medium/array/HIndex.java)| Array/Sort/Map |
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/java/medium/tree/KthSmallestElementInBST.java)| DFS |
+|274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/java/medium/array/HIndex.java)| Sort & Map |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/java/medium/dp/WiggleSubsequence.java)| 1D DP |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/java/medium/dp/CombinationSumIV.java)| 1D DP |
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/java/medium/array/DailyTemperatures.java)| Stack |
-|1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/java/medium/tree/DeleteNodesAndReturnForest.java)| Tree/Recursion/DFS |
+|1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/java/medium/tree/DeleteNodesAndReturnForest.java)| DFS |
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | [Java](./src/java/medium/tree/DeepestLeavesSum.java)| DFS |
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [Java](./src/java/medium/array/JumpGameIII.java)| Recursion |
-|1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | [Java](./src/java/medium/tree/MaximumProductSplittedBinaryTree.java)| Tree/Recursion |
+|1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | [Java](./src/java/medium/tree/MaximumProductSplittedBinaryTree.java)| DFS |
 
 ### Hard Questions
 
