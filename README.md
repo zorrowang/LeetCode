@@ -252,7 +252,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Java](./src/java/easy/array/LongestCommonPrefix.java)| BruteForce | More [solutions](https://leetcode.com/problems/longest-common-prefix/solution/)|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](./src/java/easy/string/ValidParentheses.java) [Python](./src/python/string/valid-parentheses.py)| Stack |
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](./src/java/easy/linkedlist/MergeTwoSortedLists.java)| BruteForce |
-|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./src/java/easy/array/RemoveDuplicatesSortedArray.java)| TwoPointer |
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./src/java/easy/array/RemoveDuplicatesSortedArray.java)| Two-Pointer |
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./src/java/easy/array/RemoveElement.java)| BruteForce |
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./src/java/easy/dp/MaximumSubarray.java)| DP |
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](./src/java/easy/string/LengthLastWord.java)| String |
@@ -260,8 +260,8 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[Java](./src/java/easy/string/AddBinary.java)| BruteForce |
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Java](./src/java/easy/math/Sqrt.java)| Math | Apply [Newton's Method](https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap06/sqrt-1.html) |
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Java](./src/java/easy/dp/ClimbingStairs.java)| 1D DP |
-|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./src/java/easy/linkedlist/RemoveDuplicatesSortedList.java)| TwoPointer |
-|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./src/java/easy/array/MergeSortedArray.java)| TwoPointer |
+|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./src/java/easy/linkedlist/RemoveDuplicatesSortedList.java)| Two-Pointer |
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./src/java/easy/array/MergeSortedArray.java)| Two-Pointer |
 |100|[Same Tree](https://leetcode.com/problems/same-tree/)|[Java](./src/java/easy/tree/SameTree.java)| Recursion |
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Java](./src/java/easy/tree/SymmetricTree.java)| Recursion |
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./src/java/easy/tree/ConvertSortedArrayBST.java)| Recursion |
@@ -272,6 +272,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./src/java/easy/math/PascalTriangleII.java)| 1D DP |
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java](./src/java/easy/array/BestTimeBuySellStock.java)| DP |
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Java](./src/java/easy/array/BestTimeBuySellStockII.java)| Greedy |
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](./src/java/easy/string/ValidPalindrome.java)| Two-Pointer |
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/java/easy/number/PowerOfTwo.java)| Bit Manipulation |
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./src/java/easy/linkedlist/PalindromeLinkedList.java)| Two-Pointer | [Reversing a list is not considered "O(1) space"](https://leetcode.com/problems/palindrome-linked-list/discuss/64493/Reversing-a-list-is-not-considered-%22O(1)-space%22) |
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./src/java/easy/string/ValidAnagram.java)| Counting Sort |
@@ -315,7 +316,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Java](./src/string/UncommonWordsTwoSentences.java)| String |
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](./src/java/easy/array/SortArrayByParity.java)| Array |
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[Java](./src/java/easy/math/SmallestRangeI.java)| Math |
-|917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[Java](./src/java/easy/string/ReverseOnlyLetters.java)| String/TwoPointer |
+|917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[Java](./src/java/easy/string/ReverseOnlyLetters.java)| Two-Pointer |
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Java](./src/java/easy/array/SortArrayParityII.java)| Read/Write Head |
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Java](./src/java/easy/matrix/RottingOranges.java)| BFS |
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Java](./src/java/easy/tree/SumRootLeafBinaryNumbers.java)| DFS |
@@ -365,7 +366,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Java](./src/java/medium/dp/Triangle.java)| 1D DP |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/java/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./src/java/medium/dp/WordBreak.java)| 1D DP |
-|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](./src/java/medium/array/FindPeakElement.java)| Binary Search |
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](./src/java/medium/array/FindPeakElement.java)| BinarySearch |
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Java](./src/java/medium/string/WordDictionary.java)| Trie+Backtracking |
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/java/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/java/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |

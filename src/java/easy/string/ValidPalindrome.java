@@ -1,7 +1,7 @@
-public class Solution {
+package src.java.easy.string;
+
+public class ValidPalindrome {
     public boolean isPalindrome(String s) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (s==null)    return true;
         int i=0, j=s.length()-1;
         
