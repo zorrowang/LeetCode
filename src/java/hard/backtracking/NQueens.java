@@ -1,14 +1,17 @@
-public class Solution {
-    public ArrayList<String[]> solveNQueens(int n) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
+package src.java.hard.backtracking;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class NQueens {
+    public List<List<String>> solveNQueens(int n) {
         int[] num = new int[n];
-        ArrayList<String[]> ret = new ArrayList<String[]>();
+        List<List<String>> ret = new ArrayList<>();
         solveNQueens(0, num, ret);
         return ret;
     }
     
-    public void solveNQueens(int n, int[] num, ArrayList<String[]> ret){
+    public void solveNQueens(int n, int[] num, List<List<String>> ret){
         if (n==num.length){    
             ret.add(convert(num));
             return;
@@ -28,8 +31,8 @@ public class Solution {
         return true;
     }
     
-    public String[] convert(int[] n){
-        String[] ret = new String[n.length];
+    public List<String> convert(int[] n){
+        List<String> ret = new ArrayList<>();
         for (int i=0; i<n.length; i++){
             StringBuilder str = new StringBuilder();
             for (int j=0; j<n.length; j++){
@@ -38,7 +41,7 @@ public class Solution {
                 else
                     str.append('.');
             }
-            ret[i] = str.toString();
+            ret.add(str.toString());
         }
         return ret;
     }

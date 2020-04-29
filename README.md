@@ -254,6 +254,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](./src/java/easy/linkedlist/MergeTwoSortedLists.java)| BruteForce |
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./src/java/easy/array/RemoveDuplicatesSortedArray.java)| TwoPointer |
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./src/java/easy/array/RemoveElement.java)| BruteForce |
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./src/java/easy/dp/MaximumSubarray.java)| DP |
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](./src/java/easy/string/LengthLastWord.java)| String |
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./src/java/easy/array/PlusOne.java)| BruteForce |
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[Java](./src/java/easy/string/AddBinary.java)| BruteForce |
@@ -351,10 +352,13 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |73|[Set Matrix Zeros](https://leetcode.com/problems/combinations/)|[Java](./src/java/medium/matrix/SetMatrixZeros.java)| Matrix |
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](./src/java/medium/backtracking/Combinations.java)| Backtracking (DFS) |
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/java/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
+|79|[Word Search](https://leetcode.com/problems/word-search/)|[Java](./src/java/medium/backtracking/WordSearch.java)| Backtracking (DFS) |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/java/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Java](./src/java/medium/dp/DecodeWays.java)| 1D DP |
+|93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Java](./src/java/medium/backtracking/RestoreIPAddresses.java)| Backtracking & Greedy |
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](./src/java/medium/tree/BinaryTreeInorderTraversal.java)| Tree Traversal |
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[Java](./src/java/medium/dp/UniqueBinarySearchTree.java)| 1D DP | Optimized from 2D to 1D |
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Java](./src/java/medium/tree/ValidateBinarySearchTree.java)| DFS |
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](./src/java/medium/tree/BinaryTreeLevelOrderTraversal.java)| DFS & BFS |
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Java](./src/java/medium/tree/BinaryTreeLevelOrderTraversal.java)| DFS & BFS |
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](./src/java/medium/tree/PathSumII.java)| Backtracking (DFS) |
@@ -383,6 +387,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Java](./src/java/hard/matrix/SudokuSolver.java)| Backtracking |
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](./src/java/hard/string/WildcardMatching.java)| Backtracking/Two-Pointer |
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/java/hard/dp/JumpGameII.java)| 1D DP/Greedy |
+|51|[N-Queens](https://leetcode.com/problems/n-queens/) | [Java](./src/java/hard/backtracking/NQueens.java)| Backtracking (DFS) |
 |76|[Minimum Window Substring](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/java/hard/string/MinimumWindowSubstring.java)| Sliding Window |
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/java/hard/stack/LargestRectangleHistogram.java)| Stack |
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Java](./src/java/hard/matrix/MaximalRectangle.java)| 2D DP |
