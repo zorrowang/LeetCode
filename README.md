@@ -152,10 +152,10 @@ Algorithm is one of core parts in computer science. This section covers the algo
 
 An algorithm must possess the following five properties:
 
-- **finiteness**: the algorithm must always terminate after a finite number of steps.
-- **definiteness**: Each step must be precisely defined; the actions to be carried out must be rigorously and unambiguously specified for each case.
 - **input**: an algorithm has zero or more inputs, taken from a specified set of objects.
 - **output**: an algorithm has one or more outputs, which have a specified relation to the inputs.
+- **finiteness**: the algorithm must always terminate after a finite number of steps.
+- **definiteness**: Each step must be precisely defined; the actions to be carried out must be rigorously and unambiguously specified for each case.
 - **effectiveness**: all operations to be performed must be sufficiently basic that they can be done exactly and in finite length.
 
 As the restriction of whiteboard coding and the properties of algorithm, most of interview questions can be resolved in ~50 lines of code.
@@ -363,6 +363,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](./src/java/medium/tree/BinaryTreeLevelOrderTraversal.java)| DFS & BFS |
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Java](./src/java/medium/tree/BinaryTreeLevelOrderTraversal.java)| DFS & BFS |
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](./src/java/medium/tree/PathSumII.java)| Backtracking (DFS) |
+|114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Java](./src/java/medium/tree/FlattenBinaryTreeLinkedList.java)| BFS & DFS |
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Java](./src/java/medium/dp/Triangle.java)| 1D DP |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/java/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./src/java/medium/dp/WordBreak.java)| 1D DP |

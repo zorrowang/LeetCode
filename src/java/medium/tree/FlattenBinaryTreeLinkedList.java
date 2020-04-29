@@ -1,16 +1,13 @@
+package src.java.medium.tree;
+
+import java.util.LinkedList;
+
 /**
- * Definition for binary tree
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
+ * Definition for binary tree public class TreeNode { int val; TreeNode left;
+ * TreeNode right; TreeNode(int x) { val = x; } }
  */
-public class Solution {
+public class FlattenBinaryTreeLinkedList {
     public void flatten(TreeNode root) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         TreeNode dummy = new TreeNode(0);
         TreeNode temp = dummy;
         
@@ -26,14 +23,9 @@ public class Solution {
             temp = temp.right;
         }        
     }
-}
 
-
-// Recursive solution
-public class Solution {
-    public void flatten(TreeNode root) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
+    // Recursive solution
+    public void flatten2(TreeNode root) {
         flattenHelper(root);
     }
     
