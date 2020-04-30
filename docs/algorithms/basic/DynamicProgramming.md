@@ -72,7 +72,7 @@ int fibonacci(int n) {
 
 ### Interval Model
 
-### Backpack Model
+### Knapsack Model
 
 ### State Compressing Model
 
