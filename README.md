@@ -333,7 +333,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |:-:|:----:|:--------:|:---------:|:----:|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](./src/java/medium/linkedlist/AddTwoNumbers.java) [Python](./src/python/linkedlist/add-two-numbers.py)| Linked List |
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Java](./src/java/medium/string/LongestSubstringWithoutRepeatingCharacters.java)| Two-Pointer |
-|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./src/java/medium/dp/LongestPalindromicSubstring.java)| DP |
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./src/java/medium/dp/LongestPalindromicSubstring.java)| 2D DP | [Manacher's Algorithm](https://en.wikipedia.org/wiki/Longest_palindromic_substring#Manacher's_algorithm) is the optimal solution |
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Java](./src/java/medium/string/ZigZagConversion.java)| String |
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[Java](./src/java/medium/string/StringToIngeter.java)| String |
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Java](./ssrc/java/medium/greedy/ContainerWithMostWater.java)| Two-Pointer/Greedy |
