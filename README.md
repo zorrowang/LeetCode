@@ -170,7 +170,6 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 - [Backtracking](./docs/algorithms/basic/Backtracking.md)
 - [Divide and Conquer](./docs/algorithms/basic/DivideConquer.md)
 - [Dynamic Programming](./docs/algorithms/basic/DynamicProgramming.md)
-  - [Memorization](./docs/algorithms/basic/DynamicProgramming.md#memorization)
 - [Greedy](./docs/algorithms/basic/Greedy.md)
 - [Enumeration](./docs/algorithms/basic/Enumeration.md)
 
@@ -381,6 +380,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/java/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/java/medium/tree/KthSmallestElementInBST.java)| DFS |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/java/medium/array/HIndex.java)| Sort & Map |
+|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Java](./src/java/medium/dp/PerfectSquares.java)| 1D DP |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/java/medium/dp/WiggleSubsequence.java)| 1D DP |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/java/medium/dp/CombinationSumIV.java)| 1D DP |
@@ -401,6 +401,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](./src/java/hard/string/WildcardMatching.java)| Backtracking/Two-Pointer |
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/java/hard/dp/JumpGameII.java)| 1D DP/Greedy |
 |51|[N-Queens](https://leetcode.com/problems/n-queens/) | [Java](./src/java/hard/backtracking/NQueens.java)| Backtracking (DFS) |
+|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Java](./src/java/hard/backtracking/NQueensII.java)| Backtracking (DFS) |
 |76|[Minimum Window Substring](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/java/hard/string/MinimumWindowSubstring.java)| Sliding Window |
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/java/hard/stack/LargestRectangleHistogram.java)| Stack |
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Java](./src/java/hard/matrix/MaximalRectangle.java)| 2D DP |
