@@ -1,4 +1,6 @@
-public class Solution {
+package src.java.easy.number;
+
+public class ExcelSheetColumnNumber {
     public int titleToNumber(String s) {
         if (s==null || s.isEmpty()) return 0;
         int ret = 0;
