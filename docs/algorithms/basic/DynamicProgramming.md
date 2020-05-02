@@ -15,6 +15,8 @@
   - [Linear Model](#linear-model)
   - [Interval Model](#interval-model)
   - [Knapsack Model](#knapsack-model)
+    - [0/1 Knapsack](#01-knapsack)
+    - [Complete Knapsack](#complete-knapsack)
   - [State Compressing Model](#state-compressing-model)
   - [Tree Model](#tree-model)
 - [Common Formula of State Transition](#common-formula-of-state-transition)
@@ -131,13 +133,78 @@ A DP solution can be, sometimes, further optimized in term of space complexity.
 
 ### Linear Model
 
+Linear model is the most common one to solve DP problems. `Linear` here means the states are distributed as linear, and the tabulation is usually an array.
+
+Take this problem, *People on a Rickety Bridge*, as an example.
+
+*Question*: _N_ (_N_ <= 50) people need to cross a rickety bridge at night. Unfortunately, they have one torch and the bridge is to dangerous to cross without a torch. The bridge can support only two people at a time. All the people don’t take the same time to cross the bridge. Time for _i-th_ person is _T[i]_. What is the shortest time needed for all four of them to cross the bridge?
+
+The initial solution most people will think of is to use the fastest person as an usher to guide everyone across (greedy algorithm). So the total time is
+
+```shell
+T = minPTime * (N-2) + (totalSum-minPTime)
+```
+
+Let's verify this by some real data. There are 4 people, time for each one is 1, 2, 5, 10. The time based on this formula is **19**. However, the correct answer is **17**. The process is
+
+- 1 and 2 go cross     - 2 mins
+- 2 comes back         - 2 mins
+- 7 and 10 go across   - 10 mins
+- 1 comes back         - 1 mins
+- 1 and 2 go across    - 2 mins
+
+So, the initial greedy solution cannot reach the optimal state.
+
+Before solving this problem, we need to sort the time per person. The least time of first _i_ people go cross the bright is _opt[i]_. If _i-1_ people have crossed,
+
+```shell
+opt[i] = opt[i-1] + a[1] + a[i]
+```
+
+If less than _i-1_ people have crossed,
+
+```shell
+opt[i] = opt[i-2] + a[1] + a[i] + 2*a[2]
+```
+
+Finally
+
+```shell
+opt[i] = min{opt[i-1] + a[1] + a[i] , opt[i-2] + a[1] + a[i] + 2*a[2] }
+```
+
 ### Interval Model
+
+Interval model is commonly defined as _dp[i][j]_, which specifies the optimal solution between state _i_ and state _j_. The transition is based on _dp[i-1][j]_ and/or _dp[i][j-1]_. The final optimal will be _dp[1][len]_.
+
+*Question*: Given a string A, which length _n_ is less than _1000_, find the min cost of converting it to be a palindrome by inserting letter each time.
+
+*State*: _dp[i][j]_ is the min cost of converting the substring A[i...j]
+
+*Base Case*: _dp[i][i]_ = 0, _dp[i][i+1]_ = 0 if A[i] = A[i+1]
+
+*Transition*:
+
+- If _A[i] = A[j]_, _dp[i][j]_ = _dp[i-1][j-1]_
+- If _A[i] != A[j]_, _dp[i][j]_ = mim{_dp[i][j-1]_ (add A[j] before A[i]), _dp[i-1][j]_ (add A[i] after A[j])} + 1
 
 ### Knapsack Model
 
+Knapsack problem is one of most famous problems in dynamic programming.
+
+#### 0/1 Knapsack
+
+#### Complete Knapsack
+
 ### State Compressing Model
 
+State compressing model is used to handle the dynamic programming problem with small data set. It can optimize storage by converting states to binary.
+
+It is usually too hard for a coding interview. I will add more details later.
+
 ### Tree Model
+
+Tree model specifies the state as node in a tree and all transitions happen there.
 
 ## Common Formula of State Transition
 

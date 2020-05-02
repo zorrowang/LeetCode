@@ -5,8 +5,6 @@ package src.java.easy.tree;
  * left; TreeNode right; TreeNode(int x) { val = x; } }
  */
 class SubtreeOfAnotherTree {
-    // Brute-force solution
-    // Runtime: 5 ms, faster than 96.90% of Java online submissions for Subtree of Another Tree.
     public boolean isSubtree(TreeNode s, TreeNode t) {
         if (s == null)  return false;
         if (helper(s, t))   return true;
