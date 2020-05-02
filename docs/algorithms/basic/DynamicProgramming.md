@@ -210,7 +210,7 @@ Knapsack problem is one of most famous problems in dynamic programming.
 
 *Base Case*: _f[0][v]_ = 0, _f[i][0]_ = 0
 
-*Transition*: _f[i][v] = max{ f[i-1][v], f[i-1][v - k*C[i]] + k*W[i] | | 0 <= k <= v/Ci }_ 
+*Transition*: _f[i][v] = max{ f[i-1][v], f[i-1][v - k * C[i]] + k * W[i] | | 0 <= k <= v/Ci }_
 
 ### State Compressing Model
 
