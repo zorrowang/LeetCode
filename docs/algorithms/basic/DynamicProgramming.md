@@ -15,13 +15,13 @@
   - [Linear Model](#linear-model)
   - [Interval Model](#interval-model)
   - [Knapsack Model](#knapsack-model)
-    - [0/1 Knapsack](#01-knapsack)
+    - [0-1 Knapsack](#0-1-knapsack)
     - [Complete Knapsack](#complete-knapsack)
   - [State Compressing Model](#state-compressing-model)
   - [Tree Model](#tree-model)
-- [Common Formula of State Transition](#common-formula-of-state-transition)
-  - [1-Dimension](#1-dimension)
-  - [2-Dimension](#2-dimension)
+- [Common State Transition Formula](#common-state-transition-formula)
+- [Optimization for Dynamic Programming](#optimization-for-dynamic-programming)
+  - [Rolling Array](#rolling-array)
 - [References](#references)
 
 <!-- /MarkdownTOC -->
@@ -192,9 +192,25 @@ Interval model is commonly defined as _dp[i][j]_, which specifies the optimal so
 
 Knapsack problem is one of most famous problems in dynamic programming.
 
-#### 0/1 Knapsack
+#### 0-1 Knapsack
+
+*Question*: Given weights and values of _n_ items (every item has and only has one copy), put these items in a knapsack of capacity _W_ to get the maximum total value in the knapsack.
+
+*State*: _f[i][v]_ specifies the max value putting _i-th_ item to the knapsack of capacity _v_
+
+*Base Case*: _f[0][v]_ = 0, _f[i][0]_ = 0
+
+*Transition*: _f[i][v] = max{ f[i-1][v], f[i-1][v - C[i]] + W[i] }_
 
 #### Complete Knapsack
+
+*Question*: Given weights and values of _n_ items (every item has infinite copies), put these items in a knapsack of capacity _W_ to get the maximum total value in the knapsack.
+
+*State*: _f[i][v]_ specifies the max value putting _i-th_ item to the knapsack of capacity _v_
+
+*Base Case*: _f[0][v]_ = 0, _f[i][0]_ = 0
+
+*Transition*: _f[i][v] = max{ f[i-1][v], f[i-1][v - k*C[i]] + k*W[i] | | 0 <= k <= v/Ci }_ 
 
 ### State Compressing Model
 
@@ -206,15 +222,38 @@ It is usually too hard for a coding interview. I will add more details later.
 
 Tree model specifies the state as node in a tree and all transitions happen there.
 
-## Common Formula of State Transition
+## Common State Transition Formula
 
-### 1-Dimension
+There are three major factors for dynamic programming
 
-### 2-Dimension
+- the tabulation of all subproblems
+- the dependencies between subproblems, which is essentially a graph
+- the order of filling out tabulation (the topological order of graph)
+
+The common state transition formula includes
+
+- _d[i] = opt{ d[j] + w(j, i) | 0 <= i < j } (1 <= i <= n)_
+- _d[i][j] = opt{ d[i-1][j] + xi, d[i][j-1] + yj, d[i-1][j-1] + zij }     (1<= i, j <= n)_
+- _d[i][j] = w(i, j) + opt{ d[i][k-1] + d[k][j] }, (1 <= i < j <= n)_
+- _d[i][j] = opt{ d[i'][j'] + w(i', j', i, j) |  0 <= i' < i, 0 <= j' < j}_
+
+## Optimization for Dynamic Programming
+
+### Rolling Array
+
+Take the example as the palindrome problem in [Interval Model](#interval-model) again.
+
+The transition is defined as
+
+- If _A[i] = A[j]_, _dp[i][j]_ = _dp[i-1][j-1]_
+- If _A[i] != A[j]_, _dp[i][j]_ = mim{_dp[i][j-1]_ (add A[j] before A[i]), _dp[i-1][j]_ (add A[i] after A[j])} + 1
+
+_dp[i][j]_ is a 2D matrix, and the result at _i-th_ row is only based _(i-1)-th_ and _(i+1)-th_ rows. So we only need a matrix as _dp[2][N]_ to store all states. As the result, the space complexity is optimized from O(n^2) to O(n).
 
 ## References
 
 - <https://en.wikipedia.org/wiki/Dynamic_programming>
+- <https://en.wikipedia.org/wiki/Knapsack_problem#0-1_knapsack_problem>
 - <https://www.geeksforgeeks.org/dynamic-programming/>
 - <https://dev.to/nikolaotasevic/dynamic-programming--7-steps-to-solve-any-dp-interview-problem-3870>
 - <https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/>
