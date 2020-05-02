@@ -284,6 +284,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/java/easy/number/UglyNumber.java)| Brute-Force |
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](./src/java/easy/array/FirstBadVersion.java)| Binary Search |
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/java/easy/array/MoveZeroes.java)| Two-Pointer |
+|292|[Nim Game](https://leetcode.com/problems/nim-game/)|[Java](./src/java/easy/number/NimGame.java)| Minimax |
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/java/easy/math/ValidPerfectSquare.java)| Math |
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Java](./src/java/easy/string/RansomNote.java)| Letter Count |
