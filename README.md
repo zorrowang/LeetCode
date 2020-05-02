@@ -295,6 +295,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](./src/java/easy/tree/SubtreeOfAnotherTree.java)| Recursion | [Converting to string](https://leetcode.com/problems/subtree-of-another-tree/solution/) is a brilliant idea |
 |575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Java](./src/java/easy/array/DistributeCandies.java)| Greedy |
 |594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](./src/java/easy/array/LongestHarmoniousSubsequence.java)| HashMap |
+|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Java](./src/java/easy/array/MaximumProductThreeNumbers.java)| Greedy? |
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](./src/java/easy/tree/SearchBinarySearchTree.java)| BinarySearch |
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](./src/java/easy/array/KthLargestElementInStream.java)| MinQueue |
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Java](./src/java/easy/array/BinarySearch.java)| BinarySearch |
