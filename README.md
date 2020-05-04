@@ -376,6 +376,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Java](./src/java/medium/dp/Triangle.java)| 1D DP |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/java/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./src/java/medium/dp/WordBreak.java)| 1D DP |
+|159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)|[Java](./src/java/medium/string/LongestSubstringAtMostTwoDistinctCharacters.java)| Two-Pointer | LintCode [928](https://www.lintcode.com/problem/longest-substring-with-at-most-two-distinct-characters/description) as Hard |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](./src/java/medium/array/FindPeakElement.java)| BinarySearch |
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges)|[Java](./src/java/medium/array/MissingRanges.java)| Brute-Force | LintCode [641](https://www.lintcode.com/problem/missing-ranges/description) |
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Java](./src/java/medium/string/WordDictionary.java)| Trie+Backtracking |
