@@ -1,8 +1,8 @@
-// If there is no duplicate letters in the string, the algorithm below works more effeciently
-public class Solution {
+package src.java.hard.backtracking;
+
+public class ScrambleString {
+    // If there is no duplicate letters in the string, the algorithm below works more efficiently
     public boolean isScramble(String s1, String s2) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (s1.equals(s2))  return true;
         if (s1.length()==1 && !s1.equals(s2))   return false;
         char start = s1.charAt(0);
@@ -22,12 +22,8 @@ public class Solution {
                 &&isScramble(s1.substring(index+1), s2.substring(index+1));
         }
     }
-}
 
-public class Solution {
-    public boolean isScramble(String s1, String s2) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
+    public boolean isScramble2(String s1, String s2) {
         if (s1.length()!=s2.length())   return false;
         if (s1.equals(s2))  return true;
         
