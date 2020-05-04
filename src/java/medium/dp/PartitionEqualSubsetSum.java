@@ -1,5 +1,8 @@
 package src.java.medium.dp;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PartitionEqualSubsetSum {
     public boolean canPartition(int[] nums) {
         int sum = 0;
