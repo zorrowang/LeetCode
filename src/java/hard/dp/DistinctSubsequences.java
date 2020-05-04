@@ -1,13 +1,14 @@
-// The question description is very confusing
-public class Solution {
-    public int numDistinct(String S, String T) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
-        if (S==null || T==null || S.isEmpty()) return 0;
-        if (T.isEmpty())    return 1;
+package src.java.hard.dp;
+
+public class DistinctSubsequences {
+    public int numDistinct(String s, String t) {
+        // dp[i][j]: the number of distinct subsequences of t[1..j] from s[1..i] 
+        // dp[i][j] = dp[i-1][j-1] + dp[i-1][j] if s[i] == s[j]
+        if (s==null || t==null || s.isEmpty()) return 0;
+        if (t.isEmpty())    return 1;
         
-        char[] arr1 = S.toCharArray();
-        char[] arr2 = T.toCharArray();
+        char[] arr1 = s.toCharArray();
+        char[] arr2 = t.toCharArray();
         int[][] dp = new int[arr1.length+1][arr2.length+1];
         
         for(int i=1; i<=arr1.length; i++){

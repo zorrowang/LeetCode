@@ -407,11 +407,13 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/java/hard/dp/JumpGameII.java)| 1D DP/Greedy |
 |51|[N-Queens](https://leetcode.com/problems/n-queens/) | [Java](./src/java/hard/backtracking/NQueens.java)| Backtracking (DFS) |
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Java](./src/java/hard/backtracking/NQueensII.java)| Backtracking (DFS) |
-|76|[Minimum Window Substring](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/java/hard/string/MinimumWindowSubstring.java)| Sliding Window |
+|72|[Edit Distance](https://leetcode.com/problems/edit-distance/) | [Java](./src/java/hard/dp/EditDistance.java)| 2D DP |
+|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Java](./src/java/hard/string/MinimumWindowSubstring.java)| Sliding Window |
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/java/hard/stack/LargestRectangleHistogram.java)| Stack |
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Java](./src/java/hard/matrix/MaximalRectangle.java)| 2D DP |
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/) | [Java](./src/java/hard/backtracking/ScrambleString.java)| Backtracking |
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Java](./src/java/hard/dp/InterleavingString.java)| 2D DP |
+|115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [Java](./src/java/hard/dp/DistinctSubsequences.java)| 2D DP |
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Java](./src/java/hard/dp/BestTimeBuySellStockIII.java)| 1D DP |
 |135|[Candy](https://leetcode.com/problems/candy/) | [Java](./src/java/hard/greedy/Candy.java)| Greedy |
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/) | [Java](./src/java/hard/string/WordBreakII.java)| 1D DP + DFS |

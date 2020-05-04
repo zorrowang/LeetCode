@@ -1,7 +1,10 @@
-public class Solution {
+package src.java.hard.dp;
+
+public class EditDistance {
     public int minDistance(String word1, String word2) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
+        // dp[i][j]: the min distance from word1[1..i] to word2[1..j]
+        // dp[i][j] = dp[i-1][j-1] if word1[i] == word2[j]
+        //            min{dp[i-1][j](insert), dp[i-1][j-1](replace), dp[i][j-1](delete)} + 1
         if (word1==null || word2==null)  return 0;
         if (word1.isEmpty() || word2.isEmpty())
             return word1.isEmpty()?word2.length():word1.length();
