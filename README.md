@@ -405,6 +405,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 | # | Name | Solution | Algorithm | Note |
 |:-:|:----:|:--------:|:---------:|:----:|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Java](./src/java/hard/string/RegularExpressionMatching.java)| Backtracking |
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Java](./src/java/hard/linkedlist/MergeSortedLists.java)| HeapSort |
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Java](./src/java/hard/stack/LongestValidParentheses.java)| Stack + 1D DP |
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Java](./src/java/hard/matrix/SudokuSolver.java)| Backtracking |
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](./src/java/hard/string/WildcardMatching.java)| Backtracking/Two-Pointer |
