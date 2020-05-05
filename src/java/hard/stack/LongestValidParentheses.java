@@ -1,7 +1,9 @@
-public class Solution {
+package src.java.hard.stack;
+
+import java.util.LinkedList;
+
+public class LongestValidParentheses {
     public int longestValidParentheses(String s) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (s==null || s.isEmpty())    return 0;
         int[] ret = new int[s.length()];
         int max = 0;

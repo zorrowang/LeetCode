@@ -249,7 +249,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](./src/java/easy/number/PalindromeNumber.java)| Number |
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Java](./src/java/easy/string/RomanToInteger.java)| BruteForce |
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Java](./src/java/easy/array/LongestCommonPrefix.java)| BruteForce | More [solutions](https://leetcode.com/problems/longest-common-prefix/solution/)|
-|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](./src/java/easy/string/ValidParentheses.java) [Python](./src/python/string/valid-parentheses.py)| Stack |
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](./src/java/easy/string/ValidParentheses.java) [Python](./src/python/string/valid_parentheses.py)| Stack |
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](./src/java/easy/linkedlist/MergeTwoSortedLists.java)| BruteForce |
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./src/java/easy/array/RemoveDuplicatesSortedArray.java)| Two-Pointer |
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./src/java/easy/array/RemoveElement.java)| BruteForce |
@@ -377,7 +377,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Java](./src/java/medium/dp/Triangle.java)| 1D DP |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/java/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./src/java/medium/dp/WordBreak.java)| 1D DP |
-|159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)|[Java](./src/java/medium/string/LongestSubstringAtMostTwoDistinctCharacters.java)| Two-Pointer | LintCode [928](https://www.lintcode.com/problem/longest-substring-with-at-most-two-distinct-characters/description) as Hard |
+|159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)|[Java](./src/java/medium/string/LongestSubstringAtMostTwoDistinctCharacters.java)| Two-Pointer | LintCode [928](https://www.lintcode.com/problem/longest-substring-with-at-most-two-distinct-characters/description) as `Hard` |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](./src/java/medium/array/FindPeakElement.java)| BinarySearch |
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges)|[Java](./src/java/medium/array/MissingRanges.java)| Brute-Force | LintCode [641](https://www.lintcode.com/problem/missing-ranges/description) |
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Java](./src/java/medium/string/WordDictionary.java)| Trie+Backtracking |
@@ -405,6 +405,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 | # | Name | Solution | Algorithm | Note |
 |:-:|:----:|:--------:|:---------:|:----:|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Java](./src/java/hard/string/RegularExpressionMatching.java)| Backtracking |
+|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Java](./src/java/hard/stack/LongestValidParentheses.java)| Stack + 1D DP |
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Java](./src/java/hard/matrix/SudokuSolver.java)| Backtracking |
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](./src/java/hard/string/WildcardMatching.java)| Backtracking/Two-Pointer |
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/java/hard/dp/JumpGameII.java)| 1D DP/Greedy |
