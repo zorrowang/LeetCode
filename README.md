@@ -412,6 +412,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/java/hard/dp/JumpGameII.java)| 1D DP/Greedy |
 |51|[N-Queens](https://leetcode.com/problems/n-queens/) | [Java](./src/java/hard/backtracking/NQueens.java)| Backtracking (DFS) |
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Java](./src/java/hard/backtracking/NQueensII.java)| Backtracking (DFS) |
+|68|[Text Justification](https://leetcode.com/problems/text-justification/) | [Java](./src/java/hard/string/TextJustification.java)| String |
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/) | [Java](./src/java/hard/dp/EditDistance.java)| 2D DP |
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Java](./src/java/hard/string/MinimumWindowSubstring.java)| Sliding Window |
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](./src/java/hard/stack/LargestRectangleHistogram.java)| Stack |
@@ -422,6 +423,9 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Java](./src/java/hard/dp/BestTimeBuySellStockIII.java)| 1D DP |
 |135|[Candy](https://leetcode.com/problems/candy/) | [Java](./src/java/hard/greedy/Candy.java)| Greedy |
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/) | [Java](./src/java/hard/string/WordBreakII.java)| 1D DP + DFS |
+|164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/) | [Java](./src/java/hard/array/MaximumGap.java)| BucketSort |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/java/hard/deque/SlidingWindowMaximum.java)| Deque |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./src/java/hard/tree/SerializeDeserializeBinaryTree.java)| Tree/DFS/Queue |
+|778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [Java](./src/java/hard/matrix/SwimRisingWater.java)| Backtracking (DFS) + UnionFind |
+|815|[Bus Routes](https://leetcode.com/problems/bus-routes/) | [Java](./src/java/hard/graph/BusRoutes.java)| Graph Traversal (BFS + DFS) |
 |980|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | [Java](./src/java/hard/matrix/UniquePathsIII.java)| Backtracking (DFS) |

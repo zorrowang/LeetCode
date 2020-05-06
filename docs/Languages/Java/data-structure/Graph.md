@@ -163,9 +163,9 @@ class Graph {
     Graph(int vertices) {
         numVertices = vertices;
         adjLists = new LinkedList[vertices];
-        
+
         for (int i = 0; i < vertices; i++)
-            adjLists[i] = new LinkedList();
+            adjLists[i] = new LinkedList<>();
     }
 
     void addEdge(int src, int dst) {
@@ -176,7 +176,7 @@ class Graph {
         // Mark all the vertices as not visited (By default set as false)
         boolean visited[] = new boolean[numVertices];
         // Create a queue for BFS
-        LinkedList<Integer> queue = new LinkedList<Integer>();
+        LinkedList<Integer> queue = new LinkedList<>();
 
         visited[start]=true;
         queue.add(start);

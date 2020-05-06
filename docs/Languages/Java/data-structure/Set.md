@@ -3,15 +3,15 @@
 <!-- MarkdownTOC -->
 
 - [HashSet Class](#hashset-class)
-  - [Constructor](#Constructor)
+  - [HashSet Constructor](#hashset-Constructor)
   - [Methods in HashSet](#methods-in-hashSet)
 - [SortedSet Interface](#sortedset-interface)
   - [NavigableSet Interface](#navigableset-interface)
   - [TreeSet Class](#treeset-class)
-    - [Constructor](#constructor)
+    - [TreeSet Constructor](#treeset-constructor)
     - [Special Methods in TreeSet](#special-methods-in-treeSet)
+- [Union Find (Disjoint Set)](#union-find-disjoint-set)
 - [Techniques in Interview](#techniques-in-nterview)
-  - [Union Find (Disjoint Set)](#union-find-disjoint-set)
 - [Reference](#reference)
 
 <!-- /MarkdownTOC -->
@@ -32,7 +32,7 @@ This class implements the _Set_ interface, backed by a hash table (actually a _H
 
 - Iterating over this set requires time proportional to the sum of the HashSet instance's size (the number of elements) plus the "capacity" of the backing HashMap instance (the number of buckets). Thus, it's very important not to set the initial capacity too high (or the load factor too low) if iteration performance is important.
 
-### Constructor
+### HashSet Constructor
 
 ```java
 // Constructs a new, empty set; the backing HashMap instance has default initial capacity (16) and load factor (0.75).
@@ -136,7 +136,7 @@ The inheritance order is `SortedSet <- NavigableSet <- TreeSet`.
 
 ```java
 TreeSet ts = new TreeSet();
-Set syncSet = Collections.synchronziedSet(ts); 
+Set syncSet = Collections.synchronziedSet(ts);
 ```
 
 Some features of TreeSet are:
@@ -145,7 +145,7 @@ Some features of TreeSet are:
 - TreeSet does not preserve the insertion order of elements but elements are sorted by keys.
 - TreeSet is basically implementation of a self-balancing binary search tree like Red-Black Tree. Therefore operations like _add_, _remove_ and _search_ take `O(lgn)` time. And operations like printing n elements in sorted order takes `O(n)` time.
 
-#### Constructor
+#### Tree Constructor
 
 ```java
 // Constructs a new, empty tree set, sorted according to the natural ordering of its elements.
@@ -253,13 +253,51 @@ for (int i = 0; i < 10; i++)
 ts.tailSet("5");           // return [5, 6, 7, 8, 9]
 ```
 
+## Union Find (Disjoint Set)
+
+![Disjoint Set](../../../images/Disjoint-Sets.png)
+
+**Union–find** data structure (also called a **disjoint-set** data structure or merge–find set) is a data structure that tracks a set of elements partitioned into a number of disjoint (non-overlapping) subsets. It provides near-constant-time operations to add new sets, to merge existing sets, and to determine whether elements are in the same set.
+
+### Operations
+
+#### MakeSet
+
+```java
+public UnionFind(int n) {
+    parent = new int[n];
+    for (int i = 0; i < n; i++)
+        parent[i] = i;
+}
+```
+
+#### Find
+
+```java
+public int find(int p) {
+    while (p != parent[p]) {
+        parent[p] = parent[parent[p]];  // path compression by halving
+        p = parent[p];
+    }
+    return p;
+}
+```
+
+#### Union
+
+```java
+public void union(int p, int q) {
+    int rootP = find(p);
+    int rootQ = find(q);
+    parent[rootQ] = rootP;
+}
+```
+
+The implementation of `UnionFind` class is [here](../../../../src/java/lib/UnionFind.java)
+
 ## Techniques in Interview
 
 _HashSet_ is usually used to store processed values, like Two Sum question, and visited nodes in graph for BFS.
-
-### Union Find (Disjoint Set)
-
-![Disjoint Set](../../../images/Disjoint-Sets.png)
 
 ## Reference
 

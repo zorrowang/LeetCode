@@ -26,7 +26,7 @@ public class WordBreakII {
                     if (map.containsKey(i))
                         map.get(i).add(j);
                     else
-                        map.put(i, new ArrayList(Arrays.asList(j)));
+                        map.put(i, new ArrayList<>(Arrays.asList(j)));
                 }
             }
         }
