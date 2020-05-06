@@ -421,6 +421,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/) | [Java](./src/java/hard/backtracking/ScrambleString.java)| Backtracking |
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Java](./src/java/hard/dp/InterleavingString.java)| 2D DP |
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [Java](./src/java/hard/dp/DistinctSubsequences.java)| 2D DP |
+|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Java](./src/java/medium/tree/BinaryTreeMaximumPathSum.java)| DFS |
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Java](./src/java/hard/dp/BestTimeBuySellStockIII.java)| 1D DP |
 |135|[Candy](https://leetcode.com/problems/candy/) | [Java](./src/java/hard/greedy/Candy.java)| Greedy |
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/) | [Java](./src/java/hard/string/WordBreakII.java)| 1D DP + DFS |
