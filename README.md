@@ -354,6 +354,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Java](./src/java/medium/string/MultiplyStrings.java)| Brute-Force |
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](./src/java/medium/array/Permutations.java)| Backtracking (BFS & DFS) |
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/java/medium/array/PermutationsUnique.java)| Backtracking (BFS & DFS) |
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image)|[Java](./src/java/medium/matrix/RotateImage.java)| Matrix |
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./src/java/medium/string/GroupAnagrams.java)| HashMap/String Signature |
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](./src/java/medium/math/Pow.java)| Math |
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](./src/java/medium/greedy/JumpGame.java)| Greedy |
