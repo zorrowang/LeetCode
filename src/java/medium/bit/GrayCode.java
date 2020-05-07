@@ -1,9 +1,12 @@
-// http://en.wikipedia.org/wiki/Gray_code
-public class Solution {
-    public ArrayList<Integer> grayCode(int n) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
-        ArrayList<Integer> ret = new ArrayList<Integer>();
+package src.java.medium.bit;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GrayCode {
+    // http://en.wikipedia.org/wiki/Gray_code
+    public List<Integer> grayCode(int n) {
+        List<Integer> ret = new ArrayList<Integer>();
         if (n<0)   return ret;
         
         for (int i=0; i<Math.pow(2, n); i++){
@@ -12,14 +15,10 @@ public class Solution {
         
         return ret;
     }
-}
 
-// Reflect-and-prefix method
-public class Solution {
-    public ArrayList<Integer> grayCode(int n) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
-        ArrayList<Integer> ret = new ArrayList<Integer>();
+    // Reflect-and-prefix method
+    public List<Integer> grayCode2(int n) {
+        List<Integer> ret = new ArrayList<Integer>();
         if (n<0)   return null;
         if (n==0){
             ret.add(0);

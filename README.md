@@ -365,6 +365,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](./src/java/medium/backtracking/Combinations.java)| Backtracking (DFS) |
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/java/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[Java](./src/java/medium/backtracking/WordSearch.java)| Backtracking (DFS) |
+|89|[Gray Code](https://leetcode.com/problems/gray-code/)|[Java](./src/java/medium/bit/GrayCode.java)| Bit |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/java/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Java](./src/java/medium/dp/DecodeWays.java)| 1D DP |
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Java](./src/java/medium/backtracking/RestoreIPAddresses.java)| Backtracking & Greedy |
