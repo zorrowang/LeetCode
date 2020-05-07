@@ -393,6 +393,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/java/medium/array/HIndex.java)| Sort & Map |
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Java](./src/java/medium/dp/PerfectSquares.java)| 1D DP |
 |284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Java](./src/java/medium/array/PeekIterator.java)| Design |
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Java](./src/java/medium/array/FindDuplicateNumber.java)| Two-Pointer |
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Java](./src/java/medium/dp/LongestIncreasingSubsequence.java)| 1D DP | Binary search [solution](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation) is more optimal |
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Java](./src/java/medium/bit/MaximumProductWordLengths.java)| Bit-Manipulation |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
