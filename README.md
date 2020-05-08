@@ -287,7 +287,6 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./src/java/easy/string/WordPattern.java)| HashMap |
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[Java](./src/java/easy/number/NimGame.java)| Minimax |
 |293|[Flip Game](https://leetcode.com/problems/flip-game)|[Java](./src/java/easy/string/FlipGame.java)| BruteForce | LintCode [914](https://www.lintcode.com/problem/flip-game/description) |
-|294|[Flip Game II](https://leetcode.com/problems/flip-game-ii)|[Java](./src/java/medium/backtracking/FlipGameII.java)| Backtracking (DFS) | LintCode [913](https://www.lintcode.com/problem/flip-game-ii/description) |
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/java/easy/math/ValidPerfectSquare.java)| Math |
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Java](./src/java/easy/string/RansomNote.java)| Letter Count |
@@ -396,6 +395,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Java](./src/java/medium/dp/PerfectSquares.java)| 1D DP |
 |284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Java](./src/java/medium/array/PeekIterator.java)| Design |
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Java](./src/java/medium/array/FindDuplicateNumber.java)| Two-Pointer |
+|294|[Flip Game II](https://leetcode.com/problems/flip-game-ii)|[Java](./src/java/medium/backtracking/FlipGameII.java)| Backtracking (DFS) | LintCode [913](https://www.lintcode.com/problem/flip-game-ii/description) |
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Java](./src/java/medium/dp/LongestIncreasingSubsequence.java)| 1D DP | Binary search [solution](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation) is more optimal |
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Java](./src/java/medium/bit/MaximumProductWordLengths.java)| Bit-Manipulation |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
