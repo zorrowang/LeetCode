@@ -363,6 +363,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Java](./src/java/medium/dp/UniquePaths.java)| 2D DP |
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Java](./src/java/medium/dp/UniquePathsII.java)| 2D DP |
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](./src/java/medium/matrix/MinPathSum.java)| 2D DP |
+|71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Java](./src/java/medium/string/SimplifyPath.java)| Stack |
 |73|[Set Matrix Zeros](https://leetcode.com/problems/combinations/)|[Java](./src/java/medium/matrix/SetMatrixZeros.java)| Matrix |
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](./src/java/medium/backtracking/Combinations.java)| Backtracking (DFS) |
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/java/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
