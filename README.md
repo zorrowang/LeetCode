@@ -281,6 +281,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/java/easy/number/PowerOfTwo.java)| Bit Manipulation |
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./src/java/easy/linkedlist/PalindromeLinkedList.java)| Two-Pointer | [Reversing a list is not considered "O(1) space"](https://leetcode.com/problems/palindrome-linked-list/discuss/64493/Reversing-a-list-is-not-considered-%22O(1)-space%22) |
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./src/java/easy/string/ValidAnagram.java)| Counting Sort |
+|252|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms)|[Java](./src/java/easy/list/MeetingRooms.java)| Sort | LintCode [920](https://www.lintcode.com/problem/meeting-rooms/description) |
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/java/easy/number/UglyNumber.java)| Brute-Force |
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](./src/java/easy/array/FirstBadVersion.java)| Binary Search |
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/java/easy/array/MoveZeroes.java)| Two-Pointer |
@@ -392,6 +393,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/java/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/java/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/java/medium/tree/KthSmallestElementInBST.java)| DFS |
+|253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)|[Java](./src/java/medium/list/MeetingRoomsII.java)| Greedy | LintCode [919](https://www.lintcode.com/problem/meeting-rooms-ii/description) |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/java/medium/array/HIndex.java)| Sort & Map |
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Java](./src/java/medium/dp/PerfectSquares.java)| 1D DP |
 |284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Java](./src/java/medium/array/PeekIterator.java)| Design |

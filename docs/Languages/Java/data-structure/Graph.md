@@ -393,7 +393,7 @@ class Graph {
     Graph(int vertices) {
         numVertices = vertices;
         adjLists = new LinkedList[vertices];
-        
+
         for (int i = 0; i < vertices; i++)
             adjLists[i] = new LinkedList<Integer>();
     }
@@ -415,7 +415,7 @@ class Graph {
         LinkedList<Integer> q = new LinkedList<Integer>();
         for(int i = 0;i < numVertices; i++) {
             if(incoming[i] == 0)
-                q.offer(i); 
+                q.offer(i);
         }
 
         ArrayList<Integer> order = new ArrayList<>();
@@ -432,7 +432,7 @@ class Graph {
 
         if (order.size() == numVertices)
             return order;
-        else 
+        else
             return null;
     }
 }
