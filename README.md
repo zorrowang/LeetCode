@@ -436,6 +436,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/) | [Java](./src/java/hard/array/MaximumGap.java)| BucketSort |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/java/hard/deque/SlidingWindowMaximum.java)| Deque |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./src/java/hard/tree/SerializeDeserializeBinaryTree.java)| Tree/DFS/Queue |
+|329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Java](./src/java/hard/backtracking/LongestIncreasingPathMatrix.java)| Backtracking (DFS) | TLE |
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [Java](./src/java/hard/matrix/SwimRisingWater.java)| Backtracking (DFS) + UnionFind |
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/) | [Java](./src/java/hard/graph/BusRoutes.java)| Graph Traversal (BFS + DFS) |
 |980|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | [Java](./src/java/hard/matrix/UniquePathsIII.java)| Backtracking (DFS) |
