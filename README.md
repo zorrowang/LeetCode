@@ -397,6 +397,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Java](./src/java/medium/dp/LongestIncreasingSubsequence.java)| 1D DP | Binary search [solution](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation) is more optimal |
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Java](./src/java/medium/bit/MaximumProductWordLengths.java)| Bit-Manipulation |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
+|357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Java](./src/java/medium/math/CountNumbersUniqueDigits.java)| Math |
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/java/medium/dp/WiggleSubsequence.java)| 1D DP |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/java/medium/dp/CombinationSumIV.java)| 1D DP |
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP ([Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model)) |
