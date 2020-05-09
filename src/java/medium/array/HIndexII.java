@@ -1,4 +1,6 @@
-public class Solution {
+package src.java.medium.array;
+
+public class HIndexII {
     public int hIndex(int[] citations) {
         int start = 0;
         int end = citations.length-1;
