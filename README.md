@@ -284,6 +284,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |252|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms)|[Java](./src/java/easy/list/MeetingRooms.java)| Sort | LintCode [920](https://www.lintcode.com/problem/meeting-rooms/description) |
 |256|[Paint House](https://leetcode.com/problems/paint-house)|[Java](./src/java/easy/dp/PaintHouse.java)| 1D DP | LintCode [515](https://www.lintcode.com/problem/paint-house/description) as `medium` |
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/java/easy/number/UglyNumber.java)| Brute-Force |
+|276|[Paint Fence](https://leetcode.com/problems/paint-fence)|[Java](./src/java/easy/dp/PaintFence.java)| 1D DP | LintCode [514](https://www.lintcode.com/problem/paint-fence/description) |
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](./src/java/easy/array/FirstBadVersion.java)| Binary Search |
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/java/easy/array/MoveZeroes.java)| Two-Pointer |
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./src/java/easy/string/WordPattern.java)| HashMap |
