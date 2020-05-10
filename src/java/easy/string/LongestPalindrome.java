@@ -1,9 +1,11 @@
-public class Solution {
+package src.java.easy.string;
+
+public class LongestPalindrome {
     public int longestPalindrome(String s) {
         if (s == null || s.length() == 0) {
             return 0;
         }
-        int[] nums = new int[78];
+        int[] nums = new int[256];
         boolean odd = false;
         int ret = 0;
         for (int i = 0; i < s.length(); i++) {
