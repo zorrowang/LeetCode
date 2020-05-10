@@ -1,8 +1,7 @@
-// This question is trivial
-public class Solution {
+package src.java.hard.string;
+
+public class ValidNumber {
     public boolean isNumber(String s) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         StringBuilder sb = new StringBuilder(s.trim());
         boolean point = false;
         boolean e = false;
@@ -49,8 +48,6 @@ public class Solution {
             else
                 return false;
         }
-        
         return number&&sb.charAt(i-1)!='e';
     }
 }
-
