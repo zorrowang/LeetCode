@@ -1,18 +1,11 @@
+package src.java.medium.linkedlist;
+
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
+ * Definition for singly-linked list. public class ListNode { int val; ListNode
+ * next; ListNode(int x) { val = x; next = null; } }
  */
-public class Solution {
+public class PartitionList {
     public ListNode partition(ListNode head, int x) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         ListNode dummy1 = new ListNode(0);
         ListNode dummy2 = new ListNode(0);
         

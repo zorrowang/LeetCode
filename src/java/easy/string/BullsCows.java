@@ -1,4 +1,6 @@
-public class Solution {
+package src.java.easy.string;
+
+public class BullsCows {
     public String getHint(String secret, String guess) {
         int[] chars = new int[10];
         for (int i=0; i<secret.length(); i++) {

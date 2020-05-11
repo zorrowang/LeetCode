@@ -293,6 +293,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./src/java/easy/string/WordPattern.java)| HashMap |
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[Java](./src/java/easy/number/NimGame.java)| Minimax |
 |293|[Flip Game](https://leetcode.com/problems/flip-game)|[Java](./src/java/easy/string/FlipGame.java)| BruteForce | LintCode [914](https://www.lintcode.com/problem/flip-game/description) |
+|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Java](./src/java/easy/string/BullsCows.java)| Counting |
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/java/easy/math/ValidPerfectSquare.java)| Math |
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Java](./src/java/easy/string/RansomNote.java)| Letter Count |
@@ -356,6 +357,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |15|[Three Sum](https://leetcode.com/problems/3sum/)|[Java](./src/java/medium/array/ThreeSum.java) [Python](./src/python/array/3sum.py)| Two-Pointer |
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Java](./src/java/medium/array/ThreeSumClosest.java) [Python](./src/python/array/three-sum-closest.py)| Two-Pointer |
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](./src/java/medium/array/FourSum.java)| Two-Pointer |
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](./src/java/medium/backtracking/GenerateParentheses.java)| Backtracking (DFS) |
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./src/java/medium/math/NextPermutation.java)| Math |
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java](./src/java/medium/matrix/ValidSudoku.java)| Matrix |
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](./src/java/medium/backtracking/CombinationSum.java)| Backtracking (DFS) |
@@ -423,6 +425,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/java/medium/tree/DeleteNodesAndReturnForest.java)| DFS |
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | [Java](./src/java/medium/tree/DeepestLeavesSum.java)| DFS |
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [Java](./src/java/medium/array/JumpGameIII.java)| Backtracking (DFS) |
+|1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | [Java](./src/java/medium/tree/SumOfNodesEvenValuedGrandparent.java)| DFS |
 |1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | [Java](./src/java/medium/tree/MaximumProductSplittedBinaryTree.java)| DFS |
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [Java](./src/java/medium/array/MaximumPointsFromCards.java)| DP & Sliding Window |
 
