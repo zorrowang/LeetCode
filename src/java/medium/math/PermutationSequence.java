@@ -1,7 +1,7 @@
-public class Solution {
+package src.java.medium.math;
+
+public class PermutationSequence {
     public String getPermutation(int n, int k) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         StringBuilder str = new StringBuilder();
         int permutation = 1;
         int[] nums = new int[n];
