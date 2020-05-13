@@ -278,6 +278,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](./src/java/easy/stack/MinStack.java)| Stack |
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](./src/java/easy/array/TwoSumII.java)| Two-Pointer |
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[Java](./src/java/easy/number/ExcelSheetColumnTitle.java)| Math |
+|169|[Majority Element](https://leetcode.com/problems/majority-element/)|[Java](./src/java/easy/array/MajorityElement.java)| Array | [Moore's voting algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm) |
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Java](./src/java/easy/number/ExcelSheetColumnNumber.java)| Math |
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|[Java](./src/java/easy/dp/HouseRobber.java)| 1D DP |
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[Java](./src/java/medium/dp/HouseRobberII.java)| 1D DP |
