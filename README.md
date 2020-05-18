@@ -302,6 +302,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Java](./src/java/easy/string/RansomNote.java)| Letter Count |
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Java](./src/java/easy/string/LongestPalindrome.java)| String |
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](./src/java/easy/tree/PathSumIII.java)| DFS | Deserve as `medium`|
+|485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](./src/java/easy/dp/MaxConsecutiveOnes.java)| 1D DP |
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Java](./src/java/easy/tree/MinimumAbsoluteDifference.java)| In-order Traversal |
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/java/easy/string/ReverseStringII.java)| BruteForce |
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](./src/java/easy/array/StudentAttendanceRecord.java)| Array |
@@ -426,6 +427,8 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/java/medium/dp/WiggleSubsequence.java)| 1D DP |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/java/medium/dp/CombinationSumIV.java)| 1D DP |
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
+|474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
+|477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Java](./src/java/medium/bit/TotalHammingDistance.java)| Bit |
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Java](./src/java/medium/matrix/ZeroOneMatrix.java)| Stack |
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](./src/java/medium/string/ValidParenthesisString.java)| Greedy + Backtracking | It can be solved by DP, greedy and backtracking! |
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [Java](./src/java/medium/linkedlist/SplitLinkedListParts.java)| LinkedList |
