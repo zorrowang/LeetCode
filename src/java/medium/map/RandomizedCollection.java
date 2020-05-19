@@ -1,6 +1,15 @@
+package src.java.medium.map;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 public class RandomizedCollection {
-    ArrayList<Integer> list;
-    HashMap<Integer, Set<Integer>> map;
+    List<Integer> list;
+    Map<Integer, Set<Integer>> map;
 
     /** Initialize your data structure here. */
     public RandomizedCollection() {
@@ -12,11 +21,12 @@ public class RandomizedCollection {
     public boolean insert(int val) {
         list.add(val);
         if (map.containsKey(val)) {
-            map.get(val).add(list.size() - 1);
+            map.get(val).add(list.size()-1);
             return false;
-        } else {
-            HashSet<Integer> set = new HashSet<>();
-            set.add(list.size() - 1);
+        }
+        else {
+            Set<Integer> set = new HashSet<>();
+            set.add(list.size()-1);
             map.put(val, set);
             return true;
         }
@@ -24,30 +34,25 @@ public class RandomizedCollection {
     
     /** Removes a value from the collection. Returns true if the collection contained the specified element. */
     public boolean remove(int val) {
-        if (map.containsKey(val)) {
-            Set<Integer> set = map.get(val);
-            int index = set.iterator().next();
-            set.remove(index);
-            int lastElement = list.get(list.size() - 1);
-            if (map.get(lastElement).remove(list.size() - 1)) {
-                map.get(lastElement).add(index);
-            }
-            list.set(index, lastElement);
-            list.remove(list.size() - 1);
-            if (set.isEmpty()) {
-                map.remove(val);
-            }
-            return true;
-        } else {
-            return false;
+        if (!map.containsKey(val))  return false;
+        Set<Integer> set = map.get(val);
+        int index = set.iterator().next();
+        set.remove(index);
+        int lastElement = list.get(list.size() - 1);
+        if (map.get(lastElement).remove(list.size() - 1)) {
+            map.get(lastElement).add(index);
         }
+        list.set(index, lastElement);
+        list.remove(list.size() - 1);
+        if (set.isEmpty()) {
+            map.remove(val);
+        }
+        return true;
     }
     
     /** Get a random element from the collection. */
     public int getRandom() {
-        int size = list.size();
-        int index = (int) (Math.random() * size);
-        return list.get(index);
+        return list.get((int)(Math.random() * list.size()));
     }
 }
 

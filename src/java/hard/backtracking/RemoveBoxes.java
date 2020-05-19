@@ -1,4 +1,4 @@
-package src.java.hard;
+package src.java.hard.backtracking;
 
 public class RemoveBoxes {
     // Backtracking DFS - TLE
