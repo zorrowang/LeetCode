@@ -431,6 +431,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Java](./src/java/medium/map/RandomizedCollection.java)| HashMap |
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Java](./src/java/medium/string/DecodeString.java)| Stack & DFS | Deserve as `hard` |
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
+|435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Java](./src/java/medium/matrix/NonOverlappingIntervals.java)| Sort + 1D DP | Greedy [solution](https://leetcode.com/problems/non-overlapping-intervals/discuss/91713/Java%3A-Least-is-Most) can optimize to _O(nlogn)_ |
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Java](./src/java/medium/bit/TotalHammingDistance.java)| Bit |
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Java](./src/java/medium/matrix/ZeroOneMatrix.java)| Stack |
