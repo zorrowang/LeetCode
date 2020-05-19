@@ -2,6 +2,8 @@
 
 Author: zorrowanghw@gmail.com
 
+## Table of Contents
+
 <!-- MarkdownTOC -->
 
 - [Interview Preparation](#interview-preparation)
@@ -42,11 +44,9 @@ Author: zorrowanghw@gmail.com
 
 <!-- /MarkdownTOC -->
 
-The repo is the summary for software engineer interview based on my experience and knowledge.
-
 ## Interview Preparation
 
-The hiring flow for software engineer role is
+The hiring workflow for software engineer role is
 
 - resume screening
 - recruiter call
@@ -199,8 +199,8 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 
 #### Graph Search
 
-- Depth-First Search
-- Breadth-First Search
+- [Depth-First Search](./docs/Languages/Java/data-structure/Graph.md#dfs)
+- [Breadth-First Search](./docs/Languages/Java/data-structure/Graph.md#bfs)
 - A-Star(A*) Search
 
 #### Linear List Search
@@ -421,6 +421,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Java](./src/java/medium/array/FindDuplicateNumber.java)| Two-Pointer |
 |294|[Flip Game II](https://leetcode.com/problems/flip-game-ii)|[Java](./src/java/medium/backtracking/FlipGameII.java)| Backtracking (DFS) | LintCode [913](https://www.lintcode.com/problem/flip-game-ii/description) |
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Java](./src/java/medium/dp/LongestIncreasingSubsequence.java)| 1D DP | Binary search [solution](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation) is more optimal |
+|310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [Java](./src/java/medium/tree/MinimumHeightTrees.java)| BFS |
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Java](./src/java/medium/bit/MaximumProductWordLengths.java)| Bit-Manipulation |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Java](./src/java/medium/math/CountNumbersUniqueDigits.java)| Math |

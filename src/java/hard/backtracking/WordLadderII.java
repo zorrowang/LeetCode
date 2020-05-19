@@ -18,7 +18,8 @@ public class WordLadderII {
         return ret;
     }
     
-    private void dfs(String beginWord, String endWord, List<String> wordList, List<String> list, HashSet<String> set, List<List<String>> ret, int len) {
+    private void dfs(String beginWord, String endWord, List<String> wordList, List<String> list, 
+        HashSet<String> set, List<List<String>> ret, int len) {
         if (len > shortest) return;
         if (beginWord.equals(endWord)) {
             if (shortest == len)

@@ -1,6 +1,49 @@
-// Solution 1: Not pass bc of TLE
-public class Solution {
+package src.java.medium.tree;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class MinimumHeightTrees {
+    // Reference: https://discuss.leetcode.com/topic/30572/share-some-thoughts/2
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
+        if (n == 1) return Collections.singletonList(0);
+        HashMap<Integer, HashSet<Integer>> map = new HashMap<>();
+        ArrayList<Integer> leaves = new ArrayList<>();
+        for (int i=0; i<n; i++) {
+            map.put(i, new HashSet<Integer>());
+        }
+        for (int i=0; i<edges.length; i++) {
+            map.get(edges[i][0]).add(edges[i][1]);
+            map.get(edges[i][1]).add(edges[i][0]);
+        }
+        
+        for (int i=0; i<n; i++) {
+            if (map.get(i).size() == 1) {
+                leaves.add(i);
+            }
+        }
+        int count = leaves.size();
+        while (count < n) {
+            ArrayList<Integer> temp = new ArrayList<>();
+            for (int l : leaves) {
+                int i = map.get(l).iterator().next();
+                map.get(i).remove(l);
+                if (map.get(i).size() == 1) {
+                    temp.add(i);
+                }
+            }
+            count += temp.size();
+            leaves = temp;
+        }
+        return leaves;
+    }
+
+    // BSF - TLE
+    public List<Integer> findMinHeightTreesBfs(int n, int[][] edges) {
         HashMap<Integer, HashSet<Integer>> map = new HashMap<>();
         int[] heights = new int[n];
         ArrayList<Integer> ret = new ArrayList<>();
@@ -45,43 +88,5 @@ public class Solution {
             ret += 1;
         }
         return ret;
-    }
-}
-
-// Solution 2
-// Reference: https://discuss.leetcode.com/topic/30572/share-some-thoughts/2
-public class Solution {
-    public List<Integer> findMinHeightTrees(int n, int[][] edges) {
-        if (n == 1) return Collections.singletonList(0);
-        HashMap<Integer, HashSet<Integer>> map = new HashMap<>();
-        int[] heights = new int[n];
-        ArrayList<Integer> leaves = new ArrayList<>();
-        for (int i=0; i<n; i++) {
-            map.put(i, new HashSet<Integer>());
-        }
-        for (int i=0; i<edges.length; i++) {
-            map.get(edges[i][0]).add(edges[i][1]);
-            map.get(edges[i][1]).add(edges[i][0]);
-        }
-        
-        for (int i=0; i<n; i++) {
-            if (map.get(i).size() == 1) {
-                leaves.add(i);
-            }
-        }
-        int count = leaves.size();
-        while (count < n) {
-            ArrayList<Integer> temp = new ArrayList<>();
-            for (int l : leaves) {
-                int i = map.get(l).iterator().next();
-                map.get(i).remove(l);
-                if (map.get(i).size() == 1) {
-                    temp.add(i);
-                }
-            }
-            count += temp.size();
-            leaves = temp;
-        }
-        return leaves;
-    }
+    }    
 }
