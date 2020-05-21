@@ -434,6 +434,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Java](./src/java/medium/math/CountNumbersUniqueDigits.java)| Math |
 |366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree) | [Java](./src/java/medium/tree/FindLeavesBinaryTree.java)| DFS | LintCode [650](https://www.lintcode.com/problem/find-leaves-of-binary-tree/description) |
 |369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list) | [Java](./src/java/medium/linkedlist/PlusOneLinkedList.java)| Recursion | LintCode [904](https://www.lintcode.com/problem/plus-one-linked-list/description) |
+|370|[Range Addition](https://leetcode.com/problems/range-addition) | [Java](./src/java/medium/array/RangeAddition.java)| Array | LintCode [903](https://www.lintcode.com/problem/range-addition/description) |
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/java/medium/dp/WiggleSubsequence.java)| 1D DP |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/java/medium/dp/CombinationSumIV.java)| 1D DP |
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](./src/java/medium/map/RandomizedSet.java)| HashMap |
