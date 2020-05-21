@@ -432,6 +432,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Java](./src/java/medium/bit/MaximumProductWordLengths.java)| Bit-Manipulation |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Java](./src/java/medium/math/CountNumbersUniqueDigits.java)| Math |
+|361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy) | [Java](./src/java/medium/matrix/BombEnemy.java)| DP | LintCode [553](https://www.lintcode.com/problem/bomb-enemy/description) |
 |366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree) | [Java](./src/java/medium/tree/FindLeavesBinaryTree.java)| DFS | LintCode [650](https://www.lintcode.com/problem/find-leaves-of-binary-tree/description) |
 |369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list) | [Java](./src/java/medium/linkedlist/PlusOneLinkedList.java)| Recursion | LintCode [904](https://www.lintcode.com/problem/plus-one-linked-list/description) |
 |370|[Range Addition](https://leetcode.com/problems/range-addition) | [Java](./src/java/medium/array/RangeAddition.java)| Array | LintCode [903](https://www.lintcode.com/problem/range-addition/description) |
