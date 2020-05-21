@@ -432,6 +432,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Java](./src/java/medium/bit/MaximumProductWordLengths.java)| Bit-Manipulation |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Java](./src/java/medium/math/CountNumbersUniqueDigits.java)| Math |
+|366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree) | [Java](./src/java/medium/tree/FindLeavesBinaryTree.java)| DFS | LintCode [650](https://www.lintcode.com/problem/find-leaves-of-binary-tree/description) |
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/java/medium/dp/WiggleSubsequence.java)| 1D DP |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/java/medium/dp/CombinationSumIV.java)| 1D DP |
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](./src/java/medium/map/RandomizedSet.java)| HashMap |
