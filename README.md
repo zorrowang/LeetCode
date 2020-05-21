@@ -253,6 +253,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](./src/java/easy/linkedlist/MergeTwoSortedLists.java)| BruteForce |
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./src/java/easy/array/RemoveDuplicatesSortedArray.java)| Two-Pointer |
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./src/java/easy/array/RemoveElement.java)| BruteForce |
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Java](./src/java/easy/string/StrStr.java)| String |
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./src/java/easy/dp/MaximumSubarray.java)| DP |
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](./src/java/easy/string/LengthLastWord.java)| String |
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./src/java/easy/array/PlusOne.java)| BruteForce |
@@ -300,8 +301,12 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/java/easy/math/ValidPerfectSquare.java)| Math |
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Java](./src/java/easy/string/RansomNote.java)| Letter Count |
+|408|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation)|[Java](./src/java/easy/string/ValidWordAbbreviation.java)| String | LintCode [637](https://www.lintcode.com/problem/valid-word-abbreviation/description) |
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Java](./src/java/easy/string/LongestPalindrome.java)| String |
+|419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Java](./src/java/medium/matrix/BattleshipsBoard.java)| Greedy | Should be as `easy` |
+|422|[Valid Word Square](https://leetcode.com/problems/valid-word-square)|[Java](src/java/easy/string/ValidWordSquare.java)| String | LintCode [888](https://www.lintcode.com/problem/valid-word-square/description) |
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](./src/java/easy/tree/PathSumIII.java)| DFS | Deserve as `medium`|
+|443|[String Compression](https://leetcode.com/problems/string-compression/)|[Java](./src/java/easy/array/StringCompression.java)| Two-Pointer |
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](./src/java/easy/dp/MaxConsecutiveOnes.java)| 1D DP |
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Java](./src/java/easy/tree/MinimumAbsoluteDifference.java)| In-order Traversal |
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/java/easy/string/ReverseStringII.java)| BruteForce |
@@ -400,6 +405,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Java](./src/java/medium/dp/Triangle.java)| 1D DP |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/java/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java](./src/java/medium/tree/SumRootToLeafNumbers.java)| DFS |
+|134|[Gas Station](https://leetcode.com/problems/gas-station/)|[Java](./src/java/medium/greedy/GasStation.java)| Greedy |
 |137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|[Java](./https://github.com/zorrowang/LeetCode/blob/fc8974ce5468606e2d330fc7640d08751709413e/src/java/medium/bit/SingleNumberII.java)| Bit + Set | Great explanation of this type of questions is [here](https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers) |
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./src/java/medium/dp/WordBreak.java)| 1D DP |
 |159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)|[Java](./src/java/medium/string/LongestSubstringAtMostTwoDistinctCharacters.java)| Two-Pointer | LintCode [928](https://www.lintcode.com/problem/longest-substring-with-at-most-two-distinct-characters/description) as `Hard` |
@@ -429,8 +435,10 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/java/medium/dp/CombinationSumIV.java)| 1D DP |
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](./src/java/medium/map/RandomizedSet.java)| HashMap |
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Java](./src/java/medium/map/RandomizedCollection.java)| HashMap |
+|382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | [Java](./src/java/medium/linkedlist/LinkedListRandomNode.java)| LinkedList | It's essentially a math question ([Reservoir Sampling](https://leetcode.com/problems/linked-list-random-node/discuss/85659/Brief-explanation-for-Reservoir-Sampling)). |
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Java](./src/java/medium/string/DecodeString.java)| Stack & DFS | Deserve as `hard` |
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
+|433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Java](./src/java/medium/backtracking/MinimumGeneticMutation.java)| Backtracking (DFS) |
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Java](./src/java/medium/matrix/NonOverlappingIntervals.java)| Sort + 1D DP | Greedy [solution](https://leetcode.com/problems/non-overlapping-intervals/discuss/91713/Java%3A-Least-is-Most) can optimize to _O(nlogn)_ |
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Java](./src/java/medium/bit/TotalHammingDistance.java)| Bit |
