@@ -404,6 +404,8 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|[Java](./src/java/medium/tree/ConvertSortedListBST.java)| D&C |
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](./src/java/medium/tree/PathSumII.java)| Backtracking (DFS) |
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Java](./src/java/medium/tree/FlattenBinaryTreeLinkedList.java)| BFS & DFS |
+|116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Java](./src/java/medium/tree/PopulatingNextRightPointers.java)| BruteForce |
+|117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Java](./src/java/medium/tree/PopulatingNextRightPointersII.java)| BruteForce |
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Java](./src/java/medium/dp/Triangle.java)| 1D DP |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/java/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java](./src/java/medium/tree/SumRootToLeafNumbers.java)| DFS |
