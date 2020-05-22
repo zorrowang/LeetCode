@@ -1,5 +1,7 @@
 package src.java.medium.tree;
 
+import src.java.lib.TreeNode;
+
 public class CountCompleteTreeNodes {
     // O(n)
     public int countNodes(TreeNode root) {

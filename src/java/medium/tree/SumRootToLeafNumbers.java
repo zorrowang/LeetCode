@@ -1,5 +1,7 @@
 package src.java.medium.tree;
 
+import src.java.lib.TreeNode;
+
 /**
  * Definition for binary tree public class TreeNode { int val; TreeNode left;
  * TreeNode right; TreeNode(int x) { val = x; } }

@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+import src.java.lib.TreeNode;
+
 public class BinaryTreeLevelOrderTraversal {
     // DFS
     public List<List<Integer>> levelOrder(TreeNode root) {

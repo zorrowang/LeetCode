@@ -2,14 +2,9 @@ package src.java.medium.tree;
 
 import java.util.LinkedList;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
+import src.java.lib.TreeNode;
 
-class Solution {
+public class KthSmallestElementInBST {
   public int kthSmallest(TreeNode root, int k) {
       LinkedList<TreeNode> stack = new LinkedList<>();
       int count = 0;

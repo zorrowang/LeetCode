@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 public class WordLadder {
     // BFS for Backtracking
@@ -49,7 +50,6 @@ public class WordLadder {
 
     // DFS for Backtracking
     private int ret = Integer.MAX_VALUE;
-    
     public int ladderLength2(String beginWord, String endWord, List<String> wordList) {
         HashSet<String> used = new HashSet<String>(Arrays.asList(beginWord));
         ladderLengthRec(beginWord, endWord, wordList, used, 1);
@@ -77,5 +77,39 @@ public class WordLadder {
             chars[i] = c;
         }
         return Integer.MAX_VALUE;
+    }
+
+    // DFS without using global variable
+    public int ladderLengthDfs(String beginWord, String endWord, List<String> wordList) {
+        return dfs(beginWord, endWord, wordList, 1, new HashSet<>());
+    }
+    
+    private int dfs(String beginWord, String endWord, List<String> wordList, int level, Set<String> used) {
+        if (beginWord.equals(endWord))  return level;
+        if (wordList.size() == used.size()) return 0;
+        
+        int ret = 0;
+        for (int i=0; i<wordList.size(); i++) {
+            String s = wordList.get(i);
+            if (used.contains(s))   continue;
+            if (canTransfer(beginWord, s)) {
+                used.add(s);
+                int t = dfs(s, endWord, wordList, level+1, used);
+                if (t > 0) {
+                    if (ret==0) ret = t;
+                    else ret = Math.min(ret, t);
+                }
+                used.remove(s);
+            }
+        }
+        return ret;
+    }
+    
+    private boolean canTransfer(String s1, String s2) {
+        int count = 0;
+        for (int i=0; i<s1.length(); i++)
+            if (s1.charAt(i) != s2.charAt(i))
+                count++;
+        return count==1;
     }
 }

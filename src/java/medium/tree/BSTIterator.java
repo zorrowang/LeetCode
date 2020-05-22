@@ -2,6 +2,8 @@ package src.java.medium.tree;
 
 import java.util.LinkedList;
 
+import src.java.lib.TreeNode;
+
 public class BSTIterator {
     LinkedList<TreeNode> stack;
 

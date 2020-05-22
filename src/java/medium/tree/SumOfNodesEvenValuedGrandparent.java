@@ -1,5 +1,7 @@
 package src.java.medium.tree;
 
+import src.java.lib.TreeNode;
+
 public class SumOfNodesEvenValuedGrandparent {
     public int sumEvenGrandparent(TreeNode root) {
         if (root == null)    return 0;

@@ -2,6 +2,8 @@ package src.java.medium.tree;
 
 import java.util.ArrayList;
 
+import src.java.lib.TreeNode;
+
 public class UniqueBinarySearchTreeII {
     // Recursive solution
     public ArrayList<TreeNode> generateTrees(int n) {

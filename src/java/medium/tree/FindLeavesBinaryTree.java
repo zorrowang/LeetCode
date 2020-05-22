@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+import src.java.lib.TreeNode;
+
 public class FindLeavesBinaryTree {
     /*
      * @param root: the root of binary tree

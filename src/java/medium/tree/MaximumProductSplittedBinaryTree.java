@@ -1,62 +1,8 @@
 package src.java.medium.tree;
 
-/**
- * Definition for a binary tree node. public class TreeNode { int val; TreeNode
- * left; TreeNode right; TreeNode(int x) { val = x; } }
- */
-class MaximumProductSplittedBinaryTree {
-  // Time Limit Exceeded
-  public int maxProduct(TreeNode root) {
-    return (int)(helper(root, 0) % (1e9+7));
-  }
+import src.java.lib.TreeNode;
 
-  public long helper(TreeNode root, long sum) {
-      long max = Long.MIN_VALUE;
-      if (root.left==null && root.right==null)
-          return max;
-      sum += root.val;
-      long sumLeft = sum(root.left);
-      long sumRight = sum(root.right);
-      if (root.left!=null) {
-          max = Math.max(max, (sumRight+sum)*sumLeft);
-          long left = helper(root.left, sum+sumRight);
-          max = Math.max(left, max);
-      }
-      if (root.right!=null) {
-          max = Math.max(max, (sumLeft+sum)*sumRight);
-          long right = helper(root.right, sum+sumLeft);
-          max = Math.max(right, max);
-      }
-      return max;
-  }
-
-  public long sum(TreeNode root) {
-      if (root==null)
-          return 0;
-      return root.val + sum(root.left) + sum(root.right);
-  }
-}
-
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int x) { val = x; }
-}
-
-
-
-class MaximumProductSplittedBinaryTree2 {
+public class MaximumProductSplittedBinaryTree {
   // Passed: time & space O(n)
   // Build tree with sum value
   public int maxProduct(TreeNode root) {
