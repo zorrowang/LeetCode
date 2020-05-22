@@ -286,6 +286,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/java/easy/number/PowerOfTwo.java)| Bit Manipulation |
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./src/java/easy/linkedlist/PalindromeLinkedList.java)| Two-Pointer | [Reversing a list is not considered "O(1) space"](https://leetcode.com/problems/palindrome-linked-list/discuss/64493/Reversing-a-list-is-not-considered-%22O(1)-space%22) |
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./src/java/easy/string/ValidAnagram.java)| Counting Sort |
+|243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance)|[Java](./src/java/easy/array/ShortestWordDistance.java)| Greedy | LintCode [924](https://www.lintcode.com/problem/shortest-word-distance/description) |
 |252|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms)|[Java](./src/java/easy/list/MeetingRooms.java)| Sort | LintCode [920](https://www.lintcode.com/problem/meeting-rooms/description) |
 |256|[Paint House](https://leetcode.com/problems/paint-house)|[Java](./src/java/easy/dp/PaintHouse.java)| 1D DP | LintCode [515](https://www.lintcode.com/problem/paint-house/description) as `medium` |
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Java](./src/java/easy/number/AddDigits.java)| Number |
@@ -455,6 +456,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [Java](./src/java/medium/linkedlist/SplitLinkedListParts.java)| LinkedList |
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/java/medium/array/DailyTemperatures.java)| Stack |
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [Java](./src/java/medium/string/ScoreParentheses.java)| Stack |
+|870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) | [Java](./src/java/medium/array/AdvantageShuffle.java)| Greedy + BinarySearch |
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Java](./src/java/medium/string/MinimumAddParenthesesValid.java)| Greedy |
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [Java](./src/java/medium/string/LongestStringChain.java)| 1D DP |
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/java/medium/tree/DeleteNodesAndReturnForest.java)| DFS |
