@@ -429,6 +429,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |254|[Factor Combinations](https://leetcode.com/problems/factor-combinations)|[Java](./src/java/medium/backtracking/FactorCombinations.java)| Backtracking (DFS) | LintCode [1308](https://www.lintcode.com/problem/factor-combinations/description) |
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller)|[Java](./src/java/medium/array/3SumSmaller.java)| Two-Pointer | LintCode [918](https://www.lintcode.com/problem/3sum-smaller/description) |
 |261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree)|[Java](./src/java/medium/tree/GraphValidTree.java)| UnionFind | LintCode [178](https://www.lintcode.com/problem/graph-valid-tree/description) |
+|267|[Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii)|[Java](./src/java/medium/backtracking/PalindromePermutationII.java)| Backtracking (DFS) | LintCode [917](https://www.lintcode.com/problem/palindrome-permutation-ii/description) |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/java/medium/array/HIndex.java)| Sort & Map |
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii/) | [Java](./src/java/medium/array/HIndexII.java)| BinarySearch |
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Java](./src/java/medium/dp/PerfectSquares.java)| 1D DP |
