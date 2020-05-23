@@ -293,6 +293,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Java](./src/java/easy/number/AddDigits.java)| Number |
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/java/easy/number/UglyNumber.java)| Brute-Force |
 |266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation)|[Java](./src/java/easy/string/PalindromePermutation.java)| Counting | LintCode [916](https://www.lintcode.com/problem/palindrome-permutation/description) |
+|268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Java](./src/java/easy/array/MissingNumber.java)| Counting | Bit manipulation solution using XOR is [here](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination) |
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence)|[Java](./src/java/easy/dp/PaintFence.java)| 1D DP | LintCode [514](https://www.lintcode.com/problem/paint-fence/description) |
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](./src/java/easy/array/FirstBadVersion.java)| Binary Search |
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/java/easy/array/MoveZeroes.java)| Two-Pointer |
