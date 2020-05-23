@@ -235,10 +235,10 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 
 ### Current Status
 
-- **Total**:  334/1440
-  - &#x1F4D7;Easy:   147
-  - &#x1F4D8;Medium: 151
-  - &#x1F4D9;Hard:   36
+- **Total**:  362/1440
+  - &#x1F4D7;[Easy](#easy-questions):   151
+  - &#x1F4D8;[Medium](#medium-questions): 174
+  - &#x1F4D9;[Hard](#hard-questions):   38
 
 ### Easy Questions
 
@@ -445,6 +445,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](./src/java/medium/map/RandomizedSet.java)| HashMap |
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Java](./src/java/medium/map/RandomizedCollection.java)| HashMap |
 |382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | [Java](./src/java/medium/linkedlist/LinkedListRandomNode.java)| LinkedList | It's essentially a math question ([Reservoir Sampling](https://leetcode.com/problems/linked-list-random-node/discuss/85659/Brief-explanation-for-Reservoir-Sampling)). |
+|386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | [Java](./src/java/medium/backtracking/LexicographicalNumbers.java)| DFS |
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Java](./src/java/medium/string/DecodeString.java)| Stack & DFS | Deserve as `hard` |
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Java](./src/java/medium/backtracking/MinimumGeneticMutation.java)| Backtracking (DFS) |
