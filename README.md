@@ -235,7 +235,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 
 ### Current Status
 
-- **Total**:  362/1440
+- **Total**:  363/1454
   - &#x1F4D7;[Easy](#easy-questions):   151
   - &#x1F4D8;[Medium](#medium-questions): 174
   - &#x1F4D9;[Hard](#hard-questions):   38
@@ -289,6 +289,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance)|[Java](./src/java/easy/array/ShortestWordDistance.java)| Greedy | LintCode [924](https://www.lintcode.com/problem/shortest-word-distance/description) |
 |252|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms)|[Java](./src/java/easy/list/MeetingRooms.java)| Sort | LintCode [920](https://www.lintcode.com/problem/meeting-rooms/description) |
 |256|[Paint House](https://leetcode.com/problems/paint-house)|[Java](./src/java/easy/dp/PaintHouse.java)| 1D DP | LintCode [515](https://www.lintcode.com/problem/paint-house/description) as `medium` |
+|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Java](./src/java/easy/tree/BinaryTreePaths.java)| DFS |
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Java](./src/java/easy/number/AddDigits.java)| Number |
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/java/easy/number/UglyNumber.java)| Brute-Force |
 |266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation)|[Java](./src/java/easy/string/PalindromePermutation.java)| Counting | LintCode [916](https://www.lintcode.com/problem/palindrome-permutation/description) |
