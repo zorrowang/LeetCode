@@ -505,6 +505,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/) | [Java](./src/java/hard/string/WordBreakII.java)| 1D DP + DFS |
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/) | [Java](./src/java/hard/array/MaximumGap.java)| BucketSort |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/java/hard/deque/SlidingWindowMaximum.java)| Deque |
+|295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Java](./src/java/hard/heap/FindMedianDataStream.java)| Heap | Solution for follow-ups: <br/> 1. counting sort between 0 and 100 <br/> 2. count numbers, which is > 100 and < 0 |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./src/java/hard/tree/SerializeDeserializeBinaryTree.java)| Tree/DFS/Queue |
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Java](./src/java/hard/backtracking/LongestIncreasingPathMatrix.java)| Backtracking (DFS) | TLE |
 |546|[Remove Boxes](https://leetcode.com/problems/remove-boxes/) | [Java](./src/java/hard/array/RemoveBoxes.java)| Backtracking (DFS) | Backtracking is TLE. 3D DP solution is [here](https://leetcode.com/problems/remove-boxes/discuss/101310/Java-top-down-and-bottom-up-DP-solutions) |
