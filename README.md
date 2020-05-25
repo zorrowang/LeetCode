@@ -18,7 +18,7 @@ Author: zorrowanghw@gmail.com
     - [Go Overview and Features](#go-overview-and-features)
     - [Data Structures in Go](#data-structures-in-go)
 - [Algorithms](#algorithms)
-  - [Algorithm Complexity](#algorithm-complexity)
+  - [Computational Complexity](#computational-complexity)
   - [Basic Algorithms](#basic-algorithms)
     - [Backtracking](./docs/algorithms/basic/Backtracking.md)
     - [Divide and Conquer](./docs/algorithms/basic/Divide-Conquer.md)
@@ -160,7 +160,7 @@ An algorithm must possess the following five properties:
 
 As the restriction of whiteboard coding and the properties of algorithm, most of interview questions can be resolved in ~50 lines of code.
 
-### Algorithm Complexity
+### Computational Complexity
 
 - [Time Complexity](./docs/algorithms/Complexity.md#time-complexity)
 - [Space Complexity](./docs/algorithms/Complexity.md#space-complexity)
