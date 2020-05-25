@@ -421,6 +421,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Java](./src/java/medium/array/MissingRanges.java)| Brute-Force | LintCode [641](https://www.lintcode.com/problem/missing-ranges/description) |
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Java](./src/java/medium/string/CompareVersionNumbers.java)| String |
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Java](./src/java/medium/tree/BSTIterator.java)| BFS+Stack |
+|201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[Java](./src/java/medium/bit/BitwiseANDNumbersRange.java)| Bit |
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Java](./src/java/medium/string/WordDictionary.java)| Trie+Backtracking |
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/java/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/java/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
