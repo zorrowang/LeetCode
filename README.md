@@ -435,6 +435,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii/) | [Java](./src/java/medium/array/HIndexII.java)| BinarySearch |
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Java](./src/java/medium/dp/PerfectSquares.java)| 1D DP |
 |284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Java](./src/java/medium/array/PeekIterator.java)| Design |
+|285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst) | [Java](./src/java/medium/tree/InorderSuccessorBST.java)| DFS | LintCode [448](https://www.lintcode.com/problem/inorder-successor-in-bst/description) |
 |286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates) | [Java](src/java/medium/matrix/WallsAndGates.java)| BFS | LintCode [663](https://www.lintcode.com/problem/walls-and-gates/description) |
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Java](./src/java/medium/array/FindDuplicateNumber.java)| Two-Pointer |
 |294|[Flip Game II](https://leetcode.com/problems/flip-game-ii)|[Java](./src/java/medium/backtracking/FlipGameII.java)| Backtracking (DFS) | LintCode [913](https://www.lintcode.com/problem/flip-game-ii/description) |
