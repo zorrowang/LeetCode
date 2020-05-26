@@ -432,6 +432,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/java/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/java/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/java/medium/tree/KthSmallestElementInBST.java)| DFS |
+|250|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees)|[Java](./src/java/medium/tree/CountUnivalueSubtrees.java)| DFS | LintCode [921](https://www.lintcode.com/problem/count-univalue-subtrees/description) |
 |251|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector) | [Java](./src/java/medium/list/Vector2D.java)| Two-Pointer | LintCode [601](https://www.lintcode.com/problem/flatten-2d-vector/description) |
 |253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)|[Java](./src/java/medium/list/MeetingRoomsII.java)| Greedy | LintCode [919](https://www.lintcode.com/problem/meeting-rooms-ii/description) |
 |254|[Factor Combinations](https://leetcode.com/problems/factor-combinations)|[Java](./src/java/medium/backtracking/FactorCombinations.java)| Backtracking (DFS) | LintCode [1308](https://www.lintcode.com/problem/factor-combinations/description) |
