@@ -305,6 +305,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |293|[Flip Game](https://leetcode.com/problems/flip-game)|[Java](./src/java/easy/string/FlipGame.java)| BruteForce | LintCode [914](https://www.lintcode.com/problem/flip-game/description) |
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Java](./src/java/easy/string/BullsCows.java)| Counting |
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](./src/java/easy/array/ReverseString.java)| Two Pointer |
 |346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream)|[Java](./src/java/easy/stream/MovingAverage.java)| Sliding Window | LintCode [642](https://www.lintcode.com/problem/moving-average-from-data-stream/description) |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/java/easy/math/ValidPerfectSquare.java)| Math |
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Java](./src/java/easy/number/GuessNumber.java)| Binary Search |
