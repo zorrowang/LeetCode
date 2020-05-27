@@ -1,4 +1,4 @@
-package src.java.easy.bit;
+package src.java.medium.bit;
 
 public class IntegerReplacement {
     public int integerReplacement(int n) {
