@@ -310,6 +310,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/java/easy/math/ValidPerfectSquare.java)| Math |
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Java](./src/java/easy/number/GuessNumber.java)| Binary Search |
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Java](./src/java/easy/string/RansomNote.java)| Letter Count |
+|401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Java](./src/java/easy/bit/BinaryWatch.java)| bit |
 |408|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation)|[Java](./src/java/easy/string/ValidWordAbbreviation.java)| String | LintCode [637](https://www.lintcode.com/problem/valid-word-abbreviation/description) |
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Java](./src/java/easy/string/LongestPalindrome.java)| String |
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Java](./src/java/medium/matrix/BattleshipsBoard.java)| Greedy | Should be as `easy` |
