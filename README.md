@@ -272,12 +272,13 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](./src/java/easy/tree/BalancedBinaryTree.java)| DFS |
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](./src/java/easy/tree/MinimumDepthBinaryTree.java)| DFS |
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./src/java/easy/tree/PathSum.java)| DFS |
-|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./src/java/easy/math/PascalTriangle.java)| BruteForce |
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./src/java/easy/math/PascalTriangle.java)| Array |
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./src/java/easy/math/PascalTriangleII.java)| 1D DP |
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java](./src/java/easy/array/BestTimeBuySellStock.java)| DP |
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Java](./src/java/easy/array/BestTimeBuySellStockII.java)| Greedy |
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](./src/java/easy/string/ValidPalindrome.java)| Two-Pointer |
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[Java](./src/java/easy/bit/SingleNumber.java)| Bit |
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](./src/java/easy/linkedlist/LinkedListCycle.java)| LinkedList |
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](./src/java/easy/stack/MinStack.java)| Stack |
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](./src/java/easy/array/TwoSumII.java)| Two-Pointer |
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[Java](./src/java/easy/number/ExcelSheetColumnTitle.java)| Math |
