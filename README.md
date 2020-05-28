@@ -280,6 +280,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[Java](./src/java/easy/bit/SingleNumber.java)| Bit |
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](./src/java/easy/linkedlist/LinkedListCycle.java)| LinkedList |
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](./src/java/easy/stack/MinStack.java)| Stack |
+|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Java](./src/java/easy/linkedlist/IntersectionTwoLinkedLists.java)| LinkedList |
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](./src/java/easy/array/TwoSumII.java)| Two-Pointer |
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[Java](./src/java/easy/number/ExcelSheetColumnTitle.java)| Math |
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[Java](./src/java/easy/array/MajorityElement.java)| Array | [Moore's voting algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm) |
