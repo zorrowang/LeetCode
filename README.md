@@ -255,6 +255,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./src/java/easy/array/RemoveElement.java)| BruteForce |
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Java](./src/java/easy/string/StrStr.java)| String |
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Java](./src/java/easy/array/SearchInsertPosition.java)| String |
+|38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[Java](./src/java/easy/math/CountPrimes.java)| Number |
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./src/java/easy/dp/MaximumSubarray.java)| DP |
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](./src/java/easy/string/LengthLastWord.java)| String |
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./src/java/easy/array/PlusOne.java)| BruteForce |

@@ -1,13 +1,13 @@
-public class Solution {
+package src.java.easy.number;
+
+import java.util.LinkedList;
+
+public class CountAndSay {
     public String countAndSay(int n) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (n<=0)   return "";
         String ret = "1";
-        for (int i=2; i<=n; i++){
+        for (int i=2; i<=n; i++)
             ret = transfer(ret);
-        }
-        
         return ret;
     }
     
