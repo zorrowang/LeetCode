@@ -1,7 +1,7 @@
-public class Solution {
+package src.java.medium.number;
+
+public class IntegerToRoman {
     public String intToRoman(int num) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         StringBuilder ret = new StringBuilder();
         int length = 1;
         while(num/length>=10)
