@@ -287,7 +287,8 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Java](./src/java/easy/number/ExcelSheetColumnNumber.java)| Math |
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Java](./src/java/easy/math/FactorialTrailingZeroes.java)| Math |
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](./src/java/easy/array/RotateArray.java)| Array |
-|190|[Rotate Bits](https://leetcode.com/problems/rotate-bits/)|[Java](./src/java/easy/array/RotateBits.java)| Bit |
+|190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Java](./src/java/easy/bit/ReverseBits.java)| Bit |
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)|[Java](./src/java/easy/bit/NumberOneBits.java)| Bit |
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|[Java](./src/java/easy/dp/HouseRobber.java)| 1D DP |
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Java](./src/java/easy/number/HappyNumber.java)| Set |
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Java](./src/java/easy/linkedlist/RemoveLinkedListElements.java)| LinkedList |
