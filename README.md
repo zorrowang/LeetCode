@@ -403,8 +403,10 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image)|[Java](./src/java/medium/matrix/RotateImage.java)| Matrix |
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./src/java/medium/string/GroupAnagrams.java)| HashMap/String Signature |
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](./src/java/medium/math/Pow.java)| Math |
+|54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Java](./src/java/medium/matrix/SpiralMatrix.java)| Matrix |
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](./src/java/medium/greedy/JumpGame.java)| Greedy |
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Java](./src/java/medium/array/MergeIntervals.java)| Sort |
+|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Java](./src/java/medium/matrix/SpiralMatrixII.java)| Matrix |
 |60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|[Java](./src/java/medium/math/PermutationSequence.java)| Math |
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Java](./src/java/medium/linkedlist/RotateList.java)| LinkedList |
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Java](./src/java/medium/dp/UniquePaths.java)| 2D DP |
@@ -418,7 +420,9 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/java/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[Java](./src/java/medium/backtracking/WordSearch.java)| Backtracking (DFS) |
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Java](./src/java/medium/array/RemoveDuplicatesSortedArrayII.java)| Two-Pointer |
+|81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Java](./src/java/medium/array/SearchRotatedSortedArrayII.java)| Binary Search |
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](./src/java/medium/linkedlist/RemoveDuplicatesSortedListII.java)| LinkedList |
+|86|[Partition List](https://leetcode.com/problems/partition-list/)|[Java](./src/java/medium/linkedlist/PartitionList.java)| LinkedList |
 |89|[Gray Code](https://leetcode.com/problems/gray-code/)|[Java](./src/java/medium/bit/GrayCode.java)| Bit |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/java/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Java](./src/java/medium/dp/DecodeWays.java)| 1D DP |

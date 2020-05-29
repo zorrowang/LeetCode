@@ -1,7 +1,7 @@
-public class Solution {
+package src.java.medium.matrix;
+
+public class SpiralMatrixII {
     public int[][] generateMatrix(int n) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         int[][] ret = new int[n][n];
         if (n<=0)   return ret;
         for(int i=0; n>2*i; i++)
