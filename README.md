@@ -429,6 +429,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Java](./src/java/medium/dp/DecodeWays.java)| 1D DP |
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Java](./src/java/medium/backtracking/RestoreIPAddresses.java)| Backtracking & Greedy |
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](./src/java/medium/tree/BinaryTreeInorderTraversal.java)| Tree Traversal |
+|95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[Java](./src/java/medium/tree/UniqueBinarySearchTreeII.java)| DFS |
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[Java](./src/java/medium/dp/UniqueBinarySearchTree.java)| 1D DP | Optimized from 2D to 1D |
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Java](./src/java/medium/tree/ValidateBinarySearchTree.java)| DFS |
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](./src/java/medium/tree/BinaryTreeLevelOrderTraversal.java)| DFS & BFS |

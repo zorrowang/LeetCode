@@ -9,7 +9,6 @@ public class UniqueBinarySearchTreeII {
     public ArrayList<TreeNode> generateTrees(int n) {
         if (n==0)   return new ArrayList<TreeNode>();
         return generateTrees(n, 0);
-
     }
     
     public ArrayList<TreeNode> generateTrees(int n, int offset) {
@@ -41,7 +40,5 @@ public class UniqueBinarySearchTreeII {
         }
         return ret;
     }
-
-    // DP solution
 }
 
