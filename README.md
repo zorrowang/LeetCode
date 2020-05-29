@@ -386,8 +386,9 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Java](./src/java/medium/number/IntegerToRoman.java)| Number |
 |15|[Three Sum](https://leetcode.com/problems/3sum/)|[Java](./src/java/medium/array/ThreeSum.java) [Python](./src/python/array/3sum.py)| Two-Pointer |
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Java](./src/java/medium/array/ThreeSumClosest.java) [Python](./src/python/array/three-sum-closest.py)| Two-Pointer |
-|18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](./src/java/medium/array/FourSum.java)| Two-Pointer |
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Java](./src/java/medium/string/LetterCombinationsPhoneNumber.java)| Backtracking (DFS) |
+|18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](./src/java/medium/array/FourSum.java)| Two-Pointer |
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](./src/java/medium/linkedlist/RemoveNthNodeFromEndList.java)| Two-Pointer |
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](./src/java/medium/backtracking/GenerateParentheses.java)| Backtracking (DFS) |
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./src/java/medium/math/NextPermutation.java)| Math |
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java](./src/java/medium/matrix/ValidSudoku.java)| Matrix |

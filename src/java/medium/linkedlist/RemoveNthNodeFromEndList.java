@@ -1,15 +1,10 @@
+package src.java.medium.linkedlist;
+
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
+ * Definition for singly-linked list. public class ListNode { int val; ListNode
+ * next; ListNode(int x) { val = x; next = null; } }
  */
-public class Solution {
+public class RemoveNthNodeFromEndList {
     // 1. Check edge case: remove head node
     // 2. When checking node.next, ensure check node before
     public ListNode removeNthFromEnd(ListNode head, int n) {
