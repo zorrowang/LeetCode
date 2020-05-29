@@ -1,5 +1,29 @@
-public class Solution {
-    public int search(int[] A, int target) {
+package src.java.medium.array;
+
+public class SearchRotatedSortedArray {
+    // Binary search
+    public int search(int[] nums, int target) {
+        return search(nums, target, 0, nums.length-1);
+    }
+    
+    private int search(int[] nums, int target, int start, int end) {
+        if (start > end)    return -1;
+        int mid = start + (end - start)/2;
+        if (nums[mid] == target)    return mid;
+        else if (nums[mid] > target) {
+            if (nums[start] <= target || nums[start] > nums[mid])
+                return search(nums, target, start, mid-1);
+            else
+                return search(nums, target, mid+1, end);
+        } else {
+            if (nums[end] >= target || nums[end] < nums[mid])
+                return search(nums, target, mid+1, end);
+            else
+                return search(nums, target, start, mid-1);
+        }
+    }
+    // Legacy Solutions
+    public int search2(int[] A, int target) {
         // Start typing your Java solution below
         // DO NOT write main() function
         if (A==null || A.length==0) return -1; 
@@ -33,18 +57,17 @@ public class Solution {
         else
             return A[start]<A[end]?start:end;
     }
-}
 
-// Solution #2
-public class Solution {
-    public int search(int[] A, int target) {
+
+    // Solution #3
+    public int search3(int[] A, int target) {
         // Start typing your Java solution below
         // DO NOT write main() function
         if (A==null)    return -1;
-        return searchHelper(A, target, 0, A.length-1);
+        return search3(A, target, 0, A.length-1);
     }
     
-    public int searchHelper(int[] A, int target, int start, int end){
+    public int search3(int[] A, int target, int start, int end){
         if (start>end)  return -1;
         int mid = (start+end)/2;
         if (A[mid]==target) return mid;

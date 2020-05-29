@@ -391,7 +391,9 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](./src/java/medium/linkedlist/RemoveNthNodeFromEndList.java)| Two-Pointer |
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](./src/java/medium/backtracking/GenerateParentheses.java)| Backtracking (DFS) |
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Java](./src/java/medium/linkedlist/SwapNodesPairs.java)| Recursion |
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Java](./src/java/medium/bit/DivideTwoInteger.java)| Bit |
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./src/java/medium/math/NextPermutation.java)| Math |
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](./src/java/medium/array/FindFirstLastPositionElementSortedArray.java)| Binary Search |
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java](./src/java/medium/matrix/ValidSudoku.java)| Matrix |
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](./src/java/medium/backtracking/CombinationSum.java)| Backtracking (DFS) |
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Java](./src/java/medium/backtracking/CombinationSumII.java)| Backtracking (DFS) |
@@ -410,10 +412,13 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](./src/java/medium/matrix/MinPathSum.java)| 2D DP |
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Java](./src/java/medium/string/SimplifyPath.java)| Stack |
 |73|[Set Matrix Zeros](https://leetcode.com/problems/combinations/)|[Java](./src/java/medium/matrix/SetMatrixZeros.java)| Matrix |
-|73|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](./src/java/medium/array/SortColors.java)| Two-Pointer |
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Java](./src/java/medium/matrix/SearchMatrix.java)| Binary Search |
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](./src/java/medium/array/SortColors.java)| Two-Pointer |
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](./src/java/medium/backtracking/Combinations.java)| Backtracking (DFS) |
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](./src/java/medium/array/Subsets.java)| Backtracking (BFS & DFS) |
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[Java](./src/java/medium/backtracking/WordSearch.java)| Backtracking (DFS) |
+|80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Java](./src/java/medium/array/RemoveDuplicatesSortedArrayII.java)| Two-Pointer |
+|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](./src/java/medium/linkedlist/RemoveDuplicatesSortedListII.java)| LinkedList |
 |89|[Gray Code](https://leetcode.com/problems/gray-code/)|[Java](./src/java/medium/bit/GrayCode.java)| Bit |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/java/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Java](./src/java/medium/dp/DecodeWays.java)| 1D DP |
