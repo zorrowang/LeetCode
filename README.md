@@ -393,6 +393,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Java](./src/java/medium/linkedlist/SwapNodesPairs.java)| Recursion |
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Java](./src/java/medium/bit/DivideTwoInteger.java)| Bit |
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./src/java/medium/math/NextPermutation.java)| Math |
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](./src/java/medium/array/SearchRotatedSortedArray.java)| Binary Search |
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](./src/java/medium/array/FindFirstLastPositionElementSortedArray.java)| Binary Search |
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java](./src/java/medium/matrix/ValidSudoku.java)| Matrix |
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](./src/java/medium/backtracking/CombinationSum.java)| Backtracking (DFS) |
