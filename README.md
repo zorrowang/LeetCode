@@ -455,7 +455,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Java](./src/java/medium/string/ReverseWordsInString.java)| String | Should be an `easy` one |
 |156|[Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down)|[Java](./src/java/medium/tree/BinaryTreeUpsideDown.java)| Stack | LintCode [649](https://www.lintcode.com/problem/binary-tree-upside-down/description) |
 |159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)|[Java](./src/java/medium/string/LongestSubstringAtMostTwoDistinctCharacters.java)| Two-Pointer | LintCode [928](https://www.lintcode.com/problem/longest-substring-with-at-most-two-distinct-characters/description) as `Hard` |
-|161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance)|[Java](./src/java/medium/string/OneEditDistance.java)| String |
+|161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance)|[Java](./src/java/medium/string/OneEditDistance.java)| String | LintCode [640](https://www.lintcode.com/problem/one-edit-distance/description) |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](./src/java/medium/array/FindPeakElement.java)| BinarySearch |
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Java](./src/java/medium/array/MissingRanges.java)| Brute-Force | LintCode [641](https://www.lintcode.com/problem/missing-ranges/description) |
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Java](./src/java/medium/string/CompareVersionNumbers.java)| String |
