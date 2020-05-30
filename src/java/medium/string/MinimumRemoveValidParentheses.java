@@ -1,5 +1,8 @@
 package src.java.medium.string;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class MinimumRemoveValidParentheses {
     public String minRemoveToMakeValid(String s) {
         Set<Integer> invalids = new HashSet<>();
