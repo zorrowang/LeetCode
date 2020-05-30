@@ -1,7 +1,7 @@
-public class Solution {
+package src.java.hard.array;
+
+public class FirstMissingPositive {
     public int firstMissingPositive(int[] A) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (A==null || A.length==0) return 1;
         
         int i=0;

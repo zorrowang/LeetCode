@@ -427,6 +427,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |89|[Gray Code](https://leetcode.com/problems/gray-code/)|[Java](./src/java/medium/bit/GrayCode.java)| Bit |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./src/java/medium/array/SubsetsII.java)| Backtracking (BFS & DFS) |
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[Java](./src/java/medium/dp/DecodeWays.java)| 1D DP |
+|92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Java](./src/java/medium/linkedlist/ReverseLinkedListII.java)| LinkedList |
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Java](./src/java/medium/backtracking/RestoreIPAddresses.java)| Backtracking & Greedy |
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](./src/java/medium/tree/BinaryTreeInorderTraversal.java)| Tree Traversal |
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[Java](./src/java/medium/tree/UniqueBinarySearchTreeII.java)| DFS |
@@ -442,6 +443,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Java](./src/java/medium/dp/Triangle.java)| 1D DP |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/java/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java](./src/java/medium/tree/SumRootToLeafNumbers.java)| DFS |
+|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Java](./src/java/medium/string/PalindromePartitioning.java)| Backtracking (DFS) + DP + Recursion |
 |134|[Gas Station](https://leetcode.com/problems/gas-station/)|[Java](./src/java/medium/greedy/GasStation.java)| Greedy |
 |137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|[Java](./https://github.com/zorrowang/LeetCode/blob/fc8974ce5468606e2d330fc7640d08751709413e/src/java/medium/bit/SingleNumberII.java)| Bit + Set | Great explanation of this type of questions is [here](https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers) |
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Java](./src/java/medium/linkedlist/CopyListWithRandomPointer.java)| HashMap | Space complexity can be optimized to O(1) as [here](https://leetcode.com/problems/copy-list-with-random-pointer/discuss/43491/A-solution-with-constant-space-complexity-O(1)-and-linear-time-complexity-O(N)) |
@@ -500,6 +502,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Java](./src/java/medium/matrix/NonOverlappingIntervals.java)| Sort + 1D DP | Greedy [solution](https://leetcode.com/problems/non-overlapping-intervals/discuss/91713/Java%3A-Least-is-Most) can optimize to _O(nlogn)_ |
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Java](./src/java/medium/bit/TotalHammingDistance.java)| Bit |
+|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Java](./src/java/medium/dp/LongestPalindromicSubsequence.java)| 2D DP |
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Java](./src/java/medium/matrix/ZeroOneMatrix.java)| Stack |
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](./src/java/medium/string/ValidParenthesisString.java)| Greedy + Backtracking | It can be solved by DP, greedy and backtracking! |
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [Java](./src/java/medium/linkedlist/SplitLinkedListParts.java)| LinkedList |
@@ -522,13 +525,17 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |:-:|:----:|:--------:|:---------:|:----:|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Java](./src/java/hard/string/RegularExpressionMatching.java)| Backtracking |
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Java](./src/java/hard/linkedlist/MergeSortedLists.java)| HeapSort |
+|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Java](./src/java/hard/linkedlist/ReverseNodesKGroup.java)| LinkedList |
+|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Java](./src/java/hard/string/SubstringWithConcatenation.java) | HashMap |
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Java](./src/java/hard/stack/LongestValidParentheses.java)| Stack + 1D DP |
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Java](./src/java/hard/matrix/SudokuSolver.java)| Backtracking |
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Java](./src/java/hard/array/FirstMissingPositive.java)| Array |
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Java](./src/java/medium/greedy/TrappingRainWater.java)| Greedy/Two-Pointer |
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](./src/java/hard/string/WildcardMatching.java)| Backtracking/Two-Pointer |
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/java/hard/dp/JumpGameII.java)| 1D DP/Greedy |
 |51|[N-Queens](https://leetcode.com/problems/n-queens/) | [Java](./src/java/hard/backtracking/NQueens.java)| Backtracking (DFS) |
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Java](./src/java/hard/backtracking/NQueensII.java)| Backtracking (DFS) |
+|57|[Insert Interval](https://leetcode.com/problems/insert-interval/) | [Java](./src/java/hard/array/InsertInterval.java)| Sort |
 |65|[Valid Number](https://leetcode.com/problems/valid-number/) | [Java](./src/java/hard/string/ValidNumber.java)| String |
 |68|[Text Justification](https://leetcode.com/problems/text-justification/) | [Java](./src/java/hard/string/TextJustification.java)| String |
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/) | [Java](./src/java/hard/dp/EditDistance.java)| 2D DP |
@@ -538,12 +545,14 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/) | [Java](./src/java/hard/backtracking/ScrambleString.java)| Backtracking |
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Java](./src/java/hard/dp/InterleavingString.java)| 2D DP |
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [Java](./src/java/hard/dp/DistinctSubsequences.java)| 2D DP |
+|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Java](./src/java/hard/dp/BestTimeBuySellStockIII.java)| DP |
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Java](./src/java/medium/tree/BinaryTreeMaximumPathSum.java)| DFS |
-|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Java](./src/java/hard/dp/BestTimeBuySellStockIII.java)| 1D DP |
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [Java](./src/java/hard/backtracking/WordLadderII.java)| Backtracking (DFS + BFS) | Both DFS and BFS fail as TLE in OJ |
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Java](./src/java/hard/array/LongestConsecutiveSequence.java)| UnionFind + HashMap |
+|132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | [Java](./src/java/hard/dp/PalindromePartitioningII.java)| 2D DP |
 |135|[Candy](https://leetcode.com/problems/candy/) | [Java](./src/java/hard/greedy/Candy.java)| Greedy |
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/) | [Java](./src/java/hard/string/WordBreakII.java)| 1D DP + DFS |
+|149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Java](./src/java/hard/math/MaxPoints.java)| HashMap | Using `double` as key in hashmap is generally not a good practice |
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/) | [Java](./src/java/hard/array/MaximumGap.java)| BucketSort |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/java/hard/deque/SlidingWindowMaximum.java)| Deque |
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Java](./src/java/hard/heap/FindMedianDataStream.java)| Heap | Solution for follow-ups: <br/> 1. counting sort between 0 and 100 <br/> 2. count numbers, which is > 100 and < 0 |
