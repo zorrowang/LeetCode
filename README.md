@@ -454,7 +454,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./src/java/medium/dp/WordBreak.java)| 1D DP |
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Java](./src/java/medium/linkedlist/ReorderList.java)| LinkedList |
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Java](./src/java/medium/tree/BinaryTreePreorderTraversal.java)| Stack |
-|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Java](./src/java/medium/linkedlist/LRUCache.java)| HashMap + DoublyLinkedList |
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Java](./src/java/medium/linkedlist/LRUCache.java)| HashMap + DoublyLinkedList | Deserve as `hard` |
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Java](./src/java/medium/array/EvaluateReversePolishNotation.java)| Stack |
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Java](./src/java/medium/string/ReverseWordsInString.java)| String | Should be an `easy` one |
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](./src/java/medium/array/FindMinimumRotatedSortedArray.java)| Binary Search |
