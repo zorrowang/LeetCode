@@ -8,7 +8,7 @@ public class ConstructBinaryTreeFromPreorderInorderTraversal {
     }
     
     private TreeNode build(int[] preorder, int pStart, int pEnd, int[] inorder, int iStart, int iEnd) {
-        if (pStart<0 || pEnd<0 || pStart>=preorder.length || pEnd>=preorder.length || pStart>pEnd || iStart>iEnd)
+        if (pStart>pEnd || iStart>iEnd)
             return null;
         int r = preorder[pStart];
         TreeNode node = new TreeNode(r);
