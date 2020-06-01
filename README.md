@@ -570,6 +570,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Java](./src/java/hard/tree/BinaryTreePostorderTraversal.java)| Stack & Set |
 |149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Java](./src/java/hard/math/MaxPoints.java)| HashMap | Using `double` as key in hashmap is generally not a good practice |
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/) | [Java](./src/java/hard/array/MaximumGap.java)| BucketSort |
+|174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[Java](./src/java/hard/matrix/DungeonGame.java)| Backtracking (DFS) & DP| Backtracking - TLE |
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/) | [Java](./src/java/hard/backtracking/WordSearchII.java)| Backtracking (DFS) & Trie |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/java/hard/deque/SlidingWindowMaximum.java)| Deque |
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Java](./src/java/hard/heap/FindMedianDataStream.java)| Heap | Solution for follow-ups: <br/> 1. counting sort between 0 and 100 <br/> 2. count numbers, which is > 100 and < 0 |
