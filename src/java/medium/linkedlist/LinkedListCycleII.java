@@ -1,23 +1,11 @@
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
-public class Solution {
+package src.java.medium.linkedlist;
+
+
+public class LinkedListCycleII {
     public ListNode detectCycle(ListNode head) {
-        // IMPORTANT: Please reset any member data you declared, as
-        // the same Solution instance will be reused for each test case.
-        if (head==null)
-            return null;
+        if (head==null) return null;
         boolean flag = false;
-        ListNode first = head;
-        ListNode second = first;
+        ListNode first = head, second = head;
         while(second!=null && second.next!=null){
             first = first.next;
             second = second.next.next;
