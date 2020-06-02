@@ -284,6 +284,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](./src/java/easy/array/TwoSumII.java)| Two-Pointer |
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[Java](./src/java/easy/number/ExcelSheetColumnTitle.java)| Math |
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[Java](./src/java/easy/array/MajorityElement.java)| Array | [Moore's voting algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm) |
+|170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Java](./src/java/easy/array/TwoSumIII.java)| HashMap |
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Java](./src/java/easy/number/ExcelSheetColumnNumber.java)| Math |
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Java](./src/java/easy/math/FactorialTrailingZeroes.java)| Math |
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](./src/java/easy/array/RotateArray.java)| Array |
