@@ -1,10 +1,14 @@
-public class Solution {
-    public String largestNumber(int[] num) {
-        if (num==null || num.length==0)
-            return "";
-        Integer[] numbers = new Integer[num.length];
+package src.java.medium.string;
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class LargestNumber {
+    public String largestNumber(int[] nums) {
+        if (nums==null || nums.length==0) return "";
+        Integer[] numbers = new Integer[nums.length];
         for (int i=0; i<numbers.length; i++)
-            numbers[i] = new Integer(num[i]);
+            numbers[i] = new Integer(nums[i]);
         
         Arrays.sort(numbers, new Comparator<Integer>(){
             public int compare(Integer i1, Integer i2){
@@ -21,20 +25,17 @@ public class Solution {
                 
                 for(int i=0; i<array1.length; i++){
                     if (array1[i] > array2[i])
-                        return 1;
-                    else if (array1[i] < array2[i])
                         return -1;
+                    else if (array1[i] < array2[i])
+                        return 1;
                 }
                 return 0;
             }
         });
         
-        String ret = "";
-        for (Integer n : numbers)
-            ret = n + ret;
-        if (ret.charAt(0) == '0')
-            return "0";
-        else
-            return ret;
+        StringBuilder builder = new StringBuilder();
+        for (Integer n : numbers)   builder.append(n);
+        if (builder.charAt(0) == '0')   return "0";
+        else    return builder.toString();
     }
 }

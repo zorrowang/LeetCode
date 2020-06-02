@@ -470,10 +470,11 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Java](./src/java/medium/string/CompareVersionNumbers.java)| String |
 |166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|[Java](./src/java/medium/number/FractionToRecurringDecimal.java)| HashMap | Should be as `hard` |
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Java](./src/java/medium/tree/BSTIterator.java)| BFS+Stack |
+|179|[Largest Number](https://leetcode.com/problems/largest-number/)|[Java](./src/java/medium/string/LargestNumber.java)| Sort |
 |186|[Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii)|[Java](./src/java/medium/array/ReverseWordsStringII.java)| Two-Pointer | LintCode [927](https://www.lintcode.com/problem/reverse-words-in-a-string-ii/description) |
 |187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|[Java](./src/java/medium/string/RepeatedDNASequences.java)| HashMap |
-|199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Java](./src/java/medium/tree/BinaryTreeRightSideView.java)| DFS + BFS |
-|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Java](./src/java/medium/matrix/NumberOfIslands.java)| DFS + BFS |
+|199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Java](./src/java/medium/tree/BinaryTreeRightSideView.java)| DFS & BFS |
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Java](./src/java/medium/matrix/NumberOfIslands.java)| DFS & BFS |
 |201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[Java](./src/java/medium/bit/BitwiseANDNumbersRange.java)| Bit |
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[Java](./src/java/medium/graph/CourseSchedule.java)| Topological Sort |
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Java](./src/java/medium/tree/ImplementTrie.java)| Trie |
