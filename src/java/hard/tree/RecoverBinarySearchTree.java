@@ -1,18 +1,13 @@
-/**
- * Definition for binary tree
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
+package src.java.hard.tree;
 
-// O(n) space solution
-public class Solution {
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import src.java.lib.TreeNode;
+
+public class RecoverBinarySearchTree {
+    // O(n) space solution
     public void recoverTree(TreeNode root) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         ArrayList<TreeNode> nodeList = new ArrayList<TreeNode>();
         ArrayList<Integer> numList = new ArrayList<Integer>();
         

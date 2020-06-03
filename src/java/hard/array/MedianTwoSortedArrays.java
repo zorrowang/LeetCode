@@ -1,4 +1,6 @@
-public class Solution {
+package src.java.hard.array;
+
+public class MedianTwoSortedArrays {
     public double findMedianSortedArrays(int A[], int B[]) {
         // Start typing your Java solution below
         // DO NOT write main() function

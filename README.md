@@ -185,7 +185,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 #### O(nlogn) Solutions
 
 - Quick Sort
-- Merge Sort
+- [Merge Sort](./docs/algorithms/sort/Sort-nlogn.md#merge-sort)
 - Heap Sort
 - Tree Sort
 
@@ -458,6 +458,8 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Java](./src/java/medium/linkedlist/ReorderList.java)| LinkedList |
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Java](./src/java/medium/tree/BinaryTreePreorderTraversal.java)| Stack |
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Java](./src/java/medium/linkedlist/LRUCache.java)| HashMap & DoublyLinkedList | Deserve as `hard` |
+|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Java](./src/java/medium/linkedlist/InsertionSortList.java)| LinkedList |
+|148|[Sort List](https://leetcode.com/problems/sort-list/)|[Java](./src/java/medium/linkedlist/SortList.java)| LinkedList |
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Java](./src/java/medium/array/EvaluateReversePolishNotation.java)| Stack |
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Java](./src/java/medium/string/ReverseWordsInString.java)| String | Should be an `easy` one |
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Java](./src/java/medium/array/MaximumProductSubarray.java)| 1D DP |
@@ -498,6 +500,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst) | [Java](./src/java/medium/tree/InorderSuccessorBST.java)| DFS | LintCode [448](https://www.lintcode.com/problem/inorder-successor-in-bst/description) |
 |286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates) | [Java](src/java/medium/matrix/WallsAndGates.java)| BFS | LintCode [663](https://www.lintcode.com/problem/walls-and-gates/description) |
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Java](./src/java/medium/array/FindDuplicateNumber.java)| Two-Pointer |
+|288|[Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation) | [Java](./src/java/medium/string/UniqueWordAbbreviation.java)| HashMap | LintCode [648](https://www.lintcode.com/problem/unique-word-abbreviation/description) |
 |294|[Flip Game II](https://leetcode.com/problems/flip-game-ii)|[Java](./src/java/medium/backtracking/FlipGameII.java)| Backtracking (DFS) | LintCode [913](https://www.lintcode.com/problem/flip-game-ii/description) |
 |298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence)|[Java](./src/java/medium/tree/BinaryTreeLongestConsecutiveSequence.java)| DFS | LintCode [595](https://www.lintcode.com/problem/binary-tree-longest-consecutive-sequence/description) |
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Java](./src/java/medium/dp/LongestIncreasingSubsequence.java)| 1D DP | Binary search [solution](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation) is more optimal |
@@ -578,6 +581,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[Java](./src/java/hard/matrix/DungeonGame.java)| Backtracking (DFS) & DP| Backtracking - TLE |
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/) | [Java](./src/java/hard/backtracking/WordSearchII.java)| Backtracking (DFS) & Trie |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/java/hard/deque/SlidingWindowMaximum.java)| Deque |
+|265|[Paint House II](https://leetcode.com/problems/paint-house-ii) | [Java](./src/java/hard/dp/PaintHouseII.java)| 2D DP | LintCode [516](https://www.lintcode.com/problem/paint-house-ii/description) |
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Java](./src/java/hard/heap/FindMedianDataStream.java)| Heap | Solution for follow-ups: <br/> 1. counting sort between 0 and 100 <br/> 2. count numbers, which is > 100 and < 0 |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./src/java/hard/tree/SerializeDeserializeBinaryTree.java)| Tree/DFS/Queue |
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Java](./src/java/hard/backtracking/RemoveInvalidParentheses.java)| Backtracking (DFS) |
