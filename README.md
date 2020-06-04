@@ -496,6 +496,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |267|[Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii)|[Java](./src/java/medium/backtracking/PalindromePermutationII.java)| Backtracking (DFS) | LintCode [917](https://www.lintcode.com/problem/palindrome-permutation-ii/description) |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/java/medium/array/HIndex.java)| Sort & Map |
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii/) | [Java](./src/java/medium/array/HIndexII.java)| BinarySearch |
+|277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity) | [Java](./src/java/medium/array/FindTheCelebrity.java)| Two-Pointer & Stack & Graph | LintCode [645](https://www.lintcode.com/problem/find-the-celebrity/description) |
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Java](./src/java/medium/dp/PerfectSquares.java)| 1D DP |
 |284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Java](./src/java/medium/array/PeekIterator.java)| Design |
 |285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst) | [Java](./src/java/medium/tree/InorderSuccessorBST.java)| DFS | LintCode [448](https://www.lintcode.com/problem/inorder-successor-in-bst/description) |
