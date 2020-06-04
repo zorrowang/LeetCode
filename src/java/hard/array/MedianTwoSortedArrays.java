@@ -1,39 +1,33 @@
 package src.java.hard.array;
 
 public class MedianTwoSortedArrays {
-    public double findMedianSortedArrays(int A[], int B[]) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
-        int l1=A.length, l2=B.length;
-        if ((l1+l2)%2==0)
-            return (findKthElement(A, 0, l1-1, B, 0, l2-1, (l1+l2)/2)+
-                findKthElement(A, 0, l1-1, B, 0, l2-1, (l1+l2)/2+1))/2.;
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int len1 = nums1.length, len2 = nums2.length;
+        if ((len1+len2)%2 == 0)
+            return (find(nums1, 0, len1-1, nums2, 0, len2-1, (len1+len2)/2)+
+                find(nums1, 0, len1-1, nums2, 0, len2-1, (len1+len2)/2+1))/2.;
         else
-            return findKthElement(A, 0, l1-1, B, 0, l2-1, (l1+l2)/2+1);
+            return find(nums1, 0, len1-1, nums2, 0, len2-1, (len1+len2)/2+1);
     }
     
-    public int findKthElement(int A[], int startA, int endA, int[] B, int startB, int endB, int k){
-        if (startA>endA)    return B[startB+k-1];
-        if (startB>endB)    return A[startA+k-1];
+    public int find(int[] nums1, int start1, int end1, int[] nums2, int start2, int end2, int k) {
+        if (start1>end1)    return nums2[start2+k-1];
+        if (start2>end2)    return nums1[start1+k-1];
         
-        if (k<=1)   return Math.min(A[startA], B[startB]);
-        int midA = (startA+endA)/2;
-        int midB = (startB+endB)/2;
-        if ((midA-startA)+(midB-startB)<k-1){
-            if (A[midA]<B[midB]){
-                return findKthElement(A, midA+1, endA, B, startB, endB, k-midA+startA-1);
-            }
-            else{
-                return findKthElement(A, startA, endA, B, midB+1, endB, k-midB+startB-1);
-            }
-        }
-        else{
-            if (A[midA]<B[midB]){
-                return findKthElement(A, startA, endA, B, startB, midB-1, k);
-            }
-            else{
-                return findKthElement(A, startA, midA-1, B, startB, endB, k);
-            }
+        if (k<=1)   return Math.min(nums1[start1], nums2[start2]);
+        
+        int mid1 = start1+(end1-start1)/2;
+        int mid2 = start2+(end2-start2)/2;
+        if ((mid1-start1)+(mid2-start2) < k-1) {
+            if (nums1[mid1] > nums2[mid2])
+                return find(nums1, start1, end1, nums2, mid2+1, end2, k-mid2+start2-1);
+            else
+                return find(nums1, mid1+1, end1, nums2, start2, end2, k-mid1+start1-1);
+        } else {
+            if (nums1[mid1] > nums2[mid2])
+                return find(nums1, start1, mid1-1, nums2, start2, end2, k);
+            else
+                return find(nums1, start1, end1, nums2, start2, mid2-1, k);
         }
     }
 }

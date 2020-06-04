@@ -546,6 +546,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 
 | # | Name | Solution | Algorithm | Note |
 |:-:|:----:|:--------:|:---------:|:----:|
+|2|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Java](./src/java/hard/array/MedianTwoSortedArrays.java)| Binary Search |
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Java](./src/java/hard/string/RegularExpressionMatching.java)| Backtracking |
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Java](./src/java/hard/linkedlist/MergeSortedLists.java)| HeapSort |
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Java](./src/java/hard/linkedlist/ReverseNodesKGroup.java)| LinkedList |
@@ -577,15 +578,17 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/) | [Java](./src/java/hard/string/WordBreakII.java)| 1D DP + DFS |
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Java](./src/java/hard/tree/BinaryTreePostorderTraversal.java)| Stack & Set |
 |149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Java](./src/java/hard/math/MaxPoints.java)| HashMap | Using `double` as key in hashmap is generally not a good practice |
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [Java](./src/java/hard/array/FindMinimumRotatedSortedArrayII.java)| Binary Search |
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/) | [Java](./src/java/hard/array/MaximumGap.java)| BucketSort |
 |174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[Java](./src/java/hard/matrix/DungeonGame.java)| Backtracking (DFS) & DP| Backtracking - TLE |
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/) | [Java](./src/java/hard/backtracking/WordSearchII.java)| Backtracking (DFS) & Trie |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/java/hard/deque/SlidingWindowMaximum.java)| Deque |
 |265|[Paint House II](https://leetcode.com/problems/paint-house-ii) | [Java](./src/java/hard/dp/PaintHouseII.java)| 2D DP | LintCode [516](https://www.lintcode.com/problem/paint-house-ii/description) |
+|269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary) | [Java](./src/java/hard/graph/AlienDictionary.java)| Topological Sort | LintCode [892](https://www.lintcode.com/problem/alien-dictionary/description) - OJ on LintCode is incorrect |
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Java](./src/java/hard/heap/FindMedianDataStream.java)| Heap | Solution for follow-ups: <br/> 1. counting sort between 0 and 100 <br/> 2. count numbers, which is > 100 and < 0 |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./src/java/hard/tree/SerializeDeserializeBinaryTree.java)| Tree/DFS/Queue |
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Java](./src/java/hard/backtracking/RemoveInvalidParentheses.java)| Backtracking (DFS) |
-|329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Java](./src/java/hard/backtracking/LongestIncreasingPathMatrix.java)| Backtracking (DFS) | With cache |
+|329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Java](./src/java/hard/backtracking/LongestIncreasingPathMatrix.java)| Backtracking (DFS) | DFS with cache |
 |546|[Remove Boxes](https://leetcode.com/problems/remove-boxes/) | [Java](./src/java/hard/array/RemoveBoxes.java)| Backtracking (DFS) | Backtracking is TLE. 3D DP solution is [here](https://leetcode.com/problems/remove-boxes/discuss/101310/Java-top-down-and-bottom-up-DP-solutions) |
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [Java](./src/java/hard/matrix/SwimRisingWater.java)| Backtracking (DFS) + UnionFind |
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/) | [Java](./src/java/hard/graph/BusRoutes.java)| Graph Traversal (BFS + DFS) |
