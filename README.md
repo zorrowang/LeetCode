@@ -296,6 +296,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Java](./src/java/easy/linkedlist/RemoveLinkedListElements.java)| LinkedList |
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[Java](./src/java/easy/math/CountPrimes.java)| Math | [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) |
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](./src/java/easy/string/IsomorphicStrings.java)| Map |
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](./src/java/easy/linkedlist/ReverseLinkedList.java)| LinkedList |
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](./src/java/easy/stack/ImplementStackUsingQueues.java)| Queue |
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/java/easy/number/PowerOfTwo.java)| Bit Manipulation |
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./src/java/easy/linkedlist/PalindromeLinkedList.java)| Two-Pointer | [Reversing a list is not considered "O(1) space"](https://leetcode.com/problems/palindrome-linked-list/discuss/64493/Reversing-a-list-is-not-considered-%22O(1)-space%22) |
