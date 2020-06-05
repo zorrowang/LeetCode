@@ -307,6 +307,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Java](./src/java/easy/linkedlist/DeleteNode.java)| LinkedList | This is a stupid question |
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./src/java/easy/string/ValidAnagram.java)| Counting Sort |
 |243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance)|[Java](./src/java/easy/array/ShortestWordDistance.java)| Greedy | LintCode [924](https://www.lintcode.com/problem/shortest-word-distance/description) |
+|246|[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number)|[Java](./src/java/easy/string/StrobogrammaticNumber.java)| Two-Pointer | LintCode [644](https://www.lintcode.com/problem/strobogrammatic-number/description) |
 |252|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms)|[Java](./src/java/easy/list/MeetingRooms.java)| Sort | LintCode [920](https://www.lintcode.com/problem/meeting-rooms/description) |
 |256|[Paint House](https://leetcode.com/problems/paint-house)|[Java](./src/java/easy/dp/PaintHouse.java)| 1D DP | LintCode [515](https://www.lintcode.com/problem/paint-house/description) as `medium` |
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Java](./src/java/easy/tree/BinaryTreePaths.java)| DFS |
