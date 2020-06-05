@@ -509,6 +509,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [Java](./src/java/medium/tree/MinimumHeightTrees.java)| BFS |
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Java](./src/java/medium/bit/MaximumProductWordLengths.java)| Bit-Manipulation |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
+|341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Java](./src/java/medium/list/FlattenNestedListIterator.java)| Recursion |
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Java](./src/java/medium/math/CountNumbersUniqueDigits.java)| Math |
 |361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy) | [Java](./src/java/medium/matrix/BombEnemy.java)| DP | LintCode [553](https://www.lintcode.com/problem/bomb-enemy/description) |
 |366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree) | [Java](./src/java/medium/tree/FindLeavesBinaryTree.java)| DFS | LintCode [650](https://www.lintcode.com/problem/find-leaves-of-binary-tree/description) |
