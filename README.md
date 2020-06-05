@@ -523,6 +523,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Java](./src/java/medium/string/DecodeString.java)| Stack & DFS | Deserve as `hard` |
 |397|[Integer Replacement](https://leetcode.com/problems/integer-replacement/) | [Java](./src/java/medium/bit/IntegerReplacement.java)| Bit |
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
+|417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Java](./src/java/medium/matrix/PacificAtlanticWaterFlow.java)| BFS |
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Java](./src/java/medium/string/LongestRepeatingCharacterReplacement.java)| Two-Pointer |
 |433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Java](./src/java/medium/backtracking/MinimumGeneticMutation.java)| Backtracking (DFS) |
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Java](./src/java/medium/matrix/NonOverlappingIntervals.java)| Sort + 1D DP | Greedy [solution](https://leetcode.com/problems/non-overlapping-intervals/discuss/91713/Java%3A-Least-is-Most) can optimize to _O(nlogn)_ |
