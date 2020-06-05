@@ -506,7 +506,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii/) | [Java](./src/java/medium/array/HIndexII.java)| BinarySearch |
 |277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity) | [Java](./src/java/medium/array/FindTheCelebrity.java)| Two-Pointer & Stack & Graph | LintCode [645](https://www.lintcode.com/problem/find-the-celebrity/description) |
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Java](./src/java/medium/dp/PerfectSquares.java)| 1D DP |
-|281|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator) | [Java](./src/java/medium/list/ZigzagIterator.java)| List |
+|281|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator) | [Java](./src/java/medium/list/ZigzagIterator.java)| List | LintCode [540](https://www.lintcode.com/problem/zigzag-iterator/description) |
 |284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Java](./src/java/medium/array/PeekIterator.java)| Design |
 |285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst) | [Java](./src/java/medium/tree/InorderSuccessorBST.java)| DFS | LintCode [448](https://www.lintcode.com/problem/inorder-successor-in-bst/description) |
 |286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates) | [Java](src/java/medium/matrix/WallsAndGates.java)| BFS | LintCode [663](https://www.lintcode.com/problem/walls-and-gates/description) |
