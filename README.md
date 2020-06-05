@@ -297,9 +297,14 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[Java](./src/java/easy/math/CountPrimes.java)| Math | [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) |
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](./src/java/easy/string/IsomorphicStrings.java)| Map |
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](./src/java/easy/linkedlist/ReverseLinkedList.java)| LinkedList |
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Java](./src/java/easy/array/ContainsDuplicate.java)| Set |
+|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Java](./src/java/easy/array/ContainsDuplicateII.java)| Two-Pointer |
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](./src/java/easy/stack/ImplementStackUsingQueues.java)| Queue |
+|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](./src/java/easy/tree/InvertBinaryTree.java)| DFS |
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/java/easy/number/PowerOfTwo.java)| Bit Manipulation |
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./src/java/easy/linkedlist/PalindromeLinkedList.java)| Two-Pointer | [Reversing a list is not considered "O(1) space"](https://leetcode.com/problems/palindrome-linked-list/discuss/64493/Reversing-a-list-is-not-considered-%22O(1)-space%22) |
+|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](./src/java/easy/tree/LowestCommonAncestor.java)| DFS |
+|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Java](./src/java/easy/linkedlist/DeleteNode.java)| LinkedList | This is a stupid question |
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./src/java/easy/string/ValidAnagram.java)| Counting Sort |
 |243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance)|[Java](./src/java/easy/array/ShortestWordDistance.java)| Greedy | LintCode [924](https://www.lintcode.com/problem/shortest-word-distance/description) |
 |252|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms)|[Java](./src/java/easy/list/MeetingRooms.java)| Sort | LintCode [920](https://www.lintcode.com/problem/meeting-rooms/description) |
