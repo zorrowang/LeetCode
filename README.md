@@ -235,10 +235,10 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 
 ### Current Status
 
-- **Total**:  390/1463
+- **Total**:  400/1469
   - &#x1F4D7;[Easy](#easy-questions):   152
-  - &#x1F4D8;[Medium](#medium-questions): 194
-  - &#x1F4D9;[Hard](#hard-questions):   44
+  - &#x1F4D8;[Medium](#medium-questions): 199
+  - &#x1F4D9;[Hard](#hard-questions):   49
 
 ### Easy Questions
 
