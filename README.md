@@ -499,6 +499,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/java/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/java/medium/tree/KthSmallestElementInBST.java)| DFS |
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Java](./src/java/medium/tree/LowestCommonAncestorBinaryTree.java)| DFS |
+|247|[Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii)|[Java](./src/java/medium/number/StrobogrammaticNumberII.java)| Recursion | LintCode [776](https://www.lintcode.com/problem/strobogrammatic-number-ii/description) |
 |250|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees)|[Java](./src/java/medium/tree/CountUnivalueSubtrees.java)| DFS | LintCode [921](https://www.lintcode.com/problem/count-univalue-subtrees/description) |
 |251|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector) | [Java](./src/java/medium/list/Vector2D.java)| Two-Pointer | LintCode [601](https://www.lintcode.com/problem/flatten-2d-vector/description) |
 |253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)|[Java](./src/java/medium/list/MeetingRoomsII.java)| Greedy | LintCode [919](https://www.lintcode.com/problem/meeting-rooms-ii/description) |
