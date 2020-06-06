@@ -507,6 +507,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller)|[Java](./src/java/medium/array/3SumSmaller.java)| Two-Pointer | LintCode [918](https://www.lintcode.com/problem/3sum-smaller/description) |
 |261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree)|[Java](./src/java/medium/tree/GraphValidTree.java)| UnionFind | LintCode [178](https://www.lintcode.com/problem/graph-valid-tree/description) |
 |267|[Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii)|[Java](./src/java/medium/backtracking/PalindromePermutationII.java)| Backtracking (DFS) | LintCode [917](https://www.lintcode.com/problem/palindrome-permutation-ii/description) |
+|271|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings) | [Java](./src/java/medium/string/EncodeDecodeStrings.java)| String | LintCode [659](https://www.lintcode.com/problem/encode-and-decode-strings/description) |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/java/medium/array/HIndex.java)| Sort & Map |
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii/) | [Java](./src/java/medium/array/HIndexII.java)| BinarySearch |
 |277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity) | [Java](./src/java/medium/array/FindTheCelebrity.java)| Two-Pointer & Stack & Graph | LintCode [645](https://www.lintcode.com/problem/find-the-celebrity/description) |
