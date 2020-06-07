@@ -34,4 +34,5 @@ public class CourseScheduleII {
             }
         }
         return count==numCourses?ret:new int[0];
+    }
 }
