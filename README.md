@@ -495,6 +495,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/java/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/) | [Java](./src/java/medium/matrix/MaximalSquare.java)| DP |
 |223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Java](./src/java/medium/math/RectangleArea.java)| Math |
+|227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [Java](./src/java/medium/string/BasicCalculatorII.java)| Deque | A better [solution](https://leetcode.com/problems/basic-calculator-ii/discuss/63003/Share-my-java-solution) uses a single stack |
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Java](./src/java/medium/array/SummaryRanges.java)| Two-Pointer |
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/java/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/java/medium/tree/KthSmallestElementInBST.java)| DFS |
