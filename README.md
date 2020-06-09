@@ -494,6 +494,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[Java](./src/java/medium/dp/HouseRobberII.java)| 1D DP |
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/java/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/) | [Java](./src/java/medium/matrix/MaximalSquare.java)| DP |
+|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [Java](./src/java/medium/tree/CountCompleteTreeNodes.java)| DFS |
 |223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Java](./src/java/medium/math/RectangleArea.java)| Math |
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [Java](./src/java/medium/string/BasicCalculatorII.java)| Deque | A better [solution](https://leetcode.com/problems/basic-calculator-ii/discuss/63003/Share-my-java-solution) uses a single stack |
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Java](./src/java/medium/array/SummaryRanges.java)| Two-Pointer |
