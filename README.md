@@ -612,6 +612,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/) | [Java](./src/java/hard/array/MaximumGap.java)| BucketSort |
 |174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[Java](./src/java/hard/matrix/DungeonGame.java)| Backtracking (DFS) & DP| Backtracking - TLE |
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/) | [Java](./src/java/hard/backtracking/WordSearchII.java)| Backtracking (DFS) & Trie |
+|214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) | [Java](./src/java/hard/string/ShortestPalindrome.java)| String |
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Java](./src/java/hard/string/BasicCalculator.java)| Stack |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/java/hard/deque/SlidingWindowMaximum.java)| Deque |
 |265|[Paint House II](https://leetcode.com/problems/paint-house-ii) | [Java](./src/java/hard/dp/PaintHouseII.java)| 2D DP | LintCode [516](https://www.lintcode.com/problem/paint-house-ii/description) |
