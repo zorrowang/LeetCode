@@ -36,8 +36,9 @@ Author: zorrowanghw@gmail.com
   - [Other Algorithms](#other-algorithms)
   - [More Readings](#more-readings)
 - [System Design](#system-design)
-- [LeetCode Preparation](#leetcode-preparation)
-  - [Current Status](#current-status)
+- [Coding Preparation](#coding-preparation)
+  - [LeetCode Current Status](#leetcode-current-status)
+  - [LintCode Current Status](#lintcode-current-status)
   - [Easy Questions](#easy-questions)
   - [Medium Questions](#medium-questions)
   - [Hard Questions](#hard-questions)
@@ -217,6 +218,8 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 
 ### Other Algorithms
 
+It is very rare to see bit or math questions in real interviews. So we don't need to spend lots of time here.
+
 - [Bit Manipulation](./docs/algorithms/BitManipulation.md)
 - [Math](./docs/algorithms/Math.md)
 
@@ -230,18 +233,28 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 - [System Design Workflow](./docs/system-design/SystemDesignWorkflow.md)
 - System Design Patterns
 
-## LeetCode Preparation
+## Coding Preparation
 
 [How to use LeetCode](./docs/Leetcode.md)
 
-### Current Status
+### LeetCode Current Status
 
-- **Total**:  400/1469
+- **Total**:  404/1473
   - &#x1F4D7;[Easy](#easy-questions):   152
-  - &#x1F4D8;[Medium](#medium-questions): 199
-  - &#x1F4D9;[Hard](#hard-questions):   49
+  - &#x1F4D8;[Medium](#medium-questions): 202
+  - &#x1F4D9;[Hard](#hard-questions):   50
 
-Note, I skip the `hard` math questions, since it is almost impossible to see them in an interview.
+### LintCode Current Status
+
+- **Total**:  40
+  - &#x1F4D7;[Easy](#easy-questions):   11
+  - &#x1F4D8;[Medium](#medium-questions): 27
+  - &#x1F4D9;[Hard](#hard-questions):   2
+
+### Notes
+
+- I use LintCode as the supplement of LintCode for the locked questions.
+- I skip the `hard` math questions, since it is almost impossible to see them in an interview.
 
 ### Easy Questions
 
