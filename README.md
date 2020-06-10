@@ -206,6 +206,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 #### Linear List Search
 
 - Linear Search
+  - Knuth–Morris–Pratt (KMP) Algorithm
 - Binary Search
 
 #### Search Tree
@@ -239,6 +240,8 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
   - &#x1F4D7;[Easy](#easy-questions):   152
   - &#x1F4D8;[Medium](#medium-questions): 199
   - &#x1F4D9;[Hard](#hard-questions):   49
+
+Note, I skip the `hard` math questions, since it is almost impossible to see them in an interview.
 
 ### Easy Questions
 
@@ -598,6 +601,7 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Java](./src/java/hard/matrix/MaximalRectangle.java)| 2D DP |
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/) | [Java](./src/java/hard/backtracking/ScrambleString.java)| Backtracking |
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Java](./src/java/hard/dp/InterleavingString.java)| 2D DP |
+|99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | [Java](./src/java/hard/tree/RecoverBinarySearchTree.java)| Morris Traversal |
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [Java](./src/java/hard/dp/DistinctSubsequences.java)| 2D DP |
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Java](./src/java/hard/dp/BestTimeBuySellStockIII.java)| DP |
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Java](./src/java/medium/tree/BinaryTreeMaximumPathSum.java)| DFS |
