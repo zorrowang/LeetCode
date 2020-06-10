@@ -178,9 +178,9 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 #### O(n^2) Solutions
 
 - [Bubble Sort](./docs/algorithms/sort/Sort-n-square.md#bubble-sort)
-- [Insertion Sort](./docs/algorithms/sort/Sort-nlogn.md#insert-sort)
-- [Selection Sort](./docs/algorithms/sort/Sort-nlogn.md#selection-sort)
-- [Shell Sort](./docs/algorithms/sort/Sort-nlogn.md#shell-sort)
+- [Insertion Sort](./docs/algorithms/sort/Sort-n-square.md#insert-sort)
+- [Selection Sort](./docs/algorithms/sort/Sort-n-square.md#selection-sort)
+- [Shell Sort](./docs/algorithms/sort/Sort-n-square.md#shell-sort)
 
 #### O(nlogn) Solutions
 
