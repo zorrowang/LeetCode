@@ -1,5 +1,14 @@
 # Sort - _O(nlogn)_ Solutions
 
+<!-- MarkdownTOC -->
+
+- [Quick Sort](#quick-sort)
+- [Merge Sort](#merge-sort)
+- [Heap Sort](#heap-sort)
+- [Tree Sort](#tree-sort)
+
+<!-- /MarkdownTOC -->
+
 ## Quick Sort
 
 ## Merge Sort
@@ -76,6 +85,10 @@ TODO
 ### Time Complexity
 
 In sorting n objects, merge sort has an average and worst-case performance of O(_nlogn_). If the running time of merge sort for a list of length n is T(n), then the recurrence _T(n) = 2T(n/2) + n_ follows from the definition of the algorithm.
+
+## Heap Sort
+
+## Tree Sort
 
 ## References
 

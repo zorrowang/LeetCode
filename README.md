@@ -177,23 +177,23 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 
 #### O(n^2) Solutions
 
-- Bubble Sort
-- Insertion Sort
-- Selection sort
-- Shell Sort
+- [Bubble Sort](./docs/algorithms/sort/Sort-n-square.md#bubble-sort)
+- [Insertion Sort](./docs/algorithms/sort/Sort-nlogn.md#insert-sort)
+- [Selection Sort](./docs/algorithms/sort/Sort-nlogn.md#selection-sort)
+- [Shell Sort](./docs/algorithms/sort/Sort-nlogn.md#shell-sort)
 
 #### O(nlogn) Solutions
 
-- Quick Sort
+- [Quick Sort](./docs/algorithms/sort/Sort-nlogn.md#quick-sort)
 - [Merge Sort](./docs/algorithms/sort/Sort-nlogn.md#merge-sort)
-- Heap Sort
-- Tree Sort
+- [Heap Sort](./docs/algorithms/sort/Sort-nlogn.md#heap-sort)
+- [Tree Sort](./docs/algorithms/sort/Sort-nlogn.md#tree-sort)
 
 #### O(n) Solutions
 
-- Bucket Sort
-- Counting Sort
-- Radix Sort
+- [Bucket Sort](./docs/algorithms/sort/Sort-n.md#bucket-sort)
+- [Counting Sort](./docs/algorithms/sort/Sort-n.md#counting-sort)
+- [Radix Sort](./docs/algorithms/sort/Sort-n.md#radix-sort)
 
 ### Search Algorithms
 
