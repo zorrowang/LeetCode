@@ -313,7 +313,6 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[Java](./src/java/easy/math/CountPrimes.java)| Math | [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) |
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](./src/java/easy/string/IsomorphicStrings.java)| Map |
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](./src/java/easy/linkedlist/ReverseLinkedList.java)| LinkedList |
-|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./src/java/medium/array/KthLargestElement.java)| Heap Sort | A better [solution](https://leetcode.com/problems/kth-largest-element-in-an-array/discuss/60294/Solution-explained) uses Selection algorithm with shuffling |
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Java](./src/java/easy/array/ContainsDuplicate.java)| Set |
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Java](./src/java/easy/array/ContainsDuplicateII.java)| Two-Pointer |
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](./src/java/easy/stack/ImplementStackUsingQueues.java)| Queue |
@@ -509,6 +508,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[Java](./src/java/medium/graph/CourseScheduleII.java)| Topological Sort |
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Java](./src/java/medium/string/WordDictionary.java)| Trie+Backtracking |
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[Java](./src/java/medium/dp/HouseRobberII.java)| 1D DP |
+|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./src/java/medium/array/KthLargestElement.java)| Heap Sort | A better [solution](https://leetcode.com/problems/kth-largest-element-in-an-array/discuss/60294/Solution-explained) uses Selection algorithm with shuffling |
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/java/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/) | [Java](./src/java/medium/matrix/MaximalSquare.java)| DP |
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [Java](./src/java/medium/tree/CountCompleteTreeNodes.java)| DFS |
