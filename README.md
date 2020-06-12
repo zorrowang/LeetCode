@@ -583,6 +583,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/java/medium/array/DailyTemperatures.java)| Stack |
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [Java](./src/java/medium/string/ScoreParentheses.java)| Stack |
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) | [Java](./src/java/medium/array/AdvantageShuffle.java)| Greedy + BinarySearch |
+|881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Java](./src/java/medium/greedy/BoatsSavePeople.java)| Greedy + Two-Pointer |
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Java](./src/java/medium/string/MinimumAddParenthesesValid.java)| Greedy |
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [Java](./src/java/medium/string/LongestStringChain.java)| 1D DP |
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/java/medium/tree/DeleteNodesAndReturnForest.java)| DFS |
