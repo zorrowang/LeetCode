@@ -551,6 +551,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [Java](./src/java/medium/tree/MinimumHeightTrees.java)| BFS |
 |314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal) | [Java](./src/java/medium/tree/BinaryTreeVerticalOrderTraversal.java)| DFS + HashMap | LintCode [651](https://www.lintcode.com/problem/binary-tree-vertical-order-traversal/description) (LintCode OJ is incorrect) |
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Java](./src/java/medium/bit/MaximumProductWordLengths.java)| Bit-Manipulation |
+|318|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | [Java](./src/java/medium/math/BulbSwitcher.java)| Math |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Java](./src/java/medium/list/FlattenNestedListIterator.java)| Recursion |
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Java](./src/java/medium/math/CountNumbersUniqueDigits.java)| Math |
