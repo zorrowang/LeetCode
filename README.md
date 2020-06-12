@@ -339,6 +339,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[Java](./src/java/easy/number/NimGame.java)| Minimax |
 |293|[Flip Game](https://leetcode.com/problems/flip-game)|[Java](./src/java/easy/string/FlipGame.java)| BruteForce | LintCode [914](https://www.lintcode.com/problem/flip-game/description) |
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Java](./src/java/easy/string/BullsCows.java)| Counting |
+|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Java](./src/java/easy/array/RangeSumQuery.java)| Segment Tree |
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](./src/java/easy/array/ReverseString.java)| Two Pointer |
 |346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream)|[Java](./src/java/easy/stream/MovingAverage.java)| Sliding Window | LintCode [642](https://www.lintcode.com/problem/moving-average-from-data-stream/description) |
@@ -639,7 +640,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Java](./src/java/hard/heap/FindMedianDataStream.java)| Heap | Solution for follow-ups: <br/> 1. counting sort between 0 and 100 <br/> 2. count numbers, which is > 100 and < 0 |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./src/java/hard/tree/SerializeDeserializeBinaryTree.java)| Tree/DFS/Queue |
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Java](./src/java/hard/backtracking/RemoveInvalidParentheses.java)| Backtracking (DFS) |
-|305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii) | [Java](./src/java/hard/matrix/NumberOfIslandsII.java)| UnionFind |
+|305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii) | [Java](./src/java/hard/matrix/NumberOfIslandsII.java)| UnionFind | LintCode [434](https://www.lintcode.com/problem/number-of-islands-ii/description) |
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Java](./src/java/hard/backtracking/LongestIncreasingPathMatrix.java)| Backtracking (DFS) | DFS with cache |
 |546|[Remove Boxes](https://leetcode.com/problems/remove-boxes/) | [Java](./src/java/hard/array/RemoveBoxes.java)| Backtracking (DFS) | Backtracking is TLE. 3D DP solution is [here](https://leetcode.com/problems/remove-boxes/discuss/101310/Java-top-down-and-bottom-up-DP-solutions) |
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [Java](./src/java/hard/matrix/SwimRisingWater.java)| Backtracking (DFS) + UnionFind |
