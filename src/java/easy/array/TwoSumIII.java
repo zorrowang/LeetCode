@@ -26,5 +26,6 @@ public class TwoSumIII {
                 else return map.get(value-i)>1;
             }
         }
-      
+        return false;
+    }
 }
