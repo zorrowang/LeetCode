@@ -117,7 +117,7 @@ public class WordLadderII {
             return ret;
         }
         HashSet<String> set = path.get(end);
-        Iterator it = set.iterator();
+        Iterator<String> it = set.iterator();
         while (it.hasNext()){
             List<List<String>> temp = buildPath((String)it.next(), path);
             for(List<String> l : temp)
