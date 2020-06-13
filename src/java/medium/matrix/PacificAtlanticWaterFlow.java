@@ -55,7 +55,7 @@ public class PacificAtlanticWaterFlow {
         for (int i=0; i<m; i++) {
             for (int j=0; j<n; j++) {
                 if (toAtlantic[i][j] && toPacific[i][j])
-                    ret.add(new ArrayList(Arrays.asList(i, j)));
+                    ret.add(Arrays.asList(i, j));
             }
         }
         return ret;

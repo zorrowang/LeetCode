@@ -246,9 +246,9 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LintCode Current Status
 
-- **Total**:  41
+- **Total**:  42
   - &#x1F4D7;[Easy](#easy-questions):   11
-  - &#x1F4D8;[Medium](#medium-questions): 27
+  - &#x1F4D8;[Medium](#medium-questions): 28
   - &#x1F4D9;[Hard](#hard-questions):   3
 
 ### Notes
@@ -548,10 +548,12 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |294|[Flip Game II](https://leetcode.com/problems/flip-game-ii)|[Java](./src/java/medium/backtracking/FlipGameII.java)| Backtracking (DFS) | LintCode [913](https://www.lintcode.com/problem/flip-game-ii/description) |
 |298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence)|[Java](./src/java/medium/tree/BinaryTreeLongestConsecutiveSequence.java)| DFS | LintCode [595](https://www.lintcode.com/problem/binary-tree-longest-consecutive-sequence/description) |
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Java](./src/java/medium/dp/LongestIncreasingSubsequence.java)| 1D DP | Binary search [solution](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation) is more optimal |
+|304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Java](./src/java/medium/matrix/RangeSumQuery2D.java)| Matrix |
 |306|[Additive Number](https://leetcode.com/problems/additive-number/) | [Java](./src/java/medium/backtracking/AdditiveNumber.java)| Backtracking (DFS) |
 |307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [Java](./src/java/medium/array/RangeSumQueryMutable.java)| Segment Tree |
 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Java](./src/java/medium/dp/BestTimeBuySellStockWithCooldown.java)| 1D DP |
 |310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [Java](./src/java/medium/tree/MinimumHeightTrees.java)| BFS |
+|311|[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication) | [Java](./src/java/medium/matrix/SparseMatrixMultiplication.java)| List | LintCode [654](https://www.lintcode.com/problem/sparse-matrix-multiplication/description) |
 |314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal) | [Java](./src/java/medium/tree/BinaryTreeVerticalOrderTraversal.java)| DFS + HashMap | LintCode [651](https://www.lintcode.com/problem/binary-tree-vertical-order-traversal/description) (LintCode OJ is incorrect) |
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Java](./src/java/medium/bit/MaximumProductWordLengths.java)| Bit-Manipulation |
 |318|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | [Java](./src/java/medium/math/BulbSwitcher.java)| Math |

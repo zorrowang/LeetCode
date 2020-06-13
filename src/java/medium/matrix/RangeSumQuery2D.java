@@ -1,5 +1,7 @@
+package src.java.medium.matrix;
+
 // This solution can be improved to O(1) by implementing a matrix for DP
-public class NumMatrix {
+class NumMatrix {
     int[] sums;
     int[][] leftToRight;
     int[][] rightToLeft;
