@@ -559,6 +559,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | [Java](./src/java/medium/math/BulbSwitcher.java)| Math |
 |320|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation) | [Java](./src/java/medium/backtracking/GeneralizedAbbreviation.java)| Backtracking (DFS) | LintCode [779](https://www.lintcode.com/problem/generalized-abbreviation/description) |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
+|331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [Java](./src/java/medium/tree/VerifyPreorderSerializationBinaryTree.java)| DFS | Non-cursive [solution](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/discuss/78551/7-lines-Easy-Java-Solution) based on graph theory |
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Java](./src/java/medium/list/FlattenNestedListIterator.java)| Recursion |
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Java](./src/java/medium/math/CountNumbersUniqueDigits.java)| Math |
 |361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy) | [Java](./src/java/medium/matrix/BombEnemy.java)| DP | LintCode [553](https://www.lintcode.com/problem/bomb-enemy/description) |
