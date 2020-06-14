@@ -239,10 +239,10 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LeetCode Current Status
 
-- **Total**:  404/1473
+- **Total**:  408/1473
   - &#x1F4D7;[Easy](#easy-questions):   152
-  - &#x1F4D8;[Medium](#medium-questions): 202
-  - &#x1F4D9;[Hard](#hard-questions):   50
+  - &#x1F4D8;[Medium](#medium-questions): 205
+  - &#x1F4D9;[Hard](#hard-questions):   51
 
 ### LintCode Current Status
 
