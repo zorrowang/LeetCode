@@ -568,6 +568,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |370|[Range Addition](https://leetcode.com/problems/range-addition) | [Java](./src/java/medium/array/RangeAddition.java)| Array | LintCode [903](https://www.lintcode.com/problem/range-addition/description) |
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/java/medium/dp/WiggleSubsequence.java)| 1D DP |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/java/medium/dp/CombinationSumIV.java)| 1D DP |
+|378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Java](./src/java/medium/matrix/KthSmallestElementSortedMatrix.java)| Min Heap |
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](./src/java/medium/map/RandomizedSet.java)| HashMap |
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Java](./src/java/medium/map/RandomizedCollection.java)| HashMap |
 |382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | [Java](./src/java/medium/linkedlist/LinkedListRandomNode.java)| LinkedList | It's essentially a math question ([Reservoir Sampling](https://leetcode.com/problems/linked-list-random-node/discuss/85659/Brief-explanation-for-Reservoir-Sampling)). |
