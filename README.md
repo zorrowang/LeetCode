@@ -239,17 +239,17 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LeetCode Current Status
 
-- **Total**:  408/1473
+- **Total**:  413/1473
   - &#x1F4D7;[Easy](#easy-questions):   152
-  - &#x1F4D8;[Medium](#medium-questions): 205
-  - &#x1F4D9;[Hard](#hard-questions):   51
+  - &#x1F4D8;[Medium](#medium-questions): 209
+  - &#x1F4D9;[Hard](#hard-questions):   52
 
 ### LintCode Current Status
 
-- **Total**:  43
+- **Total**:  44
   - &#x1F4D7;[Easy](#easy-questions):   11
   - &#x1F4D8;[Medium](#medium-questions): 29
-  - &#x1F4D9;[Hard](#hard-questions):   3
+  - &#x1F4D9;[Hard](#hard-questions):   4
 
 ### Notes
 
@@ -652,6 +652,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary) | [Java](./src/java/hard/graph/AlienDictionary.java)| Topological Sort | LintCode [892](https://www.lintcode.com/problem/alien-dictionary/description) - OJ on LintCode is incorrect |
 |273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Java](./src/java/hard/string/IntegerToEnglishWords.java)| String |
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | [Java](./src/java/hard/backtracking/ExpressionAddOperators.java)| Backtracking (DFS) |
+|291|[Word Pattern II](https://leetcode.com/problems/word-pattern-ii) | [Java](./src/java/hard/backtracking/WordPatternII.java)| Backtracking (DFS) | LintCode [829](https://www.lintcode.com/problem/word-pattern-ii/description) |
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Java](./src/java/hard/heap/FindMedianDataStream.java)| Heap | Solution for follow-ups: <br/> 1. counting sort between 0 and 100 <br/> 2. count numbers, which is > 100 and < 0 |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./src/java/hard/tree/SerializeDeserializeBinaryTree.java)| Tree/DFS/Queue |
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Java](./src/java/hard/backtracking/RemoveInvalidParentheses.java)| Backtracking (DFS) |
