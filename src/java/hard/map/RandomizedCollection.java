@@ -1,4 +1,4 @@
-package src.java.medium.map;
+package src.java.hard.map;
 
 import java.util.ArrayList;
 import java.util.HashMap;

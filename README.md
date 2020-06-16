@@ -570,7 +570,6 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/java/medium/dp/CombinationSumIV.java)| 1D DP |
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Java](./src/java/medium/matrix/KthSmallestElementSortedMatrix.java)| Min Heap |
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](./src/java/medium/map/RandomizedSet.java)| HashMap |
-|381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Java](./src/java/medium/map/RandomizedCollection.java)| HashMap |
 |382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | [Java](./src/java/medium/linkedlist/LinkedListRandomNode.java)| LinkedList | It's essentially a math question ([Reservoir Sampling](https://leetcode.com/problems/linked-list-random-node/discuss/85659/Brief-explanation-for-Reservoir-Sampling)). |
 |386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | [Java](./src/java/medium/backtracking/LexicographicalNumbers.java)| DFS |
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Java](./src/java/medium/string/DecodeString.java)| Stack & DFS | Deserve as `hard` |
@@ -659,6 +658,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii) | [Java](./src/java/hard/matrix/NumberOfIslandsII.java)| UnionFind | LintCode [434](https://www.lintcode.com/problem/number-of-islands-ii/description) |
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | [Java](./src/java/hard/greedy/RemoveDuplicateLetters.java)| Greedy |
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Java](./src/java/hard/backtracking/LongestIncreasingPathMatrix.java)| Backtracking (DFS) | DFS with cache |
+|381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Java](./src/java/hard/map/RandomizedCollection.java)| HashMap |
 |546|[Remove Boxes](https://leetcode.com/problems/remove-boxes/) | [Java](./src/java/hard/array/RemoveBoxes.java)| Backtracking (DFS) | Backtracking is TLE. 3D DP solution is [here](https://leetcode.com/problems/remove-boxes/discuss/101310/Java-top-down-and-bottom-up-DP-solutions) |
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [Java](./src/java/hard/matrix/SwimRisingWater.java)| Backtracking (DFS) + UnionFind |
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/) | [Java](./src/java/hard/graph/BusRoutes.java)| Graph Traversal (BFS + DFS) |
