@@ -253,9 +253,9 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LeetCode Current Status
 
-- **Total**:  413/1473
+- **Total**:  414/1485
   - &#x1F4D7;[Easy](#easy-questions):   152
-  - &#x1F4D8;[Medium](#medium-questions): 209
+  - &#x1F4D8;[Medium](#medium-questions): 210
   - &#x1F4D9;[Hard](#hard-questions):   52
 
 ### LintCode Current Status
@@ -267,8 +267,8 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### Notes
 
-- I use LintCode as the supplement of LintCode for the locked questions.
-- I skip the `hard` math questions, since it is almost impossible to see them in an interview.
+- I use LintCode as the supplement of LeetCode for the locked questions.
+- I usually skip the `hard` math questions, since it is almost impossible to see them in a real interview.
 
 ### Easy Questions
 
