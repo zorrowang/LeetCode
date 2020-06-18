@@ -531,6 +531,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller)|[Java](./src/java/medium/array/3SumSmaller.java)| Two-Pointer | LintCode [918](https://www.lintcode.com/problem/3sum-smaller/description) |
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Java](./src/java/medium/bit/SingleNumberIII.java)| Bit | It's a hard question to achieve _Space O(1)_ |
 |261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree)|[Java](./src/java/medium/tree/GraphValidTree.java)| UnionFind | LintCode [178](https://www.lintcode.com/problem/graph-valid-tree/description) |
+|261|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Java](./src/java/medium/dp/UglyNumberII.java)| 1D DP |
 |267|[Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii)|[Java](./src/java/medium/backtracking/PalindromePermutationII.java)| Backtracking (DFS) | LintCode [917](https://www.lintcode.com/problem/palindrome-permutation-ii/description) |
 |271|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings) | [Java](./src/java/medium/string/EncodeDecodeStrings.java)| String | LintCode [659](https://www.lintcode.com/problem/encode-and-decode-strings/description) |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/java/medium/array/HIndex.java)| Sort & Map |
