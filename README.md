@@ -74,6 +74,9 @@ Java is a general-purpose programming language that is class-based, object-orien
 - [Java Introduction](./docs/Languages/Java/Java.md)
 - [Java Virtual Machine (JVM)](./docs/Languages/Java/JVM.md)
 - [Garbage Collection](./docs/Languages/Java/GC.md)
+- Generics in Java
+- Concurrency in Java
+- I/O in Java
 - [Lambda in Java](./docs/Languages/Java/Lambda.md)
 
 #### Data Structures in Java
@@ -230,8 +233,19 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ## System Design
 
-- [System Design Workflow](./docs/system-design/SystemDesignWorkflow.md)
-- System Design Patterns
+- System Design Foundation
+- Distributed System
+- Cluster
+- Message Queue
+- Database
+  - SQL
+  - NoSQL
+  - Cache
+- Networking
+  - Networking Foundation
+  - HTTP
+  - RESTful API
+  - Socket
 
 ## Coding Preparation
 
