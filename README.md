@@ -511,6 +511,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[Java](./src/java/medium/dp/HouseRobberII.java)| 1D DP |
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./src/java/medium/array/KthLargestElement.java)| Heap Sort | A better [solution](https://leetcode.com/problems/kth-largest-element-in-an-array/discuss/60294/Solution-explained) uses Selection algorithm with shuffling |
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/java/medium/backtracking/CombinationSumIII.java)| Backtracking (DFS) |
+|220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | [Java](./src/java/medium/array/ContainsDuplicateIII.java)| TreeMap | TLE on LeetCode OJ (it's a boring question) |
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/) | [Java](./src/java/medium/matrix/MaximalSquare.java)| DP |
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [Java](./src/java/medium/tree/CountCompleteTreeNodes.java)| DFS |
 |223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Java](./src/java/medium/math/RectangleArea.java)| Math |
@@ -531,7 +532,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller)|[Java](./src/java/medium/array/3SumSmaller.java)| Two-Pointer | LintCode [918](https://www.lintcode.com/problem/3sum-smaller/description) |
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Java](./src/java/medium/bit/SingleNumberIII.java)| Bit | It's a hard question to achieve _Space O(1)_ |
 |261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree)|[Java](./src/java/medium/tree/GraphValidTree.java)| UnionFind | LintCode [178](https://www.lintcode.com/problem/graph-valid-tree/description) |
-|261|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Java](./src/java/medium/dp/UglyNumberII.java)| 1D DP |
+|264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Java](./src/java/medium/dp/UglyNumberII.java)| 1D DP |
 |267|[Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii)|[Java](./src/java/medium/backtracking/PalindromePermutationII.java)| Backtracking (DFS) | LintCode [917](https://www.lintcode.com/problem/palindrome-permutation-ii/description) |
 |271|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings) | [Java](./src/java/medium/string/EncodeDecodeStrings.java)| String | LintCode [659](https://www.lintcode.com/problem/encode-and-decode-strings/description) |
 |274|[H-Index](https://leetcode.com/problems/h-index/) | [Java](./src/java/medium/array/HIndex.java)| Sort & Map |
