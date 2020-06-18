@@ -340,6 +340,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |293|[Flip Game](https://leetcode.com/problems/flip-game)|[Java](./src/java/easy/string/FlipGame.java)| BruteForce | LintCode [914](https://www.lintcode.com/problem/flip-game/description) |
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Java](./src/java/easy/string/BullsCows.java)| Counting |
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Java](./src/java/easy/array/RangeSumQuery.java)| Segment Tree |
+|326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Java](./src/java/easy/math/PowerOfThree.java)| Math |
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](./src/java/easy/array/ReverseString.java)| Two Pointer |
 |346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream)|[Java](./src/java/easy/stream/MovingAverage.java)| Sliding Window | LintCode [642](https://www.lintcode.com/problem/moving-average-from-data-stream/description) |
