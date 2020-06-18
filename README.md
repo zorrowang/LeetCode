@@ -277,19 +277,19 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](./src/java/easy/array/TwoSum.java) [Python](./src/python/array/2sum.py)| HashMap |
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java](./src/java/easy/number/ReverseInteger.java)| Number |
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](./src/java/easy/number/PalindromeNumber.java)| Number |
-|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Java](./src/java/easy/string/RomanToInteger.java)| BruteForce |
-|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Java](./src/java/easy/array/LongestCommonPrefix.java)| BruteForce | More [solutions](https://leetcode.com/problems/longest-common-prefix/solution/)|
+|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Java](./src/java/easy/string/RomanToInteger.java)| Map |
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Java](./src/java/easy/array/LongestCommonPrefix.java)| Loop | More [solutions](https://leetcode.com/problems/longest-common-prefix/solution/)|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](./src/java/easy/string/ValidParentheses.java) [Python](./src/python/string/valid_parentheses.py)| Stack |
-|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](./src/java/easy/linkedlist/MergeTwoSortedLists.java)| BruteForce |
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](./src/java/easy/linkedlist/MergeTwoSortedLists.java)| Loop |
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./src/java/easy/array/RemoveDuplicatesSortedArray.java)| Two-Pointer |
-|27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./src/java/easy/array/RemoveElement.java)| BruteForce |
+|27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./src/java/easy/array/RemoveElement.java)| Single Pointer |
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Java](./src/java/easy/string/StrStr.java)| String |
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Java](./src/java/easy/array/SearchInsertPosition.java)| String |
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[Java](./src/java/easy/math/CountPrimes.java)| Number |
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./src/java/easy/dp/MaximumSubarray.java)| DP |
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](./src/java/easy/string/LengthLastWord.java)| String |
-|66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./src/java/easy/array/PlusOne.java)| BruteForce |
-|67|[Add Binary](https://leetcode.com/problems/add-binary/)|[Java](./src/java/easy/string/AddBinary.java)| BruteForce |
+|66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./src/java/easy/array/PlusOne.java)| Loop |
+|67|[Add Binary](https://leetcode.com/problems/add-binary/)|[Java](./src/java/easy/string/AddBinary.java)| Loop |
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Java](./src/java/easy/math/Sqrt.java)| Math | Apply [Newton's Method](https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap06/sqrt-1.html) |
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Java](./src/java/easy/dp/ClimbingStairs.java)| 1D DP |
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./src/java/easy/linkedlist/RemoveDuplicatesSortedList.java)| Two-Pointer |
@@ -342,7 +342,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |256|[Paint House](https://leetcode.com/problems/paint-house)|[Java](./src/java/easy/dp/PaintHouse.java)| 1D DP | LintCode [515](https://www.lintcode.com/problem/paint-house/description) as `medium` |
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Java](./src/java/easy/tree/BinaryTreePaths.java)| DFS |
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Java](./src/java/easy/number/AddDigits.java)| Number |
-|263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/java/easy/number/UglyNumber.java)| Brute-Force |
+|263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/java/easy/number/UglyNumber.java)| Math |
 |266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation)|[Java](./src/java/easy/string/PalindromePermutation.java)| Counting | LintCode [916](https://www.lintcode.com/problem/palindrome-permutation/description) |
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Java](./src/java/easy/array/MissingNumber.java)| Counting | Bit manipulation solution using XOR is [here](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination) |
 |270|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value)|[Java](./src/java/easy/tree/ClosestBinarySearchTreeValue.java)| DFS | LintCode [900](https://www.lintcode.com/problem/closest-binary-search-tree-value/description) |
@@ -351,7 +351,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./src/java/easy/array/MoveZeroes.java)| Two-Pointer |
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./src/java/easy/string/WordPattern.java)| HashMap |
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[Java](./src/java/easy/number/NimGame.java)| Minimax |
-|293|[Flip Game](https://leetcode.com/problems/flip-game)|[Java](./src/java/easy/string/FlipGame.java)| BruteForce | LintCode [914](https://www.lintcode.com/problem/flip-game/description) |
+|293|[Flip Game](https://leetcode.com/problems/flip-game)|[Java](./src/java/easy/string/FlipGame.java)| Loop | LintCode [914](https://www.lintcode.com/problem/flip-game/description) |
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Java](./src/java/easy/string/BullsCows.java)| Counting |
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Java](./src/java/easy/array/RangeSumQuery.java)| Segment Tree |
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Java](./src/java/easy/math/PowerOfThree.java)| Math |
@@ -370,9 +370,9 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Java](./src/java/easy/array/StringCompression.java)| Two-Pointer |
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](./src/java/easy/dp/MaxConsecutiveOnes.java)| 1D DP |
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Java](./src/java/easy/tree/MinimumAbsoluteDifference.java)| In-order Traversal |
-|541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/java/easy/string/ReverseStringII.java)| BruteForce |
+|541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/java/easy/string/ReverseStringII.java)| Two Pointer |
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](./src/java/easy/array/StudentAttendanceRecord.java)| Array |
-|557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./src/java/easy/string/ReverseWordInStringIII.java)| BruteForce |
+|557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./src/java/easy/string/ReverseWordInStringIII.java)| Two Pointer |
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Java](./src/java/easy/array/ArrayPartitionI.java)| Math |
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](./src/java/easy/tree/SubtreeOfAnotherTree.java)| Recursion | [Converting to string](https://leetcode.com/problems/subtree-of-another-tree/solution/) is a brilliant idea |
 |575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Java](./src/java/easy/array/DistributeCandies.java)| Greedy |
@@ -385,7 +385,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java](./src/java/easy/string/ToLowerCase.java)| String |
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](./src/java/easy/string/LongestWordDictionary.java)| HashSet |
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./src/java/easy/array/FindPivotIndex.java)| Prefix/Suffix Sum |
-|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Java](./src/java/easy/number/SelfDividingNumbers.java)| BruteForce |
+|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Java](./src/java/easy/number/SelfDividingNumbers.java)| Math |
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Java](./src/java/easy/matrix/FloodFill.java)| DFS |
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](./src/java/easy/string/ShortestCompletingWord.java)| String |
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Java](./src/java/easy/array/MinCostClimbingStairs.java)| 1D DP |
@@ -393,7 +393,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](./src/java/easy/string/JewelsStones.java)| Set |
 |783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Java](./src/java/easy/tree/MinimumDistanceBSTNodes.java)| DFS |
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[Java](./src/java/easy/dp/RotatedDigits.java)| DP | There is O(lgn) [solution](https://leetcode.com/problems/rotated-digits/discuss/264282/Java-O(logN)-0ms-100), but very tricky! |
-|796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[Java](./src/java/easy/string/RotateString.java)| String/BruteForce | The [rolling hash](https://leetcode.com/problems/rotate-string/solution/) solution is great! |
+|796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[Java](./src/java/easy/string/RotateString.java)| String | The [rolling hash](https://leetcode.com/problems/rotate-string/solution/) solution is great! |
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](./src/java/easy/array/ShortestDistanceCharacter.java)| MinArray |
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](./src/java/easy/array/PeakIndexInMountainArray.java)| BinarySearch |
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Java](./src/java/easy/string/BackspaceStringCompare.java)| Stack | Two pointers starting from the end is better in term of space performance |
@@ -440,7 +440,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java](./src/java/medium/matrix/ValidSudoku.java)| Matrix |
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](./src/java/medium/backtracking/CombinationSum.java)| Backtracking (DFS) |
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Java](./src/java/medium/backtracking/CombinationSumII.java)| Backtracking (DFS) |
-|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Java](./src/java/medium/string/MultiplyStrings.java)| Brute-Force |
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Java](./src/java/medium/string/MultiplyStrings.java)| Loop |
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](./src/java/medium/array/Permutations.java)| Backtracking (BFS & DFS) |
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/java/medium/array/PermutationsUnique.java)| Backtracking (BFS & DFS) |
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image)|[Java](./src/java/medium/matrix/RotateImage.java)| Matrix |
@@ -482,8 +482,8 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|[Java](./src/java/medium/tree/ConvertSortedListBST.java)| D&C |
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](./src/java/medium/tree/PathSumII.java)| Backtracking (DFS) |
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Java](./src/java/medium/tree/FlattenBinaryTreeLinkedList.java)| BFS & DFS |
-|116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Java](./src/java/medium/tree/PopulatingNextRightPointers.java)| BruteForce |
-|117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Java](./src/java/medium/tree/PopulatingNextRightPointersII.java)| BruteForce |
+|116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Java](./src/java/medium/tree/PopulatingNextRightPointers.java)| Loop |
+|117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Java](./src/java/medium/tree/PopulatingNextRightPointersII.java)| Loop |
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Java](./src/java/medium/dp/Triangle.java)| 1D DP |
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Java](./src/java/medium/string/WordLadder.java)| Backtracking (BFS & DFS) | LeetCode needs some [optimization](https://leetcode.com/problems/word-ladder/solution/) to pass TLE, which I think is an overkill|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java](./src/java/medium/tree/SumRootToLeafNumbers.java)| DFS |
@@ -508,7 +508,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)|[Java](./src/java/medium/string/LongestSubstringAtMostTwoDistinctCharacters.java)| Two-Pointer | LintCode [928](https://www.lintcode.com/problem/longest-substring-with-at-most-two-distinct-characters/description) as `Hard` |
 |161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance)|[Java](./src/java/medium/string/OneEditDistance.java)| String | LintCode [640](https://www.lintcode.com/problem/one-edit-distance/description) |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](./src/java/medium/array/FindPeakElement.java)| BinarySearch |
-|163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Java](./src/java/medium/array/MissingRanges.java)| Brute-Force | LintCode [641](https://www.lintcode.com/problem/missing-ranges/description) |
+|163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Java](./src/java/medium/array/MissingRanges.java)| Loop | LintCode [641](https://www.lintcode.com/problem/missing-ranges/description) |
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Java](./src/java/medium/string/CompareVersionNumbers.java)| String |
 |166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|[Java](./src/java/medium/number/FractionToRecurringDecimal.java)| HashMap | Should be as `hard` |
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Java](./src/java/medium/tree/BSTIterator.java)| BFS+Stack |

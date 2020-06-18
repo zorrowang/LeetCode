@@ -2,6 +2,18 @@ package src.java.easy.array;
 
 class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
+        if (strs==null || strs.length==0)   return "";
+        int i=0;
+        while(true){
+            for (int j=0; j<strs.length; j++)
+                if (i >= strs[j].length() || strs[0].charAt(i) != strs[j].charAt(i))
+                    return strs[0].substring(0, i);
+            i++;
+        }
+    }
+
+    // Legacy Solution
+    public String longestCommonPrefix2(String[] strs) {
         // Start typing your Java solution below
         // DO NOT write main() function
         if (strs==null || strs.length==0) return "";
@@ -24,14 +36,4 @@ class LongestCommonPrefix {
             return strs[0].substring(0, i);
     }
 
-    public String longestCommonPrefixRevised(String[] strs) {
-        if (strs==null || strs.length==0)   return "";
-        int i=0;
-        while(true){
-            for (int j=0; j<strs.length; j++)
-                if (i >= strs[j].length() || strs[0].charAt(i) != strs[j].charAt(i))
-                    return strs[0].substring(0, i);
-            i++;
-        }
-    }
 }

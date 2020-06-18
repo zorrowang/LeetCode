@@ -13,10 +13,8 @@ class RotateString {
     }
 
     // Simple check 
-    class Solution {
-        public boolean rotateString(String A, String B) {
-            if (A==null || B==null) return false;
-            return A.length() == B.length() && (A + A).contains(B);
-        }
+    public boolean rotateString2(String A, String B) {
+        if (A==null || B==null) return false;
+        return A.length() == B.length() && (A + A).contains(B);
     }
 }
