@@ -355,7 +355,6 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Java](./src/java/easy/string/BullsCows.java)| Counting |
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Java](./src/java/easy/array/RangeSumQuery.java)| Segment Tree |
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Java](./src/java/easy/math/PowerOfThree.java)| Math |
-|337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](./src/java/easy/array/ReverseString.java)| Two Pointer |
 |346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream)|[Java](./src/java/easy/stream/MovingAverage.java)| Sliding Window | LintCode [642](https://www.lintcode.com/problem/moving-average-from-data-stream/description) |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/java/easy/math/ValidPerfectSquare.java)| Math |
@@ -579,12 +578,14 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [Java](./src/java/medium/tree/VerifyPreorderSerializationBinaryTree.java)| DFS | Non-cursive [solution](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/discuss/78551/7-lines-Easy-Java-Solution) based on graph theory |
 |332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [Java](./src/java/medium/greedy/ReconstructItinerary.java)| Greedy |
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Java](./src/java/medium/array/IncreasingTripletSubsequence.java)| Loop |
+|337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Java](./src/java/medium/list/FlattenNestedListIterator.java)| Recursion |
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Java](./src/java/medium/math/CountNumbersUniqueDigits.java)| Math |
 |361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy) | [Java](./src/java/medium/matrix/BombEnemy.java)| DP | LintCode [553](https://www.lintcode.com/problem/bomb-enemy/description) |
 |366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree) | [Java](./src/java/medium/tree/FindLeavesBinaryTree.java)| DFS | LintCode [650](https://www.lintcode.com/problem/find-leaves-of-binary-tree/description) |
 |369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list) | [Java](./src/java/medium/linkedlist/PlusOneLinkedList.java)| Recursion | LintCode [904](https://www.lintcode.com/problem/plus-one-linked-list/description) |
 |370|[Range Addition](https://leetcode.com/problems/range-addition) | [Java](./src/java/medium/array/RangeAddition.java)| Array | LintCode [903](https://www.lintcode.com/problem/range-addition/description) |
+|373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Java](./src/java/medium/array/FindKPairsWithSmallestSums.java)| Heap |
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [Java](./src/java/medium/dp/WiggleSubsequence.java)| 1D DP |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Java](./src/java/medium/dp/CombinationSumIV.java)| 1D DP |
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Java](./src/java/medium/matrix/KthSmallestElementSortedMatrix.java)| Min Heap |
