@@ -260,9 +260,9 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LintCode Current Status
 
-- **Total**:  45
+- **Total**:  46
   - &#x1F4D7;[Easy](#easy-questions):   11
-  - &#x1F4D8;[Medium](#medium-questions): 30
+  - &#x1F4D8;[Medium](#medium-questions): 31
   - &#x1F4D9;[Hard](#hard-questions):   4
 
 ### Notes
@@ -575,10 +575,11 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | [Java](./src/java/medium/math/BulbSwitcher.java)| Math |
 |320|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation) | [Java](./src/java/medium/backtracking/GeneralizedAbbreviation.java)| Backtracking (DFS) | LintCode [779](https://www.lintcode.com/problem/generalized-abbreviation/description) |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Java](./src/java/medium/dp/CoinChange.java)| 1D DP |
-|325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k) | [Java](./src/java/medium/map/MaximumSizeSubarraySumEqualsK.java)| HashMap |
+|325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k) | [Java](./src/java/medium/map/MaximumSizeSubarraySumEqualsK.java)| HashMap | LintCode [911](https://www.lintcode.com/problem/maximum-size-subarray-sum-equals-k/description) |
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](./src/java/medium/linkedlist/OddEvenLinkedList.java)| LinkedList |
 |331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [Java](./src/java/medium/tree/VerifyPreorderSerializationBinaryTree.java)| DFS | Non-cursive [solution](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/discuss/78551/7-lines-Easy-Java-Solution) based on graph theory |
 |332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [Java](./src/java/medium/greedy/ReconstructItinerary.java)| Greedy |
+|333|[Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree) | [Java](./src/java/medium/tree/LargestBSTSubtree.java)| DFS |
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Java](./src/java/medium/array/IncreasingTripletSubsequence.java)| Loop |
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Java](./src/java/medium/bit/CountingBits.java)| Bit |
