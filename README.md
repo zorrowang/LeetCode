@@ -592,6 +592,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](./src/java/medium/map/RandomizedSet.java)| HashMap |
 |382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | [Java](./src/java/medium/linkedlist/LinkedListRandomNode.java)| LinkedList | It's essentially a math question ([Reservoir Sampling](https://leetcode.com/problems/linked-list-random-node/discuss/85659/Brief-explanation-for-Reservoir-Sampling)). |
 |386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | [Java](./src/java/medium/backtracking/LexicographicalNumbers.java)| DFS |
+|388|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/) | [Java](./src/java/medium/string/LongestAbsoluteFilePath.java)| Stack |
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Java](./src/java/medium/string/DecodeString.java)| Stack & DFS | Deserve as `hard` |
 |397|[Integer Replacement](https://leetcode.com/problems/integer-replacement/) | [Java](./src/java/medium/bit/IntegerReplacement.java)| Bit |
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
