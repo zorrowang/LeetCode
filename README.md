@@ -579,6 +579,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [Java](./src/java/medium/greedy/ReconstructItinerary.java)| Greedy |
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Java](./src/java/medium/array/IncreasingTripletSubsequence.java)| Loop |
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Java](./src/java/medium/bit/CountingBits.java)| Bit |
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Java](./src/java/medium/list/FlattenNestedListIterator.java)| Recursion |
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Java](./src/java/medium/math/CountNumbersUniqueDigits.java)| Math |
 |361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy) | [Java](./src/java/medium/matrix/BombEnemy.java)| DP | LintCode [553](https://www.lintcode.com/problem/bomb-enemy/description) |
