@@ -597,6 +597,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Java](./src/java/medium/matrix/KthSmallestElementSortedMatrix.java)| Min Heap |
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](./src/java/medium/map/RandomizedSet.java)| HashMap |
 |382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | [Java](./src/java/medium/linkedlist/LinkedListRandomNode.java)| LinkedList | It's essentially a math question ([Reservoir Sampling](https://leetcode.com/problems/linked-list-random-node/discuss/85659/Brief-explanation-for-Reservoir-Sampling)). |
+|384|[Shuffle an Array](src/java/medium/math/ShuffleAnArray.java) | [Java](./src/java/medium/math/ShuffleAnArray.java)| Math | [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) |
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/) | [Java](./src/java/medium/string/MiniParser.java)| Recursion |
 |386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | [Java](./src/java/medium/backtracking/LexicographicalNumbers.java)| DFS |
 |388|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/) | [Java](./src/java/medium/string/LongestAbsoluteFilePath.java)| Stack |
