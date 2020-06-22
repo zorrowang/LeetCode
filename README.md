@@ -585,6 +585,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Java](./src/java/medium/bit/CountingBits.java)| Bit |
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Java](./src/java/medium/list/FlattenNestedListIterator.java)| Recursion |
 |343|[Integer Break](https://leetcode.com/problems/integer-break/) | [Java](./src/java/medium/math/IntegerBreak.java)| Math |
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Java](./src/java/medium/heap/TopKFrequentElements.java)| HashMap + Heap |
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Java](./src/java/medium/math/CountNumbersUniqueDigits.java)| Math |
 |361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy) | [Java](./src/java/medium/matrix/BombEnemy.java)| DP | LintCode [553](https://www.lintcode.com/problem/bomb-enemy/description) |
 |366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree) | [Java](./src/java/medium/tree/FindLeavesBinaryTree.java)| DFS | LintCode [650](https://www.lintcode.com/problem/find-leaves-of-binary-tree/description) |
