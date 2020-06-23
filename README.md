@@ -355,6 +355,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Java](./src/java/easy/string/BullsCows.java)| Counting |
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Java](./src/java/easy/array/RangeSumQuery.java)| Segment Tree |
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Java](./src/java/easy/math/PowerOfThree.java)| Math |
+|339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum)|[Java](./src/java/easy/list/NestedListWeightSum.java)| Recursion | LintCode [551](https://www.lintcode.com/problem/nested-list-weight-sum/description) |
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](./src/java/easy/array/ReverseString.java)| Two Pointer |
 |346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream)|[Java](./src/java/easy/stream/MovingAverage.java)| Sliding Window | LintCode [642](https://www.lintcode.com/problem/moving-average-from-data-stream/description) |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](./src/java/easy/math/ValidPerfectSquare.java)| Math |
