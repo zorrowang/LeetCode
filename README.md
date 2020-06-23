@@ -579,7 +579,6 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](./src/java/medium/linkedlist/OddEvenLinkedList.java)| LinkedList |
 |331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [Java](./src/java/medium/tree/VerifyPreorderSerializationBinaryTree.java)| DFS | Non-cursive [solution](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/discuss/78551/7-lines-Easy-Java-Solution) based on graph theory |
 |332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [Java](./src/java/medium/greedy/ReconstructItinerary.java)| Greedy |
-|333|[Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree) | [Java](./src/java/medium/tree/LargestBSTSubtree.java)| DFS |
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Java](./src/java/medium/array/IncreasingTripletSubsequence.java)| Loop |
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./src/java/medium/backtracking/HouseRobberIII.java)| Backtracking (DFS) |
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Java](./src/java/medium/bit/CountingBits.java)| Bit |
