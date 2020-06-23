@@ -614,6 +614,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |491|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Java](./src/java/medium/backtracking/IncreasingSubsequences.java)| Backtracking (DFS) |
 |494|[Target Sum](https://leetcode.com/problems/target-sum/) | [Java](./src/java/medium/array/TargetSum.java)| Backtracking (DFS) | 1D DP [solution](https://leetcode.com/problems/target-sum/discuss/455024/DP-IS-EASY!-5-Steps-to-Think-Through-DP-Questions.) |
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | [Java](./src/java/medium/array/TeemoAttacking.java)| Greedy |
+|503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [Java](./src/java/medium/array/NextGreaterElementII.java)| Stack |
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Java](./src/java/medium/dp/LongestPalindromicSubsequence.java)| 2D DP |
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Java](./src/java/medium/matrix/ZeroOneMatrix.java)| Stack |
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](./src/java/medium/string/ValidParenthesisString.java)| Greedy + Backtracking | It can be solved by DP, greedy and backtracking! |
