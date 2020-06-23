@@ -618,6 +618,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Java](./src/java/medium/tree/FindBottomLeftTreeValue.java)| DFS |
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Java](./src/java/medium/tree/FindLargestValueEachTreeRow.java)| DFS |
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Java](./src/java/medium/dp/LongestPalindromicSubsequence.java)| 2D DP |
+|539|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [Java](./src/java/medium/string/MinimumTimeDifference.java)| String |
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Java](./src/java/medium/matrix/ZeroOneMatrix.java)| Stack |
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](./src/java/medium/string/ValidParenthesisString.java)| Greedy + Backtracking | It can be solved by DP, greedy and backtracking! |
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [Java](./src/java/medium/linkedlist/SplitLinkedListParts.java)| LinkedList |
