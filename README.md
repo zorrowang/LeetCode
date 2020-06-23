@@ -363,7 +363,6 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Java](./src/java/easy/bit/BinaryWatch.java)| bit |
 |408|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation)|[Java](./src/java/easy/string/ValidWordAbbreviation.java)| String | LintCode [637](https://www.lintcode.com/problem/valid-word-abbreviation/description) |
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Java](./src/java/easy/string/LongestPalindrome.java)| String |
-|419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Java](./src/java/medium/matrix/BattleshipsBoard.java)| Greedy | Should be as `easy` |
 |422|[Valid Word Square](https://leetcode.com/problems/valid-word-square)|[Java](src/java/easy/string/ValidWordSquare.java)| String | LintCode [888](https://www.lintcode.com/problem/valid-word-square/description) |
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](./src/java/easy/tree/PathSumIII.java)| DFS | Deserve as `medium`|
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Java](./src/java/easy/array/StringCompression.java)| Two-Pointer |
@@ -604,6 +603,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |397|[Integer Replacement](https://leetcode.com/problems/integer-replacement/) | [Java](./src/java/medium/bit/IntegerReplacement.java)| Bit |
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Java](./src/java/medium/matrix/PacificAtlanticWaterFlow.java)| BFS |
+|419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Java](./src/java/medium/matrix/BattleshipsBoard.java)| Greedy | Should be as `easy` |
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Java](./src/java/medium/string/LongestRepeatingCharacterReplacement.java)| Two-Pointer |
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|[Java](./src/java/medium/linkedlist/FlattenMultilevelDoublyLinkedList.java)| Recursion |
 |433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Java](./src/java/medium/backtracking/MinimumGeneticMutation.java)| Backtracking (DFS) |
@@ -612,6 +612,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Java](./src/java/medium/bit/TotalHammingDistance.java)| Bit |
 |491|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Java](./src/java/medium/backtracking/IncreasingSubsequences.java)| Backtracking (DFS) |
+|494|[Target Sum](https://leetcode.com/problems/target-sum/) | [Java](./src/java/medium/array/TargetSum.java)| Backtracking (DFS) | 1D DP [solution](https://leetcode.com/problems/target-sum/discuss/455024/DP-IS-EASY!-5-Steps-to-Think-Through-DP-Questions.) |
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | [Java](./src/java/medium/array/TeemoAttacking.java)| Greedy |
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Java](./src/java/medium/dp/LongestPalindromicSubsequence.java)| 2D DP |
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Java](./src/java/medium/matrix/ZeroOneMatrix.java)| Stack |
