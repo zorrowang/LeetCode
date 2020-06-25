@@ -602,6 +602,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |388|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/) | [Java](./src/java/medium/string/LongestAbsoluteFilePath.java)| Stack |
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Java](./src/java/medium/string/DecodeString.java)| Stack & DFS | Deserve as `hard` |
 |397|[Integer Replacement](https://leetcode.com/problems/integer-replacement/) | [Java](./src/java/medium/bit/IntegerReplacement.java)| Bit |
+|406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Java](./src/java/medium/greedy/QueueReconstructionByHeight.java)| Greedy |
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Java](./src/java/medium/matrix/PacificAtlanticWaterFlow.java)| BFS |
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Java](./src/java/medium/matrix/BattleshipsBoard.java)| Greedy | Should be as `easy` |
