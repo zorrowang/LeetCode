@@ -604,6 +604,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |397|[Integer Replacement](https://leetcode.com/problems/integer-replacement/) | [Java](./src/java/medium/bit/IntegerReplacement.java)| Bit |
 |402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [Java](./src/java/medium/greedy/RemoveKDigits.java)| Greedy |
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Java](./src/java/medium/greedy/QueueReconstructionByHeight.java)| Greedy |
+|413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [Java](./src/java/medium/dp/ArithmeticSlices.java)| 1D DP |
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Java](./src/java/medium/matrix/PacificAtlanticWaterFlow.java)| BFS |
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Java](./src/java/medium/matrix/BattleshipsBoard.java)| Greedy | Should be as `easy` |
