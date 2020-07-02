@@ -617,6 +617,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Java](./src/java/medium/string/FindAllAnagramsString.java)| Sliding Window |
 |439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser) | [Java](./src/java/medium/string/TernaryExpressionParser.java)| Backtracking (DFS) | LintCode [887](https://www.lintcode.com/problem/ternary-expression-parser/description) |
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Java](./src/java/medium/array/FindAllDuplicatesInArray.java)| Array |
+|445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Java](./src/java/medium/linkedlist/AddTwoNumbersII.java)| Stack |
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Java](./src/java/medium/bit/TotalHammingDistance.java)| Bit |
 |491|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Java](./src/java/medium/backtracking/IncreasingSubsequences.java)| Backtracking (DFS) |
