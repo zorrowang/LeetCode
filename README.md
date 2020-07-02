@@ -249,14 +249,14 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ## Coding Preparation
 
-[How to use LeetCode](./docs/Leetcode.md)
+[How to use LeetCode](./docs/Leetcode.md#how-to-use-leetcode)
 
 ### LeetCode Current Status
 
-- **Total**:  414/1485
+- **Total**:  415/1485
   - &#x1F4D7;[Easy](#easy-questions):   152
   - &#x1F4D8;[Medium](#medium-questions): 210
-  - &#x1F4D9;[Hard](#hard-questions):   52
+  - &#x1F4D9;[Hard](#hard-questions):   53
 
 ### LintCode Current Status
 
