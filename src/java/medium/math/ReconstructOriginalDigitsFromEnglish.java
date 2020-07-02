@@ -1,4 +1,6 @@
-public class Solution {
+package src.java.medium.math;
+
+public class ReconstructOriginalDigitsFromEnglish {
     public String originalDigits(String s) {
         if (s == null) {
             return null;

@@ -608,6 +608,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Java](./src/java/medium/matrix/PacificAtlanticWaterFlow.java)| BFS |
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Java](./src/java/medium/matrix/BattleshipsBoard.java)| Greedy | Should be as `easy` |
+|423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|[Java](./src/java/medium/math/ReconstructOriginalDigitsFromEnglish.java)| Math |
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Java](./src/java/medium/string/LongestRepeatingCharacterReplacement.java)| Two-Pointer |
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|[Java](./src/java/medium/linkedlist/FlattenMultilevelDoublyLinkedList.java)| Recursion |
 |433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Java](./src/java/medium/backtracking/MinimumGeneticMutation.java)| Backtracking (DFS) |
