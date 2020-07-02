@@ -613,9 +613,10 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|[Java](./src/java/medium/linkedlist/FlattenMultilevelDoublyLinkedList.java)| Recursion |
 |433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[Java](./src/java/medium/backtracking/MinimumGeneticMutation.java)| Backtracking (DFS) |
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Java](./src/java/medium/matrix/NonOverlappingIntervals.java)| Sort + 1D DP | Greedy [solution](https://leetcode.com/problems/non-overlapping-intervals/discuss/91713/Java%3A-Least-is-Most) can optimize to _O(nlogn)_ |
-|436|[Find Right Interval](https://leetcode.com/problems/find-right-interval/) | [Java](./src/java/medium/map/FindRightInterval.java)| TreeMap |
+|436|[Find Right Interval](https://leetcode.com/problems/find-right-interval/) | [Java](./src/java/medium/map/FindRightInterval.java)| TreeMap & Binary Search |
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Java](./src/java/medium/string/FindAllAnagramsString.java)| Sliding Window |
 |439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser) | [Java](./src/java/medium/string/TernaryExpressionParser.java)| Backtracking (DFS) | LintCode [887](https://www.lintcode.com/problem/ternary-expression-parser/description) |
+|442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Java](./src/java/medium/array/FindAllDuplicatesInArray.java)| Array |
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Java](./src/java/medium/bit/TotalHammingDistance.java)| Bit |
 |491|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Java](./src/java/medium/backtracking/IncreasingSubsequences.java)| Backtracking (DFS) |
