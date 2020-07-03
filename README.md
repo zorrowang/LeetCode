@@ -621,6 +621,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Java](./src/java/medium/string/SortCharactersByFrequency.java)| Counting Sort |
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Java](./src/java/medium/bit/TotalHammingDistance.java)| Bit |
+|486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | [Java](./src/java/medium/dp/PredictWinner.java)| 2D DP |
 |491|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Java](./src/java/medium/backtracking/IncreasingSubsequences.java)| Backtracking (DFS) |
 |494|[Target Sum](https://leetcode.com/problems/target-sum/) | [Java](./src/java/medium/array/TargetSum.java)| Backtracking (DFS) | 1D DP [solution](https://leetcode.com/problems/target-sum/discuss/455024/DP-IS-EASY!-5-Steps-to-Think-Through-DP-Questions.) |
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | [Java](./src/java/medium/array/TeemoAttacking.java)| Greedy |
