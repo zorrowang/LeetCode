@@ -1,4 +1,8 @@
-class Solution {
+package src.java.medium.string;
+
+import java.util.Arrays;
+
+public class CustomSortString {
     public String customSortString(String S, String T) {
         char[] ret = new char[T.length()];
         int[] count = new int[26];

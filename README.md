@@ -639,6 +639,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](./src/java/medium/string/ValidParenthesisString.java)| Greedy + Backtracking | It can be solved by DP, greedy and backtracking! |
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [Java](./src/java/medium/linkedlist/SplitLinkedListParts.java)| LinkedList |
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/java/medium/array/DailyTemperatures.java)| Stack |
+|791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | [Java](./src/java/medium/string/CustomSortString.java)| Bucket Sort |
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [Java](./src/java/medium/string/ScoreParentheses.java)| Stack |
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) | [Java](./src/java/medium/array/AdvantageShuffle.java)| Greedy + BinarySearch |
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Java](./src/java/medium/greedy/BoatsSavePeople.java)| Greedy + Two-Pointer |
