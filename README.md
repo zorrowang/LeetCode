@@ -629,6 +629,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Java](./src/java/medium/tree/FindBottomLeftTreeValue.java)| DFS |
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Java](./src/java/medium/tree/FindLargestValueEachTreeRow.java)| DFS |
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Java](./src/java/medium/dp/LongestPalindromicSubsequence.java)| 2D DP |
+|523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [Java](./src/java/medium/math/ContinuousSubarraySum.java)| Math |
 |539|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [Java](./src/java/medium/string/MinimumTimeDifference.java)| String |
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Java](./src/java/medium/matrix/ZeroOneMatrix.java)| Stack |
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Java](./src/java/medium/array/SubarraySumEqualsK.java)| HashMap |
