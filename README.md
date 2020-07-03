@@ -635,6 +635,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Java](./src/java/medium/array/SubarraySumEqualsK.java)| HashMap |
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Java](./src/java/medium/string/PermutationInString.java)| Sliding Window |
 |611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | [Java](./src/java/medium/math/ValidTriangleNumber.java)| Sort |
+|662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [Java](./src/java/medium/tree/MaximumWidthOfBinaryTree.java)| DFS |
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](./src/java/medium/string/ValidParenthesisString.java)| Greedy + Backtracking | It can be solved by DP, greedy and backtracking! |
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [Java](./src/java/medium/linkedlist/SplitLinkedListParts.java)| LinkedList |
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/java/medium/array/DailyTemperatures.java)| Stack |
