@@ -71,13 +71,13 @@ Java is a general-purpose programming language that is class-based, object-orien
 
 #### Java Overview and Features
 
-- [Java Introduction](./docs/Languages/Java/Java.md)
-- [Java Virtual Machine (JVM)](./docs/Languages/Java/JVM.md)
-- [Garbage Collection](./docs/Languages/Java/GC.md)
+- [Java Introduction](./docs/Languages/Java/features/Java.md)
+- [Java Virtual Machine (JVM)](./docs/Languages/Java/features/JVM.md)
+- [Garbage Collection](./docs/Languages/Java/features/GC.md)
 - Generics in Java
 - Concurrency in Java
 - I/O in Java
-- [Lambda in Java](./docs/Languages/Java/Lambda.md)
+- [Lambda in Java](./docs/Languages/Java/features/Lambda.md)
 
 #### Data Structures in Java
 
@@ -253,9 +253,9 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LeetCode Current Status
 
-- **Total**:  415/1485
+- **Total**:  416
   - &#x1F4D7;[Easy](#easy-questions):   152
-  - &#x1F4D8;[Medium](#medium-questions): 210
+  - &#x1F4D8;[Medium](#medium-questions): 211
   - &#x1F4D9;[Hard](#hard-questions):   53
 
 ### LintCode Current Status
