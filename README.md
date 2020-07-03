@@ -309,9 +309,9 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](./src/java/easy/string/ValidPalindrome.java)| Two-Pointer |
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[Java](./src/java/easy/bit/SingleNumber.java)| Bit |
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](./src/java/easy/linkedlist/LinkedListCycle.java)| LinkedList |
-|155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](./src/java/easy/stack/MinStack.java)| Stack |
+|155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](./src/java/easy/stack/MinStack.java) [Python](src/python/stack/min-stack.py) | Stack |
 |157|[Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4)|[Java](./src/java/easy/stream/ReadNCharactersGivenRead4.java)| Stream |
-|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Java](./src/java/easy/linkedlist/IntersectionTwoLinkedLists.java)| LinkedList |
+|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Java](./src/java/easy/linkedlist/IntersectionTwoLinkedLists.java) [Python](src/python/linkedlist/intersection-of-two-linkedlist.py) | LinkedList |
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](./src/java/easy/array/TwoSumII.java)| Two-Pointer |
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[Java](./src/java/easy/number/ExcelSheetColumnTitle.java)| Math |
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[Java](./src/java/easy/array/MajorityElement.java)| Array | [Moore's voting algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm) |
@@ -430,7 +430,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Java](./src/java/medium/string/LetterCombinationsPhoneNumber.java)| Backtracking (DFS) |
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](./src/java/medium/array/FourSum.java)| Two-Pointer |
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](./src/java/medium/linkedlist/RemoveNthNodeFromEndList.java)| Two-Pointer |
-|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](./src/java/medium/backtracking/GenerateParentheses.java)| Backtracking (DFS) |
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](./src/java/medium/backtracking/GenerateParentheses.java) [Python](src/python/tree/binary-tree-level-order-traversal.py) | Backtracking (DFS) |
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Java](./src/java/medium/linkedlist/SwapNodesPairs.java)| Recursion |
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Java](./src/java/medium/bit/DivideTwoInteger.java)| Bit |
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./src/java/medium/math/NextPermutation.java)| Math |
@@ -474,7 +474,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[Java](./src/java/medium/tree/UniqueBinarySearchTreeII.java)| DFS |
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[Java](./src/java/medium/dp/UniqueBinarySearchTree.java)| 1D DP | Optimized from 2D to 1D |
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Java](./src/java/medium/tree/ValidateBinarySearchTree.java)| DFS |
-|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](./src/java/medium/tree/BinaryTreeLevelOrderTraversal.java)| DFS & BFS |
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](./src/java/medium/tree/BinaryTreeLevelOrderTraversal.java) [Python](src/python/tree/binary-tree-level-order-traversal.py) | DFS & BFS |
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Java](./src/java/medium/tree/BinaryTreeLevelOrderTraversal.java)| DFS & BFS |
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Java](./src/java/medium/tree/ConstructBinaryTreeFromPreorderInorderTraversal.java)| Recursion |
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Java](./src/java/medium/tree/ConstructBinaryTreeFromInorderPostorderTraversal.java)| Recursion |
