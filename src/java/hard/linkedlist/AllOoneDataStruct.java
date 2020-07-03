@@ -1,4 +1,11 @@
-public class AllOne {
+package src.java.hard.linkedlist;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+
+class AllOne {
     
     HashMap<String, Integer> keyMap;
     HashMap<Integer, HashSet<String>> valueMap;
@@ -19,8 +26,8 @@ public class AllOne {
         keyMap = new HashMap<>();
         valueMap = new HashMap<>();
         nodeMap = new HashMap<>();
-        ListNode maxNode = null;
-        ListNode minNode = null;
+        maxNode = null;
+        minNode = null;
     }
     
     /** Inserts a new key <Key> with value 1. Or increments an existing key by 1. */
@@ -28,11 +35,9 @@ public class AllOne {
         keyMap.put(key, keyMap.getOrDefault(key, 0) + 1);
         int value = keyMap.get(key);
         if (valueMap.containsKey(value)){
-            HashSet set = valueMap.get(value);
-            set.add(key);
-            valueMap.put(value, set);
+            valueMap.get(value).add(key);
         } else {
-            valueMap.put(value, new HashSet<String>(Arrays.asList(key)));
+            valueMap.put(value, new HashSet<>(Arrays.asList(key)));
             ListNode newNode = new ListNode(value);
             if (value > 1) {
                 newNode.left = nodeMap.get(value-1);
@@ -68,8 +73,6 @@ public class AllOne {
                 }
                 node.right.left = node.left;
                 nodeMap.remove(value);
-            } else {
-                valueMap.put(value, set);
             }
         }
     }
@@ -80,13 +83,11 @@ public class AllOne {
             int value = keyMap.get(key);
             keyMap.put(key, value-1);
             if (valueMap.containsKey(value-1)) {
-                HashSet set = valueMap.get(value-1);
-                set.add(key);
-                valueMap.put(value-1, set);
+                valueMap.get(value-1).add(key);
             } else {
                 // Add a new node with - 1
                 if (value > 1) {
-                    valueMap.put(value-1, new HashSet<String>(Arrays.asList(key)));
+                    valueMap.put(value-1, new HashSet<>(Arrays.asList(key)));
                     ListNode newNode = new ListNode(value-1);
                     newNode.left = nodeMap.get(value).left;
                     newNode.right = nodeMap.get(value);
@@ -116,30 +117,22 @@ public class AllOne {
                     node.right.left = node.left;
                 }
                 nodeMap.remove(value);
-            } else {
-                valueMap.put(value, set);
             }
         }
     }
     
     /** Returns one of the keys with maximal value. */
     public String getMaxKey() {
-        if (maxNode == null) {
-            return "";
-        } else {
-            ArrayList<String> list = new ArrayList(valueMap.get(maxNode.val));
-            return list.get(0);
-        }
+        if (maxNode == null)    return "";
+        Iterator<String> it = valueMap.get(maxNode.val).iterator();
+        return it.next();
     }
     
     /** Returns one of the keys with Minimal value. */
     public String getMinKey() {
-        if (minNode == null) {
-            return "";
-        } else {
-            ArrayList<String> list = new ArrayList(valueMap.get(minNode.val));
-            return list.get(0);
-        }
+        if (minNode == null)    return "";
+        Iterator<String> it = valueMap.get(minNode.val).iterator();
+        return it.next();
     }
 }
 
