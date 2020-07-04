@@ -625,6 +625,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |491|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Java](./src/java/medium/backtracking/IncreasingSubsequences.java)| Backtracking (DFS) |
 |494|[Target Sum](https://leetcode.com/problems/target-sum/) | [Java](./src/java/medium/array/TargetSum.java)| Backtracking (DFS) | 1D DP [solution](https://leetcode.com/problems/target-sum/discuss/455024/DP-IS-EASY!-5-Steps-to-Think-Through-DP-Questions.) |
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | [Java](./src/java/medium/array/TeemoAttacking.java)| Greedy |
+|498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Java](./src/java/medium/matrix/DiagonalTraverse.java)| Matrix Looping |
 |503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [Java](./src/java/medium/array/NextGreaterElementII.java)| Stack |
 |513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Java](./src/java/medium/tree/FindBottomLeftTreeValue.java)| DFS |
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Java](./src/java/medium/tree/FindLargestValueEachTreeRow.java)| DFS |
