@@ -260,10 +260,10 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LintCode Current Status
 
-- **Total**:  48
+- **Total**:  49
   - &#x1F4D7;[Easy](#easy-questions):   11
   - &#x1F4D8;[Medium](#medium-questions): 31
-  - &#x1F4D9;[Hard](#hard-questions):   6
+  - &#x1F4D9;[Hard](#hard-questions):   7
 
 ### Notes
 
@@ -712,6 +712,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii) | [Java](./src/java/hard/matrix/NumberOfIslandsII.java)| UnionFind | LintCode [434](https://www.lintcode.com/problem/number-of-islands-ii/description) |
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Java](./src/java/hard/array/CountSmallerNumbersAfterSelf.java)| Sort | OJ TLE |
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | [Java](./src/java/hard/greedy/RemoveDuplicateLetters.java)| Greedy |
+|317|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings) | [Java](./src/java/hard/matrix/ShortestDistanceFromAllBuildings.java)| BFS | LintCode [803](https://www.lintcode.com/problem/shortest-distance-from-all-buildings/) |
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Java](./src/java/hard/backtracking/LongestIncreasingPathMatrix.java)| Backtracking (DFS) | DFS with cache |
 |336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [Java](./src/java/hard/string/PalindromePairs.java)| Trie |
 |352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/) | [Java](./src/java/hard/stream/DataStreamDisjointIntervals.java)| Binary Search & Union Find |
