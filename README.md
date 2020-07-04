@@ -260,10 +260,10 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LintCode Current Status
 
-- **Total**:  47
+- **Total**:  48
   - &#x1F4D7;[Easy](#easy-questions):   11
   - &#x1F4D8;[Medium](#medium-questions): 31
-  - &#x1F4D9;[Hard](#hard-questions):   5
+  - &#x1F4D9;[Hard](#hard-questions):   6
 
 ### Notes
 
@@ -708,6 +708,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |296|[Best Meeting Point](https://leetcode.com/problems/best-meeting-point) | [Java](./src/java/hard/matrix/BestMeetingPoint.java)| Math | LintCode [912](https://www.lintcode.com/problem/best-meeting-point/description) |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./src/java/hard/tree/SerializeDeserializeBinaryTree.java)| Tree/DFS/Queue |
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Java](./src/java/hard/backtracking/RemoveInvalidParentheses.java)| Backtracking (DFS) |
+|302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels) | [Java](./src/java/hard/backtracking/SmallestRectangleEnclosingBlackPixels.java)| Backtracking (DFS) | LintCode [600](https://www.lintcode.com/problem/smallest-rectangle-enclosing-black-pixels/description) |
 |305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii) | [Java](./src/java/hard/matrix/NumberOfIslandsII.java)| UnionFind | LintCode [434](https://www.lintcode.com/problem/number-of-islands-ii/description) |
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Java](./src/java/hard/array/CountSmallerNumbersAfterSelf.java)| Sort | OJ TLE |
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | [Java](./src/java/hard/greedy/RemoveDuplicateLetters.java)| Greedy |
