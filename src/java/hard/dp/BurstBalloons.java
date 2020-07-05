@@ -1,4 +1,4 @@
-package src.java.hard;
+package src.java.hard.dp;
 
 import java.util.Arrays;
 
