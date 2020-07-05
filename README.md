@@ -260,10 +260,10 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LintCode Current Status
 
-- **Total**:  49
+- **Total**:  51
   - &#x1F4D7;[Easy](#easy-questions):   11
   - &#x1F4D8;[Medium](#medium-questions): 31
-  - &#x1F4D9;[Hard](#hard-questions):   7
+  - &#x1F4D9;[Hard](#hard-questions):   9
 
 ### Notes
 
@@ -710,6 +710,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Java](./src/java/hard/backtracking/RemoveInvalidParentheses.java)| Backtracking (DFS) |
 |302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels) | [Java](./src/java/hard/backtracking/SmallestRectangleEnclosingBlackPixels.java)| Backtracking (DFS) | LintCode [600](https://www.lintcode.com/problem/smallest-rectangle-enclosing-black-pixels/description) |
 |305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii) | [Java](./src/java/hard/matrix/NumberOfIslandsII.java)| UnionFind | LintCode [434](https://www.lintcode.com/problem/number-of-islands-ii/description) |
+|308|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable) | [Java](./src/java/hard/matrix/RangeSumQuery2DMutable.java)| Matrix | LintCode [817](https://www.lintcode.com/problem/range-sum-query-2d-mutable/description) |
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [Java](./src/java/hard/dp/BurstBalloons.java)| 2D DP |
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Java](./src/java/hard/array/CountSmallerNumbersAfterSelf.java)| Sort | OJ TLE |
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | [Java](./src/java/hard/greedy/RemoveDuplicateLetters.java)| Greedy |
