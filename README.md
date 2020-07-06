@@ -260,10 +260,10 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LintCode Current Status
 
-- **Total**:  51
+- **Total**:  52
   - &#x1F4D7;[Easy](#easy-questions):   11
   - &#x1F4D8;[Medium](#medium-questions): 31
-  - &#x1F4D9;[Hard](#hard-questions):   9
+  - &#x1F4D9;[Hard](#hard-questions):   10
 
 ### Notes
 
