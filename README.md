@@ -75,7 +75,7 @@ Java is a general-purpose programming language that is class-based, object-orien
 - [Java Virtual Machine (JVM)](./docs/Languages/Java/features/JVM.md)
 - [Garbage Collection](./docs/Languages/Java/features/GC.md)
 - Generics in Java
-- Concurrency in Java
+- [Concurrency in Java](./docs/Languages/Java/features/Concurrency.md)
 - I/O in Java
 - [Lambda in Java](./docs/Languages/Java/features/Lambda.md)
 
