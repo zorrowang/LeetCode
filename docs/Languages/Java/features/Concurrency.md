@@ -1,5 +1,24 @@
 # Java Concurrency (Multi-threading)
 
+<!-- MarkdownTOC -->
+
+- [Concurrency in Java](#concurrency-in-java)
+  - [Processes and Threads](#processes-and-threads)
+  - [Locks and thread synchronization](#locks-and-thread-synchronization)
+  - [Volatile](#volatile)
+- [Memory Model in Java](#memory-model-in-java)
+  - [Overview](#overview)
+  - [Atomic operation](#atomic-operation)
+  - [Memory updates in synchronized code](#memory-updates-in-synchronized-code)
+- [Immutability and Defensive Copies](#immutability-and-defensive-copies)
+  - [Immutability](#immutability)
+  - [Defensive Copies](#defensive-copies)
+- [Threads in Java](#threads-in-java)
+  - [Threads pools with the Executor Framework](#threads-pools-with-the-executor-framework)
+- [CompletableFuture](#completableFuture)
+
+<!-- / MarkdownTOC -->
+
 ## Concurrency in Java
 
 ### Processes and Threads
@@ -72,7 +91,7 @@ If a variable is declared with the volatile keyword then it is guaranteed that a
 
 As of Java 5 write access to a volatile variable will also update non-volatile variables which were modified by the same thread. This can also be used to update values within a reference variable, e.g. for a volatile variable person. In this case you must use a temporary variable person and use the setter to initialize the variable and then assign the temporary variable to the final variable. This will then make the address changes of this variable and the values visible to other threads.
 
-## The Java memory model
+## Memory Model in Java
 
 ### Overview
 
@@ -185,8 +204,6 @@ public class Main {
     }
 }
 ```
-
-
 
 Using the `Thread` class directly has the following disadvantages.
 
