@@ -71,7 +71,7 @@ Java is a general-purpose programming language that is class-based, object-orien
 
 #### Java Overview and Features
 
-- [Java Introduction](./docs/Languages/Java/features/Java.md)
+- [Java Introduction](./docs/Languages/Java/features/Intro.md)
 - [Java Virtual Machine (JVM)](./docs/Languages/Java/features/JVM.md)
 - [Garbage Collection](./docs/Languages/Java/features/GC.md)
 - Generics in Java
@@ -720,6 +720,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | [Java](./src/java/hard/string/LongestSubstringWithAtMostKDistinctCharacters.java)| Two-Pointer | LintCode [386](https://www.lintcode.com/problem/longest-substring-with-at-most-k-distinct-characters/description) as `medium` |
 |352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/) | [Java](./src/java/hard/stream/DataStreamDisjointIntervals.java)| Binary Search & Union Find |
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Java](./src/java/hard/map/RandomizedCollection.java)| HashMap |
+|425|[Word Squares](https://leetcode.com/problems/word-squares) | [Java](./src/java/hard/backtracking/WordSquares.java)| Backtracking (DFS) | LintCode [634](https://www.lintcode.com/problem/word-squares/description) |
 |432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | [Java](./src/java/hard/linkedlist/AllOoneDataStruct.java)| HashMap + DoublyLinkedList |
 |546|[Remove Boxes](https://leetcode.com/problems/remove-boxes/) | [Java](./src/java/hard/array/RemoveBoxes.java)| Backtracking (DFS) | Backtracking is TLE. 3D DP solution is [here](https://leetcode.com/problems/remove-boxes/discuss/101310/Java-top-down-and-bottom-up-DP-solutions) |
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [Java](./src/java/hard/matrix/SwimRisingWater.java)| Backtracking (DFS) + UnionFind |
