@@ -16,6 +16,9 @@
 - [Threads in Java](#threads-in-java)
   - [Threads pools with the Executor Framework](#threads-pools-with-the-executor-framework)
 - [CompletableFuture](#completableFuture)
+- [Nonblocking algorithms](#nonblocking-algorithms)
+- [Fork-Join in Java 7](#fork-join-in-java-7)
+- [Deadlock](#deadlock)
 
 <!-- / MarkdownTOC -->
 
@@ -352,3 +355,166 @@ CompletableFuture<Integer> future = new CompletableFuture<>();
  }, CompletableFuture.delayedExecutor(3, TimeUnit.SECONDS))
  .thenAccept(result -> System.out.println("accept: " + result));
 ```
+
+## Nonblocking algorithms
+
+Java 5.0 provides supports for additional atomic operations. This allows to develop algorithm which are non-blocking algorithm, e.g. which do not require synchronization, but are based on low-level atomic hardware primitives such as compare-and-swap (CAS). A compare-and-swap operation check if the variable has a certain value and if it has this value it will perform this operation.
+
+Non-blocking algorithms are typically faster than blocking algorithms, as the synchronization of threads appears on a much finer level (hardware).
+
+```java
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class Counter {
+    private AtomicInteger value = new AtomicInteger();
+    public int getValue(){
+        return value.get();
+    }
+    public int increment(){
+        return value.incrementAndGet();
+    }
+
+    // Alternative implementation as increment but just make the
+    // implementation explicit
+    public int incrementLongVersion(){
+        int oldValue = value.get();
+        while (!value.compareAndSet(oldValue, oldValue+1)){
+             oldValue = value.get();
+        }
+        return oldValue+1;
+    }
+}
+```
+
+```java
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+public class Test {
+        private static final int NTHREDS = 10;
+
+        public static void main(String[] args) {
+            final Counter counter = new Counter();
+            List<Future<Integer>> list = new ArrayList<Future<Integer>>();
+
+            ExecutorService executor = Executors.newFixedThreadPool(NTHREDS);
+            for (int i = 0; i < 500; i++) {
+                Callable<Integer> worker = new  Callable<Integer>() {
+                    @Override
+                    public Integer call() throws Exception {
+                        int number = counter.increment();
+                        System.out.println(number );
+                        return number ;
+                    }
+                };
+                Future<Integer> submit= executor.submit(worker);
+                list.add(submit);
+
+            }
+
+            // This will make the executor accept no new threads
+            // and finish all existing threads in the queue
+            executor.shutdown();
+            // Wait until all threads are finish
+            while (!executor.isTerminated()) {
+            }
+            Set<Integer> set = new HashSet<Integer>();
+            for (Future<Integer> future : list) {
+                try {
+                    set.add(future.get());
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } catch (ExecutionException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (list.size()!=set.size()){
+                throw new RuntimeException("Double-entries!!!");
+            }
+        }
+}
+```
+
+The interesting part is how the incrementAndGet() method is implemented. It uses a CAS operation.
+
+```java
+public final int incrementAndGet() {
+    for (;;) {
+        int current = get();
+        int next = current + 1;
+        if (compareAndSet(current, next))
+            return next;
+    }
+}
+```
+
+The JDK itself makes more and more use of non-blocking algorithms to increase performance for every developer. Developing correct non-blocking algorithm is not a trivial task.
+
+## Fork-Join in Java 7
+
+Java 7 introduce a new parallel mechanism for compute intensive tasks, the fork-join framework. The fork-join framework allows you to distribute a certain task on several workers and then wait for the result.
+
+```java
+import java.util.Random;
+
+public class Problem {
+    private final int[] list = new int[2000000];
+
+    public Problem() {
+        Random generator = new Random(19580427);
+        for (int i = 0; i < list.length; i++) {
+            list[i] = generator.nextInt(500000);
+        }
+    }
+
+    public int[] getList() {
+        return list;
+    }
+}
+```
+
+Define now the `Solver` class as shown in the following example coding.
+
+```java
+import java.util.Arrays;
+import java.util.concurrent.RecursiveAction;
+
+public class Solver extends RecursiveAction {
+    private int[] list;
+    public long result;
+
+    public Solver(int[] array) {
+        this.list = array;
+    }
+
+    @Override
+    protected void compute() {
+        if (list.length == 1) {
+            result = list[0];
+        } else {
+            int midpoint = list.length / 2;
+            int[] l1 = Arrays.copyOfRange(list, 0, midpoint);
+            int[] l2 = Arrays.copyOfRange(list, midpoint, list.length);
+            Solver s1 = new Solver(l1);
+            Solver s2 = new Solver(l2);
+            forkJoin(s1, s2);
+            result = s1.result + s2.result;
+        }
+    }
+}
+```
+
+## Deadlock
+
+A concurrent application has the risk of a deadlock. A set of processes are deadlocked if all processes are waiting for an event which another process in the same set has to cause.
+
+For example if thread A waits for a lock on object Z which thread B holds and thread B wait for a look on object Y which is hold be process A then these two processes are locked and cannot continue in their processing.
+
+This can be compared to a traffic jam, where cars(threads) require the access to a certain street(resource), which is currently blocked by another car(lock).
