@@ -253,10 +253,10 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LeetCode Current Status
 
-- **Total**:  418
+- **Total**:  419
   - &#x1F4D7;[Easy](#easy-questions):   152
   - &#x1F4D8;[Medium](#medium-questions): 212
-  - &#x1F4D9;[Hard](#hard-questions):   54
+  - &#x1F4D9;[Hard](#hard-questions):   55
 
 ### LintCode Current Status
 
@@ -722,6 +722,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Java](./src/java/hard/map/RandomizedCollection.java)| HashMap |
 |425|[Word Squares](https://leetcode.com/problems/word-squares) | [Java](./src/java/hard/backtracking/WordSquares.java)| Backtracking (DFS) | LintCode [634](https://www.lintcode.com/problem/word-squares/description) |
 |432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | [Java](./src/java/hard/linkedlist/AllOoneDataStruct.java)| HashMap + DoublyLinkedList |
+|480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [Java](./src/java/hard/array/SlidingWindowMedian.java)| Heap |
 |546|[Remove Boxes](https://leetcode.com/problems/remove-boxes/) | [Java](./src/java/hard/array/RemoveBoxes.java)| Backtracking (DFS) | Backtracking is TLE. 3D DP solution is [here](https://leetcode.com/problems/remove-boxes/discuss/101310/Java-top-down-and-bottom-up-DP-solutions) |
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [Java](./src/java/hard/matrix/SwimRisingWater.java)| Backtracking (DFS) + UnionFind |
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/) | [Java](./src/java/hard/graph/BusRoutes.java)| Graph Traversal (BFS + DFS) |

@@ -1,4 +1,10 @@
-public class Solution {
+package src.java.hard.dp;
+
+public class SplitArrayLargestSum {
+    // DP solution
+
+    
+    // Recursive solution - TLE
     public int splitArray(int[] nums, int m) {
         if (nums == null || nums.length == 0 || nums.length < m)
             return 0;
