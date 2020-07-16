@@ -253,16 +253,16 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LeetCode Current Status
 
-- **Total**:  419
+- **Total**:  421
   - &#x1F4D7;[Easy](#easy-questions):   152
   - &#x1F4D8;[Medium](#medium-questions): 212
-  - &#x1F4D9;[Hard](#hard-questions):   55
+  - &#x1F4D9;[Hard](#hard-questions):   57
 
 ### LintCode Current Status
 
-- **Total**:  52
+- **Total**:  53
   - &#x1F4D7;[Easy](#easy-questions):   11
-  - &#x1F4D8;[Medium](#medium-questions): 31
+  - &#x1F4D8;[Medium](#medium-questions): 32
   - &#x1F4D9;[Hard](#hard-questions):   10
 
 ### Notes
@@ -607,6 +607,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [Java](./src/java/medium/dp/ArithmeticSlices.java)| 1D DP |
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Java](./src/java/medium/dp/PartitionEqualSubsetSum.java)| DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Java](./src/java/medium/matrix/PacificAtlanticWaterFlow.java)| BFS |
+|418|[Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting) | [Java](./src/java/medium/string/SentenceScreenFitting.java)| Looping | LintCode [889](https://www.lintcode.com/problem/sentence-screen-fitting/description) |
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Java](./src/java/medium/matrix/BattleshipsBoard.java)| Greedy | Should be as `easy` |
 |423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|[Java](./src/java/medium/math/ReconstructOriginalDigitsFromEnglish.java)| Math |
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Java](./src/java/medium/string/LongestRepeatingCharacterReplacement.java)| Two-Pointer |
