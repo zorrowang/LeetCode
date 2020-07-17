@@ -620,6 +620,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Java](./src/java/medium/array/FindAllDuplicatesInArray.java)| Array |
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Java](./src/java/medium/linkedlist/AddTwoNumbersII.java)| Stack |
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Java](./src/java/medium/string/SortCharactersByFrequency.java)| Counting Sort |
+|452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Java](./src/java/medium/greedy/MinimumNumberArrowsBurstBalloons.java)| Greedy |
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Java](./src/java/medium/bit/TotalHammingDistance.java)| Bit |
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | [Java](./src/java/medium/dp/PredictWinner.java)| 2D DP |
@@ -726,7 +727,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |425|[Word Squares](https://leetcode.com/problems/word-squares) | [Java](./src/java/hard/backtracking/WordSquares.java)| Backtracking (DFS) | LintCode [634](https://www.lintcode.com/problem/word-squares/description) |
 |432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | [Java](./src/java/hard/linkedlist/AllOoneDataStruct.java)| HashMap + DoublyLinkedList |
 |480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [Java](./src/java/hard/array/SlidingWindowMedian.java)| Heap |
-|546|[Remove Boxes](https://leetcode.com/problems/remove-boxes/) | [Java](./src/java/hard/array/RemoveBoxes.java)| Backtracking (DFS) | Backtracking is TLE. 3D DP solution is [here](https://leetcode.com/problems/remove-boxes/discuss/101310/Java-top-down-and-bottom-up-DP-solutions) |
+|546|[Remove Boxes](https://leetcode.com/problems/remove-boxes/) | [Java](./src/java/hard/backtracking/RemoveBoxes.java)| Backtracking (DFS) | Backtracking is TLE. 3D DP solution is [here](https://leetcode.com/problems/remove-boxes/discuss/101310/Java-top-down-and-bottom-up-DP-solutions) |
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [Java](./src/java/hard/matrix/SwimRisingWater.java)| Backtracking (DFS) + UnionFind |
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/) | [Java](./src/java/hard/graph/BusRoutes.java)| Graph Traversal (BFS + DFS) |
 |980|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | [Java](./src/java/hard/matrix/UniquePathsIII.java)| Backtracking (DFS) |
