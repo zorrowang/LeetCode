@@ -1,6 +1,8 @@
 package src.java.medium.array;
 
-public class 3SumSmaller {
+import java.util.Arrays;
+
+public class ThreeSumSmaller {
     /**
      * @param nums:  an array of n integers
      * @param target: a target

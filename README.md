@@ -543,7 +543,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)|[Java](./src/java/medium/list/MeetingRoomsII.java)| Greedy | LintCode [919](https://www.lintcode.com/problem/meeting-rooms-ii/description) |
 |254|[Factor Combinations](https://leetcode.com/problems/factor-combinations)|[Java](./src/java/medium/backtracking/FactorCombinations.java)| Backtracking (DFS) | LintCode [1308](https://www.lintcode.com/problem/factor-combinations/description) |
 |255|[Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree)|[Java](./src/java/medium/tree/VerifyPreorderSequenceBinarySearchTree.java)| Divide and Conquer | LintCode [1307](https://www.lintcode.com/problem/verify-preorder-sequence-in-binary-search-tree/description) |
-|259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller)|[Java](./src/java/medium/array/3SumSmaller.java)| Two-Pointer | LintCode [918](https://www.lintcode.com/problem/3sum-smaller/description) |
+|259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller)|[Java](./src/java/medium/array/ThreeSumSmaller.java)| Two-Pointer | LintCode [918](https://www.lintcode.com/problem/3sum-smaller/description) |
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[Java](./src/java/medium/bit/SingleNumberIII.java)| Bit | It's a hard question to achieve _Space O(1)_ |
 |261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree)|[Java](./src/java/medium/tree/GraphValidTree.java)| UnionFind | LintCode [178](https://www.lintcode.com/problem/graph-valid-tree/description) |
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Java](./src/java/medium/dp/UglyNumberII.java)| 1D DP |
@@ -620,6 +620,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Java](./src/java/medium/array/FindAllDuplicatesInArray.java)| Array |
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Java](./src/java/medium/linkedlist/AddTwoNumbersII.java)| Stack |
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Java](./src/java/medium/string/SortCharactersByFrequency.java)| Counting Sort |
+|454|[4Sum II](https://leetcode.com/problems/4sum-ii/) | [Java](./src/java/medium/array/FourSumII.java)| HashMap |
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Java](./src/java/medium/greedy/MinimumNumberArrowsBurstBalloons.java)| Greedy |
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Java](./src/java/medium/bit/TotalHammingDistance.java)| Bit |
