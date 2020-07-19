@@ -164,7 +164,7 @@ public interface Comparable<T> {
 
 Wildcards are represented by the question mark in Java `?` and they are used to refer to an unknown type. Wildcards are particularly useful when using generics and can be used as a parameter type but first, there is an important note to consider.
 
-It is known that _Object_ is the supertype of all Java classes, however, a collection of _Object_ is not the supertype of any collection. For example, a _List<Object>_ is not the supertype of _List<String>_ and assigning a variable of type _List<Object>_ to a variable of type _List<String>_ will cause a compiler error. This is to prevent possible conflicts that can happen if we add heterogeneous types to the same collection.
+It is known that _Object_ is the supertype of all Java classes, however, a collection of _Object_ is not the supertype of any collection. For example, a *List\<Object\>* is not the supertype of *List\<String\>* and assigning a variable of type *List\<Object\>* to a variable of type *List\<String\>* will cause a compiler error. This is to prevent possible conflicts that can happen if we add heterogeneous types to the same collection.
 
 The Same rule applies to any collection of a type and its subtypes. Consider this example:
 
