@@ -166,7 +166,7 @@ Wildcards are represented by the question mark in Java `?` and they are used to 
 
 It is known that _Object_ is the supertype of all Java classes, however, a collection of _Object_ is not the supertype of any collection. For example, a *List\<Object\>* is not the supertype of *List\<String\>* and assigning a variable of type *List\<Object\>* to a variable of type *List\<String\>* will cause a compiler error. This is to prevent possible conflicts that can happen if we add heterogeneous types to the same collection.
 
-The Same rule applies to any collection of a type and its subtypes. Consider this example:
+The same rule applies to any collection of a type and its subtypes. Consider this example:
 
 ```java
 public static void paintAllBuildings(List<Building> buildings) {
@@ -264,7 +264,7 @@ boolean add(Object e);
 
 Therefore, type parameters must be convertible to Object. Since primitive types don't extend Object, we can't use them as type parameters.
 
-However, Java provides boxed types for primitives, along with autoboxing and unboxing to unwrap them:
+However, Java provides boxed types for primitives, along with auto-boxing and unboxing to unwrap them:
 
 ```java
 Integer a = 17;
