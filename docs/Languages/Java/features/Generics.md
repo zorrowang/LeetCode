@@ -184,7 +184,7 @@ public static void paintAllBuildings(List<? extends Building> buildings) {
 
 Now, this method will work with type Building and all its subtypes. This is called an upper bounded wildcard where type Building is the upper bound.
 
-Wildcards can also be specified with a lower bound, where the unknown type has to be a supertype of the specified type. Lower bounds can be specified using the super keyword followed by the specific type, for example, _<? super T>_ means unknown type that is a superclass of _T_ (= T and all its parents).
+Wildcards can also be specified with a lower bound, where the unknown type has to be a supertype of the specified type. Lower bounds can be specified using the super keyword followed by the specific type, for example, *<? super T>* means unknown type that is a superclass of *T* (= T and all its parents).
 
 ## Type Erasure
 
