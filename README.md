@@ -727,6 +727,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |403|[Frog Jump](https://leetcode.com/problems/frog-jump/) | [Java](./src/java/hard/array/FrogJump.java)| HashMap |
 |425|[Word Squares](https://leetcode.com/problems/word-squares) | [Java](./src/java/hard/backtracking/WordSquares.java)| Backtracking (DFS) | LintCode [634](https://www.lintcode.com/problem/word-squares/description) |
 |432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | [Java](./src/java/hard/linkedlist/AllOoneDataStruct.java)| HashMap + DoublyLinkedList |
+|460|[LFU Cache](https://leetcode.com/problems/lfu-cache/) | [Java](./src/java/hard/map/LFUCache.java)| HashMap + DoublyLinkedList |
 |480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [Java](./src/java/hard/array/SlidingWindowMedian.java)| Heap |
 |546|[Remove Boxes](https://leetcode.com/problems/remove-boxes/) | [Java](./src/java/hard/backtracking/RemoveBoxes.java)| Backtracking (DFS) | Backtracking is TLE. 3D DP solution is [here](https://leetcode.com/problems/remove-boxes/discuss/101310/Java-top-down-and-bottom-up-DP-solutions) |
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [Java](./src/java/hard/matrix/SwimRisingWater.java)| Backtracking (DFS) + UnionFind |
