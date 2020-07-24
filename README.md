@@ -367,6 +367,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |422|[Valid Word Square](https://leetcode.com/problems/valid-word-square)|[Java](src/java/easy/string/ValidWordSquare.java)| String | LintCode [888](https://www.lintcode.com/problem/valid-word-square/description) |
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](./src/java/easy/tree/PathSumIII.java)| DFS | Deserve as `medium`|
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Java](./src/java/easy/array/StringCompression.java)| Two-Pointer |
+|459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Java](./src/java/easy/string/RepeatedSubstringPattern.java)| String |
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](./src/java/easy/dp/MaxConsecutiveOnes.java)| 1D DP |
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Java](./src/java/easy/tree/MinimumAbsoluteDifference.java)| In-order Traversal |
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/java/easy/string/ReverseStringII.java)| Two Pointer |
