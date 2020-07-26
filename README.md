@@ -234,7 +234,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 ## System Design
 
 - System Design Basics
-- Distributed System
+- [Distributed System](./docs/system-design/DistributedSystem.md)
 - Cluster
 - Message Queue
 - Database
