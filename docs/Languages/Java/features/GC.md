@@ -1,5 +1,25 @@
 # Garbage Collection
 
+<!-- MarkdownTOC -->
+
+- [Introduction to Garbage Collection](#introduction-to-garbage-collection)
+  - [Advantages](advantages)
+  - [Disadvantages](#disadvantages)
+- [Fragmenting and Compacting](#fragmentin-and-compacting)
+- [Generational Hypothesis](#generational-hypothesis)
+- [Memory Pools](#memory-pools)
+  - [Eden](#eden)
+  - [Survivor Spaces](#survivor-spaces)
+  - [Old Generation](#old-generation)
+  - [PermGen (deprecated from Java 8)](#permgen-deprecated-from-java-8)
+  - [Metaspace](#metaspace)
+- [Minor GC vs Major GC vs Full GC](#minor-gc-vs-major-gc-vs-full-gc)
+  - [Minor GC](#minor-gc)
+  - [Major GC vs Full GC](#major-gc-vs-full-gc)
+- [References](#references)
+
+<!-- / MarkdownTOC -->
+
 In computer science, garbage collection (GC) is a form of automatic memory management. The _garbage collector_, or just _collector_, attempts to reclaim garbage, or memory occupied by objects that are no longer in use by the program.
 
 ## Introduction to Garbage Collection

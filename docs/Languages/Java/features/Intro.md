@@ -1,5 +1,25 @@
 # Java Language
 
+<!-- MarkdownTOC -->
+
+- [Java Syntax](#java-syntax)
+  - [Main Method](#main-method)
+  - [Method Declaration](#method-declaration)
+  - [Class](#class)
+- [Java Execution System](#java-execution-system)
+  - [Java JVM and Bytecode](#java-jvm-and-bytecode)
+  - [Performance](#performance)
+- [Difference Between JVM, JRE, and JDK](#difference-between-jvm-jre-and-jdk)
+  - [JVM (Java Virtual Machine)](#jvm-java-virtual-machine)
+  - [JRE (Java Runtime Environment)](#jre-java-runtime-environment)
+  - [JDK (Java Development Kit)](#jdk-java-development-kit)
+- [Interview using Java](#interview-using-java)
+  - [Pros](#pros)
+  - [Cons](cons)
+- [References](#references)
+
+<!-- / MarkdownTOC -->
+
 Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.
 
 However, with the raise of container, the core feature of Java, WORA, has become less and less attractive. On the contrary, the language level supports (like JVM and runtime GC) make Java very heavy and slow comparing with its opponents, such as Go.
@@ -54,7 +74,7 @@ A Class is like an object constructor, or a "blueprint" for creating objects.
 
 ## Java Execution System
 
-### Java JVM and bytecode
+### Java JVM and Bytecode
 
 One design goal of Java is portability, which means that programs written for the Java platform must run similarly on any combination of hardware and operating system with adequate run time support. This is achieved by compiling the Java language code to an intermediate representation called Java bytecode, instead of directly to architecture-specific machine code. Java bytecode instructions are analogous to machine code, but they are intended to be executed by a virtual machine (VM) written specifically for the host hardware. End users commonly use a Java Runtime Environment (JRE) installed on their machine for standalone Java applications, or in a web browser for Java applets.
 
