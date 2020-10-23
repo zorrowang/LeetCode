@@ -192,9 +192,9 @@ Sorting algorithm is an algorithm that puts elements of a list in a certain orde
 
 #### O(nlogn) Solutions
 
-- [Quick Sort](./docs/algorithms/sort/Sort-nlogn.md#quick-sort)
+- [Quicksort](./docs/algorithms/sort/Sort-nlogn.md#quicksort)
 - [Merge Sort](./docs/algorithms/sort/Sort-nlogn.md#merge-sort)
-- [Heap Sort](./docs/algorithms/sort/Sort-nlogn.md#heap-sort)
+- [Heapsort](./docs/algorithms/sort/Sort-nlogn.md#heapsort)
 - [Tree Sort](./docs/algorithms/sort/Sort-nlogn.md#tree-sort)
 
 #### O(n) Solutions
@@ -213,9 +213,10 @@ Sorting algorithm is an algorithm that puts elements of a list in a certain orde
 
 #### Linear List Search
 
-- Linear Search
-  - Knuth–Morris–Pratt (KMP) Algorithm
-- Binary Search
+- [Linear Search](./docs/algorithms/search/Search.md#linear-search)
+- [Binary Search](./docs/algorithms/search/Search.md#binary-search)
+- [Special Search Algorithms](./docs/algorithms/search/Search.md#special-search-algorithms)
+  - [Knuth–Morris–Pratt (KMP) Algorithm](./docs/algorithms/search/Search.md#knuth–morris–pratt-kmp-algorithm)
 
 #### Search Tree
 

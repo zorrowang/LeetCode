@@ -1,5 +1,7 @@
 # Sort - _O(n)_ Solutions
 
+<!-- MarkdownTOC -->
+
 - [Bucket Sort](#bucket-sort)
   - [Bucket Sort Algorithm](#bucket-sort-algorithm)
   - [Bucket Sort Implementation](#bucket-sort-implementation)
@@ -13,6 +15,8 @@
   - [Radix Sort Implementation](#radix-sort-implementation)
   - [Radix Sort Analysis](#radix-sort-analysis)
 - [References](#references)
+
+<!-- / MarkdownTOC -->
 
 ## Bucket Sort
 
