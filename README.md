@@ -166,6 +166,8 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 
 ### Computational Complexity
 
+The computational complexity of an algorithm is the amount of resources required to run it. Particular focus is given to time and space requirements.
+
 - [Time Complexity](./docs/algorithms/Complexity.md#time-complexity)
 - [Space Complexity](./docs/algorithms/Complexity.md#space-complexity)
 
@@ -179,12 +181,14 @@ As the restriction of whiteboard coding and the properties of algorithm, most of
 
 ### Sort Algorithms
 
+Sorting algorithm is an algorithm that puts elements of a list in a certain order. The most frequently used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the efficiency of other algorithms (such as search and merge algorithms) that require input data to be in sorted lists. Sorting is also often useful for canonicalizing data and for producing human-readable output.
+
 #### O(n^2) Solutions
 
 - [Bubble Sort](./docs/algorithms/sort/Sort-n-square.md#bubble-sort)
 - [Insertion Sort](./docs/algorithms/sort/Sort-n-square.md#insert-sort)
 - [Selection Sort](./docs/algorithms/sort/Sort-n-square.md#selection-sort)
-- [Shell Sort](./docs/algorithms/sort/Sort-n-square.md#shell-sort)
+- [ShellSort](./docs/algorithms/sort/Sort-n-square.md#shellsort)
 
 #### O(nlogn) Solutions
 
