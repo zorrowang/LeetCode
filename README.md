@@ -47,17 +47,7 @@ Author: zorrowanghw@gmail.com
 
 ## Interview Preparation
 
-The hiring workflow for software engineer role is
-
-- resume screening
-- recruiter call
-- technical phone screening
-- onsite interview
-- hiring committee debrief
-- decision call
-
-In general, the more we prepare, the better result we could get.
-
+- [Interview Formats](./docs/tech-interview/Formats.md)
 - [Mindset for Interview](./docs/tech-interview/Mindset.md)
 - [Self-Introduction](./docs/tech-interview/SelfIntroduction.md)
 - [Phone Screening](./docs/tech-interview/PhoneScreen.md)
