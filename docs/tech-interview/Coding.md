@@ -1,5 +1,19 @@
 # Coding Interview
 
+- [Picking a Language](#picking-a-language)
+  - [Some languages are more suited for interviews](#some-languages-are-more-suited-for-interviews)
+  - [Use a language you are familiar with](#use-a-language-you-are-familiar-with)
+  - [The exception to the norm](#the-exception-to-the-norm)
+- [Study and Practice](#study-and-practice)
+  - [Recap CS fundamentals](#recap-csfundamentals)
+  - [Mastery through practice](#mastery-through-practice)
+    - [Practice coding questions](#practice-coding-questions)
+    - [Complexities](#complexities)
+    - [Practice good coding style](#practice-good-coding-style)
+    - [Internalize the pitfalls](#internalize-the-pitfalls)
+- [During the Coding Interview](#during-the-coding-interview)
+- [References](#references)
+
 Coding interviews are tough, but the most important part for software engineer hiring. There's a tried and proven method to get better at them. With a combination of studying, practicing questions and doing mock interviews, getting that dream job can become a reality.
 
 ## Picking a Language
