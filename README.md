@@ -50,8 +50,9 @@ Author: zorrowanghw@gmail.com
 - [Interview Formats](./docs/tech-interview/Formats.md)
 - [Mindset for Interview](./docs/tech-interview/Mindset.md)
 - [Self-Introduction](./docs/tech-interview/SelfIntroduction.md)
-- [Phone Screening](./docs/tech-interview/PhoneScreen.md)
-- [Whiteboard Coding Workflow and Best Practice](./docs/tech-interview/WhiteboardCoding.md)
+- [Coding Interview](./docs/tech-interview/Coding.md)
+- [System Design Interview](./docs/tech-interview/SystemDesign.md)
+- [Behavioral Interview](./docs/tech-interview/Behavioral.md)
 
 ## Languages and Data Structures
 
