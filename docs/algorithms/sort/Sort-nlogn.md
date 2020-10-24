@@ -12,7 +12,13 @@
   - [Merge Sort Implementation](#merge-sort-implementation)
   - [Merge Sort Time Complexity](#merge-sort-time-complexity)
 - [Heapsort](#heapsort)
+  - [Complete Binary Tree](#complete-binary-tree)
+  - [Heap Data Structure](#heap-data-structure)
+  - [Heapify](#heapify)
+  - [How Heap Sort Works](#how-heapsort-works)
+  - [Heapsort Implementation](#heapsort-implementation)
 - [Tree Sort](#tree-sort)
+  - [Tree Sort Algorithm](#tree-sort-algorithm)
 
 <!-- /MarkdownTOC -->
 
@@ -21,6 +27,8 @@
 Quicksort is an algorithm based on divide and conquer approach in which the array is split into subarrays and these sub-arrays are recursively called to sort the elements.
 
 ### Quicksort Workflow
+
+![Quicksort](../../images/quicksort.png)
 
 - Divide: The array is divided into subparts taking pivot as the partitioning point. The elements smaller than the pivot are placed to the left of the pivot and the elements greater than the pivot are placed to the right.
 - Conquer: The left and the right subparts are again partitioned using the by selecting pivot elements for them. This can be achieved by recursively passing the subparts into the algorithm.
@@ -172,7 +180,116 @@ In sorting n objects, merge sort has an average and worst-case performance of O(
 
 Heapsort is a comparison-based sorting algorithm. Heapsort can be thought of as an improved selection sort: like selection sort, heapsort divides its input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the largest element from it and inserting it into the sorted region. Unlike selection sort, heapsort does not waste time with a linear-time scan of the unsorted region; rather, heap sort maintains the unsorted region in a heap data structure to more quickly find the largest element in each step
 
+### Complete Binary Tree
+
+A complete binary tree has an interesting property that we can use to find the children and parents of any node.
+
+If the index (0-based) of any element in the array is _i_, the element in the index _2i+1_ will become the left child and element in _2i+2_ index will become the right child. Also, the parent of any element at index _i_ is given by the lower bound of _(i-1)/2_.
+
+![complete binary tree](../../images/array-vs-heap-indices.png)
+
+### Heap Data Structure
+
+Heap is a special tree-based data structure. A binary tree is said to follow a heap data structure if
+
+- It is a complete binary tree.
+- All nodes in the tree follow the property that they are greater than their children i.e. the largest element is at the root and both its children and smaller than the root and so on. Such a heap is called a max-heap. If instead, all nodes are smaller than their children, it is called a min-heap.
+
+The following example diagram shows Max-Heap and Min-Heap.
+
+![max and min heap](../../images/max-heap-min-heap.png)
+
+### Heapify
+
+Starting from a complete binary tree, we can modify it to become a Max-Heap by running a function called heapify on all the non-leaf elements of the heap.
+
+```java
+void heapify(int arr[], int n, int i) {
+  // Find largest among root, left child and right child
+  int largest = i;
+  int left = 2 * i + 1;
+  int right = 2 * i + 2;
+
+  if (left < n && arr[left] > arr[largest])
+    largest = left;
+
+  if (right < n && arr[right] > arr[largest])
+    largest = right;
+
+    // Swap and continue heapifying if root is not largest
+    if (largest != i) {
+      swap(&arr[i], &arr[largest]);
+      heapify(arr, n, largest);
+  }
+}
+```
+
+![heapify](../../images/heapfy-root-element-when-subtrees-are-max-heaps.png)
+
+### How Heapsort Works
+
+- Since the tree satisfies Max-Heap property, then the largest item is stored at the root node.
+- Swap: Remove the root element and put at the end of the array (nth position) Put the last item of the tree (heap) at the vacant place.
+- Remove: Reduce the size of the heap by 1.
+- Heapify: Heapify the root element again so that we have the highest element at root.
+- The process is repeated until all the items of the list are sorted.
+
+![heapsort](../../images/heap_sort.png)
+
+### Heapsort Implementation
+
+```java
+public void sort(int arr[]) {
+    int n = arr.length;
+
+    // Build max heap
+    for (int i = n / 2 - 1; i >= 0; i--) {
+        heapify(arr, n, i);
+    }
+
+    // Heap sort
+    for (int i = n - 1; i >= 0; i--) {
+        int temp = arr[0];
+        arr[0] = arr[i];
+        arr[i] = temp;
+
+        // Heapify root element
+        heapify(arr, i, 0);
+    }
+}
+
+void heapify(int arr[], int n, int i) {
+    // Find largest among root, left child and right child
+    int largest = i;
+    int l = 2 * i + 1;
+    int r = 2 * i + 2;
+
+    if (l < n && arr[l] > arr[largest])
+        largest = l;
+
+    if (r < n && arr[r] > arr[largest])
+        largest = r;
+
+    // Swap and continue heapifying if root is not largest
+    if (largest != i) {
+        int swap = arr[i];
+        arr[i] = arr[largest];
+        arr[largest] = swap;
+
+        heapify(arr, n, largest);
+    }
+}
+```
+
 ## Tree Sort
+
+Tree sort is a sorting algorithm that is based on Binary Search Tree data structure. It first creates a binary search tree from the elements of the input list or array and then performs an in-order traversal on the created binary search tree to get the elements in sorted order.
+
+### Tree Sort Algorithm
+
+- Take the elements input in an array.
+- Create a Binary search tree by inserting data items from the array into the binary search tree.
+- Perform in-order traversal on the tree to get the elements in sorted order.
 
 ## References
 
@@ -180,3 +297,4 @@ Heapsort is a comparison-based sorting algorithm. Heapsort can be thought of as 
 - <https://en.wikipedia.org/wiki/Merge_sort>
 - <https://en.wikipedia.org/wiki/Heapsort>
 - <https://www.programiz.com/dsa/heap-sort>
+- <https://www.geeksforgeeks.org/tree-sort/>

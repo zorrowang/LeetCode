@@ -22,13 +22,10 @@ In general, interviewers want candidates to be solution-driven, easy to communic
 
 Note, some interviewers may intentionally create a stressful environment, we should always keep calm in this scenario.
 
-### What are interviewers looking for?
+### What are interviewers looking for
 
-- No Short Answer
-Do not give a short answer, just like Yes/No or BFS/DFS. Interviewers care more about how you choose the solution/technique, specially in the system design round. Give a brief explanation about all other options, pros and cons and final reason.
+- No Short Answer - Do not give a short answer, just like Yes/No or BFS/DFS. Interviewers care more about how you choose the solution/technique, specially in the system design round. Give a brief explanation about all other options, pros and cons and final reason.
 
-- Show confidence, but not elegance
-Use the right words and tone to show your confidence, but not elegance. My trick is just like talking to a normal friend.
+- Show confidence, but not elegance - Use the right words and tone to show your confidence, but not elegance. My trick is just like talking to a normal friend.
 
-- Do not be nervous
-Some interviewees are very nervous in an interview, specially fresh grad. Do more mock interviews!
+- Do not be nervous - Some interviewees are very nervous in an interview, specially fresh grad. Do more mock interviews!
