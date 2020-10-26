@@ -53,6 +53,7 @@ Author: zorrowanghw@gmail.com
 - [Coding Interview](./docs/tech-interview/Coding.md)
 - [System Design Interview](./docs/tech-interview/SystemDesign.md)
 - [Behavioral Interview](./docs/tech-interview/Behavioral.md)
+- [Questions To Ask](./docs/tech-interview/Questions.md)
 
 ## Languages and Data Structures
 
