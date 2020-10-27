@@ -2,6 +2,8 @@
 
 ## For Preparation
 
+The more you prepare, the better you perform.
+
 ## For Interview
 
 A coding interview is normally 45 ~ 60 mins. It is impossible to cover everything in this short period. So interviewer would usually focus on the things they mostly care. From my experience as an interviewer, there are three main parts
