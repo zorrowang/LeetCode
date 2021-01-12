@@ -5,7 +5,6 @@ When an algorithm is designed, there is always a question arising -
 _Does this algorithm provide a satisfactory solution to a problem?_
 
 - One measure of efficiency is the time used by a computer to solve a problem using the algorithm, when input values are of a specified size.
-
 - Another measure is the amount of computer memory required to implement the algorithm when input values are of a specified size.
 
 Questions such as these involve the computational complexity of the algorithm. An analysis of the time required to solve a problem of a particular size involves the time complexity of the algorithm. An analysis of the computer memory required involves the space complexity of the algorithm.

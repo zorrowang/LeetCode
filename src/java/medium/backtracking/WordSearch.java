@@ -2,6 +2,29 @@ package src.java.medium.backtracking;
 
 public class WordSearch {
     public boolean exist(char[][] board, String word) {
+        for (int i=0; i<board.length; i++) {
+            for (int j=0; j<board[i].length; j++) {
+                if (dfs(board, i, j, word, 0))
+                    return true;
+            }
+        }
+        return false;
+    }
+    
+    private boolean dfs(char[][] board, int m, int n, String word, int cur) {
+        if (word.length() == cur)   return true;
+        else if (word.charAt(cur) != board[m][n])   return false;
+        board[m][n] = '.';
+        if (m>0 && dfs(board, m-1, n, word, cur+1)) return true;
+        else if (m<board.length-1 && dfs(board, m+1, n, word, cur+1)) return true;
+        else if (n>0 && dfs(board, m, n-1, word, cur+1)) return true;
+        else if (n<board[m].length-1 && dfs(board, m, n+1, word, cur+1)) return true;
+        board[m][n] = word.charAt(cur);
+        return cur+1 == word.length();
+    }
+
+    // Use extra memory to do search prune
+    public boolean exist2(char[][] board, String word) {
         int m = board.length;
         int n = board[0].length;
         boolean[][] checked =  new boolean[m][n];
@@ -40,7 +63,7 @@ public class WordSearch {
 
     // Legacy Solution
     // Modify original matrix
-    public boolean exist2(char[][] board, String word) {
+    public boolean exist3(char[][] board, String word) {
         // Start typing your Java solution below
         // DO NOT write main() function
         if(word==null || word.isEmpty())    return true;
