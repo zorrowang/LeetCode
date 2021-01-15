@@ -1,4 +1,6 @@
 package src.java.medium.string;
+import java.util.HashSet;
+import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
@@ -23,5 +25,22 @@ public class LongestSubstringWithoutRepeatingCharacters {
             }
         }
         return Math.max(max, end-start);
+    }
+
+    // HashSet solution : the performance is slightly worse
+    public int lengthOfLongestSubstring2(String s) {
+        int ret = 0;
+        Set<Character> set = new HashSet<>();
+        int i = 0, j = 0;
+        while (j < s.length()) {
+            if (set.contains(s.charAt(j))) {
+                while (s.charAt(i) != s.charAt(j))
+                    set.remove(s.charAt(i++));
+                set.remove(s.charAt(i++));
+            }
+            ret = Math.max(ret, j-i+1);
+            set.add(s.charAt(j++));                
+        }
+        return ret;
     }
 }
