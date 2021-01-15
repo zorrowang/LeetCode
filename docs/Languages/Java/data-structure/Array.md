@@ -62,7 +62,7 @@ Object[]  ao;           // Array of base objects
 Collection[] ca;        // Array of collections
 ```
 
-The array declaration as _`int intArray[];`_ does not create any of them in memory. So **no array actually exists**. It simply tells the compiler that this (_intArray_) variable will hold an array of the integer type. To link intArray with an actual, physical array of integers, you must allocate one using **new** and assign it to intArray.
+The array declaration as _`int intArray[];`_ does not create any of them in memory. So **no array actually exists**. It simply tells the compiler that this (_`intArray`_) variable will hold an array of the integer type. To link intArray with an actual, physical array of integers, you must allocate one using **new** and assign it to intArray.
 
 ### Initialization
 
