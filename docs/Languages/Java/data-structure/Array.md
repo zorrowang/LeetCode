@@ -62,7 +62,7 @@ Object[]  ao;           // Array of base objects
 Collection[] ca;        // Array of collections
 ```
 
-The array declaration as above does not create any of them in memory. So **no array actually exists**. It simply tells to the compiler that this(intArray) variable will hold an array of the integer type. To link intArray with an actual, physical array of integers, you must allocate one using **new** and assign it to intArray.
+The array declaration as _`int intArray[];`_ does not create any of them in memory. So **no array actually exists**. It simply tells the compiler that this (_intArray_) variable will hold an array of the integer type. To link intArray with an actual, physical array of integers, you must allocate one using **new** and assign it to intArray.
 
 ### Initialization
 
@@ -79,8 +79,8 @@ Examples:
 ```java
 int[] intArray = new int[20];
 
-int[] intArray;
-int[] intArray = new int[20];
+int[] intArray2;
+intArray2 = new int[20];
 
 System.out.println(Arrays.toString(new int[]{1, 2}));  // Array literal, introduced later
 ```
@@ -91,7 +91,7 @@ The elements in the array allocated by new will automatically be initialized as
 - int : `0`
 - double : `0.0`
 - String : `null`
-- User Defined Type : `null`
+- User defined type : `null`
 
 Array length cannot be changed once it has been created.
 
@@ -229,7 +229,7 @@ boolean isSum(int[] nums, int target) {
 
 ### Sliding Window Technique
 
-This technique shows how a nested for loop in few problems can be converted to single for loop and hence reducing the time complexity. It can be best understood with the window pane in bus, consider a window of length **n** and the pane which is fixed in it of length **k**.
+This technique shows how a nested _`for`_ loop in a few problems can be converted to single _`for`_ loop and hence reducing the time complexity. It can be best understood with the window pane in bus, consider a window of length **n** and the pane which is fixed in it of length **k**.
 
 Applying sliding window technique :
 
