@@ -7,8 +7,8 @@
   - [Implementing Stack by Arrays](#implementing-stack–by-arrays)
   - [Implementing Stack by LinkedList](#implementing-stack–by-linkedlist)
 - [LinkedList Class](#linkedlist-class)
-    - [LinkedList vs Stack](#linkedlist-vs-stack)
-    - [Stack Featured Methods](#stack-featured-ethods)
+  - [LinkedList vs Stack](#linkedlist-vs-stack)
+  - [Stack Featured Methods](#stack-featured-ethods)
 - [Applications of Stack](#applications-of-stack)
   - [Design and Implementation](#design-and-implementation)
     - [Implement Queue using Stacks](#implement-queue-using-stacks)
@@ -155,6 +155,7 @@ In Java, both _LinkedList_ and _Stack_ classes represents a last-in-first-out (L
 Using two stacks to accomplish it.
 
 - enQueue operation costly
+
 ```
 enQueue(q, x):
     While stack1 is not empty, push everything from stack1 to stack2.
@@ -167,6 +168,7 @@ deQueue(q):
 ```
 
 - deQueue operation costly
+
 ```
 enQueue(q,  x):
     Push x to stack1
@@ -178,16 +180,109 @@ deQueue(q):
     Pop the element from stack2 and return it.
 ```
 
+#### Implement Stack using Queues
+
+Using two queue to accomplish it.
+
+- _push (E element)_
+  - if _q1_ is empty, _enqueue_ _E_ to _q1_
+  - if _q1_ is not empty, _enqueue_ all elements from _q1_ to _q2_, then _enqueue_ _E_ to _q1_, and _enqueue_ all elements from _q2_ back to _q1_
+
+![stack](../../../images/queue-to-stack-push.svg)
+
+- _pop_
+  - _dequeue_ an element from q1
+
+![stack](../../../images/queue-to-stack-pop.svg)
+
 #### Implement Two Stacks in One Array
 
-Create a data structure twoStacks that represents two stacks. Implementation of twoStacks should use only one array. Following functions must be supported by twoStacks,
+Create a data structure _TwoStacks_ that represents two stacks. Implementation of _TwoStacks_ should use only one array. Following functions must be supported by _TwoStacks_,
+
 - _push1(int x)_ –> pushes x to first stack
 - _push2(int x)_ –> pushes x to second stack
 - _pop1()_ –> pops an element from first stack and return the popped element
 - _pop2()_ –> pops an element from second stack and return the popped element
 
-```
+The idea is to start two stacks from two extreme corners of arr[]. stack1 starts from the leftmost element, the first element in stack1 is pushed at index 0. The stack2 starts from the rightmost corner, the first element in stack2 is pushed at index (n-1). Both stacks grow (or shrink) in opposite direction. To check for overflow, all we need to check is for space between top elements of both stacks. This check is highlighted in the below code.
+
+```java
+class TwoStacks {
+    int size;
+    int top1, top2;
+    int arr[];
+
+    // Constructor
+    TwoStacks(int n)
+    {
+        arr = new int[n];
+        size = n;
+        top1 = -1;
+        top2 = size;
+    }
+
+    // Method to push an element x to stack1
+    void push1(int x)
+    {
+        // There is at least one empty space for
+        // new element
+        if (top1 < top2 - 1) {
+            top1++;
+            arr[top1] = x;
+        }
+        else {
+            System.out.println("Stack Overflow");
+            System.exit(1);
+        }
+    }
+
+    // Method to push an element x to stack2
+    void push2(int x)
+    {
+        // There is at least one empty space for
+        // new element
+        if (top1 < top2 - 1) {
+            top2--;
+            arr[top2] = x;
+        }
+        else {
+            System.out.println("Stack Overflow");
+            System.exit(1);
+        }
+    }
+
+    // Method to pop an element from first stack
+    int pop1()
+    {
+        if (top1 >= 0) {
+            int x = arr[top1];
+            top1--;
+            return x;
+        }
+        else {
+            System.out.println("Stack Underflow");
+            System.exit(1);
+        }
+        return 0;
+    }
+
+    // Method to pop an element from second stack
+    int pop2()
+    {
+        if (top2 < size) {
+            int x = arr[top2];
+            top2++;
+            return x;
+        }
+        else {
+            System.out.println("Stack Underflow");
+            System.exit(1);
+        }
+        return 0;
+    }
+}
 ```
 
 ## References
 - <https://en.wikipedia.org/wiki/Stack_(abstract_data_type)>
+- <https://www.geeksforgeeks.org/implement-two-stacks-in-an-array/>
