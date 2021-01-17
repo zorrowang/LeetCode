@@ -106,7 +106,7 @@ class Node {
 
 - Complete Binary Tree: A Binary Tree is complete Binary Tree if all levels are completely filled except possibly the last level and the last level has all keys as left as possible.
 
-- Perfect Binary Tree: A Binary tree is Perfect Binary Tree in which all internal nodes have two children and all leaves are at the same level.A Perfect Binary Tree of height h (where height is the number of nodes on the path from the root to leaf) has _2^h – 1_ node.
+- Perfect Binary Tree: A Binary tree is Perfect Binary Tree in which all internal nodes have two children and all leaves are at the same level. A Perfect Binary Tree of height h (where height is the number of nodes on the path from the root to leaf) has _2^h – 1_ node.
 
 - Balanced Binary Tree: A binary tree is balanced if the height of the tree is _O(Log n)_ where n is the number of nodes.
 
@@ -151,16 +151,16 @@ Binary search tree (BST) is a binary tree data structure which has the following
 
 ![BST](../../../images/binary-search-tree.png)
 
-The class implementation is [here](https://github.com/zorrowang/LeetCode/blob/master/src/lib/BST.java)
+The class implementation is [here](https://algs4.cs.princeton.edu/32bst/BST.java.html)
 
 ### Time Complexity
 
 | Algorithm | Average | Worst case |
 | :-------: | :-----: | :--------: |
-| Space	 |	_O(n)_     | _O(n)_ |
-| Search |	_O(log n)_ | _O(n)_ |
-| Insert |	_O(log n)_ | _O(n)_ |
-| Delete |	_O(log n)_ | _O(n)_ |
+| Space | _O(n)_ | _O(n)_ |
+| Search | _O(log n)_ | _O(n)_ |
+| Insert | _O(log n)_ | _O(n)_ |
+| Delete | _O(log n)_ | _O(n)_ |
 
 #### Search
 
