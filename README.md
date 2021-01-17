@@ -96,8 +96,8 @@ Java is a general-purpose programming language that is class-based, object-orien
 - [Graph](./docs/Languages/Java/data-structure/Graph.md)
   - [Breadth-First Search](./docs/Languages/Java/data-structure/Graph.md#bfs)
   - [Depth-First Search](./docs/Languages/Java/data-structure/Graph.md#dfs)
-  - [Topological Sort](./docs/Languages/Java/data-structure/Graph.md#topological-sort)
   - [Shortest Path](./docs/Languages/Java/data-structure/Graph.md#shortest-path)
+  - [Topological Sort](./docs/Languages/Java/data-structure/Graph.md#topological-sort)
   
 ### Python
 

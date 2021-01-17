@@ -302,7 +302,7 @@ public class BinaryTree {
 
 ##### Find k-th Smallest Element in BST
 
-Solution #1: use DFS and stack. The time complexity is O(k). (LeetCode [230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/))
+Solution #1: use stack. The time complexity is O(k). (LeetCode [230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/))
 
 ```java
 public int kthSmallest(TreeNode root, int k) {
@@ -339,7 +339,7 @@ Representation of Segment trees
 
 ![Segment Tree](../../../images/segment-tree.png)
 
-The full class implementation is [here](https://github.com/zorrowang/LeetCode/blob/master/src/lib/SegmentTree.java)
+The full class implementation is [here](https://github.com/zorrowang/LeetCode/blob/master/src/java/lib/SegmentTree.java)
 
 ### Construct Segment Tree
 
