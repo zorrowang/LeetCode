@@ -99,25 +99,25 @@ The Map interface provides three collection views, which allow a map's contents 
 
 - _boolean isEmpty()_: Returns true if this map contains no key-value mappings.
 
-- _Set<K>	keySet()_: Returns a Set view of the keys contained in this map.
+- _Set<K> keySet()_: Returns a Set view of the keys contained in this map.
 
 - _V put(K key, V value)_: Associates the specified value with the specified key in this map (optional operation).
 
-- _void	putAll(Map<? extends K,? extends V> m)_: Copies all of the mappings from the specified map to this map (optional operation).
+- _void putAll(Map<? extends K,? extends V> m)_: Copies all of the mappings from the specified map to this map (optional operation).
 
 - _default V putIfAbsent(K key, V value)_: If the specified key is not already associated with a value (or is mapped to null) associates it with the given value and returns null, else returns the current value.
 
 - _V remove(Object key)_: Removes the mapping for a key from this map if it is present (optional operation).
 
-- _default boolean	remove(Object key, Object value)_: Removes the entry for the specified key only if it is currently mapped to the specified value.
+- _default boolean remove(Object key, Object value)_: Removes the entry for the specified key only if it is currently mapped to the specified value.
 
-- _default V	replace(K key, V value)_: Replaces the entry for the specified key only if it is currently mapped to some value.
+- _default V replace(K key, V value)_: Replaces the entry for the specified key only if it is currently mapped to some value.
 
-- _default boolean	replace(K key, V oldValue, V newValue)_: Replaces the entry for the specified key only if currently mapped to the specified value.
+- _default boolean replace(K key, V oldValue, V newValue)_: Replaces the entry for the specified key only if currently mapped to the specified value.
 
 - _int size()_: Returns the number of key-value mappings in this map.
 
-- _Collection<V>	values()_: Returns a Collection view of the values contained in this map.
+- _Collection<V> values()_: Returns a Collection view of the values contained in this map.
 
 ## HashTable Class
 
@@ -146,19 +146,19 @@ HashTable<String, Integer> ht4 = new HashTable<>(ht3);
 
 ### Special Methods in HashTable Class
 
-- _void	clear()_: Clears this hashtable so that it contains no keys.
+- _void clear()_: Clears this hashtable so that it contains no keys.
 
-- _Enumeration<V>	elements()_: Returns an enumeration of the values in this hashtable.
+- _Enumeration<V> elements()_: Returns an enumeration of the values in this hashtable.
 
-- _Enumeration<K>	keys()_: Returns an enumeration of the keys in this hashtable.
+- _Enumeration<K> keys()_: Returns an enumeration of the keys in this hashtable.
 
-- _protected void	rehash()_: Increases the capacity of and internally reorganizes this hashtable, in order to accommodate and access its entries more efficiently.
+- _protected void rehash()_: Increases the capacity of and internally reorganizes this hashtable, in order to accommodate and access its entries more efficiently.
 
-- _String	toString()_: Returns a string representation of this Hashtable object in the form of a set of entries, enclosed in braces and separated by the ASCII characters ", " (comma and space).
+- _String toString()_: Returns a string representation of this Hashtable object in the form of a set of entries, enclosed in braces and separated by the ASCII characters ", " (comma and space).
 
 ## HashMap Class
 
-Hash table based implementation of the Map interface. This implementation provides all of the optional map operations, and **permits** _null_ values and the _null_ key. (The HashMap class is roughly equivalent to Hashtable, except that it is **unsynchronized** and **permits nulls**.) This class makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time.
+HashMap is a hash table based implementation of the Map interface. This implementation provides all of the optional map operations, and **permits** _null_ values and the _null_ key. (The HashMap class is roughly equivalent to Hashtable, except that it is **unsynchronized** and **permits nulls**.) This class makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time.
 
 This implementation provides **constant-time** performance for the basic operations (_get_ and _put_), assuming the hash function disperses the elements properly among the buckets.
 
