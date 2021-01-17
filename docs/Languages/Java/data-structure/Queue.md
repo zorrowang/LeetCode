@@ -23,11 +23,10 @@ A **queue** is a data structure maintaining a collection of entities in a sequen
 
 ![Queue](../../../images/Queue.jpg)
 
-Time complexity in _big-O_ notation is 
+Time complexity in _big-O_ notation is
 
 | Algorithm | Average | Worst case |
 |:---------:|:-------:|:----------:|
-| Space | _O(n)_ | _O(n)_ |
 | Search | _O(n)_ | _O(n)_ |
 | Insert | _O(1)_ | _O(1)_ |
 | Delete | _O(1)_ | _O(1)_ |
@@ -77,7 +76,6 @@ The time complexity of operations in _PriorityQueue_ class in _big-O_ notation i
 | _poll_ | _O(log(n))_ | _O(log(n))_ |
 | _remove_ | _O(log(n))_ | _O(log(n))_ |
 | _add_ | _O(log(n))_ | _O(log(n))_ |
-| _remove_ | _O(n)_ | _O(n)_ |
 | _contains_ | _O(n)_ | _O(n)_ |
 | _peek_ | _O(1)_ | _O(1)_ |
 | _size_ | _O(1)_ | _O(1)_ |
@@ -135,6 +133,7 @@ System.out.println(pQueue.peek()); // 15
 Definition: calculate the top K most frequent characters in a string.
 
 Solutions:
+
 - Use TreeMap to maintain topK sorted order. Suppose m is the number of input and n is the number of distinct input, then build treemap requires O(mlogn), + nlogn) complexity.
 - A more efficient approach is to use HashMap + PriorityQueue.
 
@@ -241,9 +240,9 @@ Since Deque supports both stack and queue operations, it can be used as both. Th
 
 #### Sliding Window Maximum
 
-Definition: Given an array and an integer K, find the maximum for each and every contiguous sub-array of size k. (LeetCode [239](https://leetcode.com/problems/sliding-window-maximum/))
+Definition: Given an array and an integer K, find the maximum for every contiguous sub-array of size k. (LeetCode [239](https://leetcode.com/problems/sliding-window-maximum/))
 
-Solution: create create a Deque that stores only useful elements of current window of k elements. An element is useful if it is in current window and is greater than all other elements on left side of it in current window. 
+Solution: create create a Deque that stores only useful elements of current window of k elements. An element is useful if it is in current window and is greater than all other elements on left side of it in current window.
 
 ```java
 public int[] maxSlidingWindow(int[] nums, int k) {
@@ -278,7 +277,7 @@ public int[] maxSlidingWindow(int[] nums, int k) {
 A Queue that additionally supports operations that wait for the queue to become non-empty when retrieving an element, and wait for space to become available in the queue when storing an element.
 
 Summary of BlockingQueue methods
-| Operation |	Throws exception | Special value | Blocks | Times out |
+| Operation | Throws exception | Special value | Blocks | Times out |
 | --------- | ---------------- | ------------- | ------ | --------- |
 | Insert | add(e) | offer(e) | put(e) | offer(e, time, unit) |
 | Remove | remove() | poll() | take() | poll(time, unit) |
@@ -287,6 +286,7 @@ Summary of BlockingQueue methods
 **Note**, _PriorityQueue_ is not multi-threading safe. _PriorityBlockingQueue_ or _ArrayBlockingQueue_ classes, implementing _BlockingQueue_ interface, are the alternative implementation if thread safe implementation is needed.
 
 ## Reference
+
 - <https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html>
 - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html>
 - <https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html>

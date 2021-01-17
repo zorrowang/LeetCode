@@ -23,9 +23,17 @@ Stack is a linear data structure, which follows the operational order LIFO(Last 
 
 ## Basic Operations
 
-- _Push_: Constant time O(1), add an item in the stack. If the stack is full, then it is said to be an Overflow condition. O(1)
-- _Pop_: Constant time O(1), removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.
-- _Peek_ or _Top_: Constant time O(1), returns top element of stack.
+- _Push_: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition. O(1)
+- _Pop_: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.
+- _Peek_ or _Top_: Returns top element of stack.
+
+Time complexity in _big-O_ notation is
+
+| Algorithm | Average | Worst case |
+|:---------:|:-------:|:----------:|
+| _Push_ | _O(1)_ | _O(1)_ |
+| _Pop_ | _O(1)_ | _O(1)_ |
+| _Peek_ | _O(1)_ | _O(1)_ |
 
 ## Implementations
 
@@ -188,12 +196,12 @@ Using two queue to accomplish it.
   - if _q1_ is empty, _enqueue_ _E_ to _q1_
   - if _q1_ is not empty, _enqueue_ all elements from _q1_ to _q2_, then _enqueue_ _E_ to _q1_, and _enqueue_ all elements from _q2_ back to _q1_
 
-![stack](../../../images/queue-to-stack-push.svg)
+![push](../../../images/queue-to-stack-push.svg)
 
 - _pop_
   - _dequeue_ an element from q1
 
-![stack](../../../images/queue-to-stack-pop.svg)
+![pop](../../../images/queue-to-stack-pop.svg)
 
 #### Implement Two Stacks in One Array
 
