@@ -1,7 +1,21 @@
 package src.java.hard.array;
 
 public class FirstMissingPositive {
-    public int firstMissingPositive(int[] A) {
+    // Rewritten on 2021/01/18
+    public int firstMissingPositive(int[] nums) {
+        if (nums==null || nums.length==0)   return 1;
+        for (int i=0; i<nums.length; i++) {
+            if (nums[i] <=0 || nums[i]>nums.length)
+                continue;
+            while (nums[i]>0 && nums[i]<=nums.length && nums[i] != i+1 && nums[i] != nums[nums[i]-1])
+                swap(nums, i, nums[i]-1);
+        }
+        for (int i=0; i<nums.length; i++)
+            if (nums[i] != i+1) return i+1;
+        return nums.length+1;
+    }
+
+    public int firstMissingPositive2(int[] A) {
         if (A==null || A.length==0) return 1;
         
         int i=0;
