@@ -16,21 +16,18 @@ public class MergeSortedLists {
             return null;
         PriorityQueue<ListNode> pQueue = new PriorityQueue<>((n1, n2) -> (n1.val-n2.val));
         for(int i=0; i<lists.length; i++){
-            if (lists[i]==null)
-                continue;
-            pQueue.offer(lists[i]);
-            
+            if (lists[i]!=null)
+                pQueue.offer(lists[i]);
         }
         
         ListNode dummy = new ListNode(0);
         ListNode node = dummy;
         
         while(!pQueue.isEmpty()){
-            ListNode temp = pQueue.poll();
-            node.next = temp;
+            node.next = pQueue.poll();
             node = node.next;
-            if(temp.next!=null)
-                pQueue.offer(temp.next);
+            if(node.next!=null)
+                pQueue.offer(node.next);
         }
         return dummy.next;
     }

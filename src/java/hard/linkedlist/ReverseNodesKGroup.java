@@ -5,6 +5,40 @@ package src.java.hard.linkedlist;
  * next; ListNode(int x) { val = x; next = null; } }
  */
 public class ReverseNodesKGroup {
+
+    // Recursive solution beats 100%, written on 2021/01/17
+    public ListNode reverseKGroup2(ListNode head, int k) {
+        if (head == null || k == 1)   return head;
+        int cnt = 1;
+        ListNode cur = head;
+        for (; cnt < k; cnt++) {
+            if (cur == null) return head;
+            cur = cur.next;
+        }
+        if (cur == null)    return head;
+        ListNode newHead = reverseKGroup(cur.next, k);
+        cur.next = null;
+        ListNode[] l = reverse(head);
+        l[1].next = newHead;
+        return l[0];
+    }
+
+    private ListNode[] reverse(ListNode head) {
+        ListNode tail = head;
+        ListNode prev = head, cur = head.next;
+        prev.next = null;
+        while (cur != null) {
+            ListNode temp = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = temp;
+        }
+        ListNode[] ret = new ListNode[2];
+        ret[0] = prev;
+        ret[1] = tail;
+        return ret;
+    }
+
     public ListNode reverseKGroup(ListNode head, int k) {
         // Start typing your Java solution below
         // DO NOT write main() function
