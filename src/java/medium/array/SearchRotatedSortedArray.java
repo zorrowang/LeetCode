@@ -22,6 +22,27 @@ public class SearchRotatedSortedArray {
                 return search(nums, target, start, mid-1);
         }
     }
+
+    // Non-recursive solution, written on 2021/01/17
+    public int search4(int[] nums, int target) {
+        if (nums==null || nums.length==0)
+            return -1;
+        
+        int start = 0, end = nums.length-1;
+        while (start <= end) {
+            int mid = start + (end-start)/2;
+            if (nums[mid] > target) {
+                if (nums[end] >= nums[mid] || nums[start] <= target)  end = mid-1;
+                else    start = mid+1;
+            } else if (nums[mid] < target) {
+                if (nums[start] <= nums[mid] || nums[end] >= target)   start = mid+1;
+                else end = mid-1;
+            } else
+                return mid;
+        }
+        return -1;
+    }
+
     // Legacy Solutions
     public int search2(int[] A, int target) {
         // Start typing your Java solution below

@@ -42,5 +42,31 @@ public class NextPermutation {
         nums[i] = nums[j];
         nums[j] = temp;
     }
+
+    // Rewrote on 2021/01/17
+    public void nextPermutation2(int[] nums) {
+        if (nums==null || nums.length<2)    return;
+        int start = nums.length-2;
+        // Find the first number not following descending order starting from the end
+        while (start >= 0 && nums[start] >= nums[start+1])
+            start--;
+        reverse(nums, start+1, nums.length-1);
+        if (start < 0)  return;
+        // Find the smallest number that is larger than the `start` number
+        int end = start;
+        for (int i=end; i<nums.length; i++) {
+            if (nums[i] > nums[start] && (end == start || nums[i] < nums[end]))
+                end = i;
+        }
+        swap(nums, start, end);
+    }
+    
+    public void reverse(int[] nums, int i, int j) {
+        while (i < j) {
+            int t = nums[i];
+            nums[i++] = nums[j];
+            nums[j--] = t;
+        }
+    }
 }
 
