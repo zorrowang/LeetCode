@@ -2,7 +2,7 @@ package src.java.easy.dp;
 
 public class MaximumSubarray {
     public int maxSubArray(int[] nums) {
-        if(nums==null || nums.length==0)  return Integer.MAX_VALUE;
+        if(nums==null || nums.length==0)  return Integer.MIN_VALUE;
         
         int maxSofar=nums[0], maxEndingHere=nums[0];
         

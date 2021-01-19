@@ -668,7 +668,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Java](./src/java/hard/stack/LongestValidParentheses.java)| Stack + 1D DP |
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Java](./src/java/hard/matrix/SudokuSolver.java)| Backtracking |
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Java](./src/java/hard/array/FirstMissingPositive.java)| Array |
-|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Java](./src/java/medium/greedy/TrappingRainWater.java)| Greedy/Two-Pointer |
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Java](./src/java/hard/greedy/TrappingRainWater.java)| Greedy/Two-Pointer |
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](./src/java/hard/string/WildcardMatching.java)| Backtracking/Two-Pointer |
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](./src/java/hard/dp/JumpGameII.java)| 1D DP/Greedy |
 |51|[N-Queens](https://leetcode.com/problems/n-queens/) | [Java](./src/java/hard/backtracking/NQueens.java)| Backtracking (DFS) |

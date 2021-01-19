@@ -1,4 +1,4 @@
-package src.java.medium.greedy;
+package src.java.hard.greedy;
 
 public class TrappingRainWater {
     public int trap(int[] height) {
