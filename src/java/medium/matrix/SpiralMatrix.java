@@ -4,7 +4,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SpiralMatrix {
+    // Written on 2021/01/19
     public List<Integer> spiralOrder(int[][] matrix) {
+        List<Integer> ret = new ArrayList<>();
+        if (matrix == null || matrix.length==0 || matrix[0].length==0)
+            return ret;
+        int m = matrix.length, n = matrix[0].length;
+        int left = 0, right = n-1;
+        int up = 0, down = m-1;
+        while (ret.size() < m*n) {
+            for (int i=left; i<=right && ret.size() < m*n; i++)
+                ret.add(matrix[up][i]);
+            for (int i=up+1; i<=down && ret.size() < m*n; i++)
+                ret.add(matrix[i][right]);
+            for (int i=right-1; i>=left && ret.size() < m*n; i--)
+                ret.add(matrix[down][i]);
+            for (int i=down-1; i>up && ret.size() < m*n; i--)
+                ret.add(matrix[i][left]);
+            left++; right--; up++; down--;
+        }
+        return ret;
+    }
+
+    public List<Integer> spiralOrder2(int[][] matrix) {
         if (matrix==null)   return null;
         List<Integer> ret = new ArrayList<>();
         if (matrix.length==0 || matrix[0].length==0)    return ret;
