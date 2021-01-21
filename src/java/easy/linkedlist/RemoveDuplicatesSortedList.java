@@ -6,24 +6,17 @@ package src.java.easy.linkedlist;
  */
 public class RemoveDuplicatesSortedList {
     public ListNode deleteDuplicates(ListNode head) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
-        if (head==null)  return head;
-        ListNode node = head;
-        ListNode cur = head.next;
-        
-        while(cur!=null){
-            if (node.val==cur.val)
-                cur = cur.next;
-            else{
-                node.next = cur;
-                node = node.next;
-                cur = cur.next;
+        if (head == null || head.next == null)
+            return head;
+        ListNode first = head, sec = head.next;
+        while (sec != null) {
+            if (sec.val != first.val) {
+                first = first.next;
+                first.val = sec.val;
             }
+            sec = sec.next;
         }
-        
-        //Set the end of new linked list
-        node.next = null;
+        first.next = null;
         return head;
     }
 }
