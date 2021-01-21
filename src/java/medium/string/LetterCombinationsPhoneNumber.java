@@ -7,8 +7,36 @@ import java.util.List;
 import java.util.Map;
 
 public class LetterCombinationsPhoneNumber {
-    // DFS
+    // Rewritten on 2021/01/21
     public List<String> letterCombinations(String digits) {
+        List<String> ret = new ArrayList<>();
+        if (digits==null || digits.isEmpty())   return ret;
+        Map<Character, String> map = new HashMap<>() {{
+            put('2', "abc");
+            put('3', "def");
+            put('4', "ghi");
+            put('5', "jkl");
+            put('6', "mno");
+            put('7', "pqrs");
+            put('8', "tuv");
+            put('9', "wxyz");
+        }};
+        dfs(digits, 0, "", map, ret);
+        return ret;
+    }
+    
+    private void dfs(String digits, int pos, String str, Map<Character, String> map, List<String> ret) {
+        if (pos == digits.length()) {
+            ret.add(str);
+            return;
+        }
+        String s = map.get(digits.charAt(pos));
+        for (int i=0; i<s.length(); i++)
+            dfs(digits, pos+1, str+s.charAt(i), map, ret);
+    }
+
+    // DFS
+    public List<String> letterCombinations2(String digits) {
         if (digits == null || digits.isEmpty())
             return new ArrayList<>();
         
@@ -46,7 +74,7 @@ public class LetterCombinationsPhoneNumber {
 
     // Legacy solutions
     // Recursive solution
-    public ArrayList<String> letterCombinations2(String digits) {
+    public ArrayList<String> letterCombinations3(String digits) {
         // Start typing your Java solution below
         // DO NOT write main() function
         ArrayList<String> ret = new ArrayList<String>();
@@ -68,7 +96,7 @@ public class LetterCombinationsPhoneNumber {
     }
 
     // Iterative solution
-    public ArrayList<String> letterCombinations3(String digits) {
+    public ArrayList<String> letterCombinations4(String digits) {
         // Start typing your Java solution below
         // DO NOT write main() function
         ArrayList<String> ret = new ArrayList<String>();
