@@ -149,7 +149,7 @@ Let's verify this by some real data. There are 4 people, time for each one is 1,
 
 - 1 and 2 go cross     - 2 mins
 - 2 comes back         - 2 mins
-- 7 and 10 go across   - 10 mins
+- 5 and 10 go across   - 10 mins
 - 1 comes back         - 1 mins
 - 1 and 2 go across    - 2 mins
 
