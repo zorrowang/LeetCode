@@ -329,6 +329,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](./src/java/easy/stack/ImplementStackUsingQueues.java)| Queue |
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](./src/java/easy/tree/InvertBinaryTree.java)| DFS |
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/java/easy/number/PowerOfTwo.java)| Bit Manipulation |
+|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](./src/java/easy/stack/ImplementQueueUsingStacks.java)| Stack |
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./src/java/easy/linkedlist/PalindromeLinkedList.java)| Two-Pointer | [Reversing a list is not considered "O(1) space"](https://leetcode.com/problems/palindrome-linked-list/discuss/64493/Reversing-a-list-is-not-considered-%22O(1)-space%22) |
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](./src/java/easy/tree/LowestCommonAncestorBST.java)| DFS |
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Java](./src/java/easy/linkedlist/DeleteNode.java)| LinkedList | This is a stupid question |
