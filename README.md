@@ -250,9 +250,9 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LeetCode Current Status
 
-- **Total**:  423
+- **Total**:  424
   - &#x1F4D7;[Easy](#easy-questions):   153
-  - &#x1F4D8;[Medium](#medium-questions): 212
+  - &#x1F4D8;[Medium](#medium-questions): 213
   - &#x1F4D9;[Hard](#hard-questions):   58
 
 ### LintCode Current Status
@@ -640,6 +640,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Java](./src/java/medium/string/PermutationInString.java)| Sliding Window |
 |611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | [Java](./src/java/medium/math/ValidTriangleNumber.java)| Sort |
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [Java](./src/java/medium/tree/MaximumWidthOfBinaryTree.java)| DFS |
+|670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/) | [Java](./src/java/medium/number/MaximumSwap.java)| Array |
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](./src/java/medium/string/ValidParenthesisString.java)| Greedy + Backtracking | It can be solved by DP, greedy and backtracking! |
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [Java](./src/java/medium/linkedlist/SplitLinkedListParts.java)| LinkedList |
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/java/medium/array/DailyTemperatures.java)| Stack |
