@@ -250,8 +250,8 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LeetCode Current Status
 
-- **Total**:  421
-  - &#x1F4D7;[Easy](#easy-questions):   152
+- **Total**:  423
+  - &#x1F4D7;[Easy](#easy-questions):   153
   - &#x1F4D8;[Medium](#medium-questions): 212
   - &#x1F4D9;[Hard](#hard-questions):   58
 
@@ -369,6 +369,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](./src/java/easy/dp/MaxConsecutiveOnes.java)| 1D DP |
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Java](./src/java/easy/tree/MinimumAbsoluteDifference.java)| In-order Traversal |
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](./src/java/easy/string/ReverseStringII.java)| Two Pointer |
+|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](.src/java/easy/tree/DiameterBinaryTree.java)| DFS |
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](./src/java/easy/array/StudentAttendanceRecord.java)| Array |
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./src/java/easy/string/ReverseWordInStringIII.java)| Two Pointer |
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Java](./src/java/easy/array/ArrayPartitionI.java)| Math |
