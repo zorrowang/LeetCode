@@ -250,9 +250,9 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LeetCode Current Status
 
-- **Total**:  424
+- **Total**:  425
   - &#x1F4D7;[Easy](#easy-questions):   153
-  - &#x1F4D8;[Medium](#medium-questions): 213
+  - &#x1F4D8;[Medium](#medium-questions): 214
   - &#x1F4D9;[Hard](#hard-questions):   58
 
 ### LintCode Current Status
@@ -650,6 +650,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Java](./src/java/medium/greedy/BoatsSavePeople.java)| Greedy + Two-Pointer |
 |916|[Word Subsets](https://leetcode.com/problems/word-subsets/) | [Java](./src/java/medium/string/WordSubsets.java)| String Signature |
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Java](./src/java/medium/string/MinimumAddParenthesesValid.java)| Greedy |
+|958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [Java](./src/java/medium/tree/CheckCompletenessBinaryTree.java)| BFS |
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [Java](./src/java/medium/string/LongestStringChain.java)| 1D DP |
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/java/medium/tree/DeleteNodesAndReturnForest.java)| DFS |
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Java](./src/java/medium/string/MinimumRemoveValidParentheses.java)| Greedy |
