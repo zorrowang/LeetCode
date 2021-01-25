@@ -341,7 +341,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Java](./src/java/easy/tree/BinaryTreePaths.java)| DFS |
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Java](./src/java/easy/number/AddDigits.java)| Number |
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](./src/java/easy/number/UglyNumber.java)| Math |
-|266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation)|[Java](./src/java/easy/string/PalindromePermutation.java)| Counting | LintCode [916](https://www.lintcode.com/problem/palindrome-permutation/description) |
+|266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation)|[Java](./src/java/easy/string/PalindromePermutation.java)| Counting sort | LintCode [916](https://www.lintcode.com/problem/palindrome-permutation/description) |
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Java](./src/java/easy/array/MissingNumber.java)| Counting | Bit manipulation solution using XOR is [here](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination) |
 |270|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value)|[Java](./src/java/easy/tree/ClosestBinarySearchTreeValue.java)| DFS | LintCode [900](https://www.lintcode.com/problem/closest-binary-search-tree-value/description) |
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence)|[Java](./src/java/easy/dp/PaintFence.java)| 1D DP | LintCode [514](https://www.lintcode.com/problem/paint-fence/description) |

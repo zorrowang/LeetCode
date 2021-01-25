@@ -3,7 +3,27 @@ package src.java.medium.string;
 import java.util.Arrays;
 
 public class CustomSortString {
+    // Rewritten on 2021/01/25
     public String customSortString(String S, String T) {
+        int[] cnt = new int[256];
+        for (int i=0; i<T.length(); i++)
+            cnt[T.charAt(i)]++;
+        StringBuilder sb = new StringBuilder();
+        for (int i=0; i<S.length(); i++) {
+            for (int j=0; j<cnt[S.charAt(i)]; j++) {
+                sb.append(S.charAt(i));
+            }
+            cnt[S.charAt(i)]=0;
+        }
+        for (int i=0; i<256; i++) {
+            for (int j=0; j<cnt[i]; j++) {
+                sb.append((char)i);
+            }
+        }
+        return sb.toString();
+    }
+
+    public String customSortString2(String S, String T) {
         char[] ret = new char[T.length()];
         int[] count = new int[26];
         int[] index = new int[26];
