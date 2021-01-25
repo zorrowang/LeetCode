@@ -31,7 +31,7 @@ Quicksort is an algorithm based on divide and conquer approach in which the arra
 ![Quicksort](../../images/quicksort.png)
 
 - Divide: The array is divided into subparts taking pivot as the partitioning point. The elements smaller than the pivot are placed to the left of the pivot and the elements greater than the pivot are placed to the right.
-- Conquer: The left and the right subparts are again partitioned using the by selecting pivot elements for them. This can be achieved by recursively passing the subparts into the algorithm.
+- Conquer: The left and the right subparts are again partitioned by selecting pivot elements for them. This can be achieved by recursively passing the subparts into the algorithm.
 - Combine: This step does not play a significant role in quicksort. The array is already sorted at the end of the conquer step.
 
 ### Quicksort Algorithm
@@ -170,7 +170,62 @@ void merge(int Arr[], int start, int mid, int end) {
 
 #### Bottom-up implementation
 
-TODO
+```java
+// Merge two sorted sub-arrays A[from .. mid] and A[mid + 1 .. to]
+public static void merge(int[] A, int[] temp, int from, int mid, int to)
+{
+    int k = from, i = from, j = mid + 1;
+
+    // loop till there are elements in the left and right runs
+    while (i <= mid && j <= to) {
+        if (A[i] < A[j]) {
+            temp[k++] = A[i++];
+        } else {
+            temp[k++] = A[j++];
+        }
+    }
+
+    // Copy remaining elements
+    while (i <= mid) {
+        temp[k++] = A[i++];
+    }
+
+    // Don't need to copy second half
+
+    // copy back to the original array to reflect sorted order
+    for (i = from; i <= to; i++) {
+        A[i] = temp[i];
+    }
+}
+
+// Iteratively sort array A[low..high] using temporary array
+public static void mergesort(int[] A)
+{
+    int low = 0;
+    int high = A.length - 1;
+
+    // sort array A[] using temporary array temp
+    int[] temp = Arrays.copyOf(A, A.length);
+
+    // divide the array into blocks of size m
+    // m = [1, 2, 4, 8, 16...]
+    for (int m = 1; m <= high - low; m = 2*m)
+    {
+        // for m = 1, i = 0, 2, 4, 6, 8...
+        // for m = 2, i = 0, 4, 8, 12...
+        // for m = 4, i = 0, 8, 16...
+        // ...
+        for (int i = low; i < high; i += 2*m)
+        {
+            int from = i;
+            int mid = i + m - 1;
+            int to = Integer.min(i + 2 * m - 1, high);
+
+            merge(A, temp, from, mid, to);
+        }
+    }
+}
+```
 
 ### Merge Sort Time Complexity
 
@@ -178,7 +233,7 @@ In sorting n objects, merge sort has an average and worst-case performance of O(
 
 ## Heapsort
 
-Heapsort is a comparison-based sorting algorithm. Heapsort can be thought of as an improved selection sort: like selection sort, heapsort divides its input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the largest element from it and inserting it into the sorted region. Unlike selection sort, heapsort does not waste time with a linear-time scan of the unsorted region; rather, heap sort maintains the unsorted region in a heap data structure to more quickly find the largest element in each step
+Heapsort is a comparison-based sorting algorithm. Heapsort can be thought of as an improved selection sort: like selection sort, heapsort divides its input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the smallest or largest element from it and inserting it into the sorted region. Unlike selection sort, heapsort does not waste time with a linear-time scan of the unsorted region; rather, heap sort maintains the unsorted region in a heap data structure to more quickly find the largest element in each step
 
 ### Complete Binary Tree
 
