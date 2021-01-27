@@ -653,6 +653,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 |958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [Java](./src/java/medium/tree/CheckCompletenessBinaryTree.java)| BFS |
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [Java](./src/java/medium/string/LongestStringChain.java)| 1D DP |
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/java/medium/tree/DeleteNodesAndReturnForest.java)| DFS |
+|1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/) | [Java](./src/java/medium/string/SmallestStringWithSwaps.java)| UnionFind + PriorityQueue | Deserve as `hard` |
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Java](./src/java/medium/string/MinimumRemoveValidParentheses.java)| Greedy |
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | [Java](./src/java/medium/tree/DeepestLeavesSum.java)| DFS |
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [Java](./src/java/medium/array/JumpGameIII.java)| Backtracking (DFS) |
