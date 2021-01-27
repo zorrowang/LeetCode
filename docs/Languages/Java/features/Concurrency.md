@@ -137,7 +137,7 @@ For all mutable fields, e.g. Arrays, that are passed from the outside to the cla
 
 ### Defensive Copies
 
-You must protect your classes from calling code. Assume that calling code will do its best to change your data in a way you didn’t expect it. While this is especially true in case of immutable data it is also true for non-immutable data which you still not expect that this data is changed outside your class.
+You must protect your classes from calling code. Assume that calling code will do its best to change your data in a way you didn’t expect it. While this is especially true in case of immutable data. It is also true for non-immutable data which you still not expect that this data is changed outside your class.
 
 To protect your class against that you should copy data you receive and only return copies of data to calling code.
 
@@ -511,6 +511,6 @@ public class Solver extends RecursiveAction {
 
 A concurrent application has the risk of a deadlock. A set of processes are deadlocked if all processes are waiting for an event which another process in the same set has to cause.
 
-For example if thread A waits for a lock on object Z which thread B holds and thread B wait for a look on object Y which is hold be process A then these two processes are locked and cannot continue in their processing.
+For example, if thread A waits for a lock on object Z which thread B holds and thread B wait for a look on object Y which is hold by process A, then these two processes are locked and cannot continue in their processing.
 
 This can be compared to a traffic jam, where cars(threads) require the access to a certain street(resource), which is currently blocked by another car(lock).
