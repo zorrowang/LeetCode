@@ -124,16 +124,12 @@ The Java memory model guarantees that each thread entering a synchronized block 
 
 The simplest way to avoid problems with concurrency is to share only immutable data between threads. Immutable data is data which cannot changed.
 
-To make a class immutable make
+To make a class immutable
 
-- all its fields final
-- the class declared as final
-- the this reference is not allowed to escape during construction
-- Any fields which refer to mutable data objects are
-- private
-- have no setter method
-- they are never directly returned of otherwise exposed to a caller
-- if they are changed internally in the class this change is not visible and has no effect outside of the class
+- All its fields are final
+- The class is declared as final
+- The reference is not allowed to escape during construction
+- Any fields which refer to mutable data objects are private have no setter method, they are never directly returned of otherwise exposed to a caller if they are changed internally in the class this change is not visible and has no effect outside of the class
 
 An immutable class may have some mutable data which is uses to manages its state but from the outside this class nor any attribute of this class can get changed.
 
