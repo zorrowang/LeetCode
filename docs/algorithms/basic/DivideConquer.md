@@ -13,9 +13,9 @@ A divide-and-conquer algorithm works by recursively breaking down a problem into
 
 This technique can be divided into the following three parts:
 
-- **Divide**: This involves dividing the problem into some sub problem.
-- **Conquer**: Sub problem by calling recursively until sub problem solved.
-- **Combine**: The Sub problem Solved so that we will get find problem solution.
+- **Divide**: Dividing the problem into some subproblems.
+- **Conquer**: Solving subproblems by calling recursively until all of them are solved.
+- **Combine**: Combining all of the subproblems to get the final solution.
 
 The pseudo-code of a  divide-and-conquer algorithm is
 
