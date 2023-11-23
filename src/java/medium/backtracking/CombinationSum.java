@@ -9,7 +9,7 @@ public class CombinationSum {
         Arrays.sort(candidates);
         List<Integer> list = new ArrayList<>();
         List<List<Integer>> ret = new ArrayList<>();
-        combinationSum(candidates,target, list, ret);
+        combinationSum(candidates, target, list, ret);
         return ret;
     }
     
