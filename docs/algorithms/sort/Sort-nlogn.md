@@ -24,13 +24,13 @@
 
 ## Quicksort
 
-Quicksort is an algorithm based on divide and conquer approach in which the array is split into subarrays and these sub-arrays are recursively called to sort the elements.
+Quicksort is an algorithm based on the divide and conquer approach in which the array is split into subarrays and these sub-arrays are recursively called to sort the elements.
 
 ### Quicksort Workflow
 
 ![Quicksort](../../images/quicksort.png)
 
-- Divide: The array is divided into subparts taking pivot as the partitioning point. The elements smaller than the pivot are placed to the left of the pivot and the elements greater than the pivot are placed to the right.
+- Divide: The array is divided into subparts taking the pivot as the partitioning point. The elements smaller than the pivot are placed to the left of the pivot and the elements greater than the pivot are placed to the right.
 - Conquer: The left and the right subparts are again partitioned by selecting pivot elements for them. This can be achieved by recursively passing the subparts into the algorithm.
 - Combine: This step does not play a significant role in quicksort. The array is already sorted at the end of the conquer step.
 
@@ -67,10 +67,10 @@ int partition(int array[], int low, int high) {
     // greater than pivot on the right of pivot
     for (int j = low; j < high; j++) {
         if (array[j] <= pivot) {
-        i++;
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
+            i++;
+            int temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
         }
     }
     int temp = array[i + 1];
