@@ -2,7 +2,7 @@
 
 Array is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key. So accessing any element by its index or key is constant time as O(1), and looping the array is linear time as O(n).
 
-This doc will introduce the data structure of array in Java and techniques for interviews.
+This doc will introduce the data structure of the array in Java and techniques for interviews.
 
 <!-- MarkdownTOC -->
 - [Array in Java](#array-in-java)
@@ -19,7 +19,7 @@ This doc will introduce the data structure of array in Java and techniques for i
     - [Filling Arrays with Arrays.fill()](#filling-arrays-with-arraysfill)
     - [Searching Arrays with Arrays.binarySearch()](#searching-arrays-with-arraysbinarysearch)
     - [Checking if Arrays are Equal with Arrays.equals()](#checking-if-arrays-are-equal-with-arraysequals)
-- [Things to be clarified in interview](#things-to-be-clarified-in-interview)
+- [Things to be clarified in an interview](#things-to-be-clarified-in-interview)
 - [Techniques](#techniques)
   - [Two-Pointer Technique](#two-pointer-technique)
   - [Sliding Window Technique](#sliding-window-technique)
@@ -31,13 +31,13 @@ This doc will introduce the data structure of array in Java and techniques for i
 
 ## Array in Java
 
-Array can contains primitives data types as well as objects of a class depending on the definition of array. In case of primitives data types, the actual values are stored in contiguous memory locations. In case of objects of a class, the actual objects are stored in heap segment.
+An array can contain primitive data types as well as objects of a class depending on the definition of array. In the case of primitive data types, the actual values are stored in contiguous memory locations. In the case of objects of a class, the actual objects are stored in a heap segment.
 
-- In Java all arrays are dynamically allocated.
+- In Java, all arrays are dynamically allocated.
 - Since arrays are objects in Java, we can find their length using member length.
 - A Java array variable can also be declared like other variables with [] after the data type.
-- The variables in the array are ordered and each have an index beginning from 0.
-- Java array can be also be used as a static field, a local variable or a method parameter.
+- The variables in the array are ordered and each has an index beginning from 0.
+- Java array can also be used as a static field, a local variable, or a method parameter.
 - The size of an array must be specified by an int value and not long or short.
 - The direct superclass of an array type is Object.
 - Every array type implements the interfaces _Cloneable_ and _java.io.Serializable_.
