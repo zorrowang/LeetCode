@@ -85,7 +85,7 @@ intArray2 = new int[20];
 System.out.println(Arrays.toString(new int[]{1, 2}));  // Array literal, introduced later
 ```
 
-The elements in the array allocated by new will automatically be initialized as
+The elements in the array allocated by the new will automatically be initialized as
 
 - boolean : `false`
 - int : `0`
@@ -97,7 +97,7 @@ Array length cannot be changed once it has been created.
 
 #### Array literal
 
-In a situation, where the size of the array and variables of array are already known, array literals can be used.
+In a situation, where the size and variables of the array are already known, array literals can be used.
 
 ```java
 int[] intArray = new int[]{ 1,2,3,4,5,6,7,8,9,10 };
@@ -108,7 +108,7 @@ The length of this array determines the length of the created array. There is no
 
 ### Access
 
-Each element in the array is accessed via its index. The index begins with _0_ and ends at _(total array size)-1_. All the elements of array can be accessed using Java for Loop.
+Each element in the array is accessed via its index. The index begins with _0_ and ends at _(total array size)-1_. All the elements of an array can be accessed using Java for Loop.
 
 ```java
 for (int i = 0; i < arr.length; i++)
@@ -117,16 +117,21 @@ for (int i = 0; i < arr.length; i++)
 
 ### Multidimensional Arrays
 
-Multidimensional arrays are arrays of arrays with each element of the array holding the reference of other array. These are also known as [Jagged Arrays](https://en.wikipedia.org/wiki/Jagged_array). A multidimensional array is created by appending one set of square brackets ([]) per dimension. Examples:
+Multidimensional arrays are arrays of arrays with each element of the array holding the reference of another array. These are also known as [Jagged Arrays](https://en.wikipedia.org/wiki/Jagged_array). A multidimensional array is created by appending one set of square brackets ([]) per dimension. Examples:
 
 ```java
 int[][] intArray = new int[10][20];         //a 2D array or matrix
-int[][][] intArray = new int[10][20][10];   //a 3D array
+int[][][] intArray2 = new int[10][20][10];   //a 3D array
+
+int[][]c;
+c = new int[2][]; // creates 2 rows
+c[0] = new int[5]; // 5 columns for row 0
+c[1] = new int[3]; // create 3 columns for row 1
 ```
 
 ### Using Array in function
 
-Like variables, we can pass and return arrays in function.
+Like variables, we can pass and return arrays in a function.
 
 ```java
 public static String[] toString(int[] arr) {
@@ -139,7 +144,7 @@ public static String[] toString(int[] arr) {
 
 ### _Arrays_ class in Java
 
-Java contains a special utility class that makes it easier for you to perform many often used array operations like copying and sorting arrays, filling in data, searching in arrays etc. The utility class is called Arrays and is located in the standard Java package _java.util_.
+Java contains a special utility class that makes it easier for you to perform many often-used array operations like copying and sorting arrays, filling in data, searching in arrays etc. The utility class is called Arrays and is located in the standard Java package _java.util_.
 
 #### Copying an Array with _Arrays.copyOf()_
 
@@ -191,25 +196,25 @@ System.out.println(ints1EqualsInts2);     // true
 System.out.println(ints1EqualsInts3);     // false
 ```
 
-## Things to be clarified in interview
+## Things to be clarified in an interview
 
 - Is the array sorted or partially sorted?
   If so, it means you can use binary search, which is O(lgn).
 
-- Can you manipulate the array in-place?
-  The reference of array is a pointer. So any change will be preserved.
+- Can you manipulate the array in place?
+  The reference of an array is a pointer. So any change will be preserved.
 
 - Can you sort the array?
   Sometimes sorting the array first may significantly simplify the problem. Make sure that the order of array elements do not need to be preserved before attempting a sort.
 
 - Are there duplicates in the array? Would it affect the answer?
-  Make sure if the result is unique or not.
+  Make sure the result is unique or not.
 
 ## Techniques
 
 ### Two-Pointer Technique
 
-Two pointers is really an easy and effective technique which is typically used for searching pairs in a sorted array, or one slow-runner and the other fast-runner..
+Two-pointers are really an easy and effective technique that is typically used for searching pairs in a sorted array, or one slow-runner and the other fast-runner..
 
 Given a sorted array A (sorted in ascending order), having N integers, find if there exists any pair of elements (A[i], A[j]) such that their sum is equal to X.
 
@@ -229,13 +234,13 @@ boolean isSum(int[] nums, int target) {
 
 ### Sliding Window Technique
 
-This technique shows how a nested _`for`_ loop in a few problems can be converted to single _`for`_ loop and hence reducing the time complexity. It can be best understood with the window pane in bus, consider a window of length **n** and the pane which is fixed in it of length **k**.
+This technique shows how a nested _`for`_ loop in a few problems can be converted to a single _`for`_ loop and hence reducing the time complexity. It can be best understood with the window pane in bus, consider a window of length **n** and the pane which is fixed in it of length **k**.
 
-Applying sliding window technique :
+Applying the sliding window technique :
 
-- We compute the sum of first k elements out of n terms using a linear loop and store the sum in variable window_sum.
-- Then we will graze linearly over the array till it reaches the end and simultaneously keep track of maximum sum.
-- To get the current sum of block of k elements just subtract the first element from the previous block and add the last element of the current block .
+- We compute the sum of the first k elements out of n terms using a linear loop and store the sum in variable window_sum.
+- Then we will graze linearly over the array till it reaches the end and simultaneously keep track of the maximum sum.
+- To get the current sum of the block of k elements just subtract the first element from the previous block and add the last element of the current block.
 
 For example, given an array as `{5, 2, -1, 0, 3}` and fixed window size is `3`.
 
@@ -245,7 +250,7 @@ For example, given an array as `{5, 2, -1, 0, 3}` and fixed window size is `3`.
 
 ![Sliding window 3](../../../images/sliding-window3.png)
 
-The size of sliding window is, sometimes, not fixed. In that case, we need to move the pointers inconsistently, but make sure the size should *not* be `0`.
+The size of the sliding window is, sometimes, not fixed. In that case, we need to move the pointers inconsistently, but make sure the size should *not* be `0`.
 
 ### Prefix/Suffix Sum
 
