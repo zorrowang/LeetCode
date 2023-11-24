@@ -199,13 +199,13 @@ System.out.println(ints1EqualsInts3);     // false
 ## Things to be clarified in an interview
 
 - Is the array sorted or partially sorted?
-  If so, it means you can use binary search, which is O(lgn).
+  If so, it means you can use binary search, in which time complexity is O(lgn).
 
 - Can you manipulate the array in place?
   The reference of an array is a pointer. So any change will be preserved.
 
 - Can you sort the array?
-  Sometimes sorting the array first may significantly simplify the problem. Make sure that the order of array elements do not need to be preserved before attempting a sort.
+  Sometimes sorting the array first may significantly simplify the problem. Make sure that the order of array elements does not need to be preserved before attempting a sort.
 
 - Are there duplicates in the array? Would it affect the answer?
   Make sure the result is unique or not.
@@ -214,7 +214,7 @@ System.out.println(ints1EqualsInts3);     // false
 
 ### Two-Pointer Technique
 
-Two-pointers are really an easy and effective technique that is typically used for searching pairs in a sorted array, or one slow-runner and the other fast-runner..
+Two-pointers are really an easy and effective technique that is typically used for searching pairs in a sorted array, or one slow-runner and the other fast-runner.
 
 Given a sorted array A (sorted in ascending order), having N integers, find if there exists any pair of elements (A[i], A[j]) such that their sum is equal to X.
 
