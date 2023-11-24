@@ -11,7 +11,7 @@
   - [ArrayList Features](#arrayList-features)
   - [Constructor](#constructor)
   - [Special Methods in ArrayList](#special-methods-in-arraylist)
-- [Things to be clarified in interview](#things-to-be-clarified-in-interview)
+- [Things to be clarified in an interview](#things-to-be-clarified-in-an-interview)
 - [Reference](#reference)
 
 <!-- /MarkdownTOC -->
@@ -21,8 +21,8 @@ An ordered collection (also known as a sequence). The user of this interface has
 Some features in _List_ are:
 
 - List typically allows duplicate elements.
-- List typically allow multiple null elements if they allow null elements at all.
-- List (like Java Array) is zero based.
+- List typically allows multiple null elements if they allow null elements at all.
+- List (like Java Array) is zero-based.
 - List provides the positional (indexed) access to the elements. The execution is in time proportional to the index value for some implementations.
 
 **Note**, Vector and Stack classes basically fall in legacy classes.
@@ -31,7 +31,7 @@ Some features in _List_ are:
 
 ![Java Collection](../../../images/java-collection.jpg)
 
-List Interface extends Collection, hence it supports all the operations of Collection Interface, along with following additional operations.
+List Interface extends Collection, hence it supports all the operations of Collection Interface, along with the following additional operations.
 
 ### Positional Access
 
@@ -97,7 +97,7 @@ sub = l.subList(2, 6);  // return [20, 30, 40, 50]
 
 ## ArrayList Class
 
-ArrayList class implements resizable-array under the List interface. The _size_, _isEmpty_, _get_, _set_, _iterator_, and _listIterator_ operations run in constant time. The _add_ operation runs in **amortized constant time**, that is, adding _n_ elements requires _O(n)_ time. All of the other operations run in linear time (roughly speaking).
+ArrayList class implements _resizable-array_ under the List interface. The _size_, _isEmpty_, _get_, _set_, _iterator_, and _listIterator_ operations run in constant time. The _add_ operation runs in **amortized constant time**, that is, adding _n_ elements requires _O(n)_ time. All of the other operations run in linear time (roughly speaking).
 
 **Note** that this implementation is not synchronized.
 
@@ -106,7 +106,7 @@ ArrayList class implements resizable-array under the List interface. The _size_,
 - ArrayList instance has a capacity. The capacity is the size of the array used to store the elements in the list. It is always at least as large as the list size. The capacity can grow or shrink automatically.
 - ArrayList can not be used for primitive types (it converts the primitive int data type into an Integer object).
 - Since ArrayList can’t be created for primitive data types, members of ArrayList are always references to objects at different memory locations. Therefore in ArrayList, the actual objects are never stored at contiguous locations. References of the actual objects are stored at contiguous locations.
-In array, it depends whether the arrays is of primitive type or object type. In case of primitive types, actual values are contiguous locations, but in case of objects, allocation is similar to ArrayList.
+In an array, it depends on whether the array is of primitive type or object type. In the case of primitive types, actual values are contiguous locations, but in the case of objects, allocation is similar to ArrayList.
 - ArrayList in Java can be seen as similar to vector in C++.
 
 ### Constructor
@@ -161,21 +161,21 @@ Note: casting to array is hard to use (not well-implemented). I'd recommend to w
 
 ![Java LinkedList](../../../images/ArrayList-trimtosize.png)
 
-## Things to be clarified in interview
+## Things to be clarified in an interview
 
-List is usually given as an input of the question in interviews. 
+_List_ is usually given as an input of the question in interviews. 
 
 - Is the list sorted or partially sorted?
-  If so, it means you can use binary search, which is O(lgn).
+  If so, it means you can use binary search, which is _`O(lgn)`_.
 
-- Can you manipulate the list in-place?
-  The reference of list is a pointer to object. So any change will be preserved.
+- Can you manipulate the list in place?
+  The reference of a list is a pointer to the object. So any change will be preserved.
 
 - Can you sort the list?
-  Sometimes sorting the list first may significantly simplify the problem. Make sure that the order of list elements do not need to be preserved before attempting a sort.
+  Sometimes sorting the list first may significantly simplify the problem. Make sure that the order of list elements does not need to be preserved before attempting a sort.
 
 - Are there duplicates in the list? Would it affect the answer?
-  Make sure if the result is unique or not.
+  Make sure the result is unique or not.
 
 ## References
 
