@@ -167,13 +167,10 @@ _List_ is usually given as an input of the question in interviews.
 
 - Is the list sorted or partially sorted?
   If so, it means you can use binary search, which is _`O(lgn)`_.
-
 - Can you manipulate the list in place?
   The reference of a list is a pointer to the object. So any change will be preserved.
-
 - Can you sort the list?
   Sometimes sorting the list first may significantly simplify the problem. Make sure that the order of list elements does not need to be preserved before attempting a sort.
-
 - Are there duplicates in the list? Would it affect the answer?
   Make sure the result is unique or not.
 
