@@ -11,7 +11,7 @@
     - [TreeSet Constructor](#treeset-constructor)
     - [Special Methods in TreeSet](#special-methods-in-treeSet)
 - [Union Find (Disjoint Set)](#union-find-disjoint-set)
-- [Techniques in an Interview](#techniques-in-an-nterview)
+- [Techniques in an Interview](#techniques-in-an-interview)
 - [Reference](#reference)
 
 <!-- /MarkdownTOC -->
