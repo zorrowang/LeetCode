@@ -22,7 +22,7 @@ A string is traditionally a sequence of characters, either as a literal constant
 
 ## _String_ in Java
 
-_Strings_ in Java are Objects that are backed internally by a char array. Since arrays are immutable(cannot grow), _Strings_ are immutable as well. Whenever a change to a _String_ is made, an entirely new _String_ is created.
+_String_ in Java is an Object that is backed internally by a char array. Since an array is immutable(cannot grow or update), _String_ is immutable as well. Whenever a change to a _String_ is made, an entirely new _String_ is created.
 
 ```java
 String str1 = "LeetCode";                   // String literal
