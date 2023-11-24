@@ -224,7 +224,7 @@ boolean isSum(int[] nums, int target) {
   while(i < j) {
     int sum = nums[i] + nums[j];
     if (sum == target)  return true;
-    else if (sum < target)  i++
+    else if (sum < target)  i++;
     else  j--;
   }
   return false;
