@@ -11,7 +11,7 @@
     - [TreeSet Constructor](#treeset-constructor)
     - [Special Methods in TreeSet](#special-methods-in-treeSet)
 - [Union Find (Disjoint Set)](#union-find-disjoint-set)
-- [Techniques in Interview](#techniques-in-nterview)
+- [Techniques in an Interview](#techniques-in-an-nterview)
 - [Reference](#reference)
 
 <!-- /MarkdownTOC -->
@@ -128,7 +128,7 @@ A SortedSet extended with navigation methods reporting closest matches for given
 
 ### TreeSet Class
 
-A NavigableSet implementation based on a TreeMap. The elements are ordered using their natural ordering, or by a Comparator provided at set creation time, depending on which constructor is used.
+A NavigableSet implementation based on a TreeMap. The elements are ordered using their natural ordering or by a Comparator provided at set creation time, depending on which constructor is used.
 
 The inheritance order is `SortedSet <- NavigableSet <- TreeSet`.
 
@@ -143,7 +143,7 @@ Some features of TreeSet are:
 
 - Objects in a TreeSet are stored in a sorted and ascending order.
 - TreeSet does not preserve the insertion order of elements but elements are sorted by keys.
-- TreeSet is basically implementation of a self-balancing binary search tree like Red-Black Tree. Therefore operations like _add_, _remove_ and _search_ take `O(lgn)` time. And operations like printing n elements in sorted order takes `O(n)` time.
+- TreeSet is basically an implementation of a self-balancing binary search tree like Red-Black Tree. Therefore operations like _add_, _remove_ and _search_ take _`O(lgn)`_ time. And operations like printing n elements in sorted order take _`O(n)`_ time.
 
 #### Tree Constructor
 
@@ -257,7 +257,7 @@ ts.tailSet("5");           // return [5, 6, 7, 8, 9]
 
 ![Disjoint Set](../../../images/Disjoint-Sets.png)
 
-**Union–find** data structure (also called a **disjoint-set** data structure or merge–find set) is a data structure that tracks a set of elements partitioned into a number of disjoint (non-overlapping) subsets. It provides near-constant-time operations to add new sets, to merge existing sets, and to determine whether elements are in the same set.
+**Union–find** data structure (also called a **disjoint-set** data structure or merge–find set) is a data structure that tracks a set of elements partitioned into a number of disjoint (non-overlapping) subsets. It provides near-constant-time operations to add new sets, merge existing sets, and determine whether elements are in the same set.
 
 ### Operations
 
@@ -295,9 +295,9 @@ public void union(int p, int q) {
 
 The implementation of `UnionFind` class is [here](../../../../src/java/lib/UnionFind.java)
 
-## Techniques in Interview
+## Techniques in an Interview
 
-_HashSet_ is usually used to store processed values, like Two Sum question, and visited nodes in graph for BFS.
+_HashSet_ is usually used to store processed values, like the Two-Sum question, and visited nodes in a graph for BFS.
 
 ## Reference
 
