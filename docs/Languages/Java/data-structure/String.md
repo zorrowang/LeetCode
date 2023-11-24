@@ -16,13 +16,13 @@ A string is traditionally a sequence of characters, either as a literal constant
     - [StringBuilder Methods](#stringbuilder-methods)
   - [String vs StringBuffer vs StringBuilder](#string-vs-stringbuffer-vs-stringbuilder)
 - [String-related Methods](#string-related-methods)
-- [Things to be clarified in interview](#things-to-be-clarified-in-interview)
+- [Things to be clarified in an interview](#things-to-be-clarified-in-interview)
 
 <!-- /MarkdownTOC -->
 
-## String in Java
+## _String_ in Java
 
-Strings in Java are Objects that are backed internally by a char array. Since arrays are immutable(cannot grow), Strings are immutable as well. Whenever a change to a String is made, an entirely new String is created.
+_Strings_ in Java are Objects that are backed internally by a char array. Since arrays are immutable(cannot grow), _Strings_ are immutable as well. Whenever a change to a _String_ is made, an entirely new _String_ is created.
 
 ```java
 String str1 = "LeetCode";                   // String literal
@@ -31,22 +31,22 @@ String str2 = new String("LeetCode");       // Using new keyword
 
 ### Memory allotment of String
 
-As we know both Stack and Heap space are part of Java Virtual Machine (JVM). But these memory spaces are used for different purposes. Stack space contains specific values that are short-lived whereas Heap space used by Java Runtime to allocate memory to objects and JRE classes. In Java, strings are stored in the heap area.
+As we know both Stack and Heap space is part of Java Virtual Machine (JVM). However, these memory spaces are used for different purposes. Stack space contains specific values that are short-lived whereas Heap space used by Java Runtime to allocate memory to objects and JRE classes. In Java, strings are stored in the heap area.
 
 #### Why Java strings stored in Heap, not in Stack?
 
-Well, String is a class and strings in java treated as an object, hence the object of String class will be stored in Heap, not in the stack area. Let’s go deep into the topic. As we all know we can create string object in two ways, i.e
+Well, String is a class, and strings in Java are treated as an object, hence the object of String class will be stored in Heap, not in the stack area. Let’s go deep into the topic. As we all know we can create a string object in two ways, i.e
 
 - By string literal
 - By using _`new`_ keyword
 
-Here the JVM checks the String Constant Pool. If the string does not exist then a new string instance is created and placed in the pool if the string exists then it will not create a new object rather it will return the reference to the same instance. The cache which stores these string instances is known as String Constant pool or String Pool. In earlier versions of Java up to JDK 6 String pool was located inside PermGen(Permanent Generation) space. But in JDK 7 it is moved to the main heap area.
+Here the JVM checks the String Constant Pool. If the string does not exist then a new string instance is created and placed in the pool if the string exists then it will not create a new object rather it will return the reference to the same instance. The cache that stores these string instances is known as String Constant pool or String Pool. In earlier versions of Java up to JDK 6 String pool was located inside PermGen(Permanent Generation) space. But in JDK 7 it is moved to the main heap area.
 
-#### Why did the String pool move from PermGen to normal heap area?
+#### Why did the String pool move from PermGen to the normal heap area?
 
-PermGen space is limited space, the default size is just 64 MB. And it was a problem of creating and storing too many string objects in PermGen space. That’s why the String pool is moved to a larger heap area. To make the java more memory efficient the concept of string literal is used.
+PermGen space is limited space, the default size is just 64 MB. It was a problem of creating and storing too many string objects in PermGen space. That’s why the String pool is moved to a larger heap area. To make Java more memory efficient the concept of string literal is used.
 
-By the use of _`new`_ keyword, the JVM will create a new string object in the normal heap area even if the same string object present in the string pool.
+By the use of _`new`_ keyword, the JVM will create a new string object in the normal heap area even if the same string object is present in the string pool.
 
 ```java
 import java.io.*;
@@ -68,7 +68,7 @@ The below figure illustrates the storage of String :
 
 ![Java string memory allotment](../../../images/java-string-memory-allotment.png)
 
-Here in the above figure, the String is stored in String constant pool. String object reference variables are stored in the stack area under the method _`main()`_.
+Here in the above figure, the String is stored in _String_ constant pool. String object reference variables are stored in the stack area under the method _`main()`_.
 
 ### String methods
 
@@ -341,9 +341,9 @@ s.substring(4, 6);    // returns "Co"
 
 ### StringBuilder
 
-The StringBuilder in Java represents a mutable sequence of characters, which provides an alternative to String Class, as it creates a mutable sequence of characters. The function of StringBuilder is very much similar to the StringBuffer class, as both of them provide an alternative to String Class by making a mutable sequence of characters.
+The StringBuilder in Java represents a mutable sequence of characters, which provides an alternative to String Class, as it creates a mutable sequence of characters. The function of StringBuilder is very similar to the StringBuffer class, as both of them provide an alternative to String Class by making a mutable sequence of characters.
 
-The difference will introduce in next section.
+The difference will be introduced in the next section.
 
 #### StringBuilder Constructor
 
@@ -377,12 +377,12 @@ The methods of StringBuffer are mostly the same as StringBuffer.
 Integer.parseInt("52");     // returns 52
 ```
 
-## Things to be clarified in interview
+## Things to be clarified in an interview
 
-- Is input string always valid?
+- Is the input string always valid?
   The object can be `null` or empty. Please do the sanity check first.
 
-- Does string only contain letter? both upper and lower cases?
+- Does string only contain letters? both upper and lower cases?
   Since there are only 26 letters in English, loop the count is constant time.
 
 ## Reference
