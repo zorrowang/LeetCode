@@ -134,7 +134,7 @@ Definition: calculate the top K most frequent characters in a string.
 
 Solutions:
 
-- Use TreeMap to maintain topK sorted order. Suppose m is the number of input and n is the number of distinct input, then build treemap requires O(mlogn), + nlogn) complexity.
+- Use TreeMap to maintain topK sorted order. Suppose m is the number of inputs and n is the number of distinct inputs, then build treemap requires O(mlogn), + nlogn) complexity.
 - A more efficient approach is to use HashMap + PriorityQueue.
 
 ```java
@@ -157,7 +157,7 @@ return maxQueue.stream()
 
 ![Deque](../../../images/deque.png)
 
-_Deque_ is a linear collection that supports element insertion and removal at both ends. The name "deque" is short for "double ended queue" and is usually pronounced "deck".
+_Deque_ is a linear collection that supports element insertion and removal at both ends. The name "deque" is short for "double-ended queue" and is usually pronounced "deck".
 
 _Deque_ can be used as a queue (first-in-first-out/FIFO) or as a stack (last-in-first-out/LIFO). These are faster than Stack and LinkedList.
 
@@ -185,7 +185,7 @@ Summary of Deque methods
 
 - _boolean offerFirst(E e)_: Inserts the specified element at the front of this deque unless it would violate capacity restrictions.
 
-- _boolean offerLast(E e)_: Inserts the specified element at the end of this deque unless it would violate capacity restrictions.
+- _boolean offerLast(E e)_: Inserts the specified element at the end of this deque unless it violates capacity restrictions.
 
 - _E peek()_: Retrieves, but does not remove, the head of the queue represented by this deque (in other words, the first element of this deque), or returns null if this deque is empty.
 
@@ -236,13 +236,13 @@ _ArrayDeque_ is a resizable-array implementation of the _Deque_ interface. It ha
 
 ### Applications of Deque
 
-Since Deque supports both stack and queue operations, it can be used as both. The Deque data structure supports clockwise and anticlockwise rotations in O(1) time which can be useful in certain applications. So the problems where elements need to be removed and or added both ends can be efficiently solved using Deque.
+Since Deque supports both stack and queue operations, it can be used as both. The Deque data structure supports clockwise and anticlockwise rotations in O(1) time which can be useful in certain applications. So the problems where elements need to be removed or added to both ends can be efficiently solved using Deque.
 
 #### Sliding Window Maximum
 
 Definition: Given an array and an integer K, find the maximum for every contiguous sub-array of size k. (LeetCode [239](https://leetcode.com/problems/sliding-window-maximum/))
 
-Solution: create create a Deque that stores only useful elements of current window of k elements. An element is useful if it is in current window and is greater than all other elements on left side of it in current window.
+Solution: create create a Deque that stores only useful elements of current window of k elements. An element is useful if it is in the current window and is greater than all other elements on the left side of it in the current window.
 
 ```java
 public int[] maxSlidingWindow(int[] nums, int k) {
@@ -283,7 +283,7 @@ Summary of BlockingQueue methods
 | Remove | remove() | poll() | take() | poll(time, unit) |
 | Examine | element() | peek() | not applicable | not applicable |
 
-**Note**, _PriorityQueue_ is not multi-threading safe. _PriorityBlockingQueue_ or _ArrayBlockingQueue_ classes, implementing _BlockingQueue_ interface, are the alternative implementation if thread safe implementation is needed.
+**Note**, _PriorityQueue_ is not multi-threading safe. _PriorityBlockingQueue_ or _ArrayBlockingQueue_ classes, implementing _BlockingQueue_ interface, are the alternative implementation if thread-safe implementation is needed.
 
 ## Reference
 
