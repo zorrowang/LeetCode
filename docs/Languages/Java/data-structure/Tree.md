@@ -14,7 +14,7 @@
     - [Delete](#delete)
     - [Application of BST](#application-of-bst)
       - [Serialize and Deserialize](#serialize-and-deserialize)
-      - [Find k-th Smallest Element in BST](#Find-k-th-smallest-element-in-bst)
+      - [Find the k-th Smallest Element in BST](#Find-the-k-th-smallest-element-in-bst)
 - [Segment Tree](#segment-tree)
   - [Construct Segment Tree](#construct-segment-tree)
   - [Query a Sum of Given Range](#query-a-sum-of-given-range)
@@ -57,17 +57,17 @@ public class Tree<T> {
 
 ## Important Terms
 
-Following are the important terms with respect to tree.
+Following are the important terms with respect to a tree.
 
 - _Path_: Path refers to the sequence of nodes along the edges of a tree.
 - _Root_: The node at the top of the tree is called root. There is only one root per tree and one path from the root node to any node.
 - _Parent_: Any node except the root node has one edge upward to a node called parent.
 - _Child_: The node below a given node connected by its edge downward is called its child node.
-- _Leaf_: The node which does not have any child node is called the leaf node.
+- _Leaf_: The node that does not have any child node is called the leaf node.
 - _Subtree_: Subtree represents the descendants of a node.
 - _Visiting_: Visiting refers to checking the value of a node when control is on the node.
 - _Traversing_: Traversing means passing through nodes in a specific order.
-- _Levels_: Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandchild is at level 2, and so on.
+- _Levels_: The level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandchild is at level 2, and so on.
 - _keys_: Key represents a value of a node based on which a search operation is to be carried out for a node.
 
 ## Binary Tree
@@ -92,25 +92,25 @@ class Node {
 
 - The maximum number of nodes at level _i-th_ of a binary tree is _2^(l-1)_.
 
-- Maximum number of nodes in a binary tree of height _h_ is _2^h – 1_.
+- The maximum number of nodes in a binary tree of height _h_ is _2^h – 1_.
 
-- In a Binary Tree with _N_ nodes, minimum possible height or minimum number of levels is _Log2(N+1)_.
+- In a Binary Tree with _N_ nodes, the minimum possible height or minimum number of levels is _Log2(N+1)_.
 
 - A Binary Tree with L leaves has at least _Log2L+1_ levels.
 
-- n Binary tree where every node has 0 or 2 children (full binary tree), number of leaf nodes is always one more than nodes with two children.
+- n Binary tree where every node has 0 or 2 children (full binary tree), the number of leaf nodes is always one more than nodes with two children.
 
 ### Types of Binary Tree
 
 - Full Binary Tree: A Binary Tree is full if every node has 0 or 2 children. We can also say a full binary tree is a binary tree in which all nodes except leaves have two children.
 
-- Complete Binary Tree: A Binary Tree is complete Binary Tree if all levels are completely filled except possibly the last level and the last level has all keys as left as possible.
+- Complete Binary Tree: A Binary Tree is a complete Binary Tree if all levels are completely filled except possibly the last level and the last level has all keys as left as possible.
 
-- Perfect Binary Tree: A Binary tree is Perfect Binary Tree in which all internal nodes have two children and all leaves are at the same level. A Perfect Binary Tree of height h (where height is the number of nodes on the path from the root to leaf) has _2^h – 1_ node.
+- Perfect Binary Tree: A Binary tree is a Perfect Binary Tree in which all internal nodes have two children and all leaves are at the same level. A Perfect Binary Tree of height h (where height is the number of nodes on the path from the root to leaf) has _2^h – 1_ node.
 
 - Balanced Binary Tree: A binary tree is balanced if the height of the tree is _O(Log n)_ where n is the number of nodes.
 
-- A degenerate (or pathological) tree: A Tree where every internal node has one child. Such trees are performance-wise same as linked list.
+- A degenerate (or pathological) tree: A Tree where every internal node has one child. Such trees are the performance-wise same as the linked list.
 
 ### Traversal
 
@@ -143,7 +143,7 @@ Algorithm Postorder(tree)
 
 ### Binary Search Tree
 
-Binary search tree (BST) is a binary tree data structure which has the following properties:
+Binary search tree (BST) is a binary tree data structure that has the following properties:
 
 - The left subtree of a node contains only nodes with keys lesser than the node’s key.
 - The right subtree of a node contains only nodes with keys greater than the node’s key.
@@ -300,7 +300,7 @@ public class BinaryTree {
 }
 ```
 
-##### Find k-th Smallest Element in BST
+##### Find the k-th Smallest Element in BST
 
 Solution #1: use stack. The time complexity is O(k). (LeetCode [230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/))
 
@@ -335,7 +335,7 @@ public int kthSmallest(TreeNode root, int k) {
 Representation of Segment trees
 
 - Leaf Nodes are the elements of the input array.
-- Each internal node represents some merging of the leaf nodes. The merging may be different for different problems. For this problem, merging is sum of leaves under a node.
+- Each internal node represents some merging of the leaf nodes. The merging may be different for different problems. For this problem, merging is the sum of leaves under a node.
 
 ![Segment Tree](../../../images/segment-tree.png)
 
@@ -405,13 +405,13 @@ private void update(Node node, int val, int pos) {
 }
 ```
 
-*Note*: segment tree is usually represented by array. In order to display tree-based features here, I choose to use native tree structure.
+*Note*: A segment tree is usually represented by an array. In order to display tree-based features here, I choose to use a native tree structure.
 
 ## Trie (Prefix Tree)
 
-Trie, also called digital tree or prefix tree, is a kind of search tree—an ordered tree data structure used to store a dynamic set or associative array where the keys are usually strings. 
+Trie, also called a digital tree or prefix tree, is a kind of search tree—an ordered tree data structure used to store a dynamic set or associative array where the keys are usually strings. 
 
-Using Trie, search complexities can be brought to optimal limit (key length). However the penalty is on Trie storage requirements.
+Using Trie, search complexities can be brought to the optimal limit (key length). However, the penalty is on Trie storage requirements.
 
 ![Trie](../../../images/Trie.png)
 
