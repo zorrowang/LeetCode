@@ -140,11 +140,11 @@ public class Stack {
 
 ## LinkedList Class
 
-_LinkedList_ class provide the support for stack operations.
+_LinkedList_ class provides the support for stack operations.
 
 ### LinkedList vs Stack
 
-In Java, both _LinkedList_ and _Stack_ classes represents a last-in-first-out (LIFO) stack of objects. However, _Stack_ extends _Vector_ class, which is synchronized. So it has an overhead than LinkedList. Normally, most Java programmers use LinkedList instead of Vector because they can synchronize explicitly by themselves.
+In Java, both _LinkedList_ and _Stack_ classes represent a last-in-first-out (LIFO) stack of objects. However, _Stack_ extends _Vector_ class, which is synchronized. So it has an overhead compared with LinkedList. Normally, most Java programmers use LinkedList instead of Vector because they can synchronize explicitly by themselves.
 
 ### Stack Featured Methods
 
@@ -190,7 +190,7 @@ deQueue(q):
 
 #### Implement Stack using Queues
 
-Using two queue to accomplish it.
+Using two queues to accomplish it.
 
 - _push (E element)_
   - if _q1_ is empty, _enqueue_ _E_ to _q1_
@@ -205,14 +205,14 @@ Using two queue to accomplish it.
 
 #### Implement Two Stacks in One Array
 
-Create a data structure _TwoStacks_ that represents two stacks. Implementation of _TwoStacks_ should use only one array. Following functions must be supported by _TwoStacks_,
+Create a data structure _TwoStacks_ that represents two stacks. Implementation of _TwoStacks_ should use only one array. The following functions must be supported by _TwoStacks_,
 
 - _push1(int x)_ –> pushes x to first stack
 - _push2(int x)_ –> pushes x to second stack
-- _pop1()_ –> pops an element from first stack and return the popped element
-- _pop2()_ –> pops an element from second stack and return the popped element
+- _pop1()_ –> pops an element from the first stack and returns the popped element
+- _pop2()_ –> pops an element from the second stack and returns the popped element
 
-The idea is to start two stacks from two extreme corners of arr[]. stack1 starts from the leftmost element, the first element in stack1 is pushed at index 0. The stack2 starts from the rightmost corner, the first element in stack2 is pushed at index (n-1). Both stacks grow (or shrink) in opposite direction. To check for overflow, all we need to check is for space between top elements of both stacks. This check is highlighted in the below code.
+The idea is to start two stacks from two extreme corners of arr[]. stack1 starts from the leftmost element, the first element in stack1 is pushed at index 0. The stack2 starts from the rightmost corner, and the first element in stack2 is pushed at index (n-1). Both stacks grow (or shrink) in the opposite direction. To check for overflow, all we need to check is for space between the top elements of both stacks. This check is highlighted in the below code.
 
 ```java
 class TwoStacks {
