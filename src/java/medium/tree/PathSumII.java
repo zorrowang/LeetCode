@@ -10,27 +10,22 @@ import src.java.lib.TreeNode;
  * TreeNode right; TreeNode(int x) { val = x; } }
  */
 public class PathSumII {
-    public List<List<Integer>> pathSum(TreeNode root, int sum) {
+    public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         List<List<Integer>> ret = new ArrayList<>();
-        List<Integer> list = new ArrayList<>();
-        pathSum(root, sum, list, ret);
+        dfs(root, targetSum, ret, new ArrayList<>());
         return ret;
     }
-    
-    private void pathSum(TreeNode root, int sum, List<Integer> list, List<List<Integer>> ret) {
-        if (root==null) {
-            return;
-        } else if (root.left==null && root.right==null && sum==root.val) {
-            List<Integer> l = new ArrayList<>(list);
-            l.add(root.val);
-            ret.add(l);
-            return;
-        } 
-        
-        list.add(root.val);
-        pathSum(root.left, sum-root.val, list, ret);
-        pathSum(root.right, sum-root.val, list, ret);
-        list.remove(list.size()-1);
+
+    private void dfs(TreeNode root, int targetSum, List<List<Integer>> ret, List<Integer> cur) {
+        if (root == null)   return;
+        cur.add(root.val);
+        if (root.left == null && root.right == null && targetSum == root.val) {
+            List<Integer> list = new ArrayList<>(cur);
+            ret.add(list);
+        }
+        dfs(root.left, targetSum - root.val, ret, cur);
+        dfs(root.right, targetSum - root.val, ret, cur);
+        cur.remove(cur.size() - 1);
     }
 
     // Legacy solution
