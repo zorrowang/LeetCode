@@ -4,48 +4,41 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.Set;
 
 public class WordLadder {
     // BFS for Backtracking
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        HashSet<String> set = new HashSet<String>();
-        LinkedList<String> list1 = new LinkedList<String>();
-        LinkedList<String> list2 = new LinkedList<String>();
+        HashSet<String> visited = new HashSet<>();
+        Queue<String> queue = new LinkedList<>();
+        Set<String> set = new HashSet<>(wordList);
         
-        int length = 1;
-        boolean flag = false;
-        list1.add(beginWord);
-        set.add(beginWord);
+        int len = 1;
+        queue.add(beginWord);
+        visited.add(beginWord);
         
-        while(!list1.isEmpty()){
-            String str = list1.poll();
-            if (str.equals(endWord)){
-                flag = true;
-                break;
-            }
-            
-            for(int i=0; i<str.length(); i++){
-                String str1 = str.substring(0, i);
-                String str2 = str.substring(i+1);
-                for(int j=0; j<26; j++){
-                    char ch = (char)('a'+j);
-                    String newStr = str1+ch+str2;
-                    if (!set.contains(newStr) && wordList.contains(newStr)){
-                        set.add(newStr);
-                        list2.offer(newStr);
+        while(!queue.isEmpty()){
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                String str = queue.poll();
+                if (str.equals(endWord))    return len;
+                
+                for(int j = 0; j < str.length(); j++) {
+                    for(int k = 'a'; k <= 'z'; k++){
+                        char[] array = str.toCharArray();
+                        array[j] = (char) k;
+                        String newStr = new String(array);
+                        if (!visited.contains(newStr) && set.contains(newStr)){
+                            visited.add(newStr);
+                            queue.add(newStr);
+                        }
                     }
                 }
             }
-            
-            if (list1.isEmpty() && !list2.isEmpty()){
-                list1 = list2;
-                list2 = new LinkedList<String>();
-                length++;
-            }
+            len++;
         }
-        
-        return flag?length:0;
+        return 0;
     }
 
     // DFS for Backtracking

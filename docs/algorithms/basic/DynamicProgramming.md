@@ -137,7 +137,7 @@ Linear model is the most common one to solve DP problems. `Linear` here means th
 
 Take this problem, *People on a Rickety Bridge*, as an example.
 
-*Question*: _N_ (_N_ <= 50) people need to cross a rickety bridge at night. Unfortunately, they have one torch and the bridge is to dangerous to cross without a torch. The bridge can support only two people at a time. All the people don’t take the same time to cross the bridge. Time for _i-th_ person is _T[i]_. What is the shortest time needed for all four of them to cross the bridge?
+*Question*: _N_ (_N_ <= 50) people need to cross a rickety bridge at night. Unfortunately, they have one torch and the bridge is to dangerous to cross without a torch. The bridge can support only two people at a time. All the people don’t take the same time to cross the bridge. Time for _i-th_ person is _T[i]_. What is the shortest time needed for all of them to cross the bridge?
 
 The initial solution most people will think of is to use the fastest person as an usher to guide everyone across (greedy algorithm). So the total time is
 
