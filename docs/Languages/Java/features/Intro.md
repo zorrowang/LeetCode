@@ -82,9 +82,7 @@ The use of universal bytecode makes porting simple. However, the overhead of int
 
 ### Performance
 
-Programs written in Java have a reputation for being slower and requiring more memory than those written in C++ or Go. However, Java community try very hard to improve the execution speed.
-
-Given JVM and runtime GC, the resource utilization of Java program is higher than its opponent, like C++ or Go.
+Given JVM and runtime GC, the resource utilization of Java program is higher than its opponent, such as C++ or Go. Programs written in Java have a reputation for being slower and requiring more memory than others. However, Java community try very hard to improve the execution speed.
 
 ## Difference Between JVM, JRE, and JDK
 

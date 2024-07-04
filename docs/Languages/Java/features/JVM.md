@@ -122,7 +122,7 @@ The method area gets created during JVM start-up. It could be of fixed size or v
 
 #### Heap Area
 
-Heap area in JVM is used for dynamic memory allocation for Java objects and JRE classes at the runtime. New objects are always created in heap space and the references to this objects are stored in stack memory.
+Heap area in JVM is used for dynamic memory allocation to store Java objects and JRE classes at the runtime. New objects are always created in heap space and the references to this objects are stored in stack memory.
 
 This memory model is further broken into smaller parts called generations, these are:
 
