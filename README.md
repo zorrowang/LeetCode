@@ -258,7 +258,7 @@ The general approach I'd like to suggest is,
 - **Requirements Gathering**
   - Gather functional & non-functional requirements
   - Clarify restrictions and limitations
-  - Estimate system resources
+  - [Estimate system resources](./docs/system-design/Estimation.md)
 - **Decision-making Process**
   - High level design
     - System architecture
