@@ -231,18 +231,42 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 ## System Design
 
 - System Design Basics
-- [Distributed System](./docs/system-design/DistributedSystem.md)
-- Cluster
-- Message Queue
-- Database
-  - SQL
-  - NoSQL
+  - [Distributed System](./docs/system-design/DistributedSystem.md)
+  - Cluster
+  - Load Balancing
+  - Message Queue
   - Cache
-- Networking
-  - Networking Basic
-  - HTTP
-  - RESTful API
-  - Socket
+  - Database
+    - SQL
+    - NoSQL
+  - Networking
+    - Networking Basic
+    - HTTP
+    - RESTful API
+    - Socket
+  - Security
+- Popular System Design Questions
+  - Designing a URL shortening service
+  - Designing Instagram
+  - Designing Facebook Messenger
+  - Designing Facebook Newsfeed
+
+The purpose of a system design interview is to assess a candidate's ability to design and understand complex systems. It's a crucial part of the hiring process for roles that involve system architecture and engineering.
+
+The general approach I'd like to suggest is,
+
+- *Requirements Gathering*
+  - Gather functional & non-functional requirements
+  - Clarify restrictions and limitations
+  - Estimate system resources
+- *Decision-making Process*
+  - High level design
+    - System architecture
+    - Service API
+    - Data schema
+  - Component walkthrough
+  - Optimization
+- *Balancing Trade-offs*
 
 ## Coding Preparation
 
@@ -250,9 +274,9 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
 
 ### LeetCode Current Status
 
-- **Total**:  425
+- **Total**:  426
   - &#x1F4D7;[Easy](#easy-questions):   153
-  - &#x1F4D8;[Medium](#medium-questions): 214
+  - &#x1F4D8;[Medium](#medium-questions): 215
   - &#x1F4D9;[Hard](#hard-questions):   58
 
 ### LintCode Current Status
