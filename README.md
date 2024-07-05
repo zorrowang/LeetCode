@@ -243,7 +243,7 @@ It is very rare to see bit or math questions in real interviews. So we don't nee
     - Networking Basic
     - HTTP
     - RESTful API
-    - Socket
+    - WebSocket
   - Security
 - Popular System Design Questions
   - Designing a URL shortening service
@@ -257,6 +257,13 @@ The general approach I'd like to suggest is,
 
 - **Requirements Gathering**
   - Gather functional & non-functional requirements
+    - Functional requirements
+      - Users can do A, B, C, D
+    - Non-functional requirements
+      - Availability
+      - Scalability
+      - Reliability
+      - Performance
   - Clarify restrictions and limitations
   - [Estimate system resources](./docs/system-design/Estimation.md)
 - **Decision-making Process**
