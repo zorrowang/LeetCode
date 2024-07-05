@@ -264,6 +264,8 @@ The general approach I'd like to suggest is,
       - Scalability
       - Reliability
       - Performance
+        - Round-Trip Time (RTT) or Latency
+        - Throughput or Bandwidth
   - Clarify restrictions and limitations
   - [Estimate system resources](./docs/system-design/Estimation.md)
 - **Decision-making Process**
