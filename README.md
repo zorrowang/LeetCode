@@ -1,6 +1,6 @@
 # Software Engineer Interview
 
-Author: zorrowanghw@gmail.com
+Author: <zorrowanghw@gmail.com>
 
 ## Table of Contents
 
@@ -255,18 +255,18 @@ The purpose of a system design interview is to assess a candidate's ability to d
 
 The general approach I'd like to suggest is,
 
-- *Requirements Gathering*
+- **Requirements Gathering**
   - Gather functional & non-functional requirements
   - Clarify restrictions and limitations
   - Estimate system resources
-- *Decision-making Process*
+- **Decision-making Process**
   - High level design
     - System architecture
     - Service API
     - Data schema
   - Component walkthrough
   - Optimization
-- *Balancing Trade-offs*
+- **Balancing Trade-offs**
 
 ## Coding Preparation
 
@@ -644,6 +644,7 @@ The general approach I'd like to suggest is,
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Java](./src/java/medium/array/FindAllDuplicatesInArray.java)| Array |
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Java](./src/java/medium/linkedlist/AddTwoNumbersII.java)| Stack |
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Java](./src/java/medium/string/SortCharactersByFrequency.java)| Counting Sort |
+|453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/)|[Java](./src/java/medium/math/MinimumMoves.java)| Math |
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/) | [Java](./src/java/medium/array/FourSumII.java)| HashMap |
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Java](./src/java/medium/greedy/MinimumNumberArrowsBurstBalloons.java)| Greedy |
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
