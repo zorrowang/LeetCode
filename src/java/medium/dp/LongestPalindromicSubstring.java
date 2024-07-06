@@ -39,4 +39,28 @@ public class LongestPalindromicSubstring {
         
         return s.substring(start, start+ret);
     }
+
+    public String longestPalindrome2(String s) {
+        if (s == null || s.isEmpty())   return s;
+        int size = s.length();
+        int[][] dp = new int[size][size];
+        String ret = s.substring(0, 1);
+        for (int i = 0; i < size; i++) {
+            dp[i][i] = 1;
+            if (i > 0 && s.charAt(i) == s.charAt(i - 1)) {
+                dp[i-1][i] = 2;
+                ret = s.substring(i-1, i+1);
+            }
+        }
+        for (int i = 2; i < size; i++) {
+            for (int j = 0; j < i - 1; j++) {
+                if (s.charAt(i) == s.charAt(j) && dp[j+1][i-1] > 0) {
+                    dp[j][i] = Math.max(dp[j][i], dp[j+1][i-1] + 2);
+                    if (ret.length() < dp[j][i])
+                        ret = s.substring(j, i + 1);
+                }
+            }
+        }
+        return ret;
+    }
 }
