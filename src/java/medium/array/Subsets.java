@@ -41,5 +41,27 @@ public class Subsets {
             list.remove(list.size()-1);
         }
     }
+
+    // DFS #2
+    public List<List<Integer>> subsets3(int[] nums) {
+        List<List<Integer>> ret = new ArrayList<>();
+        dfs(nums, 0, ret);
+        return ret;
+    }
+
+    private void dfs(int[] nums, int start, List<List<Integer>> ret) {
+        if (start == nums.length) {
+            List<Integer> l = new ArrayList<>();
+            ret.add(l);
+            return;
+        }
+        dfs(nums, start+1, ret);
+        int size = ret.size();
+        for (int i=0; i<size; i++) {
+            List<Integer> l = new ArrayList<>(ret.get(i));
+            l.add(nums[start]);
+            ret.add(l);
+        }
+    }
 }
 
