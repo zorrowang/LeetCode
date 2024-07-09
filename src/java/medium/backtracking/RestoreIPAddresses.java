@@ -4,8 +4,27 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RestoreIPAddresses {
-    // Backtracking Solution
+    // Concise solution
     public List<String> restoreIpAddresses(String s) {
+        List<String> ret = new ArrayList<>();
+        dfs(s, 0, 0, "", ret);
+        return ret;
+    }
+
+    private void dfs(String s, int start, int index, String str, List<String> ret) {
+        if (start == s.length() && index == 4)      ret.add(str.substring(1));
+        if (index >= 4)  return;
+        int cur = 0;
+        for (int i = 0; i < 3 && i+start < s.length(); i++) {
+            cur = cur*10 + (s.charAt(i + start) - '0');
+            if (cur > 255)  break;
+            dfs(s, start+i+1, index+1, str+"."+String.valueOf(cur), ret);
+            if (cur == 0 && i == 0)  break;
+        }
+    }
+
+    // Backtracking Solution
+    public List<String> restoreIpAddresses3(String s) {
         List<String> ret = new ArrayList<>();
         if (s.length() > 3*4)
             return ret;
