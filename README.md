@@ -55,6 +55,12 @@ Author: <zorrowanghw@gmail.com>
 - [Behavioral Interview](./docs/tech-interview/Behavioral.md)
 - [Questions To Ask](./docs/tech-interview/Questions.md)
 
+## Leadership and Management
+
+- [People Management](./docs/leadership-interview/PeopleManagement.md)
+- [Project Management](./docs/leadership-interview/ProjectManagement.md)
+- [Technical Leadership](./docs/leadership-interview/TechnicalLeadership.md)
+
 ## Languages and Data Structures
 
 ### Java
