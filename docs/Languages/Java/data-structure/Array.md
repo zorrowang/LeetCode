@@ -20,7 +20,7 @@ This doc will introduce the data structure of the array in Java and techniques f
     - [Filling Arrays with Arrays.fill()](#filling-arrays-with-arraysfill)
     - [Searching Arrays with Arrays.binarySearch()](#searching-arrays-with-arraysbinarysearch)
     - [Checking if Arrays are Equal with Arrays.equals()](#checking-if-arrays-are-equal-with-arraysequals)
-- [Things to be clarified in an interview](#things-to-be-clarified-in-interview)
+- [Things to be clarified in an interview](#things-to-be-clarified-in-an-interview)
 - [Techniques](#techniques)
   - [Two-Pointer Technique](#two-pointer-technique)
   - [Sliding Window Technique](#sliding-window-technique)
