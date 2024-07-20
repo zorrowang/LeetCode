@@ -13,6 +13,7 @@ This doc will introduce the data structure of the array in Java and techniques f
   - [Multidimensional Arrays](#multidimensional-arrays)
   - [Using Array in function](#using-array-in-function)
   - [Arrays class in Java](#arrays-class-in-java)
+    - [Copying an Array with Arrays.copyOf()](#converting-to-a-list-with-aslistt-a)
     - [Copying an Array with Arrays.copyOf()](#copying-an-array-with-arrayscopyof)
     - [Copying an Array with Arrays.copyOfRange()](#copying-an-array-with-arrayscopyofrange)
     - [Sorting Arrays with Arrays.sort()](#sorting-arrays-with-arrayssort)
@@ -146,6 +147,13 @@ public static String[] toString(int[] arr) {
 
 Java contains a special utility class that makes it easier for you to perform many often-used array operations like copying and sorting arrays, filling in data, searching in arrays etc. The utility class is called Arrays and is located in the standard Java package _java.util_.
 
+#### Converting to a list with _asList(T... a)_
+
+```java
+String[] array = {"Larry", "Moe", "Curly"};
+List<String> stooges = Arrays.asList(array);
+```
+
 #### Copying an Array with _Arrays.copyOf()_
 
 ```java
@@ -250,7 +258,7 @@ For example, given an array as `{5, 2, -1, 0, 3}` and fixed window size is `3`.
 
 ![Sliding window 3](../../../images/sliding-window3.png)
 
-The size of the sliding window is, sometimes, not fixed. In that case, we need to move the pointers inconsistently, but make sure the size should *not* be `0`.
+The size of the sliding window is, sometimes, not fixed. In that case, we need to move the pointers inconsistently, but make sure the size should _not_ be `0`.
 
 ### Prefix/Suffix Sum
 
