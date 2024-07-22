@@ -85,7 +85,7 @@ public class LetterCombinationsPhoneNumber {
         
         String[] DIGIT = {" ", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         int index = Integer.parseInt(digits.substring(0, 1));
-        ArrayList<String> list = letterCombinations2(digits.substring(1));
+        ArrayList<String> list = letterCombinations3(digits.substring(1));
         for (int i=0; i<DIGIT[index].length(); i++){
             for (int j=0; j<list.size(); j++){
                 ret.add(DIGIT[index].charAt(i)+list.get(j));

@@ -1,5 +1,7 @@
 package src.java.medium.string;
 
+import java.util.ArrayList;
+
 /**
  * // This is the interface that allows for creating nested lists. // You should
  * not implement it, or speculate about its implementation public interface
