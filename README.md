@@ -1,6 +1,6 @@
 # Software Engineer Interview
 
-Author: <zorrowanghw@gmail.com>
+Author: <hwwang320@gmail.com>
 
 ## Table of Contents
 
