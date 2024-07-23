@@ -7,6 +7,7 @@ Author: <hwwang320@gmail.com>
 <!-- MarkdownTOC -->
 
 - [Interview Preparation](#interview-preparation)
+- [Leadership and Management](#leadership-and-management)
 - [Languages and Data Structures](#languages-and-data-structures)
   - [Java](#java)
     - [Java Overview and Features](#java-overview-and-features)
@@ -118,13 +119,18 @@ Python is an interpreted, high-level, general-purpose programming language. Pyth
   - String
   - List
   - Tuple
+    - NamedTuple
 - Linked List
   - Singly Linked List
   - Doubly Linked List
-- Stack And Queue
+- Collections
   - Deque
-- Priority Queue
-- Hash Table
+- Dictionary
+  - OrderedDict
+  - DefaultDict
+  - UserDict
+- Set
+- Bytearray
 - Tree
 - Graph
 
@@ -515,7 +521,7 @@ The general approach I'd like to suggest is,
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[Java](./src/java/medium/dp/UniqueBinarySearchTree.java)| 1D DP | Optimized from 2D to 1D |
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Java](./src/java/medium/tree/ValidateBinarySearchTree.java)| DFS |
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](./src/java/medium/tree/BinaryTreeLevelOrderTraversal.java) [Python](src/python/tree/binary-tree-level-order-traversal.py) | DFS & BFS |
-|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Java](./src/java/medium/tree/BinaryTreeLevelOrderTraversal.java)| DFS & BFS |
+|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Java](./src/java/medium/tree/BinaryTreeZigzagOrderTraversal.java)| DFS & BFS |
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Java](./src/java/medium/tree/ConstructBinaryTreeFromPreorderInorderTraversal.java)| Recursion |
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Java](./src/java/medium/tree/ConstructBinaryTreeFromInorderPostorderTraversal.java)| Recursion |
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|[Java](./src/java/medium/tree/ConvertSortedListBST.java)| D&C |
