@@ -296,9 +296,9 @@ The general approach I'd like to suggest is,
 
 ### LeetCode Current Status
 
-- **Total**:  426
+- **Total**:  427
   - &#x1F4D7;[Easy](#easy-questions):   153
-  - &#x1F4D8;[Medium](#medium-questions): 215
+  - &#x1F4D8;[Medium](#medium-questions): 216
   - &#x1F4D9;[Hard](#hard-questions):   58
 
 ### LintCode Current Status
@@ -668,6 +668,7 @@ The general approach I'd like to suggest is,
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Java](./src/java/medium/string/SortCharactersByFrequency.java)| Counting Sort |
 |453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/)|[Java](./src/java/medium/math/MinimumMoves.java)| Math |
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/) | [Java](./src/java/medium/array/FourSumII.java)| HashMap |
+|456|[132 Pattern](https://leetcode.com/problems/132-pattern/description/) | [Java](./src/java/medium/array/OneThreeTwoPattern.java)| Array | OJ |
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Java](./src/java/medium/greedy/MinimumNumberArrowsBurstBalloons.java)| Greedy |
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Java](./src/java/medium/array/OnesAndZeroes.java)| 3D DP | [Knapsack Model](./docs/algorithms/basic/DynamicProgramming.md#knapsack-model) |
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Java](./src/java/medium/bit/TotalHammingDistance.java)| Bit |
