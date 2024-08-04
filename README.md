@@ -296,15 +296,15 @@ The general approach I'd like to suggest is,
 
 ### LeetCode Current Status
 
-- **Total**:  427
+- **Total**:  429
   - &#x1F4D7;[Easy](#easy-questions):   153
-  - &#x1F4D8;[Medium](#medium-questions): 216
+  - &#x1F4D8;[Medium](#medium-questions): 218
   - &#x1F4D9;[Hard](#hard-questions):   58
 
 ### LintCode Current Status
 
-- **Total**:  53
-  - &#x1F4D7;[Easy](#easy-questions):   11
+- **Total**:  54
+  - &#x1F4D7;[Easy](#easy-questions):   12
   - &#x1F4D8;[Medium](#medium-questions): 32
   - &#x1F4D9;[Hard](#hard-questions):   10
 
@@ -375,6 +375,7 @@ The general approach I'd like to suggest is,
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](./src/java/easy/stack/ImplementStackUsingQueues.java)| Queue |
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](./src/java/easy/tree/InvertBinaryTree.java)| DFS |
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/java/easy/number/PowerOfTwo.java)| Bit Manipulation |
+|252|[Meeting room](https://leetcode.com/problems/meeting-rooms/description/)|[Java](./src/java/easy/array/MeetingRoom.java)| Array | [LintCode](https://www.lintcode.com/problem/920/solution)
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](./src/java/easy/stack/ImplementQueueUsingStacks.java)| Stack |
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./src/java/easy/linkedlist/PalindromeLinkedList.java)| Two-Pointer | [Reversing a list is not considered "O(1) space"](https://leetcode.com/problems/palindrome-linked-list/discuss/64493/Reversing-a-list-is-not-considered-%22O(1)-space%22) |
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](./src/java/easy/tree/LowestCommonAncestorBST.java)| DFS |
@@ -586,7 +587,7 @@ The general approach I'd like to suggest is,
 |247|[Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii)|[Java](./src/java/medium/number/StrobogrammaticNumberII.java)| Recursion | LintCode [776](https://www.lintcode.com/problem/strobogrammatic-number-ii/description) |
 |250|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees)|[Java](./src/java/medium/tree/CountUnivalueSubtrees.java)| DFS | LintCode [921](https://www.lintcode.com/problem/count-univalue-subtrees/description) |
 |251|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector) | [Java](./src/java/medium/list/Vector2D.java)| Two-Pointer | LintCode [601](https://www.lintcode.com/problem/flatten-2d-vector/description) |
-|253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)|[Java](./src/java/medium/list/MeetingRoomsII.java)| Greedy | LintCode [919](https://www.lintcode.com/problem/meeting-rooms-ii/description) |
+|253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)|[Java](./src/java/medium/list/MeetingRoomsII.java)| [Sweep Line Algorithm](https://aprilyoungs.github.io/blog/2021/05/05/algorithm-lineswape) | LintCode [919](https://www.lintcode.com/problem/meeting-rooms-ii/description) |
 |254|[Factor Combinations](https://leetcode.com/problems/factor-combinations)|[Java](./src/java/medium/backtracking/FactorCombinations.java)| Backtracking (DFS) | LintCode [1308](https://www.lintcode.com/problem/factor-combinations/description) |
 |255|[Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree)|[Java](./src/java/medium/tree/VerifyPreorderSequenceBinarySearchTree.java)| Divide and Conquer | LintCode [1307](https://www.lintcode.com/problem/verify-preorder-sequence-in-binary-search-tree/description) |
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller)|[Java](./src/java/medium/array/ThreeSumSmaller.java)| Two-Pointer | LintCode [918](https://www.lintcode.com/problem/3sum-smaller/description) |
@@ -691,6 +692,7 @@ The general approach I'd like to suggest is,
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/) | [Java](./src/java/medium/number/MaximumSwap.java)| Array |
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](./src/java/medium/string/ValidParenthesisString.java)| Greedy + Backtracking | It can be solved by DP, greedy and backtracking! |
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [Java](./src/java/medium/linkedlist/SplitLinkedListParts.java)| LinkedList |
+|729|[My Calendar I](https://leetcode.com/problems/my-calendar-i/) | [Java](./src/java/medium/array/MyCalendarI.java)| Interval |
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](./src/java/medium/array/DailyTemperatures.java)| Stack |
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | [Java](./src/java/medium/string/CustomSortString.java)| Bucket Sort |
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [Java](./src/java/medium/string/ScoreParentheses.java)| Stack |
@@ -700,6 +702,7 @@ The general approach I'd like to suggest is,
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Java](./src/java/medium/string/MinimumAddParenthesesValid.java)| Greedy |
 |958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [Java](./src/java/medium/tree/CheckCompletenessBinaryTree.java)| BFS |
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [Java](./src/java/medium/string/LongestStringChain.java)| 1D DP |
+|1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) | [Java](./src/java/medium/matrix/ShortestPathInBinaryMatrix.java)| BFS |
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/java/medium/tree/DeleteNodesAndReturnForest.java)| DFS |
 |1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/) | [Java](./src/java/medium/string/SmallestStringWithSwaps.java)| UnionFind + PriorityQueue | Deserve as `hard` |
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Java](./src/java/medium/string/MinimumRemoveValidParentheses.java)| Greedy |
