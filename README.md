@@ -701,6 +701,7 @@ The general approach I'd like to suggest is,
 |916|[Word Subsets](https://leetcode.com/problems/word-subsets/) | [Java](./src/java/medium/string/WordSubsets.java)| String Signature |
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Java](./src/java/medium/string/MinimumAddParenthesesValid.java)| Greedy |
 |958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [Java](./src/java/medium/tree/CheckCompletenessBinaryTree.java)| BFS |
+|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/description/) | [Java](./src/java/medium/array/IntervalListIntersections.java)| Two-Pointer |
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [Java](./src/java/medium/string/LongestStringChain.java)| 1D DP |
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) | [Java](./src/java/medium/matrix/ShortestPathInBinaryMatrix.java)| BFS |
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Java](./src/java/medium/tree/DeleteNodesAndReturnForest.java)| DFS |
