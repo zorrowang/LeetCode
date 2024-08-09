@@ -296,9 +296,9 @@ The general approach I'd like to suggest is,
 
 ### LeetCode Current Status
 
-- **Total**:  429
+- **Total**:  430
   - &#x1F4D7;[Easy](#easy-questions):   153
-  - &#x1F4D8;[Medium](#medium-questions): 218
+  - &#x1F4D8;[Medium](#medium-questions): 219
   - &#x1F4D9;[Hard](#hard-questions):   58
 
 ### LintCode Current Status
@@ -551,7 +551,7 @@ The general approach I'd like to suggest is,
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Java](./src/java/medium/array/MaximumProductSubarray.java)| 1D DP |
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](./src/java/medium/array/FindMinimumRotatedSortedArray.java)| Binary Search |
 |156|[Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down)|[Java](./src/java/medium/tree/BinaryTreeUpsideDown.java)| Stack | LintCode [649](https://www.lintcode.com/problem/binary-tree-upside-down/description) |
-|159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)|[Java](./src/java/medium/string/LongestSubstringAtMostTwoDistinctCharacters.java)| Two-Pointer | LintCode [928](https://www.lintcode.com/problem/longest-substring-with-at-most-two-distinct-characters/description) as `Hard` |
+|159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)|[Java](./src/java/medium/string/LongestSubstringAtMostTwoDistinctCharacters.java)| Two-Pointer | LintCode [928](https://www.lintcode.com/problem/longest-substring-with-at-most-two-distinct-characters/description) |
 |161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance)|[Java](./src/java/medium/string/OneEditDistance.java)| String | LintCode [640](https://www.lintcode.com/problem/one-edit-distance/description) |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](./src/java/medium/array/FindPeakElement.java)| BinarySearch |
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Java](./src/java/medium/array/MissingRanges.java)| Loop | LintCode [641](https://www.lintcode.com/problem/missing-ranges/description) |
