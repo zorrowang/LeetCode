@@ -296,9 +296,9 @@ The general approach I'd like to suggest is,
 
 ### LeetCode Current Status
 
-- **Total**:  430
+- **Total**:  431
   - &#x1F4D7;[Easy](#easy-questions):   153
-  - &#x1F4D8;[Medium](#medium-questions): 219
+  - &#x1F4D8;[Medium](#medium-questions): 220
   - &#x1F4D9;[Hard](#hard-questions):   58
 
 ### LintCode Current Status
@@ -712,6 +712,7 @@ The general approach I'd like to suggest is,
 |1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | [Java](./src/java/medium/tree/SumOfNodesEvenValuedGrandparent.java)| DFS |
 |1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | [Java](./src/java/medium/tree/MaximumProductSplittedBinaryTree.java)| DFS |
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [Java](./src/java/medium/array/MaximumPointsFromCards.java)| DP & Sliding Window |
+|1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/description/) | [Java](./src/java/medium/greedy/FurthestBuildingYouCanReach.java)| Greedy & PriorityQueue |
 
 ### Hard Questions
 
