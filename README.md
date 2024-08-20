@@ -297,8 +297,8 @@ The general approach I'd like to suggest is,
 ### LeetCode Current Status
 
 - **Total**:  431
-  - &#x1F4D7;[Easy](#easy-questions):   153
-  - &#x1F4D8;[Medium](#medium-questions): 220
+  - &#x1F4D7;[Easy](#easy-questions):   154
+  - &#x1F4D8;[Medium](#medium-questions): 219
   - &#x1F4D9;[Hard](#hard-questions):   58
 
 ### LintCode Current Status
@@ -374,6 +374,7 @@ The general approach I'd like to suggest is,
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Java](./src/java/easy/array/ContainsDuplicateII.java)| Two-Pointer |
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](./src/java/easy/stack/ImplementStackUsingQueues.java)| Queue |
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](./src/java/easy/tree/InvertBinaryTree.java)| DFS |
+|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Java](./src/java/medium/array/SummaryRanges.java)| Two-Pointer |
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/java/easy/number/PowerOfTwo.java)| Bit Manipulation |
 |252|[Meeting room](https://leetcode.com/problems/meeting-rooms/description/)|[Java](./src/java/easy/array/MeetingRoom.java)| Array | [LintCode](https://www.lintcode.com/problem/920/solution)
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](./src/java/easy/stack/ImplementQueueUsingStacks.java)| Stack |
@@ -577,7 +578,6 @@ The general approach I'd like to suggest is,
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [Java](./src/java/medium/tree/CountCompleteTreeNodes.java)| DFS |
 |223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Java](./src/java/medium/math/RectangleArea.java)| Math |
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [Java](./src/java/medium/string/BasicCalculatorII.java)| Deque | A better [solution](https://leetcode.com/problems/basic-calculator-ii/discuss/63003/Share-my-java-solution) uses a single stack |
-|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Java](./src/java/medium/array/SummaryRanges.java)| Two-Pointer |
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Java](./src/java/medium/array/MajorityElementII.java)| Boyer-Moore Majority Voting Algorithm |
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](./src/java/medium/tree/KthSmallestElementInBST.java)| DFS |
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Java](./src/java/medium/tree/LowestCommonAncestorBinaryTree.java)| DFS |
