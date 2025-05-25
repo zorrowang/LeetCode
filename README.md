@@ -298,7 +298,7 @@ The general approach I'd like to suggest is,
 
 - **Total**:  431
   - &#x1F4D7;[Easy](#easy-questions):   154
-  - &#x1F4D8;[Medium](#medium-questions): 219
+  - &#x1F4D8;[Medium](#medium-questions): 220
   - &#x1F4D9;[Hard](#hard-questions):   58
 
 ### LintCode Current Status
@@ -713,6 +713,7 @@ The general approach I'd like to suggest is,
 |1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | [Java](./src/java/medium/tree/MaximumProductSplittedBinaryTree.java)| DFS |
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [Java](./src/java/medium/array/MaximumPointsFromCards.java)| DP & Sliding Window |
 |1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/description/) | [Java](./src/java/medium/greedy/FurthestBuildingYouCanReach.java)| Greedy & PriorityQueue |
+|2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/description/?envType=daily-question&envId=2025-05-25) | [Java](./src/java/medium/map/LongestPalindromeConcatenatingTwoLetterWords.java)| HashMap |
 
 ### Hard Questions
 
