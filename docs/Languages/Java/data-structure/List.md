@@ -153,9 +153,7 @@ l.removeIf(n -> (n % 3 == 0));  // {10, 20}
 
 - _Object[] toArray()_: Returns an array containing all of the elements in this list in proper sequence (from first to last element).
 
-- _<T> T[] toArray(T[] a)_: Returns an array containing all of the elements in this list in proper sequence (from first to last element); the runtime type of the returned array is that of the specified array.
-
-Note: casting to array is hard to use (not well-implemented). I'd recommend to write a function to do so.
+- _<T> T[] toArray(T[] a)_: Returns an array containing all of the elements in this list in proper sequence (from first to last element); the runtime type of the returned array is that of the specified array. **Note**: casting to array is hard to use (not well-implemented). I'd recommend to write a function to do so.
 
 ```java
 List<String> list = new ArrayList<>();
