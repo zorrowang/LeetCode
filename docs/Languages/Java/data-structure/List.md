@@ -12,7 +12,7 @@
   - [Constructor](#constructor)
   - [Special Methods in ArrayList](#special-methods-in-arraylist)
 - [Things to be clarified in an interview](#things-to-be-clarified-in-an-interview)
-- [Reference](#reference)
+- [References](#references)
 
 <!-- /MarkdownTOC -->
 

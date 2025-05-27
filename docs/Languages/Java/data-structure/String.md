@@ -7,7 +7,7 @@ A string is traditionally a sequence of characters, either as a literal constant
 - [String in Java](#string-in-java)
   - [Memory allotment of String](#memory-allotment-of-string)
   - [String methods](#string-methods)
-- [Classes about Strings in Java](#classes-in-strings-in-java)
+- [Classes about Strings in Java](#classes-about-strings-in-java)
   - [StringBuffer](#stringbuffer)
     - [StringBuffer Constructor](#stringbuffer-constructor)
     - [StringBuffer Methods](#stringbuffer-methods)
@@ -16,7 +16,7 @@ A string is traditionally a sequence of characters, either as a literal constant
     - [StringBuilder Methods](#stringbuilder-methods)
   - [String vs StringBuffer vs StringBuilder](#string-vs-stringbuffer-vs-stringbuilder)
 - [String-related Methods](#string-related-methods)
-- [Things to be clarified in an interview](#things-to-be-clarified-in-interview)
+- [Things to be clarified in an interview](#things-to-be-clarified-in-an-interview)
 
 <!-- /MarkdownTOC -->
 
@@ -152,7 +152,7 @@ int out = s1.compareTo(s2);
 //  This returns difference s1-s2. If :
 //  out < 0  // s1 comes before s2
 //  out = 0  // s1 and s2 are equal.
-//  out > 0   // s1 comes after s2
+//  out > 0  // s1 comes after s2
 ```
 
 - _String toLowerCase()_: Converts all the characters in the String to lower case.
@@ -236,12 +236,12 @@ _StringBuffer_ can automatically grow or shrink to allow operations, such as ins
 
 ```java
 // reserves room for 16 characters w/o reallocation as default
-StringBuffer s=new StringBuffer();
+StringBuffer s = new StringBuffer();
 // reserves room for 20 characters w/o reallocation
-StringBuffer s=new StringBuffer(20);
+StringBuffer s = new StringBuffer(20);
 // a String argument that sets the initial contents of the StringBuffer object.
 // Reserve room for 16 more characters w/o reallocation.
-StringBuffer s=new StringBuffer("LeetCode");
+StringBuffer s = new StringBuffer("LeetCode");
 ```
 
 #### StringBuffer Methods
