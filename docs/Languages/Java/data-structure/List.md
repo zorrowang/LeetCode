@@ -8,7 +8,7 @@
   - [Special Iteration](#special-iteration)
   - [Range View](#range-view)
 - [ArrayList Class](#arraylist-class)
-  - [ArrayList Features](#arrayList-features)
+  - [ArrayList Features](#arraylist-features)
   - [Constructor](#constructor)
   - [Special Methods in ArrayList](#special-methods-in-arraylist)
 - [Things to be clarified in an interview](#things-to-be-clarified-in-an-interview)
@@ -151,11 +151,27 @@ l.add(30);
 l.removeIf(n -> (n % 3 == 0));  // {10, 20}
 ```
 
-- _Object[]	toArray()_: Returns an array containing all of the elements in this list in proper sequence (from first to last element).
+- _Object[] toArray()_: Returns an array containing all of the elements in this list in proper sequence (from first to last element).
 
 - _<T> T[] toArray(T[] a)_: Returns an array containing all of the elements in this list in proper sequence (from first to last element); the runtime type of the returned array is that of the specified array.
 
 Note: casting to array is hard to use (not well-implemented). I'd recommend to write a function to do so.
+
+```java
+List<String> list = new ArrayList<>();
+list.add("Apple");
+list.add("Banana");
+list.add("Cherry");
+
+// Method 1: Using toArray() with a new array of the correct type and size
+String[] array1 = list.toArray(new String[list.size()]);
+System.out.println("Array 1: " + Arrays.toString(array1));
+
+// Method 2: Using toArray() with a pre-existing array (if large enough)
+String[] array2 = new String[list.size()];
+list.toArray(array2);
+System.out.println("Array 2: " + Arrays.toString(array2));
+```
 
 - _void trimToSize()_: Trims the capacity of this ArrayList instance to be the list's current size.
 
