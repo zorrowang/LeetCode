@@ -120,16 +120,16 @@ Repeatedly merge sublists to produce newly sorted sublists until there is only 1
 #### Top-down implementation
 
 ```java
-void mergeSort(int Arr[], int start, int end) {
+void mergeSort(int arr[], int start, int end) {
     if(start < end) {
         int mid = (start + end) / 2;
-        mergeSort(Arr, start, mid);
-        mergeSort(Arr, mid+1, end);
-        merge(Arr, start, mid, end);
+        mergeSort(arr, start, mid);
+        mergeSort(arr, mid+1, end);
+        merge(arr, start, mid, end);
     }
 }
 
-void merge(int Arr[], int start, int mid, int end) {
+void merge(int arr[], int start, int mid, int end) {
 
     // create a temp array
     int temp[] = new int[end - start + 1];
@@ -139,31 +139,31 @@ void merge(int Arr[], int start, int mid, int end) {
 
     // traverse both arrays and in each iteration add smaller of both elements in temp
     while(i <= mid && j <= end) {
-        if(Arr[i] <= Arr[j]) {
-            temp[k] = Arr[i];
+        if(arr[i] <= arr[j]) {
+            temp[k] = arr[i];
             k += 1; i += 1;
         }
         else {
-            temp[k] = Arr[j];
+            temp[k] = arr[j];
             k += 1; j += 1;
         }
     }
 
     // add elements left in the first interval
     while(i <= mid) {
-        temp[k] = Arr[i];
+        temp[k] = arr[i];
         k += 1; i += 1;
     }
 
     // add elements left in the second interval
     while(j <= end) {
-        temp[k] = Arr[j];
+        temp[k] = arr[j];
         k += 1; j += 1;
     }
 
     // copy temp to original interval
     for(i = start; i <= end; i += 1) {
-        Arr[i] = temp[i - start]
+        arr[i] = temp[i - start]
     }
 }
 ```
